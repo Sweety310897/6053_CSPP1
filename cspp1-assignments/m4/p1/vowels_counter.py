@@ -13,7 +13,7 @@ def main():
 STRING1 = input('')
 COUNT = 0
 for char in STRING1:
-    if char in ('a', 'e', 'i','o','u'):
+    if char in ('a', 'e', 'i', 'o', 'u'):
         COUNT += 1
 print(COUNT)
 if __name__ == "__main__":
