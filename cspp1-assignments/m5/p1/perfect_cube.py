@@ -1,3 +1,4 @@
+'''this is'''
 # Write a python program to find
 #if the given number is a perfect cube or not
 # using guess and check algorithm
@@ -8,6 +9,7 @@
 # Input: 21950
 # Output: 21950 is not a perfect cube
 def main():
+    '''this is program'''
 #this is program for perfect cube using guess
     num = int(input())
     guess = 0
