@@ -13,7 +13,7 @@ def main():
 #this is program for perfect cube using guess
     num = int(input())
     guess = 0
-    while guess**3 < num:
+    while guess**3 <= num:
         guess += 1
     print(guess, 'is a perfect cube')
 if __name__ == "__main__":
