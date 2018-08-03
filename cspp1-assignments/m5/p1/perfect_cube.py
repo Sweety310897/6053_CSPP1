@@ -13,6 +13,6 @@ def main():
     guess = 0
     while guess**3 < num:
         guess += 1
-    print(guess, 'is a perfect cube')
+    print(num, 'is a perfect cube')
 if __name__ == "__main__":
     main()
