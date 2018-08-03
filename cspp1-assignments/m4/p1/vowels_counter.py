@@ -12,8 +12,8 @@ def main():
     ''' This is vowels coun program '''
 STRING1 = input('')
 COUNT = 0
-for char in range(len(STRING1)):
-    if (char == 'a' or char == 'e' or char == 'i' or char == 'o' or char == 'u'):
+for char in STRING1:
+    if char in ('a', 'e', 'i','o','u'):
         COUNT += 1
 print(COUNT)
 if __name__ == "__main__":
