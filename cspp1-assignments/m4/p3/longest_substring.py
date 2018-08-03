@@ -12,7 +12,7 @@ If you've spent more than a few hours on this problem, we suggest
 If you have time, come back to this problem after you've had a break
 and cleared your head.'''
 def main():
-    #this is main program
+   '''#this is main program'''
     str_abc = input()
     maxlength = 0
     initialvalue = str_abc[0]
