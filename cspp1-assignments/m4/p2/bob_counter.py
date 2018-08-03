@@ -13,5 +13,5 @@ while I <= LENGTH-3:
         COUNT += 1
     I += 1
 print(COUNT)
-if __name__== "__main__":
+if __name__ == "__main__":
     main()
