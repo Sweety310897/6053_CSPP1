@@ -9,9 +9,9 @@
 # Output: 21950 is not a perfect cube
 def main():
 #this is program for perfect cube using guess
-num1 = int(input('enter a cube number'))
+num = int(input('enter a cube number'))
 guess = 0
-while guess**3 < num1:
+while guess**3 < num:
     guess += 1
 print(guess)
 if __name__ == "__main__":
