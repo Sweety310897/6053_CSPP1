@@ -13,8 +13,12 @@ def main():
 #this is program for perfect cube using guess
     num = int(input())
     guess = 0
+    epsilon=0.01
     while guess**3 < num:
         guess += 1
-    print(num, 'is a perfect cube')
+    if(guess**2-num)>=epsilon:
+        print(num,'is not a perfect cube')
+    else:
+        print(num, 'is a perfect cube')
 if __name__ == "__main__":
     main()
