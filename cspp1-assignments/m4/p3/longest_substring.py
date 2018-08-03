@@ -13,18 +13,18 @@ If you have time, come back to this problem after you've had a break
 and cleared your head.'''
 def main():
     #this is main program
-STRING_1 = input()
+c = input()
 maxlength = 0
-initialvalue = STRING_1[0]
-longest = STRING_1[0]
-for i in range(len(STRING_1)-1):
-    if STRING_1[i+1] > STRING_1[i]:
-        initialvalue += STRING_1[i+1]
+initialvalue = c[0]
+longest = c[0]
+for i in range(len(c)-1):
+    if c[i+1] > c[i]:
+        initialvalue += c[i+1]
         if len(initialvalue) > maxlength:
                  maxlength = len(initialvalue)
                  longest = initialvalue
     else:
-        initialvalue = STRING_1[i+1]
+        initialvalue = c[i+1]
     i += 1
 print(longest)
 if __name__ == "__main__":
