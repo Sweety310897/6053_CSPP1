@@ -4,7 +4,7 @@ For example, if s = 'azcbobobegghakl', then your program should print
 Number of times bob occurs is: 2'''
 def main():
 	'''This is bob program '''
-STRING1 = input('enter the string')
+STRING1 = input('')
 I = 0
 COUNT = 0
 LENGTH = len(STRING1)
