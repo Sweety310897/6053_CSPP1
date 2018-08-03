@@ -17,8 +17,8 @@ def main():
     while guess**3 < num:
         guess += 1
     if(guess**2-num) >= epsilon:
-        print(num,'is a perfect cube')
+        print(num, 'is a perfect cube')
     else:
-        print(num,'is not a perfect cube')
+        print(num, 'is not a perfect cube')
 if __name__ == "__main__":
     main()
