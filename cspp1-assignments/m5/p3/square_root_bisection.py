@@ -9,9 +9,9 @@
 # output: 6.999999999999991
 def main():
     ''' This is 3rd pgm'''
-    num1 = abs(float(input('enter num')))
-    low = abs(float(input('lower value')))
-    high = abs(float(input('higher value')))
+    num1 = float(input('enter num'))
+    low = float(input('lower value'))
+    high = float(input('higher value'))
     epsilon = 0.001
     while True:
         mid = (low+high)/2
