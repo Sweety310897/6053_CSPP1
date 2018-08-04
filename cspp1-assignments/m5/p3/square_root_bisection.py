@@ -14,15 +14,14 @@ def main():
     high = float(input('higher value'))
     epsilon = 0.001
     while True:
-        mid = (low+high)/2
-        difference = mid**2-num1
-        if abs(difference) <= epsilon:
+        mid = (low + high)/2
+        if mid*mid >= (num1 - epsilon) and mid*mid <= (num1 + epsilon)
             break
-        if difference < 0:
-            low = mid
-        else:
-            high = mid
-    print(round(mid, 3))
+        elif mid*mid >= num1
+            high=mid
+        else
+            low=mid
+    print(mid)
 
 if __name__ == "__main__":
     main()
