@@ -10,8 +10,8 @@ def main():
     '''
     num = int(input())
     res = 1
-    if num < 0:
-        num = abs(num)
+    if num == 0:
+        res = 0
     while num >= 1:
         rem = num % 10
         res = res * rem
