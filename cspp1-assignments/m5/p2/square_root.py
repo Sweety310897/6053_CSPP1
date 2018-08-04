@@ -16,10 +16,8 @@ def main():
     epsilon = 0.01
     guess = 0.0
     increment = 0.1
-    num_guesses = 0
     while abs(guess**2-num) >= epsilon:
         guess += increment
-        num_guesses = 1
     if abs((guess**2) - num) >= epsilon:
         print(num)
     else:
