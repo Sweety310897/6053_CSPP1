@@ -15,11 +15,10 @@ def main():
     epsilon = 0.001
     while True:
         mid = (low + high)/2
-        if mid*mid >= (num1 - epsilon) and mid*mid <= (num1 + epsilon)
+        if mid*mid >= (num1 - epsilon) and mid*mid <= (num1 + epsilon):
             break
-        elif mid*mid >= num1
             high=mid
-        else
+        else:
             low=mid
     print(mid)
 
