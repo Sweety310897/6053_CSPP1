@@ -12,10 +12,23 @@ def main():
     res = 1
     if num == 0:
         res = 0
-    while num >= 1:
-        rem = num % 10
-        res = res * rem
-        num = num // 10
-    print(res)
+        print(res)
+    if num > 0:
+        while num >= 1:
+            rem = num % 10
+            res = res * rem
+            num = num // 10
+        temp1 = res
+        print(temp1)
+    if num < 0:
+        while num < 0:
+            num = abs(num)
+            while num >= 1:
+                rem = num % 10
+                res = res * rem
+                num = num // 10
+        temp2 = res
+        temp2 = -(res)
+        print(temp2)
 if __name__ == "__main__":
     main()
