@@ -24,6 +24,6 @@ def main():
     if abs((guess**2) - num) >= epsilon:
         print(num)
     else:
-        print(guess, 'guess is close')
+        print(guess)
 if __name__ == "__main__":
     main()
