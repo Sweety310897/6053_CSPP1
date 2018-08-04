@@ -20,7 +20,6 @@ def main():
     while abs(guess**2-num) >= epsilon:
         guess += increment
         num_guesses = 1
-    print(num_guesses)
     if abs((guess**2) - num) >= epsilon:
         print(num)
     else:
