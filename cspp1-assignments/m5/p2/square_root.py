@@ -12,7 +12,7 @@
 
 def main():
     '''this is 2nd program'''
-    num = int(input('enter square root'))
+    num = int(input())
     epsilon = 0.01
     guess = 0.0
     increment = 0.1
