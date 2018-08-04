@@ -10,7 +10,7 @@
 def main():
     '''this is'''
     num1 = int(input())
-    low = int(input())
+    low = 0
     high = num1
     epsilon = 0.001
     while True:
