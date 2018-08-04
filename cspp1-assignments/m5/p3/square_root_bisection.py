@@ -17,6 +17,7 @@ def main():
         mid = (low + high)/2
         if mid*mid >= (num1 - epsilon) and mid*mid <= (num1 + epsilon):
             break
+        elif mid * mid > num1:
             high = mid
         else:
             low = mid
