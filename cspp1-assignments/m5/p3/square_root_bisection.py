@@ -12,7 +12,7 @@ def main():
     num1 = int(input())
     low = 0
     high = num1
-    epsilon = 0.001
+    epsilon = 0.01
     while True:
         mid = (low + high)/2
         if mid*mid >= (num1 - epsilon) and mid*mid <= (num1 + epsilon):
