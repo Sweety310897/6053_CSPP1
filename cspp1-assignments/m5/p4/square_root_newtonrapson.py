@@ -19,7 +19,6 @@ def main():
     while abs(guess1*guess1-y_s) >= epsilon:
         numguesses += 1
         guess1 = guess1-(((guess1**2)-y_s)/(2*guess1))
-    print(str(numguesses))
     print(str(guess1))
 if __name__ == "__main__":
     main()
