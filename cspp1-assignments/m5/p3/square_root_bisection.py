@@ -8,7 +8,7 @@
 # input: 49
 # output: 6.999999999999991
 def main():
-    #this is
+    '''this is'''
     num1 = int(input())
     low = int(input())
     high = num1
