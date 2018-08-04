@@ -13,9 +13,9 @@
 def main():
     '''this is 2nd program'''
     num = int(input('enter square root'))
-    epsilon = 0.001
-    guess = 0.01
-    increment = 0.0001
+    epsilon = 0.01
+    guess = 0.0
+    increment = 0.1
     num_guesses = 0
     while abs(guess**2-num) >= epsilon:
         guess += increment
