@@ -11,7 +11,7 @@ def main():
     ''' This is 3rd pgm'''
     num1 = int(input())
     low = int(input())
-    high = int(input())
+    high = num1
     epsilon = 0.001
     while True:
         mid = (low + high)/2
