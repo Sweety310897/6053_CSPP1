@@ -53,7 +53,7 @@ def payingdebtoffina_year(balanc_e, annualinterest_rate):
     while abs(balanc_e) > epsilon:
         monthlypayment_rate = (upper + lower)/2
         balanc_e = init_balance
-        for - in range(12):
+        for _ in range(12):
             ans_i = balanc_e - monthlypayment_rate
             balanc_e = ans_i + (ans_i * monthlyinterest_rate)
         if balanc_e > epsilon:
