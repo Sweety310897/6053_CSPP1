@@ -10,7 +10,7 @@ def sumofdigits(numbe_r):
     '''
     if numbe_r == 0:
         return 0
-    elif numbe_r == 1:
+    if numbe_r == 1:
         return 1
     else:
         return numbe_r%10 + sumofdigits(numbe_r//10)
