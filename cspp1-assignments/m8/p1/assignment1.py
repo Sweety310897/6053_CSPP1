@@ -9,6 +9,8 @@ def factorial(numbe_r):
     returns: a positive integer, the factorial of n.
     '''
     # Your code here
+    if numbe_r == 0
+        return 1
     if numbe_r == 1:
         return 1
     return numbe_r * factorial(numbe_r-1)
