@@ -3,20 +3,20 @@
 # Write a Python function, sumofdigits, that takes in
 #one number and returns the sum of digits of given number.
 # This function takes in one number and returns one number.
-def sumofdigits(n):
+def sumofdigits(numbe_r):
     '''
     n is positive Integer
     returns: a positive integer, the sum of digits of n.
     '''
-    if n == 0:
+    if numbe_r == 0:
         return 0
-    elif n == 1:
+    elif numbe_r == 1:
         return 1
     else:
-        return n%10 + sumofdigits(n//10)
+        return numbe_r%10 + sumofdigits(numbe_r//10)
 def main():
     '''This is main function'''
-    a = input()
-    print(sumofdigits(int(a)))  
+    number_1 = input()
+    print(sumofdigits(int(number_1)))
 if __name__ == "__main__":
     main()
