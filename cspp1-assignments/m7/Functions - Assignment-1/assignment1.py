@@ -32,10 +32,10 @@ def payingdebtoffina_year(balanc_e, annualinterest_rate, monthlypayment_rate):
         i += 1
     return round(balanc_e, 2)
 def main():
-    ''' This is amin function'''
+    ''' This is main function'''
     data = input()
     data = data.split(' ')
     data = list(map(float, data))
-    print(payingdebtoffina_year(data[0], data[1], data[2]))
+    print('Remaining balance', payingdebtoffina_year(data[0], data[1], data[2]))
 if __name__ == "__main__":
     main()
