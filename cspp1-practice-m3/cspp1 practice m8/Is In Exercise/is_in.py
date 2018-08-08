@@ -6,34 +6,22 @@
 # This function takes in two arguments character and String and returns one boolean value.
 def isIn(char, aStr):
     '''
+    input is char and aStr then the ouput is True or False
     char: a single character
     aStr: an alphabetized string
     returns: True if char is in aStr; False otherwise
     '''
     # Your code here
-
-    if aStr == ' ':
-        return False
-    if aStr == 'char':
+    if char == aStr[0]:
         return True
-    low = 0
-    length = len(aStr)
-    high = length - 1
-    mid = low + high // 2
-    if aStr[mid] > char:
-        return isIn(char,aStr[,mid])
-
-
-
-
-   
-
+    elif len(aStr) == 1:
+        return False
+    else:
+        return isIn(char,aStr[1: ])
 def main():
     '''this is main function'''
     data = input()
     data = data.split()
     print(isIn((data[0][0]), data[1]))
-
-
 if __name__ == "__main__":
     main()
