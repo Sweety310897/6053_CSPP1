@@ -23,7 +23,7 @@
 # Monthly unpaid balance = (Previous balance) - (Minimum monthly payment)
 # Updated balance each month = (Monthly unpaid balance) +
 #(Monthly interest rate x Monthly unpaid balance)
-def payingdebtoffina_year(balanc_e, annualinterest_rate, monthlypayment_rate):
+def payingdebtoffina_year(balanc_e, annualinterest_rate, monthlypayment_rate):   
     ''' This function is to calculate remaining bal'''
     i = 0
     while i < 12:
