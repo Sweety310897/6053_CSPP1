@@ -15,7 +15,6 @@ def get_available_letters(letters_guessed):
     output letters not guessed
     '''
     temp = "abcdefghijklmnopqrstuvwxyz"
-    i = 0
     temp1 = ''
     for char in temp:
         if char not in letters_guessed:
