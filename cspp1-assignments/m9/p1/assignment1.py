@@ -11,6 +11,9 @@ def is_word_guessed(secret_word, letters_guessed):
     letters_guessed: list, what letters have been guessed so far
     returns: boolean, True if all the letters of secret_word are in letters_guessed;
       False otherwise
+    input : secret word letters guessed
+    output : returns true if all the letters are present
+    else returns false
     '''
     count = 0
     for i in range(len(secret_word)):

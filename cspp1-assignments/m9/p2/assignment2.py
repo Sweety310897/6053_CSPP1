@@ -11,11 +11,14 @@ def get_guessed_word(secret_word, letters_guessed):
     letters_guessed: list, what letters have been guessed so far
     returns: string, comprised of letters and underscores that represents
       what letters in secret_word have been guessed so far.
+      input: secret word and letters are given
+      output: if letters are not present then underscore should be displayed
+      else letters should be printed
     '''
     temp = ''
     for i in secret_word:
         if i in letters_guessed:
-            temp = temp + secret_word[i]
+            temp = temp + i
         else:
             temp = temp + "_"
     return temp
