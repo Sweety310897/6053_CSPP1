@@ -48,12 +48,12 @@ def isWordGuessed(secretWord, lettersGuessed):
     '''
     # FILL IN YOUR CODE HERE...
     count = 0
-    for i in range(len(secretWord)):
-        if secretWord[i] in lettersGuessed:
-            count += 1
-    if count == len(secretWord):
+    #for i in range(len(secretWord)):
+    i = 0
+    if lettersGuessed[i] in secretWord :
         return True
-    return False
+    else:
+        return False
 
 def getGuessedWord(secretWord, lettersGuessed):
     '''
@@ -108,18 +108,18 @@ def hangman(secretWord):
     print('welcome to the hangman')
     print('I am thinking of a word that is ' + str(len(secretWord)) +' long')
     flag = 0    
-    while(guess > 0):
+    while(guess > 0 and flag != 1):
         print('--------')
         print('you have '+ str(guess)+ 'left')
-        print('Available letters:' + getAvailableLetters(lettersGuessed))
+        print('Available letters: ' + getAvailableLetters(lettersGuessed))
         temp5=list(input('please guess a letter'))
         print(temp5)
         if temp5[0] in lettersGuessed:
-            print('u have alrady guessed this value' + getGuessedWord(secretWord,lettersGuessed))
+            print('u have alrady guessed this value ' + getGuessedWord(secretWord,lettersGuessed))
         else:
             lettersGuessed = lettersGuessed + temp5
             if isWordGuessed(secretWord,temp5) == True:
-                print('u have guessed correct'+ getGuessedWord(secretWord,lettersGuessed))
+                print('u have guessed correct', getGuessedWord(secretWord,lettersGuessed))
                 if secretWord == getGuessedWord(secretWord,lettersGuessed):
                     flag = 1
             else:
@@ -138,6 +138,7 @@ def main():
     0secretWord while you're testing)
     '''
     secretWord = chooseWord(wordlist).lower()
+    #secretWord = "border"
     hangman(secretWord)
     
 if __name__ == "__main__":
