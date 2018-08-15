@@ -13,35 +13,41 @@ def is_straight(hand):
         The first character is good enough to determine a straight
         Think of an algorithm: given the card face value how to check if it a straight
         Write the code for it and return True if it is a straight else return False
-    
-    #set1=set(['--23456789TJQKA'.index(face) for face, suite in hand])
-    #return (len(set1)==5) and ((max(set1)-min(set1))==4)
     '''
-    temp_list=[]
-    for i in range(5):
-        if hand[i][0] == "A":
-            temp_list.append(int(14))
-        elif hand[i][0] == "K":
-            temp_list.append(int(13))
-        elif hand[i][0] == "Q":
-            temp_list.append(int(12))
-        elif hand[i][0] == "J":
-            temp_list.append(int(11))
-        elif hand[i][0] == "T":
-            temp_list.append(int(10))
+    i = 0
+    temp=[]
+    while i < len(hand):
+        if hand[i][0] == 'T':
+            k = hand[i][0].replace("T", "10")
+            temp.append(int(k))
+        elif hand[i][0] == 'J':
+            k = hand[i][0].replace("J", "11")
+            temp.append(int(k))
+        elif hand[i][0] == 'Q':
+            k = hand[i][0].replace("Q", "12")
+            temp.append(int(k))
+        elif hand[i][0] == 'K':
+            k = hand[i][0].replace("K", "13")
+            temp.append(int(k))
+        elif hand[i][0] == 'A':
+            k = hand[i][0].replace("A", "14")
+            temp.append(int(k))
         else:
-            temp_list.append(int((hand[i][0])))
-    #temp1=temp_list.sort()
-    temp = sorted(temp_list)
-
-    
-    #print(temp)
-    #print(temp_list[len(temp_list)-1])
-    #print(temp_list[0])
-    if temp_list[len(temp_list)-1]-temp_list[0] == 4:
-        return True
-    return False
-
+            k = hand[i][0]
+            temp.append(int(k))
+        i += 1
+    temp1 = sorted(temp)
+    p_tr = 0
+    k_tr =1
+    cout1 = 1
+    while k_tr < len(temp1) and cout1==1:
+        if temp1[k_tr]-temp1[p_tr] == 1:
+            pass
+        else:
+            cout1=0
+        k_tr += 1
+        p_tr += 1
+    return cout1 == 1
 
 
 def is_flush(hand):
@@ -53,33 +59,17 @@ def is_flush(hand):
         Think of an algorithm: given the card suite how to check if it is a flush
         Write the code for it and return True if it is a flush else return False
     '''
-    
-    temp=hand[0][1]
-    print(temp)
-    count = 0
-    for i in hand:
-        print(i[1])
-        if temp == i[1]:
-            count += 1
-            print(count)
-    if count == len(hand)-1:
-        return True
-    return False
-    '''
-    is_flush_=1
+    is_flush_1 = 1
     i = 0
-    j = 1
-    while j < len(hand) and is_flush_==1:
-        if hand[i][1]!= hand[j][1]:
-            is_flush_=0
+    j =1 
+    while j < len(hand) and is_flush_1==1:
+        if hand[i][1]!=hand[j][1]:
+            is_flush_1=0
         else:
-            is_flush_=1
+            is_flush_1=1
         i += 1
-        j += 1
-    return is_flush_== 1
-    '''
-        
-    
+        j +=1
+    return is_flush_1==1
 
 def hand_rank(hand):
     '''
@@ -105,11 +95,13 @@ def hand_rank(hand):
     # third would be a straight with the return value 1
     # any other hand would be the fourth best with the return value 0
     # max in poker function uses these return values to select the best hand
-    if is_straight(hand) and is_flush(hand):
+    is_straight_1 = is_straight(hand)
+    is_flush_1=is_flush(hand)
+    if is_flush_1 and is_straight_1:
         return 3
-    elif is_flush(hand):
+    elif is_flush_1:
         return 2
-    elif is_straight(hand):
+    elif is_straight_1:
         return 1
     else:
         return 0
@@ -145,5 +137,3 @@ if __name__ == "__main__":
         HANDS.append(ha)
     # test the poker function to see how it works
     print(' '.join(poker(HANDS)))
-    #print(is_flush(HANDS))
-    #print(is_straight(HANDS))
