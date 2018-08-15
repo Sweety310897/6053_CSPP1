@@ -61,15 +61,15 @@ def is_flush(hand):
     '''
     is_flush_1 = 1
     i = 0
-    j =1 
-    while j < len(hand) and is_flush_1==1:
-        if hand[i][1]!=hand[j][1]:
-            is_flush_1=0
+    j = 1 
+    while j < len(hand) and is_flush_1 == 1:
+        if hand[i][1] != hand[j][1]:
+            is_flush_1 = 0
         else:
-            is_flush_1=1
+            is_flush_1 = 1
         i += 1
         j +=1
-    return is_flush_1==1
+    return is_flush_1 == 1
 
 def hand_rank(hand):
     '''
@@ -96,7 +96,7 @@ def hand_rank(hand):
     # any other hand would be the fourth best with the return value 0
     # max in poker function uses these return values to select the best hand
     is_straight_1 = is_straight(hand)
-    is_flush_1=is_flush(hand)
+    is_flush_1 = is_flush(hand)
     if is_flush_1 and is_straight_1:
         return 3
     elif is_flush_1:
