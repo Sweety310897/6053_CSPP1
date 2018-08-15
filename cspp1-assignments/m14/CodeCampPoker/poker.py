@@ -15,7 +15,7 @@ def is_straight(hand):
         Write the code for it and return True if it is a straight else return False
     '''
     i = 0
-    temp=[]
+    temp = []
     while i < len(hand):
         if hand[i][0] == 'T':
             k = hand[i][0].replace("T", "10")
@@ -38,13 +38,13 @@ def is_straight(hand):
         i += 1
     temp1 = sorted(temp)
     p_tr = 0
-    k_tr =1
+    k_tr = 1
     cout1 = 1
     while k_tr < len(temp1) and cout1 == 1:
         if temp1[k_tr]-temp1[p_tr] == 1:
             pass
         else:
-            cout1=0
+            cout1 = 0
         k_tr += 1
         p_tr += 1
     return cout1 == 1
