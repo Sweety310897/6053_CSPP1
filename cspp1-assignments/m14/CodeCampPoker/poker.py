@@ -40,7 +40,7 @@ def is_straight(hand):
     p_tr = 0
     k_tr =1
     cout1 = 1
-    while k_tr < len(temp1) and cout1==1:
+    while k_tr < len(temp1) and cout1 == 1:
         if temp1[k_tr]-temp1[p_tr] == 1:
             pass
         else:
@@ -61,14 +61,14 @@ def is_flush(hand):
     '''
     is_flush_1 = 1
     i = 0
-    j = 1 
+    j = 1
     while j < len(hand) and is_flush_1 == 1:
         if hand[i][1] != hand[j][1]:
             is_flush_1 = 0
         else:
             is_flush_1 = 1
         i += 1
-        j +=1
+        j += 1
     return is_flush_1 == 1
 
 def hand_rank(hand):
