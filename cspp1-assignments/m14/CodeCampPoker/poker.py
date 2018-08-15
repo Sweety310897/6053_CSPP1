@@ -20,15 +20,15 @@ def is_straight(hand):
     temp_list=[]
     for i in range(5):
         if hand[i][0] == "A":
-            temp_list.append(14)
+            temp_list.append(int(14))
         elif hand[i][0] == "K":
-            temp_list.append(13)
+            temp_list.append(int(13))
         elif hand[i][0] == "Q":
-            temp_list.append(12)
+            temp_list.append(int(12))
         elif hand[i][0] == "J":
-            temp_list.append(11)
+            temp_list.append(int(11))
         elif hand[i][0] == "T":
-            temp_list.append(10)
+            temp_list.append(int(10))
         else:
             temp_list.append(int((hand[i][0])))
     #temp1=temp_list.sort()
@@ -53,7 +53,7 @@ def is_flush(hand):
         Think of an algorithm: given the card suite how to check if it is a flush
         Write the code for it and return True if it is a flush else return False
     '''
-    '''
+    
     temp=hand[0][1]
     print(temp)
     count = 0
@@ -77,6 +77,7 @@ def is_flush(hand):
         i += 1
         j += 1
     return is_flush_== 1
+    '''
         
     
 
