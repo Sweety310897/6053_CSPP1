@@ -71,6 +71,67 @@ def is_flush(hand):
         j += 1
     return is_flush_1 == 1
 
+def is_four_of_a_kind(hands):
+    list2=[]
+    temp=[]
+    for card in hands:
+        list2.append(card[0])
+    #print(list2)
+    for x in list2:
+        temp.append(list2.count(x))
+    if max(temp) == 4:
+        return True
+    else:
+        return False
+    
+    
+def is_three_of_a_kind(hands):
+    list2=[]
+    temp=[]
+    for card in hands:
+        list2.append(card[0])
+    #print(list2)
+    for x in list2:
+        temp.append(list2.count(x))
+    if max(temp) == 3:
+        return True
+    else:
+        return False
+
+
+def is_one_pair(hands):
+    list2=[]
+    temp=[]
+    for card in hands:
+        list2.append(card[0])
+    #print(list2)
+    for x in list2:
+        temp.append(list2.count(x))
+    if max(temp) == 2:
+        return True
+    else:
+        return False
+
+def is_full_house(hands):
+    list2=[]
+    temp=[]
+    for card in hands:
+        list2.append(card[0])
+    for x in list2:
+        temp.append(list2.count(x))
+
+    temp.sort()
+    if temp[0]==temp[1]==temp[2]:
+        if temp[3]==temp[4]:
+            return True
+    if temp[0]==temp[1]:
+        if temp[2]==temp[3]==temp[4]:
+            return True
+    else:
+        return False
+
+
+
 def hand_rank(hand):
     '''
         You will code this function. The goal of the function is to
@@ -97,12 +158,22 @@ def hand_rank(hand):
     # max in poker function uses these return values to select the best hand
     is_straight_1 = is_straight(hand)
     is_flush_1 = is_flush(hand)
+
     if is_flush_1 and is_straight_1:
+        return 9
+    elif is_four_of_a_kind(hand):
+        return 8
+    elif is_full_house(hand):
+        return 7
+    elif is_three_of_a_kind(hand):
         return 3
-    elif is_flush_1:
+    elif is_one_pair(hand):
         return 2
     elif is_straight_1:
         return 1
+    
+    elif is_flush_1:
+        return 2
     else:
         return 0
 
@@ -137,3 +208,4 @@ if __name__ == "__main__":
         HANDS.append(ha)
     # test the poker function to see how it works
     print(' '.join(poker(HANDS)))
+    
