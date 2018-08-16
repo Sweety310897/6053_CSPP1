@@ -118,7 +118,7 @@ def is_full_house(hands):
     for card in hands:
         list2.append(card[0])
      
-    print(list2)
+    #print(list2)
     temp1=sorted(list2)
 
     if temp1[0]==temp1[1]==temp1[2]:
