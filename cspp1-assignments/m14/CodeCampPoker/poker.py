@@ -130,12 +130,12 @@ def is_full_house(hands):
     else:
         return False
 
-def is_two_pair(hands):
-    list2=[]
-    temp=[]
-    for card in hands:
-        list2.append(card[0])
-    print(list2[0])
+# def is_two_pair(hands):
+#     list2=[]
+#     temp=[]
+#     for card in hands:
+#         list2.append(card[0])
+#     print(list2)
     
     
 
@@ -175,8 +175,8 @@ def hand_rank(hand):
         return 7
     elif is_three_of_a_kind(hand):
         return 3
-    elif is_two_pair(hand):
-        return 2
+    #elif is_two_pair(hand):
+    #    return 2
     elif is_one_pair(hand):
         return 2
     elif is_straight_1:
