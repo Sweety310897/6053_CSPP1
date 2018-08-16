@@ -117,19 +117,27 @@ def is_full_house(hands):
     temp=[]
     for card in hands:
         list2.append(card[0])
-    for x in list2:
-        temp.append(list2.count(x))
+     
+    print(list2)
+    temp1=sorted(list2)
 
-    temp.sort()
-    if temp[0]==temp[1]==temp[2]:
-        if temp[3]==temp[4]:
+    if temp1[0]==temp1[1]==temp1[2]:
+        if temp1[3]==temp1[4]:
             return True
-    if temp[0]==temp[1]:
-        if temp[2]==temp[3]==temp[4]:
+    if temp1[0]==temp1[1]:
+        if temp1[2]==temp1[3]==temp1[4]:
             return True
     else:
         return False
 
+def is_two_pair(hands):
+    list2=[]
+    temp=[]
+    for card in hands:
+        list2.append(card[0])
+    print(list2)
+    
+    
 
 
 def hand_rank(hand):
@@ -167,6 +175,8 @@ def hand_rank(hand):
         return 7
     elif is_three_of_a_kind(hand):
         return 3
+    elif is_two_pair(hand):
+        return 2
     elif is_one_pair(hand):
         return 2
     elif is_straight_1:
