@@ -19,10 +19,10 @@ def is_straight(han_d):
         Think of an algorithm: given the card face value how to check if it a straight
         Write the code for it and return True if it is a straight else return False
     '''
-    hand_face_values = face_values(han_d)
-    if hand_face_values == [14, 5, 4, 3, 2]:
-        hand_face_values = [5, 4, 3, 2, 1]
-    set_face_values = set(hand_face_values)
+    temp = face_values(han_d)
+    if temp == [14, 5, 4, 3, 2]:
+        temp = [5, 4, 3, 2, 1]
+    set_face_values = set(temp)
     return len(set_face_values) == 5 and max(set_face_values) - min(set_face_values) == 4
 
 def is_flush(han_d):
@@ -67,24 +67,24 @@ def hand_rank(han_d):
     # third would be a straight with the return value 1
     # any other hand would be the fourth best with the return value 0
     # max in poker function uses these return values to select the best hand
-    hand_face_values = face_values(han_d)
+    temp = face_values(han_d)
     if is_straight(han_d) and is_flush(han_d):
-        return (8, hand_face_values)
-    if is_kind_off(hand_face_values, 4):
-        return(7, is_kind_off(hand_face_values, 4), hand_face_values)
-    if is_kind_off(hand_face_values, 3) and is_kind_off(hand_face_values, 2):
-        return (6, (is_kind_off(hand_face_values, 3), is_kind_off(hand_face_values, 2), hand_face_values))
+        return (8, temp)
+    if is_kind_off(temp, 4):
+        return(7, is_kind_off(temp, 4), temp)
+    if is_kind_off(temp, 3) and is_kind_off(temp, 2):
+        return (6, (is_kind_off(temp, 3), is_kind_off(temp, 2), temp))
     if is_flush(han_d):
-        return (5, hand_face_values)
+        return (5, temp)
     if is_straight(han_d):
-        return(4, hand_face_values)
-    if is_kind_off(hand_face_values, 3):
-        return (3, is_kind_off(hand_face_values, 3), hand_face_values)
-    if is_kind_off(hand_face_values, 2) and is_kind_off(sorted(hand_face_values), 2):
-        return (2, (is_kind_off(hand_face_values, 2), is_kind_off(sorted(hand_face_values), 2)), hand_face_values)
-    if is_kind_off(hand_face_values, 2):
-        return(1, is_kind_off(hand_face_values, 2), hand_face_values)
-    return (0, hand_face_values)
+        return(4, temp)
+    if is_kind_off(temp, 3):
+        return (3, is_kind_off(temp, 3), temp)
+    if is_kind_off(temp, 2) and is_kind_off(sorted(temp), 2):
+        return (2, (is_kind_off(temp, 2), is_kind_off(sorted(temp), 2)), temp)
+    if is_kind_off(temp, 2):
+        return(1, is_kind_off(temp, 2), temp)
+    return (0, temp)
 
 def poker(hands):
     '''
