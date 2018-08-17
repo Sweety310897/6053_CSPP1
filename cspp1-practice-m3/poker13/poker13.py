@@ -34,7 +34,7 @@ def is_flush(han_d):
         Think of an algorithm: given the card suite how to check if it is a flush
         Write the code for it and return True if it is a flush else return False
     '''
-    return len(set([suit for face, suit in hand])) == 1
+    return len(set([suit for face, suit in han_d])) == 1
 
 def is_kind_off(f_values, number):
     """
