@@ -205,7 +205,7 @@ def hand_rank(hand):
     elif is_flush_1:
         return 6
     else:
-        return 0
+        return highcar_d(hand)
 
 def poker(hands):
     '''
