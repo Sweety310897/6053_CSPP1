@@ -7,7 +7,7 @@ def face_values(han_d):
     """
     returns only face values of a hand in a sorted desc order
     """
-    return sorted(['--23456789TJQKA'.index(face) for face, suite in hand], reverse=True)
+    return sorted(['--23456789TJQKA'.index(face) for face, suite in han_d], reverse=True)
 
 def is_straight(han_d):
     '''
