@@ -8,7 +8,9 @@ def similarity(dict1, dict2):
     '''
     temp1=dict1.lower()
     temp2=dict2.lower()
-    print(temp1,temp2)
+    temp3=temp1.split()
+    temp4=temp2.split()
+    print(temp3,temp4)
 
 
 def load_stopwords(filename):
