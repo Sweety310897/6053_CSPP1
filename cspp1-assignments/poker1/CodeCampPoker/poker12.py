@@ -104,9 +104,16 @@ def is_one_pair(hands):
     temp=[]
     for card in hands:
         list2.append(card[0])
-    #print(list2)
+    # temp3 = list2
+    # for x in temp3(0,5):
+    #     temp1 = list2[x]
+    #     for y in temp3(1,5):
+    #         if temp1 == y:
+    #             temp.append(temp1)
+    
     for x in list2:
         temp.append(list2.count(x))
+    print(temp)
     if max(temp) == 2:
         return True
     else:
@@ -129,6 +136,15 @@ def is_full_house(hands):
             return True
     else:
         return False
+def highcar_d(hands):
+    list2 = []
+    for card in hands:
+        list2.append(card[0])
+    return max(list2)/100
+
+
+
+
 
 def is_two_pair(hands):
     list2=[]
