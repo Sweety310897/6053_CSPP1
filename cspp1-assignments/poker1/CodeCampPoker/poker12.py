@@ -130,12 +130,18 @@ def is_full_house(hands):
     else:
         return False
 
-# def is_two_pair(hands):
-#     list2=[]
-#     temp=[]
-#     for card in hands:
-#         list2.append(card[0])
-#     print(list2)
+def is_two_pair(hands):
+    list2=[]
+    for card in hands:
+        list2.append(card[0])
+    length1 = len(list2)
+    temp1 = set(list2)
+    length2 = len(temp1)
+    if length1 - length2 == 2:
+        return True
+    else:
+        return False
+
     
     
 
@@ -166,24 +172,22 @@ def hand_rank(hand):
     # max in poker function uses these return values to select the best hand
     is_straight_1 = is_straight(hand)
     is_flush_1 = is_flush(hand)
-
     if is_flush_1 and is_straight_1:
         return 9
     elif is_four_of_a_kind(hand):
-        return 8
+        return 4
     elif is_full_house(hand):
         return 7
     elif is_three_of_a_kind(hand):
         return 3
-    #elif is_two_pair(hand):
-    #    return 2
+    elif is_two_pair(hand):
+        return 2
     elif is_one_pair(hand):
-        return 2
-    elif is_straight_1:
         return 1
-    
+    elif is_straight_1:
+        return 5
     elif is_flush_1:
-        return 2
+        return 6
     else:
         return 0
 

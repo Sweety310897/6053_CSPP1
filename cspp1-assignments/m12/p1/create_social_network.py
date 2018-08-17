@@ -33,7 +33,7 @@ def create_social_network(data):
     '''
 
     # remove the pass below and start writing your code
-    temp = data.split()
+    temp = data.split('\n')
     list2 = []
     list3= []
     dict1 = {}
