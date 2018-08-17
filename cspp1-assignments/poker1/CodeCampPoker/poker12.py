@@ -113,7 +113,7 @@ def is_one_pair(hands):
     
     for x in list2:
         temp.append(list2.count(x))
-    print(temp)
+    #print(temp)
     if max(temp) == 2:
         return True
     else:
