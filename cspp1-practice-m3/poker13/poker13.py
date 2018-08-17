@@ -76,7 +76,7 @@ def hand_rank(han_d):
         return (6, (is_kind_off(hand_face_values, 3), is_kind_off(hand_face_values, 2), hand_face_values))
     if is_flush(han_d):
         return (5, hand_face_values)
-    if is_straight(hand):
+    if is_straight(han_d):
         return(4, hand_face_values)
     if is_kind_off(hand_face_values, 3):
         return (3, is_kind_off(hand_face_values, 3), hand_face_values)
