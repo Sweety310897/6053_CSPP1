@@ -140,7 +140,7 @@ def highcar_d(hands):
     list2 = []
     for card in hands:
         list2.append(card[0])
-    return max(list2)/100
+    return max(int(list2))/100
 
 
 
