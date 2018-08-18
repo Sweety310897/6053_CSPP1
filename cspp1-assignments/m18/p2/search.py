@@ -43,8 +43,6 @@ def search(search_index, query):
             doc_id.append(word)
     return doc_id
 
-    
-
 def process_queries(search_index, queries):
     '''
         function to process the search queries
@@ -53,7 +51,6 @@ def process_queries(search_index, queries):
     '''
     for eachquery in queries:
         print(search(search_index, query))
-
 def main():
     '''
         main function
@@ -63,7 +60,6 @@ def main():
 
     # read the number of search queries
     lines = int(input())
-    
     # read the search queries into a list
     queries = []
     for i in range(lines):
