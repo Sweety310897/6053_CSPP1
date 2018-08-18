@@ -70,14 +70,14 @@ def similarity(dict1, dict2):
     # for everykey in dictionary3.keys:
     #     sum1 = 0
     #     sum2=0
+    sum1 = 0
+    sum2 = 0
+    numerator = 0
     for everykey in dictionary3.keys():
-        sum1 = 0
-        sum2 = 0
-        numerator = 0
         numerator += (dictionary3[everykey][0] * dictionary3[everykey][1])
         sum1 += dictionary3[everykey][0]**2
         sum2 += dictionary3[everykey][1]**2
-    sum3 = (numerator/(sum1*sum2))
+    sum3 = (numerator/(math.sqrt(sum1)*math.sqrt(sum2)))
     return sum3
 
 
