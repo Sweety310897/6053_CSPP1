@@ -67,13 +67,13 @@ def build_search_index(docs):
 
     #search_index = {}
     doc_id1 = []
-    temp5=[]
+    temp5 = []
     for eachwor_d in enumerate(docs):
         doc_id1.append(eachwor_d)
         #search_index[eachwor_d] += doc_id1
     temp = str(doc_id1)
     for word in temp:
-        temp5.append(re.sub('[^ A-Za-z]',"", word))
+        temp5.append(re.sub('[^ A-Za-z]', "", word))
     #print(temp,"this is temp")
     stopwords = load_stopwords("stopwords.txt")
     #temp1 = word_list(text)
@@ -83,7 +83,6 @@ def build_search_index(docs):
     #print(docs)
 
 
-    
 
 # helper function to print the search index
 # use this to verify how the search index looks
