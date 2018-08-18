@@ -68,9 +68,22 @@ def similarity(dict1, dict2):
     #print(dictionary3)
     #print(dictionary3[1])
     for everykey in dictionary3.keys:
+        sum1 = 0
+        sum2=0
         numerator = dictionary3[everykey][0] * dictionary3[everykey][1]
-        denominator = (Math.sqrt(dictionary3[everykey][0]**2)) * (Math.sqrt(dictionary3[everykey][1]**2))
-    final = numerator/denominator
+        denominator1 = (dictionary3[everykey][0]**2)
+        for i in range(denominator1):
+            sum1 = sum1 + denominator1[i]
+        temp19 = math.sqrt(sum1)  
+
+
+        denominator2 = (math.sqrt(dictionary3[everykey][1]**2))
+        for i in range(denominator2):
+            sum2=sum2+denominator2[i]
+        temp20 = math.sqrt(sum2)
+
+        
+    final = numerator/(temp19 * temp20)
     return final
 
 
