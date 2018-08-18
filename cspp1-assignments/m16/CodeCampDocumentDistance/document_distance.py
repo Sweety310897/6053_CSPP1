@@ -35,8 +35,8 @@ def similarity(dict1, dict2):
     for word in temp8:
         if word in stopwords:
             temp11.remove(word)
-    print(temp10)
-    print(temp11)
+    #print(temp10)
+    #print(temp11)
     dictionary1={}
     for word in temp10:
         count=0
