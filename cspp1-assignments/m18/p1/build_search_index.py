@@ -20,7 +20,7 @@
         .
     }
 '''
-
+import re
 # helper function to load the stop words from a file
 def load_stopwords(filename):
     '''
@@ -67,10 +67,20 @@ def build_search_index(docs):
 
     search_index = {}
     doc_id1 = []
+    temp5=[]
     for eachwor_d in enumerate(docs):
         doc_id1.append(eachwor_d)
-        search_index[eachwor_d] += doc_id1
-    return search_index
+        #search_index[eachwor_d] += doc_id1
+    temp = str(doc_id1)
+    for word in temp:
+        temp5.append(re.sub('[^ A-Za-z]',"",word))
+    print(temp,"this is temp")
+    stopwords = load_stopwords("stopwords.txt")
+    temp1 = word_list(text)
+    for word in docs:
+        if word in stopwords:
+            docs.remove(word)
+    #print(docs)
 
 
     
