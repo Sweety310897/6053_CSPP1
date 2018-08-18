@@ -22,10 +22,10 @@ def similarity(dict1, dict2):
     for element2 in temp4: 
         temp6.append(element2.strip())
     for word in temp5:
-        temp10.append(re.sub('[^ a-zA-Z]', '', word))
+        temp10.append(re.sub('[^ a-z]', '', word))
     #print(temp10)
     for word in temp6:
-        temp11.append(re.sub('[^ a-zA-Z]', '', word))
+        temp11.append(re.sub('[^ a-z]', '', word))
     stopwords = load_stopwords("stopwords.txt")
     temp7 = temp10[:]
     temp8 = temp11[:]
@@ -33,10 +33,10 @@ def similarity(dict1, dict2):
         if word in stopwords and len(word) > 0:
             temp10.remove(word)
     for word in temp8:
-        if word in stopwords and len(word) > 0:
+        if word in stopwords:
             temp11.remove(word)
-    #print(temp10)
-    #print(temp11)
+    print(temp10)
+    print(temp11)
     dictionary1={}
     for word in temp10:
         count=0
@@ -53,7 +53,11 @@ def similarity(dict1, dict2):
             dictionary2[word] += 1
     
     keys=list(dictionary1.keys())+list(dictionary2.keys())
-    
+    #print(keys)
+    for word in keys:
+        if not word:
+            keys.remove(word)
+    #print(keys)
     dictionary3 = {}
     for k in keys:
         dictionary3[k] = [0, 0]
