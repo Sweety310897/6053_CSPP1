@@ -74,7 +74,7 @@ def build_search_index(docs):
     temp = str(doc_id1)
     for word in temp:
         temp5.append(re.sub('[^ A-Za-z]',"", word))
-    print(temp,"this is temp")
+    #print(temp,"this is temp")
     stopwords = load_stopwords("stopwords.txt")
     #temp1 = word_list(text)
     for word in docs:
