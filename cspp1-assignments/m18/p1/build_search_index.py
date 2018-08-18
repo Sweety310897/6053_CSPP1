@@ -43,7 +43,7 @@ def word_list(text):
     temp2 = temp1.split()
     temp3 = []
     for word in temp2:
-        temp3.append(re.sub('[^ a-z]', "" ,word))
+        temp3.append(re.sub('[^ a-z]', "", word))
     return temp3
 
 
