@@ -21,11 +21,13 @@ def similarity(dict1, dict2):
         temp5.append(element1.strip())
     for element2 in temp4: 
         temp6.append(element2.strip())
+    print("Printing temp6 ----------------------\n",temp6,"\n----------------------")
     for word in temp5:
-        temp10.append(re.sub('[^ a-z]', '', word))
+        temp10.append(re.sub('[^ a-z]', "", word))
     #print(temp10)
     for word in temp6:
-        temp11.append(re.sub('[^ a-z]', '', word))
+        temp11.append(re.sub('[^ a-z]',"", word))
+    print("Printing temp6 ----------------------\n",temp11,"\n----------------------")
     stopwords = load_stopwords("stopwords.txt")
     temp7 = temp10[:]
     temp8 = temp11[:]
@@ -35,6 +37,7 @@ def similarity(dict1, dict2):
     for word in temp8:
         if word in stopwords:
             temp11.remove(word)
+    print("temp10",temp10,"temp11",temp11)
     #print(temp10)
     #print(temp11)
     dictionary1={}
@@ -45,9 +48,10 @@ def similarity(dict1, dict2):
         else:
             dictionary1[word] += 1
     dictionary2={}
+    # print("di1",dictionary1,"dic2",dictionary2)
     for word in temp11:
         count=0
-        if word not in dictionary2:
+        if word not in dictionary2 and len(word)>0:
             dictionary2[word] = 1
         else:
             dictionary2[word] += 1
@@ -62,10 +66,9 @@ def similarity(dict1, dict2):
     for k in keys:
         dictionary3[k] = [0, 0]
     #print(dictionary3)
-
-    for var in dictionary1.keys():
+    for var in dictionary1:
         dictionary3[var][0] = dictionary1[var]
-    for var in dictionary2.keys():
+    for var in dictionary2:
         dictionary3[var][1] = dictionary2[var]
     
 
