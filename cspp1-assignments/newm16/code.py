@@ -35,7 +35,7 @@ def create_dictionary(words_list):
     stopwords = load_stopwords("stopwords.txt")
     for word in words_list:
         word = word.strip()
-        if word not in stopwords and len(words) > 0:
+        if word not in stopwords and len(word) > 0:
             if word not in dictionary:
                 dictionary[word] = 1
             else:
