@@ -107,7 +107,7 @@ def similarity(dict1, dict2):
         # temp20 = math.sqrt(sum2)
 
         
-    final = numerator/(temp19 * temp20)
+    final = round(numerator/(temp19 * temp20))
     return final
 
 
