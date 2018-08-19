@@ -53,7 +53,7 @@ def create_dictionary(words_list):
                 dictionary[word] = 1
             else:
                 dictionary[word] += 1
-    return dictionary 
+    return dictionary
 
 
 def clean_text(text_input):
