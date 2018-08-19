@@ -8,14 +8,14 @@ def similarity(dict1, dict2):
     '''
         Compute the document distance as given in the PDF
     '''
-    temp1=dict1.lower()
-    temp2=dict2.lower()
-    temp3=temp1.split()
-    temp4=temp2.split()
-    temp5=[]
-    temp6=[]
+    temp1 = dict1.lower()
+    temp2 = dict2.lower()
+    temp3 = temp1.split()
+    temp4 = temp2.split()
+    temp5 = []
+    temp6 = []
     temp10 = []
-    temp11=[]
+    temp11 = []
 
     for element1 in temp3:
         temp5.append(element1.strip())
@@ -84,7 +84,7 @@ def similarity(dict1, dict2):
         numerator += (dictionary3[everykey][0] * dictionary3[everykey][1])
         sum1 += dictionary3[everykey][0]**2
         sum2 += dictionary3[everykey][1]**2
-    sum3 = round((numerator/(math.sqrt(sum1)*math.sqrt(sum2))))
+    sum3 = (numerator/(math.sqrt(sum1)*math.sqrt(sum2)))
     return sum3
 
 
