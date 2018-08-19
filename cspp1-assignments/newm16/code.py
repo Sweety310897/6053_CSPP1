@@ -18,8 +18,10 @@ def similarity(dict1, dict2):
         temp5.append(element1.strip())
     for element2 in temp2:
         temp6.append(element2.strip())
-    temp3 = temp5.split()
-    temp4 = temp6.split()
+    temp12 = str(temp5)
+    temp13 = str(temp6)
+    temp3 = temp12.split()
+    temp4 = temp13.split()
     for word in temp3:
         temp10.append(re.sub('[^ a-z]', "", word))
     #print(temp10)
