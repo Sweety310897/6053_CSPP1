@@ -60,9 +60,9 @@ def similarity(dict1, dict2):
     for k in keys:
         dictionary3[k] = [0, 0]
     #print(dictionary3)
-    for var in dictionary1:
+    for var in dictionary3:
         dictionary3[var][0] = dictionary1[var]
-    for var in dictionary2:
+    for var in dictionary3:
         dictionary3[var][1] = dictionary2[var]
     #print(dictionary3)
     #print(dictionary3[1])
