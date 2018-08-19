@@ -84,7 +84,7 @@ def similarity(dict1, dict2):
         numerator += (dictionary3[everykey][0] * dictionary3[everykey][1])
         sum1 += dictionary3[everykey][0]**2
         sum2 += dictionary3[everykey][1]**2
-    sum3 = (numerator/(math.sqrt(sum1)*math.sqrt(sum2)))
+    sum3 = round((numerator/(math.sqrt(sum1)*math.sqrt(sum2))))
     return sum3
 
 
@@ -105,10 +105,6 @@ def similarity(dict1, dict2):
         #     denominator2 = (dictionary3[everykey][1]**2)
         #     sum2=sum2+denominator2[i]
         # temp20 = math.sqrt(sum2)
-
-        
-    final = round(numerator/(temp19 * temp20))
-    return final
 
 
 
