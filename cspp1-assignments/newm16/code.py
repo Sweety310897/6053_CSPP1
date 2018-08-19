@@ -1,8 +1,15 @@
+'''
+This is used to check similarity between two files
+'''
+
 import re
 import math
 
 
 def combine_dictionaries(dictionary_one, dictionary_two):
+    '''
+    This function is to combine dictionaries
+    '''
     dictionary = {}
     for everyword in dictionary_one:
         if everyword in dictionary_two:
@@ -16,6 +23,9 @@ def combine_dictionaries(dictionary_one, dictionary_two):
     return dictionary
 
 def calculate_similarity(dictionary_values):
+    '''
+    This function is to calculate similarity
+    '''
 
     sum1 = 0
     sum2 = 0
@@ -31,6 +41,9 @@ def calculate_similarity(dictionary_values):
 
 
 def create_dictionary(words_list):
+    '''
+    This function is used to create dictionary
+    '''
     dictionary = {}
     stopwords = load_stopwords("stopwords.txt")
     for word in words_list:
@@ -44,6 +57,9 @@ def create_dictionary(words_list):
 
 
 def clean_text(text_input):
+    '''
+    This function is to remove special characters
+    '''
     words = text_input.lower().strip().replace('\'', '')
     regex = re.compile('[^a-z]')
     words = regex.sub(" ", words).split(" ")
@@ -51,6 +67,9 @@ def clean_text(text_input):
 
 
 def similarity(text_input_one, text_input_two):
+    '''
+    this function is to calculate siilarity
+    '''
     dictionary_one = create_dictionary(clean_text(text_input_one))
     dictionary_two = create_dictionary(clean_text(text_input_two))
     dictionary = combine_dictionaries(dictionary_one, dictionary_two)
