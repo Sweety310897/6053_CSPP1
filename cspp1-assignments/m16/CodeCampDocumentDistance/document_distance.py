@@ -10,23 +10,20 @@ def similarity(dict1, dict2):
     '''
     temp1 = dict1.lower()
     temp2 = dict2.lower()
-    #temp3 = temp1.split()
-    #temp4 = temp2.split()
+    temp3 = temp1.split()
+    temp4 = temp2.split()
     temp5 = []
     temp6 = []
     temp10 = []
     temp11 = []
-    for element1 in temp1:
+    for element1 in temp3:
         temp5.append(element1.strip())
-    for element2 in temp2:
+    for element2 in temp4:
         temp6.append(element2.strip())
-    temp3 = temp5.split()
-    temp4 = temp6.split()
-
-    for word in temp3:
+    for word in temp5:
         temp10.append(re.sub('[^ a-z]', "", word))
     #print(temp10)
-    for word in temp4:
+    for word in temp6:
         temp11.append(re.sub('[^ a-z]', "", word))
     stopwords = load_stopwords("stopwords.txt")
     temp7 = temp10[:]
