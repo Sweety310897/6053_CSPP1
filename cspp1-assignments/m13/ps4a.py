@@ -75,15 +75,16 @@ def getWordScore(word, n):
     sum1 = 0
     for key in word:
         if key in SCRABBLE_LETTER_VALUES:
-            list_1.append(key)
-            temp = SCRABBLE_LETTER_VALUES[key]
-            sum1 = sum1 + temp
-    length = len(word)
-    temp1 = sum1 * length
+            sum1 = sum1 + SCRABBLE_LETTER_VALUES[i]
+        if len(word) == n:
+        	return sum1 * len(word) + 50
+        return sum1 * len(word)
+    # length = len(word)
+    # temp1 = sum1 * length
 
-    if len(word) == 7:
-        temp1 =  temp1 + 50
-    return temp1
+    # if len(word) == 7:
+    #     temp1 =  temp1 + 50
+    # return temp1
 
 
 
@@ -158,6 +159,7 @@ def updateHand(hand, word):
     # TO DO ... <-- Remove this comment when you code this function
     tempdictionary = hand.copy()
     for character in word:
+    	if character in tempdictionary:
         tempdictionary[character] -= 1
     return tempdictionary
 
@@ -178,23 +180,31 @@ def isValidWord(word, hand, wordList):
     wordList: list of lowercase strings
     """
     # TO DO ... <-- Remove this comment when you code this function
-     charactercount = 0
-    newdictionary = hand.copy()
+    # charactercount = 0
+    # newdictionary = hand.copy()
     
-    if word in wordList:
-        for letter in word:
-            if (not(letter in newdictionary)):
-                return False
-            else:
-                charactercount += 1
-                newdictionary[letter] -= 1
-                if newdictionary[letter] < 0:
-                    return False
-        if charactercount == len(word):
-            return True
-    else:
-        return False
+    # if word in wordList:
+    #     for letter in word:
+    #         if (not(letter in newdictionary)):
+    #             return False
+    #         else:
+    #             charactercount += 1
+    #             newdictionary[letter] -= 1
+    #             if newdictionary[letter] < 0:
+    #                 return False
+    #     if charactercount == len(word):
+    #         return True
+    # else:
+    #     return False
 
+    hand_xerox = dict(hand)
+    count1 = 0
+    if word in word_list:
+    	for letter in word:
+    		if letter in hand_xerox and hand[letter] > 0:
+    			hand_xerox[letter] -= 1
+    			count1 += 1
+    return bool(count1 == len(word))
 
 #
 # Problem #4: Playing a hand
@@ -208,13 +218,14 @@ def calculateHandlen(hand):
     returns: integer
     """
     # TO DO... <-- Remove this comment when you code this function
-    temp = ""
-    lengthofhand = 0
-    for letter in hand.keys():
-        for count in range(hand[letter]):
-            temp = temp + letter
-    lengthofhand = len(temp)
-    return lengthofhand 
+    # temp = ""
+    # lengthofhand = 0
+    # for letter in hand.keys():
+    #     for count in range(hand[letter]):
+    #         temp = temp + letter
+    # lengthofhand = len(temp)
+    # return lengthofhand 
+    return sum(hand.values())
 
 
 
@@ -270,6 +281,23 @@ def playHand(hand, wordList, n):
     # Game is over (user entered a '.' or ran out of letters), so tell user the total score
 
 
+
+	total_score = 0
+	while calculateHandlen(hand) > 0:
+		displayHand(hand)
+		user_input = input()
+		if user_input == '.' or user_input == 'e':
+			print('Game over')
+			break
+		else:
+			if not isValidWord(user_input,hand,word_list):
+				print("invalid word")
+			else:
+				wordscore = getWordScore(user_input,n)
+				total_score += wordscore
+				print("You've earned {},your score now is {}".format(wordscore,total_score))
+				hand = updateHand(hand,user_input)
+	print("Total Score ={}".format(total_score))
 #
 # Problem #5: Playing a game
 # 
@@ -287,7 +315,19 @@ def playGame(wordList):
     2) When done playing the hand, repeat from step 1    
     """
     # TO DO ... <-- Remove this comment when you code this function
-    print("playGame not yet implemented.") # <-- Remove this line when you code the function
+    hand = {}
+    while True:
+    	user_input = input("Enter a input n(for new hand) or r(to play last hand) or e(to exit game)")
+    	if user_input == 'n':
+    		hand = dealHand(HAND_SIZE)
+    		playHand(hand,word_list,HAND_SIZE)
+    	elif user_input == 'r':
+    		playHand(hand,word_list,HAND_SIZE)
+    	elif user_input == 'e':
+    		playHand(hand,word_list,HAND_SIZE)
+    		break
+    	else:
+    		print("invalid input")
    
 
 
