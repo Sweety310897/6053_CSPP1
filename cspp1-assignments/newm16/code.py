@@ -2,17 +2,17 @@ import re
 import math
 
 
-def combine_dictionaries(dictionary_one,dictionary_two):
+def combine_dictionaries(dictionary_one, dictionary_two):
     dictionary = {}
     for everyword in dictionary_one:
         if everyword in dictionary_two:
-            dictionary[everyword] = [dictionary_one[everyword],dictionary_two[everyword]]
+            dictionary[everyword] = [dictionary_one[everyword], dictionary_two[everyword]]
     for everyword in dictionary_one:
         if everyword not in dictionary:
-            dictionary[everyword] = [dictionary_one[everyword],0]
+            dictionary[everyword] = [dictionary_one[everyword], 0]
     for everyword in dictionary_two:
         if everyword not in dictionary:
-            dictionary[everyword] = [0,dictionary_two[everyword]]
+            dictionary[everyword] = [0, dictionary_two[everyword]]
     return dictionary
 
 def calculate_similarity(dictionary_values):
@@ -44,16 +44,16 @@ def create_dictionary(words_list):
 
 
 def clean_text(text_input):
-    words = text_input.lower().strip().replace('\'','')
+    words = text_input.lower().strip().replace('\'', '')
     regex = re.compile('[^a-z]')
-    words = regex.sub(" ",words).split(" ")
+    words = regex.sub(" ", words).split(" ")
     return words
 
 
-def similarity(text_input_one,text_input_two):
+def similarity(text_input_one, text_input_two):
     dictionary_one = create_dictionary(clean_text(text_input_one))
     dictionary_two = create_dictionary(clean_text(text_input_two))
-    dictionary = combine_dictionaries(dictionary_one,dictionary_two)
+    dictionary = combine_dictionaries(dictionary_one, dictionary_two)
     return calculate_similarity(dictionary)
 
 
