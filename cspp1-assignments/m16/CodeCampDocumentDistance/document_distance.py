@@ -55,8 +55,7 @@ def similarity(dict1, dict2):
             dictionary2[word] = 1
         else:
             dictionary2[word] += 1
-    
-    keys=list(dictionary1.keys())+list(dictionary2.keys())
+    keys = list(dictionary1.keys())+list(dictionary2.keys())
     #print(keys)
     for word in keys:
         if not word:
@@ -70,8 +69,6 @@ def similarity(dict1, dict2):
         dictionary3[var][0] = dictionary1[var]
     for var in dictionary2:
         dictionary3[var][1] = dictionary2[var]
-    
-
     #print(dictionary3)
     #print(dictionary3[1])
     # for everykey in dictionary3.keys:
@@ -95,12 +92,8 @@ def similarity(dict1, dict2):
         # for i in range(denominator1):
             
         #     denominator1 = (dictionary3[everykey][0]**2)
-        
         #     sum1 = sum1 + denominator1[i]
-        # temp19 = math.sqrt(sum1)  
-
-
-        
+        # temp19 = math.sqrt(sum1)
         # for i in range(denominator2):
         #     denominator2 = (dictionary3[everykey][1]**2)
         #     sum2=sum2+denominator2[i]
