@@ -40,18 +40,16 @@ def similarity(dict1, dict2):
     #print("temp10",temp10,"temp11",temp11)
     #print(temp10)
     #print(temp11)
-    dictionary1={}
+    dictionary1 = {}
     for word in temp10:
-        count=0
         if word not in dictionary1:
             dictionary1[word] = 1
         else:
             dictionary1[word] += 1
-    dictionary2={}
+    dictionary2 = {}
     # print("di1",dictionary1,"dic2",dictionary2)
     for word in temp11:
-        count=0
-        if word not in dictionary2 and len(word)>0:
+        if word not in dictionary2 and len(word) > 0:
             dictionary2[word] = 1
         else:
             dictionary2[word] += 1
