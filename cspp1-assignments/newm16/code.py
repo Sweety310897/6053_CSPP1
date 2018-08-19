@@ -20,10 +20,10 @@ def calculate_similarity(dictionary_values):
     sum1 = 0
     sum2 = 0
     numerator = 0
-    for everykey in dictionary.keys():
-        numerator += (dictionary[everykey][0] * dictionary[everykey][1])
-        sum1 += dictionary[everykey][0]**2
-        sum2 += dictionary[everykey][1]**2
+    for everykey in dictionary_values.keys():
+        numerator += (dictionary_values[everykey][0] * dictionary_values[everykey][1])
+        sum1 += dictionary_values[everykey][0]**2
+        sum2 += dictionary_values[everykey][1]**2
     sum3 = (numerator/(math.sqrt(sum1)*math.sqrt(sum2)))
     return sum3
 
