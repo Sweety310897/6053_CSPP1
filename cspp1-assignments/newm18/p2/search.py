@@ -37,11 +37,40 @@ def search(search_index, query):
         collect all the values for the words that are in the search_index
         make a set of doc_id and return
     '''
-    doc_id = []
-    for word in query:
-        if word in search_index:
-            doc_id.append(word)
-    return doc_id
+    dict1 = {}
+    temp = query.lower()
+    #print(temp)
+    list1 = []
+    #length = len()
+    temp1 = temp.split()
+    
+   
+    for everyelement in temp1:
+        if everyelement in search_index:
+            list1 = search_index[everyelement]
+        length = len(list1)
+        print(length)
+
+        
+
+
+
+
+    # print(temp1[0],"temp1")
+    # print(type(search_index))
+    # #print(temp1)
+    # #print(query)
+    # length = len(temp)
+    # for i in temp1:
+    #     print(temp1)
+        # for temp1[i] in query:
+        #     print(temp1, "this is temp1")
+        #     if temp1 in search_index.keys():
+        #         print(search_index.keys())
+         #values.add(search_index.values())
+    #temp1 = set(values)
+    #return temp1
+
 
 def process_queries(search_index, queries):
     '''
@@ -50,17 +79,19 @@ def process_queries(search_index, queries):
         print the results returned by search function
     '''
     for eachquery in queries:
-        print(search(search_index, query))
+        temp10 = search(search_index,eachquery)
+    print(temp10)
 def main():
     '''
         main function
     '''
     # This line loads the search index
     search_index = eval(input())
-    
+    print(search_index)
 
     # read the number of search queries
     lines = int(input())
+    
     # read the search queries into a list
     queries = []
     for i in range(lines):
@@ -69,7 +100,6 @@ def main():
 
     # call process queries
     process_queries(search_index, queries)
-
 
 if __name__ == '__main__':
     main()
