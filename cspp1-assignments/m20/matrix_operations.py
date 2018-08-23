@@ -7,7 +7,6 @@ def mult_matrix(m1, m2):
         and return None
         error message should be "Error: Matrix shapes invalid for mult"
     '''
-
     if len(m1[0]) != len(m2):
         print("Error: Matrix shapes invalid for mult")
         return None
@@ -22,9 +21,6 @@ def mult_matrix(m1, m2):
             row.append(add)
         res.append(row)
     return res
-
-    
-
 def add_matrix(m1, m2):
     '''
         check if the matrix shapes are similar
@@ -41,8 +37,6 @@ def add_matrix(m1, m2):
         for j in range(len(m1[0])):
             res[i][j] += m2[i][j]
     return res
-
-
 def read_matrix():
     '''
         read the matrix dimensions from input
@@ -51,7 +45,6 @@ def read_matrix():
         print an error message and return None
         error message should be "Error: Invalid input for the matrix"
     '''
-
     #print(matrix1)
     r,c = list(map(int, input().split(',')))
     matrix = []
@@ -65,19 +58,13 @@ def read_matrix():
 
 def main():
     # read matrix 1
-
     # read matrix 2
-
     # add matrix 1 and matrix 2
-
-
     # multiply matrix 1 and matrix 2
-    
     # #print(matrix1_rows,matrix1_cols)
     matrix1 = read_matrix()
     if not matrix1:
         return
-
     matrix2 = read_matrix()
     if not matrix2:
         return
@@ -85,7 +72,6 @@ def main():
     print(res)
     res = mult_matrix(matrix1,matrix2)
     print(res)
-
     # for i in range(cols):
     #     matrix1.append([])
     # #print(matrix1,"matrix1 first for")
@@ -98,7 +84,6 @@ def main():
     #     for j in range(cols):
     #         matrix1[i][j] = int(input())
     #print(matrix1,"matrix1 third for")
-
     # 3,3
     # 0 1 2
     # 3 4 5
