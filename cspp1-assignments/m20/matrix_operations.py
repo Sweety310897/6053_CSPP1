@@ -1,3 +1,4 @@
+from copy import deepcopy
 def mult_matrix(m1, m2):
     '''
         check if the matrix1 columns = matrix2 rows
@@ -6,7 +7,23 @@ def mult_matrix(m1, m2):
         and return None
         error message should be "Error: Matrix shapes invalid for mult"
     '''
-    pass
+
+    if len(m1[0]) != len(m2):
+        print("error")
+        return None
+    res = []
+    for i in range(len(m1)):
+        row = []
+        for j in range(len(m2[0])):
+            #row.append(sum([m1[]]))
+            add = 0
+            for k in range(len(m1[0])):
+                add += m1[i][k]*m2[k][j]
+            row.append(add)
+        res.append(row)
+    return res
+
+    
 
 def add_matrix(m1, m2):
     '''
@@ -16,9 +33,17 @@ def add_matrix(m1, m2):
         and return None
         error message should be "Error: Matrix shapes invalid for addition"
     '''
-    
+    if len(m1) != len(m2) or len(m1[0]) != len(m2[0]):
+        print("error")
+        return None
+    res = deepcopy(m1)
+    for i in range(len(m1)):
+        for j in range(len(m1[0])):
+            res[i][j] += m2[i][j]
+    return res
 
-def read_matrix(rows,cols):
+
+def read_matrix(m1):
     '''
         read the matrix dimensions from input
         create a list of lists and read the numbers into it
@@ -26,12 +51,17 @@ def read_matrix(rows,cols):
         print an error message and return None
         error message should be "Error: Invalid input for the matrix"
     '''
-    pass
-    
-
-
 
     #print(matrix1)
+    r,c = list(map(int, input().split(',')))
+    matrix = []
+    for i in range(r):
+        row = list(map(int, input().split(' ')))
+        if len(row)! = c:
+            print('Error: Invalid input')
+            return None
+        matrix.append(row)
+    return matrix
 
 def main():
     # read matrix 1
@@ -40,13 +70,22 @@ def main():
 
     # add matrix 1 and matrix 2
 
+
     # multiply matrix 1 and matrix 2
     
     # #print(matrix1_rows,matrix1_cols)
-    rows = int(input('enter no of rows'))
-    cols = int(input('enter no of cols'))
-    matrix1 = read(rows,cols)
-    matrix2 = read(rows,cols)
+    matrix1 = read_matrix()
+    if not matrix1:
+        return
+
+    matrix2 = read_matrix()
+    if not matrix2:
+        return
+    res = add_matrix(matrix1,matrix2)
+    print(res)
+    res = mult_matrix(matrix1,matrix2)
+    print(res)
+
     # for i in range(cols):
     #     matrix1.append([])
     # #print(matrix1,"matrix1 first for")
@@ -59,13 +98,6 @@ def main():
     #     for j in range(cols):
     #         matrix1[i][j] = int(input())
     #print(matrix1,"matrix1 third for")
-
-    
-
-
-
-
-
 
     # 3,3
     # 0 1 2
