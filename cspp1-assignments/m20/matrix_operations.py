@@ -57,7 +57,7 @@ def read_matrix(m1):
     matrix = []
     for i in range(r):
         row = list(map(int, input().split(' ')))
-        if len(row)! = c:
+        if len(row) != c:
             print('Error: Invalid input')
             return None
         matrix.append(row)
