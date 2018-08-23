@@ -58,7 +58,7 @@ def read_matrix():
     for i in range(r):
         row = list(map(int, input().split(' ')))
         if len(row) != c:
-            print("Error: Matrix shapes invalid for mult")
+            print("Error: Invalid input for the matrix")
             return None
         matrix.append(row)
     return matrix
