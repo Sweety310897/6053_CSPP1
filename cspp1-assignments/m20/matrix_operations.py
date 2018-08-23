@@ -34,7 +34,7 @@ def add_matrix(m1, m2):
         error message should be "Error: Matrix shapes invalid for addition"
     '''
     if len(m1) != len(m2) or len(m1[0]) != len(m2[0]):
-        print("Error: Matrix shapes invalid for mult")
+        print("Error: Matrix shapes invalid for addition")
         return None
     res = deepcopy(m1)
     for i in range(len(m1)):
@@ -58,7 +58,7 @@ def read_matrix():
     for i in range(r):
         row = list(map(int, input().split(' ')))
         if len(row) != c:
-            print('Error: Matrix shapes invalid for mult')
+            print("Error: Matrix shapes invalid for mult")
             return None
         matrix.append(row)
     return matrix
