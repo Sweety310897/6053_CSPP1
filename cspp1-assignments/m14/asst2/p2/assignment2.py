@@ -139,7 +139,7 @@ class PlaintextMessage(Message):
     def __init__(self, text, rotate):
         self.rotate = rotate
         self.message_text = text
-        Message.__init__(self,text)
+        Message.__init__(self, text)
         self.valid_words = load_words(WORDLIST_FILENAME)
         self.encrypting_dict = self.build_shift_dict(rotate)
         self.message_text_encrypted = self.apply_shift(rotate)
