@@ -43,7 +43,7 @@ def add_matrix(m1, m2):
     return res
 
 
-def read_matrix(m1,m2):
+def read_matrix():
     '''
         read the matrix dimensions from input
         create a list of lists and read the numbers into it
