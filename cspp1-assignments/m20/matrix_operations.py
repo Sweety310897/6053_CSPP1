@@ -16,9 +16,9 @@ def add_matrix(m1, m2):
         and return None
         error message should be "Error: Matrix shapes invalid for addition"
     '''
-    pass
+    
 
-def read_matrix(matrix1):
+def read_matrix(rows,cols):
     '''
         read the matrix dimensions from input
         create a list of lists and read the numbers into it
@@ -45,20 +45,20 @@ def main():
     # #print(matrix1_rows,matrix1_cols)
     rows = int(input('enter no of rows'))
     cols = int(input('enter no of cols'))
-    matrix1 = []
-    for i in range(cols):
-        matrix1.append([])
-    #print(matrix1,"matrix1 first for")
-    for i in range(rows):
-        for j in range(cols):
-            matrix1[i].append(j)
-            matrix1[i][j] = 0
-    #print(matrix1,"matrix1 second for")
-    for i in range(rows):
-        for j in range(cols):
-            matrix1[i][j] = int(input())
+    matrix1 = read(rows,cols)
+    matrix2 = read(rows,cols)
+    # for i in range(cols):
+    #     matrix1.append([])
+    # #print(matrix1,"matrix1 first for")
+    # for i in range(rows):
+    #     for j in range(cols):
+    #         matrix1[i].append(j)
+    #         matrix1[i][j] = 0
+    # #print(matrix1,"matrix1 second for")
+    # for i in range(rows):
+    #     for j in range(cols):
+    #         matrix1[i][j] = int(input())
     #print(matrix1,"matrix1 third for")
-    print(matrix1)
 
     
 
