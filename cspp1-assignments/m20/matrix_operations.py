@@ -1,5 +1,5 @@
 from copy import deepcopy
-def mult_matrix(m1, m2):
+def mult_matrix(matrixa, matrixb):
     '''
         check if the matrix1 columns = matrix2 rows
         mult the matrices and return the result matrix
@@ -7,21 +7,21 @@ def mult_matrix(m1, m2):
         and return None
         error message should be "Error: Matrix shapes invalid for mult"
     '''
-    if len(m1[0]) != len(m2):
+    if len(matrixa[0]) != len(matrixb):
         print("Error: Matrix shapes invalid for mult")
         return None
     res = []
-    for i in range(len(m1)):
+    for i in range(len(matrixa)):
         row = []
-        for j in range(len(m2[0])):
+        for j in range(len(matrixb[0])):
             #row.append(sum([m1[]]))
             add = 0
-            for k in range(len(m1[0])):
-                add += m1[i][k]*m2[k][j]
+            for k in range(len(matrixa[0])):
+                add += matrixa[i][k]*matrixb[k][j]
             row.append(add)
         res.append(row)
     return res
-def add_matrix(m1, m2):
+def add_matrix(matrixa, matrixb):
     '''
         check if the matrix shapes are similar
         add the matrices and return the result matrix
@@ -29,13 +29,13 @@ def add_matrix(m1, m2):
         and return None
         error message should be "Error: Matrix shapes invalid for addition"
     '''
-    if len(m1) != len(m2) or len(m1[0]) != len(m2[0]):
+    if len(matrixa) != len(matrixb) or len(matrixa[0]) != len(matrixb[0]):
         print("Error: Matrix shapes invalid for addition")
         return None
-    res = deepcopy(m1)
-    for i in range(len(m1)):
-        for j in range(len(m1[0])):
-            res[i][j] += m2[i][j]
+    res = deepcopy(matrixa)
+    for i in range(len(matrixa)):
+        for j in range(len(matrixa[0])):
+            res[i][j] += matrixb[i][j]
     return res
 def read_matrix():
     '''
