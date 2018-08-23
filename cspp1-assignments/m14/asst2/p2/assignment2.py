@@ -144,12 +144,12 @@ class PlaintextMessage(Message):
         self.encrypting_dict = self.build_shift_dict(rotate)
         self.message_text_encrypted = self.apply_shift(rotate)
 
-    def get_rotate(self):
+    def get_shift(self):
         '''
         Here we are returning rotate
         '''
         return self.rotate
-    def get_encrypted(self):
+    def get_encrypting_dict(self):
         '''
         Here we are encrypting the data
         '''
@@ -160,7 +160,7 @@ class PlaintextMessage(Message):
         we are returning encrypted text
         '''
         return self.message_text_encrypted
-    def change_rotate(self, rotate):
+    def change_shift(self, rotate):
         '''
         Here we are changing the shift
         '''
