@@ -147,10 +147,10 @@ class PlaintextMessage(Message):
         return encrypting_dict_copy
     def get_message_text_encrypted(self):
         return self.message_text_encrypted
-    def change_shift(self,shift):
-        self.shift = shift
-        self.encrypting_dict = self.build_shift_dict(shift)
-        self.message_text_encrypted = self.apply_shift(shift)
+    def change_shift(self,rotate):
+        self.rotate = rotate
+        self.encrypting_dict = self.build_shift_dict(rotate)
+        self.message_text_encrypted = self.apply_shift(rotate)
 
 
 def main():
