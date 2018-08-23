@@ -50,6 +50,7 @@ def read_matrix():
     matrix = []
     for i in range(r):
         row = list(map(int, input().split(' ')))
+        #print(row)
         if len(row) != c:
             print("Error: Invalid input for the matrix")
             return None
