@@ -37,24 +37,34 @@ def search(search_index, query):
         collect all the values for the words that are in the search_index
         make a set of doc_id and return
     '''
-    dict1 = {}
-    temp = query.lower()
-    #print(temp)
-    list1 = []
-    #length = len()
-    temp1 = temp.split()
     
-   
-    for everyelement in temp1:
-        if everyelement in search_index:
-            list1 = search_index[everyelement]
-        length = len(list1)
-        print(length)
-
-        
-
-
-
+    # temp = query.lower().split()
+    # #print(temp)
+    # list1 = []
+    # list2_index = []
+    # #length = len()
+    # #temp1 = temp.split()
+    
+    # length = len(temp)
+    # #print(length)
+    # for everyelement in temp:
+    #     if everyelement in search_index:
+    #        list2_index.append(search_index[everyelement])
+    # #print(list2_index)
+    dict1 = {}
+    list1 = []
+    # my_list = []
+    temp1 = query.lower().split()
+    for eachword in temp1:
+        if eachword in search_index:
+            list1 = (search_index[eachword])
+            length = len(eachword)
+            for i in range(list1):
+                if eachword not in dict1:
+                    dict1[eachword] = {list1[values][0]} 
+                else:
+                    dict1[eachword].add(list1[values][0])
+    
 
     # print(temp1[0],"temp1")
     # print(type(search_index))
@@ -78,9 +88,23 @@ def process_queries(search_index, queries):
         iterate through all the queries and call the search function
         print the results returned by search function
     '''
-    for eachquery in queries:
-        temp10 = search(search_index,eachquery)
-    print(temp10)
+    # for eachquery in queries:
+    #     temp10 = search(search_index,eachquery)
+    #     print(temp10,"temp10")
+    #     list3 = []
+    #     for line in list2_index:
+    #         list3.append(line[0])
+    for each_line in queries:
+        #print(each_line)
+        temp = search(search_index, each_line)
+        print(temp)
+
+
+
+
+
+
+
 def main():
     '''
         main function
