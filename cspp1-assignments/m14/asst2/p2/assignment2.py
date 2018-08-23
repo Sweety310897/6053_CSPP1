@@ -141,7 +141,7 @@ class PlaintextMessage(Message):
         self.message_text_encrypted = self.apply_shift(rotate)
 
     def get_shift(self):
-        return self.shift
+        return self.rotate
     def get_encrypting_dict(self):
         encrypting_dict_copy = self.encrypting_dict.copy()
         return encrypting_dict_copy
