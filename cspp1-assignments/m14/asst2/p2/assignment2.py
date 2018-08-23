@@ -132,7 +132,11 @@ class Message(object):
 
 ### Paste your implementation of the `PlaintextMessage` class here
 class PlaintextMessage(Message):
-    def __init__(self,text,rotate):
+    '''
+    Here we are extending the properties of message
+
+    '''
+    def __init__(self, text, rotate):
         self.rotate = rotate
         self.message_text = text
         Message.__init__(self,text)
