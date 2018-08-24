@@ -21,7 +21,7 @@ def tictactoe():
 				winner = diag_check(temp3)
 			if winner == None:
 				winner = "draw"
-		return winner
+			return winner
 def rowchec_k(temp3):
 	'''
 	This is to check for rows
