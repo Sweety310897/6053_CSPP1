@@ -56,9 +56,9 @@ def diag_check(temp3):
     if temp3[0][2] == temp3[1][1] == temp3[2][0]:
         return temp3[0][2]
 def is_valid_input(temp3):
-    for i in range(3):
-        for j in range(3):
-            if temp3[i][j] == "x" or temp3[i][j] == "o" or temp3[i][j]== ".":
+    for i in temp3:
+        for j in i:
+            if j == "x" or j == "o" or j== ".":
                 pass
             else:
                 return False
