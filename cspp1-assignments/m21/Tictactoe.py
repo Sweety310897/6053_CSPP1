@@ -1,6 +1,3 @@
-
-
-
 def tictactoe():
 	temp3 = []
 	# rowcheck = ''
@@ -16,6 +13,8 @@ def tictactoe():
 		winner = colchec_k(temp3)
 	if winner == None:
 		winner = diag_check(temp3)
+	if winner == None:
+		winner = "draw"
 	return winner
 def rowchec_k(temp3):
 	'''
