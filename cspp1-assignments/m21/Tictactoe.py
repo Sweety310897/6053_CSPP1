@@ -21,9 +21,9 @@ def tictactoe():
         
         return winner
     else:
-        if not is_valid_input(temp3) is False:
+        if is_valid_input(temp3) is False:
             winner = "invalid input"
-        elif not is_valid_game(temp3) is False:
+        else:
             winner = "invalid game"
         return winner
 def rowchec_k(temp3):
