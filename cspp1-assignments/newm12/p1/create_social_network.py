@@ -33,6 +33,7 @@ def create_social_network(data):
     '''
 
     # remove the pass below and start writing your code
+    network ={}
     lines = data.split('\n')
     for line in lines:
         if len(line)>0:
