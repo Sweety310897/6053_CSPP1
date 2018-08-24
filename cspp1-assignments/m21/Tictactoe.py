@@ -12,9 +12,9 @@ def tictactoe():
 		temp2 = temp1.split()
 		temp3.append(temp2)
 	winner = rowchec_k(temp3)
-	if winner == None
+	if winner == None:
 		colcheck = colchec_k(temp3)
-	if winner == None
+	if winner == None:
 		diagcheck = diag_check(temp3)
 def rowchec_k(temp3):
 	'''
