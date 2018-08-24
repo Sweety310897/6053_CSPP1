@@ -16,6 +16,7 @@ def tictactoe():
 		colcheck = colchec_k(temp3)
 	if winner == None:
 		diagcheck = diag_check(temp3)
+	return winner
 def rowchec_k(temp3):
 	'''
 	This is to check for rows
