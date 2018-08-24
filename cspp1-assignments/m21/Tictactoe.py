@@ -58,7 +58,7 @@ def diag_check(temp3):
 def is_valid_input(temp3):
     for i in temp3:
         for j in i:
-            if j == "x" or j == "o" or j== ".":
+            if j == "x" or j == "o" or j == ".":
                 pass
             else:
                 return False
@@ -74,7 +74,8 @@ def is_valid_game(temp3):
                 sum1 += 1
     if abs(count - sum1 == 1):
         return True
-    return False
+    else:
+        return False
 
 
 
