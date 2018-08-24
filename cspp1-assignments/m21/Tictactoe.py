@@ -13,14 +13,15 @@ def tictactoe():
 		if temp3[i]!= "x" or temp3[i]!= "o" or temp3[i]!=".":
 			return "invalid input"
 
-	winner = rowchec_k(temp3)
-	if winner == None:
-		winner = colchec_k(temp3)
-	if winner == None:
-		winner = diag_check(temp3)
-	if winner == None:
-		winner = "draw"
-	return winner
+		else:
+			winner = rowchec_k(temp3)
+			if winner == None:
+				winner = colchec_k(temp3)
+			if winner == None:
+				winner = diag_check(temp3)
+			if winner == None:
+				winner = "draw"
+		return winner
 def rowchec_k(temp3):
 	'''
 	This is to check for rows
