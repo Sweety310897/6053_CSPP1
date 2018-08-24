@@ -33,6 +33,7 @@ def rowchec_k(temp3):
     if temp3[0][0] == temp3[0][1] == temp3[0][2]:
         return temp3[0][0]
     if temp3[1][0] == temp3[1][1] == temp3[1][2]:
+        print("Hi")
         return temp3[1][0]
     if temp3[2][0] == temp3[2][1] == temp3[2][2]:
         return temp3[2][0]
@@ -61,7 +62,7 @@ def is_valid_input(temp3):
                 pass
             else:
                 return False
-        return True
+    return True
 def is_valid_game(temp3):
     count = 0
     sum1 = 0
