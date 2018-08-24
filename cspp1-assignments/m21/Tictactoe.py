@@ -8,7 +8,8 @@ def tictactoe():
 		temp1 = input()
 		temp2 = temp1.split()
 		temp3.append(temp2)
-	is_valid = is_valid_input(temp3)
+
+	is_valid = is_valid_input(temp3) and is_valid_game(temp3)
 	if is_valid:
 		winner = rowchec_k(temp3)
 		if winner == None:
@@ -17,7 +18,10 @@ def tictactoe():
 			winner = diag_check(temp3)
 		if winner == None:
 			winner = "draw"
+		
 		return winner
+
+
 	else:
 		winner = "invalid input"
 		return winner
@@ -57,6 +61,20 @@ def is_valid_input(temp3):
 			else:
 				return False
 		return True
+def is_valid_game(temp3):
+	count = 0
+	sum1 = 0
+	for i in range(3):
+		for j in range(3):
+			if temp3[i][j] == "x":
+				count += 1
+			if temp3[i][j] == "o":
+				sum1 += 1
+	if count - sum1 == 1:
+		return True
+	return False
+
+
 
 def main():
 	res = tictactoe()
