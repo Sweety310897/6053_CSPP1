@@ -71,7 +71,7 @@ def is_valid_game(temp3):
                 count += 1
             if temp3[i][j] == "o":
                 sum1 += 1
-    if count - sum1 == 1:
+    if abs(count - sum1 == 1):
         return True
     return False
 
