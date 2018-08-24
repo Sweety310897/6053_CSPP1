@@ -33,17 +33,15 @@ def create_social_network(data):
     '''
 
     # remove the pass below and start writing your code
-    network ={}
+    network = {}
     lines = data.split("\n")
     for line in lines:
         if len(line) > 0:
-            persons=line.split("follows")
+            persons=line.split(" follows ")
             if len(persons) == 2:
                 followers_list = persons[1].split(",")
                 network[persons[0]] = followers_list
     return network
-             
-    
 
 
 def main():
