@@ -30,6 +30,6 @@ def tictactoe():
 
 def main():
 	res = print(tictactoe())
-	print(res)
+	#print(res)
 if __name__ == '__main__':
     main()
