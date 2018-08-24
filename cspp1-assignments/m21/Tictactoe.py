@@ -8,22 +8,18 @@ def tictactoe():
 		temp1 = input()
 		temp2 = temp1.split()
 		temp3.append(temp2)
-	for i in range(3):
-		for j in range(3):
-			if temp3[i][j]!= "x" or temp3[i][j]!= "o" or temp3[i][j]!= ".":
-				flag = 1
-
-	if flag == 1:
-		return "invalid input"
-
-	winner = rowchec_k(temp3)
-	if winner == None:
-		winner = colchec_k(temp3)
-	if winner == None:
-		winner = diag_check(temp3)
-	if winner == None:
-		winner = "draw"
-	return winner
+	is_valid = is_valid_input(temp3)
+	if is_valid:
+		winner = rowchec_k(temp3)
+		if winner == None:
+			winner = colchec_k(temp3)
+		if winner == None:
+			winner = diag_check(temp3)
+		if winner == None:
+			winner = "draw"
+		return winner
+	else:
+		print("invalid input")
 def rowchec_k(temp3):
 	'''
 	This is to check for rows
@@ -52,7 +48,14 @@ def diag_check(temp3):
 		return temp3[0][0]
 	if temp3[0][2] == temp3[1][1] == temp3[2][0]:
 		return temp3[0][2]
-
+def is_valid_input(temp3):
+	for i in range(3):
+		for j in range(3):
+			if temp3[i][j] == "x" or temp3[i][j] == "o" or temp3[i][j]== ".":
+				pass
+			else:
+				return False
+		return True
 
 def main():
 	res = tictactoe()
