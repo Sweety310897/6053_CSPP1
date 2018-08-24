@@ -16,7 +16,7 @@ def tictactoe():
 		temp1 = input()
 		temp2 = temp1.split()
 		temp3.append(temp2)
-	print(temp3[0])
+	
 	
 
 
