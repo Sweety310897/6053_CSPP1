@@ -20,7 +20,7 @@
         .
     }
 '''
-
+import re
 # helper function to load the stop words from a file
 def load_stopwords(filename):
     '''
@@ -39,7 +39,33 @@ def word_list(text):
         Clean up the text by remvoing all the non alphabet characters
         return a list of words
     '''
-    pass
+    regex = re.compile('[^a-z]')
+    temp1 = []
+    temp2 = []
+    for each in text:
+         temp2.append(re.sub('[^ A-Za-z]', "", each))
+    for each in temp2:
+        temp1.append(each.lower().split())
+    stopwords = load_stopwords('stopwords.txt')
+    # temp7 = temp1[:]
+    # for word in temp7:
+    #     if word in stopwords.keys() and len(word) > 0:
+    #         temp1.remove(word)
+    # print(temp1,"his is new temp1")
+
+    # stop_words = load_stopwords('stopwords.txt')
+    newwords  = []
+    for each in temp1:
+        temp = []
+        for word in each:
+            if word not in stopwords.keys() and len(word) != 0:
+                temp.append(word)
+        newwords.append(temp)
+    return newwords
+    
+
+    
+
 
 def build_search_index(docs):
     '''
@@ -57,7 +83,12 @@ def build_search_index(docs):
         # add or update the words of the doc to the search index
 
     # return search index
-    pass
+    search_index = {}
+    temp = word_list(docs)
+    print(temp,"temp")
+    #for everysentence in temp:
+
+
 
 # helper function to print the search index
 # use this to verify how the search index looks

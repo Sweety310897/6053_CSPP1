@@ -58,17 +58,15 @@ def search(search_index, query):
     for eachword in temp1:
         if eachword in search_index:
             list1 = (search_index[eachword])
-            length = len(eachword)
-            for values in range(length):
+            length = len(list1)
+            for dictvalues in range(length):
                 if eachword not in dict1:
-                    dict1[eachword] = {list1[values][0]} 
-                elif eachword in dict1:
-                    dict1[eachword].add(list1[values][0])
-              # if each_word in search_index:
-    new_set = set()
-    for i, j in my_dict.items():
-        new_set |= j
-    return new_set
+                    dict1[eachword] = {list1[dictvalues][0]}
+                if eachword in dict1:
+                    dict1[eachword].add(list1[dictvalues][0])
+    print(dict1)
+
+
 
 
 def process_queries(search_index, queries):
