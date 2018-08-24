@@ -16,6 +16,8 @@ def tictactoe():
 		temp1 = input()
 		temp2 = temp1.split()
 		temp3.append(temp2)
+	rowcheck = rowcheck(temp3)
+def rowcheck(temp3):
 	if temp3[0][0] == temp3[0][1] == temp3[0][2]:
 		return temp3[0][0]
 
