@@ -47,12 +47,12 @@ def read_matrix():
         error message should be "Error: Invalid input for the matrix"
     '''
     #print(matrix1)
-    r,c = list(map(int, input().split(',')))
+    row_s,col_s = list(map(int, input().split(',')))
     matrix = []
-    for i in range(r):
+    for _ in range(row_s):
         row = list(map(int, input().split(' ')))
         #print(row)
-        if len(row) != c:
+        if len(row) != col_s:
             print("Error: Invalid input for the matrix")
             return None
         matrix.append(row)
