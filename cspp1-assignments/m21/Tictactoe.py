@@ -8,19 +8,16 @@ def tictactoe():
 		temp1 = input()
 		temp2 = temp1.split()
 		temp3.append(temp2)
+	#for i in range(3):
 	
-	for i in range(3):
-		if temp3[i]!= "x" or temp3[i]!= "o" or temp3[i]!=".":
-			return "invalid input"
 
-		else:
-			winner = rowchec_k(temp3)
-			if winner == None:
-				winner = colchec_k(temp3)
-			if winner == None:
-				winner = diag_check(temp3)
-			if winner == None:
-				winner = "draw"
+	winner = rowchec_k(temp3)
+	if winner == None:
+		winner = colchec_k(temp3)
+	if winner == None:
+		winner = diag_check(temp3)
+	if winner == None:
+		winner = "draw"
 	return winner
 def rowchec_k(temp3):
 	'''
