@@ -1,3 +1,6 @@
+'''
+This program is to calculate matrix
+'''
 from copy import deepcopy
 def mult_matrix(matrixa, matrixb):
     '''
@@ -47,7 +50,7 @@ def read_matrix():
         error message should be "Error: Invalid input for the matrix"
     '''
     #print(matrix1)
-    row_s,col_s = list(map(int, input().split(',')))
+    row_s, col_s = list(map(int, input().split(',')))
     matrix = []
     for _ in range(row_s):
         row = list(map(int, input().split(' ')))
@@ -62,6 +65,9 @@ def read_matrix():
 
 
 def main():
+    '''
+    This is main function
+    '''
     # read matrix 1
     # read matrix 2
     # add matrix 1 and matrix 2
@@ -73,9 +79,9 @@ def main():
     matrix2 = read_matrix()
     if not matrix2:
         return
-    res = add_matrix(matrix1,matrix2)
+    res = add_matrix(matrix1, matrix2)
     print(res)
-    res = mult_matrix(matrix1,matrix2)
+    res = mult_matrix(matrix1, matrix2)
     print(res)
     # for i in range(cols):
     #     matrix1.append([])
