@@ -12,6 +12,7 @@ def tictactoe():
 	# print(temp1)
 	
 	temp3 = []
+	rowcheck = ''
 	for i in range(3):
 		temp1 = input()
 		temp2 = temp1.split()
