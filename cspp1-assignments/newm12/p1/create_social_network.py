@@ -38,7 +38,7 @@ def create_social_network(data):
         if len(line)>0:
             persons=line.split("follows")
             followers_list = persons[1].split(",")
-                network[persons[0]] = followers_list
+            network[persons[0]] = followers_list
     return network
              
     
