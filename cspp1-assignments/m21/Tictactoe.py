@@ -48,6 +48,6 @@ def diag_check(temp3):
 
 def main():
 	res = print(tictactoe())
-	#print(res)
+	print(res)
 if __name__ == '__main__':
     main()
