@@ -13,9 +13,9 @@ def tictactoe():
 		temp3.append(temp2)
 	winner = rowchec_k(temp3)
 	if winner == None:
-		colcheck = colchec_k(temp3)
+		winner = colchec_k(temp3)
 	if winner == None:
-		diagcheck = diag_check(temp3)
+		winner = diag_check(temp3)
 	return winner
 def rowchec_k(temp3):
 	'''
