@@ -19,7 +19,8 @@ def tictactoe():
 			winner = "draw"
 		return winner
 	else:
-		return "invalid input"
+		winner = "invalid input"
+		return winner
 def rowchec_k(temp3):
 	'''
 	This is to check for rows
