@@ -11,8 +11,10 @@ def tictactoe():
 	for i in range(3):
 		for j in range(3):
 			if temp3[i][j]!= "x" or temp3[i][j]!= "o" or temp3[i][j]!= ".":
-				return "invalid input"
+				flag = 1
 
+	if flag == 1:
+		return "invalid input"
 
 	winner = rowchec_k(temp3)
 	if winner == None:
