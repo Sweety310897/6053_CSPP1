@@ -23,7 +23,7 @@ def tictactoe():
 
 
 	else:
-		if is_valid_input() == True and is_valid_game() == False:
+		if is_valid_input(temp3) == True and is_valid_game(temp3) == False:
 			winner = "invalid game"
 		else:
 			winner = "invalid input"
