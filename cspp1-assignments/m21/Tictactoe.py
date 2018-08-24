@@ -20,12 +20,10 @@ def tictactoe():
             winner = "draw"
         
         return winner
-
-
     else:
-        if is_valid_input(temp3) == False:
+        if not is_valid_input(temp3):
             winner = "invalid game"
-        elif is_valid_game(temp3) == False:
+        elif not is_valid_game(temp3):
             winner = "invalid input"
         return winner
 def rowchec_k(temp3):
