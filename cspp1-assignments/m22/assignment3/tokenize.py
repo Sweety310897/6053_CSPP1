@@ -3,23 +3,23 @@ Write a function to tokenize a given string and return a dictionary with the fre
 each word
 '''
 def tokenize(string):
-	pass    
+    pass    
 def main():
-	'''
-	This is main function
-	'''
+    '''
+    This is main function
+    '''
     noof_lines = int(input())
     for number_user in range(noof_lines):
-    	words_input = input()
-    	#temp10.append(words_input)
+        words_input = input()
+        #temp10.append(words_input)
     words_input = words_input.split()
     temp_list = list(words_input)
     dictionary_1 = {}
     for word in temp_list:
-    	if word not in dictionary_1:
-    		dictionary_1[word] = 1
-    	else:
-    		dictionary_1[word] += 1
+        if word not in dictionary_1:
+            dictionary_1[word] = 1
+        else:
+            dictionary_1[word] += 1
     print(dictionary_1)
     #print(temp)
 # 1
