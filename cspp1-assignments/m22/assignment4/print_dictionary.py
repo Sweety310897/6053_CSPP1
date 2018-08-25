@@ -6,7 +6,8 @@ the key and frequency with a SPACE - SPACE.
 
 def print_dictionary(dictionary):
     dic1 = str(dictionary)
-    for 
+    temp1 = sorted(dic1)
+    return temp1
 # {'lorem': 2, 'ipsum': 2, 'porem': 2}
 # ipsum - 2
 # lorem - 2
