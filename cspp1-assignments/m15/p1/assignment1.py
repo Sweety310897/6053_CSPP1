@@ -252,15 +252,15 @@ class CiphertextMessage(Message):
         and the decrypted message text using that shift value
         '''
         for each in range(27):
-            message = PlaintextMessage(self.message_text,each)
+            message = PlaintextMessage(self.message_text, each)
             decrypted = message.get_message_text_encrypted()
             validwords = 0
             for word in decrypted.split(' '):
-                if is_word(self.validwords,word):
+                if is_word(self.validwords, word):
                     validwords += 1
             if self.maxvalidwords < validwords:
                 self.maxvalidwords = validwords
-                self.decryptedmsg = (26 - each,decrypted)
+                self.decryptedmsg = (26 - each, decrypted)
         return self.decryptedmsg
 
 
@@ -272,4 +272,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
