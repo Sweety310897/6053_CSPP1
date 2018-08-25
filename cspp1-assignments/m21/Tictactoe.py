@@ -35,12 +35,14 @@ def rowchec_k(temp3):
         return temp3[1][0]
     if temp3[2][0] == temp3[2][1] == temp3[2][2]:
         return temp3[2][0]
-def colchec_k(temp3): to check cols
+def colchec_k(temp3):
+    '''
+    This is to check cols
     '''
     if temp3[0][0] == temp3[1][0] == temp3[2][0]:
         return temp3[0][0]
     if temp3[0][1] == temp3[1][1] == temp3[2][1]:
-[0][1]
+        return temp3[0][1]
     if temp3[0][2] == temp3[1][2] == temp3[2][2]:
         return temp3[0][2]
 def diag_check(temp3):
@@ -50,7 +52,7 @@ def diag_check(temp3):
     if temp3[0][0] == temp3[1][1] == temp3[2][2]:
         return temp3[0][0]
     if temp3[0][2] == temp3[1][1] == temp3[2][0]:
-[0][2]
+        return temp3[0][2]
 def is_valid_input(temp3):
     for i in temp3:
         for j in i:
