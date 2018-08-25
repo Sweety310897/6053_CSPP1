@@ -64,13 +64,18 @@ def is_valid_input(temp3):
 def is_valid_game(temp3):
     count = 0
     sum1 = 0
+    count_d = 0
     for i in temp3:
         for j in i:
             if j == "x":
                 count += 1
             if j == "o":
                 sum1 += 1
+            if j == ".":
+                count_d += 1
     if abs(count - sum1 >=2):
+        return False
+    elif abs(count - sum1 == 0) and count_d > 0:
         return False
     return True
 
