@@ -13,7 +13,9 @@ def clean_string(string):
     numbers_range = "0123456789"
     temp_result = ""
     for each in string:
-        if each in lower_case or if each in numbers:
+        if each in lower_case:
+            temp_result += each
+        if each in numbers_range:
             temp_result += each
     return temp_result
 def main():
