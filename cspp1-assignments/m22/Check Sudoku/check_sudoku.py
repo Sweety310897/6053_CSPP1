@@ -40,6 +40,15 @@ def check_sudoku(sudoku):
         sudoku[3][1] == sudoku[5][1] or sudoku[3][1] == sudoku[6][1] or 
         sudoku[3][1] == sudoku[7][1] or sudoku[3][1] == sudoku[8][1]):
         return False
+    # if (sudoku[2][8] == sudoku[2][0] or sudoku[2][8] == sudoku[2][1] or
+    #     sudoku[2][8] == sudoku[3][3] or sudoku[2][8] == sudoku[2][4] or
+    #     sudoku[2][8] == sudoku[3][5] or sudoku[2][8] == sudoku[3][6] or 
+    #     sudoku[2][8] == sudoku[3][7] or sudoku[2][8] == sudoku[3][8] or 
+    #     sudoku[2][8] == sudoku[0][1] or sudoku[2][8] == sudoku[1][1] or
+    #     sudoku[2][8] == sudoku[2][1] or sudoku[2][8] == sudoku[4][1] or
+    #     sudoku[2][8] == sudoku[5][1] or sudoku[2][8] == sudoku[6][1] or 
+    #     sudoku[2][8] == sudoku[7][1] or sudoku[2][8] == sudoku[8][1]):
+    #     return False
 
     else:
         return True
@@ -52,6 +61,16 @@ def check_sudoku(sudoku):
 # 9 7 8 2 5 4 6 3 1
 # 5 6 2 3 1 8 4 9 7
 # 4 1 3 9 7 6 2 5 8
+# 4 3 5 2 6 9 7 10 1
+# 6 8 2 5 7 1 4 9 3
+# 1 9 7 8 3 4 5 6 2
+# 8 2 6 1 9 5 3 4 7
+# 3 7 4 6 8 2 9 1 5
+# 9 5 1 7 4 3 6 8 2
+# 5 1 9 3 2 6 8 7 4
+# 2 4 8 9 5 7 1 3 6
+# 7 6 3 4 1 8 2 5 9
+
 
 
 def main():
