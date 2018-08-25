@@ -57,95 +57,8 @@ def get_story_string():
     return story
 
 WORDLIST_FILENAME = 'words.txt'
+
 class Message(object):
-    ''' Grader's Implementation of Message Object '''
-
-    ### DO NOT MODIFY THIS METHOD ###
-    def __init__(self, text):
-        '''
-        Initializes a Message object
-
-        text (string): the message's text
-
-        a Message object has two attributes:
-            self.message_text (string, determined by input text)
-            self.valid_words (list, determined using helper function load_words
-        '''
-        self.message_text = text
-        self.valid_words = load_words("words.txt")
-        self.shift_dict = {}
-
-    ### DO NOT MODIFY THIS METHOD ###
-    def get_message_text(self):
-        '''
-        Used to safely access self.message_text outside of the class
-
-        Returns: self.message_text
-        '''
-        return self.message_text
-
-    ### DO NOT MODIFY THIS METHOD ###
-    def get_valid_words(self):
-        '''
-        Used to safely access a copy of self.valid_words outside of the class
-
-        Returns: a COPY of self.valid_words
-        '''
-        return self.valid_words[:]
-
-    def build_shift_dict(self, shift):
-        '''
-        Creates a dictionary that can be used to apply a cipher to a letter.
-        The dictionary maps every uppercase and lowercase letter to a
-        character shifted down the alphabet by the input shift. The dictionary
-        should have 52 keys of all the uppercase letters and all the lowercase
-        letters only.
-
-        shift (integer): the amount by which to shift every letter of the
-        alphabet. 0 <= shift < 26
-
-        Returns: a dictionary mapping a letter (string) to
-                 another letter (string).
-        '''
-        lower_keys = list(string.ascii_lowercase)
-        lower_values = list(string.ascii_lowercase)
-        shift_lower_values = lower_values[shift:] + lower_values[:shift]
-
-        upper_keys = list(string.ascii_uppercase)
-        upper_values = list(string.ascii_uppercase)
-        upper_shift_values = upper_values[shift:] + upper_values[:shift]
-
-        full_keys = lower_keys + upper_keys
-        full_values = shift_lower_values + upper_shift_values
-
-        self.shift_dict = dict(zip(full_keys, full_values))
-        return self.shift_dict
-
-
-    def apply_shift(self, shift):
-        '''
-        Applies the Caesar Cipher to self.message_text with the input shift.
-        Creates a new string that is self.message_text shifted down the
-        alphabet by some number of characters determined by the input shift
-
-        shift (integer): the shift with which to encrypt the message.
-        0 <= shift < 26
-
-        Returns: the message text (string) in which every character is shifted
-             down the alphabet by the input shift
-        '''
-        new_msg = []
-        for i in self.message_text:
-            if i not in self.build_shift_dict(shift).keys():
-                new_msg.append(i)
-                continue
-            else:
-                new_msg.append(self.build_shift_dict(shift)[i])
-        return ''.join(new_msg)
-
-### Helper code End
-
-
     ''' Message object '''
     ### DO NOT MODIFY THIS METHOD ###
     def __init__(self, text):
@@ -315,7 +228,12 @@ class CiphertextMessage(Message):
             self.message_text (string, determined by input text)
             self.valid_words (list, determined using helper function load_words)
         '''
-        pass
+        self.message = text
+        self.validwords = load_words("words.txt")[:]
+        self.maxvalidwords = 0
+        Message.__init__(self,text)
+        self.decryptedmsg = ()
+
 
     def decrypt_message(self):
         '''
@@ -333,7 +251,17 @@ class CiphertextMessage(Message):
         Returns: a tuple of the best shift value used to decrypt the message
         and the decrypted message text using that shift value
         '''
-        pass
+        for each in range(27):
+            message = PlaintextMessage(self.message_text,each)
+            decrypted = message.get_message_text_encrypted()
+            validwords = 0
+            for word in decrypted.split(' '):
+                if is_word(self.validwords,word):
+                    validwords += 1
+            if self.maxvalidwords < validwords:
+                self.maxvalidwords = validwords
+                self.decryptedmsg = (26 - each,decrypted)
+        return self.decryptedmsg
 
 
 ### DO NOT MODIFY THIS METHOD ###
