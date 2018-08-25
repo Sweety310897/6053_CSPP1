@@ -64,7 +64,7 @@ def search(search_index, query):
                     dict1[eachword] = {list1[dictvalues][0]}
                 if eachword in dict1:
                     dict1[eachword].add(list1[dictvalues][0])
-    print(dict1)
+    return dict1
 
 
 
