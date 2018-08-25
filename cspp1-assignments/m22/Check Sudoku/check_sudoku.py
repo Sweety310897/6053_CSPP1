@@ -22,7 +22,17 @@ def check_sudoku(sudoku):
         sudoku[0][0] == sudoku[5][0] or sudoku[0][0] == sudoku[6][0] or 
         sudoku[0][0] == sudoku[7][0] or sudoku[0][0] == sudoku[8][0]):
         return False
-
+    if (sudoku[0][1] == sudoku[0][0] or sudoku[0][0] == sudoku[0][2] or
+        sudoku[0][1] == sudoku[0][3] or sudoku[0][0] == sudoku[0][4] or
+        sudoku[0][1] == sudoku[0][5] or sudoku[0][0] == sudoku[0][6] or 
+        sudoku[0][1] == sudoku[0][7] or sudoku[0][0] == sudoku[0][8] or 
+        sudoku[0][1] == sudoku[1][1] or sudoku[0][0] == sudoku[2][1] or
+        sudoku[0][1] == sudoku[3][1] or sudoku[0][0] == sudoku[4][1] or
+        sudoku[0][1] == sudoku[5][1] or sudoku[0][0] == sudoku[6][1] or 
+        sudoku[0][1] == sudoku[7][1] or sudoku[0][0] == sudoku[8][1]):
+        return False
+    else:
+        return True
 
 
 def main():
