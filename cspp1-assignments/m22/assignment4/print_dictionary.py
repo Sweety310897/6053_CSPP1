@@ -5,7 +5,22 @@ the key and frequency with a SPACE - SPACE.
 '''
 
 def print_dictionary(dictionary):
-    pass
+    dic1 = str(dictionary)
+    for 
+# {'lorem': 2, 'ipsum': 2, 'porem': 2}
+# ipsum - 2
+# lorem - 2
+# porem - 2
+
+# {'This': 1, 'is': 1, 'assignment': 1, '3': 1, 'in': 1, 'Week': 1, '4': 1, 'Exam': 1}
+# 3 - 1
+# 4 - 1
+# Exam - 1
+# This - 1
+# Week - 1
+# assignment - 1
+# in - 1
+# is - 1
 
 def main():
     dictionary = eval(input())

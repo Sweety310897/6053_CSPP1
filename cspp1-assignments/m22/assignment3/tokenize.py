@@ -3,6 +3,9 @@ Write a function to tokenize a given string and return a dictionary with the fre
 each word
 '''
 def tokenize(string):
+    '''
+    This function is to tokenize
+    '''
     pass
 def main():
     '''
