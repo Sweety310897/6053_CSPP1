@@ -3,13 +3,13 @@ Write a function to tokenize a given string and return a dictionary with the fre
 each word
 '''
 def tokenize(string):
-    pass    
+    pass
 def main():
     '''
     This is main function
     '''
     noof_lines = int(input())
-    for number_user in range(noof_lines):
+    for _ in range(noof_lines):
         words_input = input()
         #temp10.append(words_input)
     words_input = words_input.split()
