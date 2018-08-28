@@ -1,8 +1,12 @@
 import java.util.Scanner;
-//import java.math.io.*;
+//
+// import java.math.io.*;
+//
 public class Solution {
 	/*
 	Do not modify this main function.
+	
+	@param      args  The arguments
 	*/
 	public static void main(String[] args) {
 	/*
@@ -16,6 +20,10 @@ public class Solution {
 	}
 	/*
 	Need to write the rootsOfQuadraticEquation function and print the output.
+	
+	@param      a     { parameter_description }
+	@param      b     { parameter_description }
+	@param      c     { parameter_description }
 	*/
 	public static void rootsOfQuadraticEquation(int a,int b, int c)
 	{
