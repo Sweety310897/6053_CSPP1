@@ -7,7 +7,7 @@ public final class Solution {
      * Constructs the object.
      */
     private Solution() {
-        //constructor is used   
+        //constructor is used
     }
     /**
     Do not modify this main function.
