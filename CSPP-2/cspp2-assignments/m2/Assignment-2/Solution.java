@@ -2,10 +2,15 @@ import java.util.Scanner;
 //
 // import java.math.io.*;
 //
-/**
- * Class for solution.
- */
+// /**
+//  * Class for solution. */
 public final class Solution {
+    /**
+     * Constructs the object.
+     */
+    private Solution() {
+        //constructor is used   
+    }
     /**
     Do not modify this main function.
     @param      args  The arguments
