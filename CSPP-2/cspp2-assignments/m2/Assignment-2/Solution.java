@@ -7,7 +7,7 @@ import java.util.Scanner;
  */
 public final class Solution {
     /**
-    Do not modify this main function
+    Do not modify this main function.
     @param      args  The arguments
     */
     public static void main(final String[] args) {
@@ -26,8 +26,7 @@ public final class Solution {
     @param      b     { parameter_description }
     @param      c     { parameter_description }
     */
-    public static void roots(final int a, final int b, final int c)
-    {
+    public static void roots(final int a, final int b, final int c) {
         double temp1 = (-b + (Math.sqrt((b * b) - (2 * 2 * a *c))))/(2 * a);
         double temp2 = (-b - (Math.sqrt((b * b) - (2 * 2 * a *c))))/(2 * a);
         System.out.println(temp1 + " " + temp2);
