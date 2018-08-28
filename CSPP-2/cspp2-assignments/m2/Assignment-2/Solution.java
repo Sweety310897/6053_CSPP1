@@ -2,6 +2,9 @@ import java.util.Scanner;
 //
 // import java.math.io.*;
 //
+/**
+ * Class for solution.
+ */
 public class Solution {
 	/*
 	Do not modify this main function.
