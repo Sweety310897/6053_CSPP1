@@ -5,6 +5,9 @@ public class Solution {
 	Do not modify this main function.
 	*/
 	public static void main(String[] args) {
+	/*
+	This is main function 
+	*/
 		Scanner scan = new Scanner(System.in);
 		int a = scan.nextInt();
 		int b = scan.nextInt();
