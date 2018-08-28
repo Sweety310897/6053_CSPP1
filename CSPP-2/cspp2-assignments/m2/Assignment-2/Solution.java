@@ -12,13 +12,13 @@ public final class Solution {
     */
     public static void main(final String[] args) {
     /*
-    This is main function 
+    This is main function
     */
         Scanner scan = new Scanner(System.in);
         int a = scan.nextInt();
         int b = scan.nextInt();
         int c = scan.nextInt();
-        rootsOfQuadraticEquation(a, b, c);
+        roots(a, b, c);
     }
     /**
     Need to write the rootsOfQuadraticEquation function and print the output.
@@ -26,7 +26,7 @@ public final class Solution {
     @param      b     { parameter_description }
     @param      c     { parameter_description }
     */
-    public static void rootsOfQuadraticEquation(final int a, final int b, final int c)
+    public static void roots(final int a, final int b, final int c)
     {
         double temp1 = (-b + (Math.sqrt((b * b) - (2 * 2 * a *c))))/(2 * a);
         double temp2 = (-b - (Math.sqrt((b * b) - (2 * 2 * a *c))))/(2 * a);
