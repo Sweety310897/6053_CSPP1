@@ -1,9 +1,7 @@
 import java.util.Scanner;
-//
-// import java.math.io.*;
-//
-// /**
-//  * Class for solution. */
+/**
+ * Class for Solution.
+ */
 public final class Solution {
     /**
      * Constructs the object.
