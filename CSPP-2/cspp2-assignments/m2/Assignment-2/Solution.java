@@ -5,13 +5,13 @@ import java.util.Scanner;
 /**
  * Class for solution.
  */
-public class Solution {
-	/*
+public final class Solution {
+	/**
 	Do not modify this main function.
 	
 	@param      args  The arguments
 	*/
-	public static void main(String[] args) {
+	public static void main(final String[] args) {
 	/*
 	This is main function 
 	*/
@@ -21,17 +21,17 @@ public class Solution {
 		int c = scan.nextInt();
 		rootsOfQuadraticEquation(a, b, c);
 	}
-	/*
+	/**
 	Need to write the rootsOfQuadraticEquation function and print the output.
 	
 	@param      a     { parameter_description }
 	@param      b     { parameter_description }
 	@param      c     { parameter_description }
 	*/
-	public static void rootsOfQuadraticEquation(int a, int b, int c)
+	public static void rootsOfQuadraticEquation(final int a, final int b, final int c)
 	{
 		double temp1 = (-b + (Math.sqrt((b * b) - (2 * 2 * a *c))))/(2 * a);
 		double temp2 = (-b - (Math.sqrt((b * b) - (2 * 2 * a *c))))/(2 * a);
-		System.out.println(temp1+ " " + temp2);
+		System.out.println(temp1 + " " + temp2);
 	}
 }
