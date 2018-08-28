@@ -28,10 +28,10 @@ public class Solution {
 	@param      b     { parameter_description }
 	@param      c     { parameter_description }
 	*/
-	public static void rootsOfQuadraticEquation(int a,int b, int c)
+	public static void rootsOfQuadraticEquation(int a, int b, int c)
 	{
-		double temp1 = (-b + (Math.sqrt((b * b) - (4 * a *c))))/(2 * a);
-		double temp2 = (-b - (Math.sqrt((b * b) - (4 * a *c))))/(2 * a);
+		double temp1 = (-b + (Math.sqrt((b * b) - (2 * 2 * a *c))))/(2 * a);
+		double temp2 = (-b - (Math.sqrt((b * b) - (2 * 2 * a *c))))/(2 * a);
 		System.out.println(temp1+ " " + temp2);
 	}
 }
