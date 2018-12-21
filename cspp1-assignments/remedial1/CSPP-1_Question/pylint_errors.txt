@@ -1,10 +1,9 @@
 ************* Module Solution
-Solution.py:13:0: C0303: Trailing whitespace (trailing-whitespace)
-Solution.py:15:0: C0304: Final newline missing (missing-final-newline)
+Solution.py:14:0: C0304: Final newline missing (missing-final-newline)
 Solution.py:1:0: C0103: Module name "Solution" doesn't conform to snake_case naming style (invalid-name)
 Solution.py:1:0: C0111: Missing module docstring (missing-docstring)
-Solution.py:1:0: C0111: Missing function docstring (missing-docstring)
+Solution.py:2:0: C0111: Missing function docstring (missing-docstring)
 
 ------------------------------------------------------------------
-Your code has been rated at 5.00/10 (previous run: 4.00/10, +1.00)
+Your code has been rated at 6.00/10 (previous run: 5.00/10, +1.00)
 

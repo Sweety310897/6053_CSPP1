@@ -1,3 +1,4 @@
+#python sudoku pgm.
 def main():
     inpu_t = input()
     #temp = 0123456789"
@@ -9,7 +10,5 @@ def main():
     #print(count)
     if coun_t == 81:
         print("Given sudoku is solved")
-
-     
 if __name__ == '__main__':
     main()
