@@ -1,6 +1,4 @@
-************* Module solutio_n
-solutio_n.py:19:0: C0304: Final newline missing (missing-final-newline)
 
-------------------------------------------------------------------
-Your code has been rated at 9.00/10 (previous run: 8.00/10, +1.00)
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 9.00/10, +1.00)
 
