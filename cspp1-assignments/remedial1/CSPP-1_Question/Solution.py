@@ -1,5 +1,6 @@
 '''this is main
     pgm'''
+#main function.
 def main():
     inpu_t = input()
     #temp = 0123456789"
