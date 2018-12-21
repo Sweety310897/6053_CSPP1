@@ -6,5 +6,5 @@ solutio_n.py:11:4: W0612: Unused variable 'temp1' (unused-variable)
 solutio_n.py:1:0: W0611: Unused Counter imported from collections (unused-import)
 
 ------------------------------------------------------------------
-Your code has been rated at 6.43/10 (previous run: 7.50/10, -1.07)
+Your code has been rated at 6.88/10 (previous run: 6.43/10, +0.45)
 

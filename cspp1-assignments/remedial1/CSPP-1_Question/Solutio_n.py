@@ -16,6 +16,8 @@ def main():
     for each in inpu_t:
         if int(each) >= 1 and int(each) <= 9:
             coun_t = coun_t + 1
+        if len(inpu_t) < 81:
+            print("Invalid input")
     #print(count)
     if coun_t == 81:
         print("Given sudoku is solved")
