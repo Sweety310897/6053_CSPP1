@@ -1,9 +1,10 @@
 ************* Module solutio_n
 solutio_n.py:1:0: C0111: Missing module docstring (missing-docstring)
 solutio_n.py:3:-1: W0105: String statement has no effect (pointless-string-statement)
+solutio_n.py:10:4: W0612: Unused variable 'list1' (unused-variable)
 solutio_n.py:11:4: W0612: Unused variable 'temp1' (unused-variable)
 solutio_n.py:1:0: W0611: Unused Counter imported from collections (unused-import)
 
--------------------------------------------------------------------
-Your code has been rated at 7.50/10 (previous run: 10.00/10, -2.50)
+------------------------------------------------------------------
+Your code has been rated at 6.43/10 (previous run: 7.50/10, -1.07)
 
