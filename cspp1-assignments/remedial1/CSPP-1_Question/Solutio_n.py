@@ -15,5 +15,7 @@ def main():
     #print(count)
     if coun_t == 81:
         print("Given sudoku is solved")
+    temp = inpu_t.split(".")
+    print(temp)
 if __name__ == '__main__':
     main()
