@@ -20,9 +20,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "solutio_n.py", line 33, in <module>
+  File "solutio_n.py", line 35, in <module>
     main()
-  File "solutio_n.py", line 17, in main
+  File "solutio_n.py", line 20, in main
     if int(each) >= 1 and int(each) <= 9:
 ValueError: invalid literal for int() with base 10: '.'
 ----------------------------------------
@@ -41,9 +41,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "solutio_n.py", line 33, in <module>
+  File "solutio_n.py", line 35, in <module>
     main()
-  File "solutio_n.py", line 17, in main
+  File "solutio_n.py", line 20, in main
     if int(each) >= 1 and int(each) <= 9:
 ValueError: invalid literal for int() with base 10: '.'
 ----------------------------------------
@@ -56,9 +56,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "solutio_n.py", line 33, in <module>
+  File "solutio_n.py", line 35, in <module>
     main()
-  File "solutio_n.py", line 17, in main
+  File "solutio_n.py", line 20, in main
     if int(each) >= 1 and int(each) <= 9:
 ValueError: invalid literal for int() with base 10: '.'
 ----------------------------------------
@@ -71,9 +71,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "solutio_n.py", line 33, in <module>
+  File "solutio_n.py", line 35, in <module>
     main()
-  File "solutio_n.py", line 17, in main
+  File "solutio_n.py", line 20, in main
     if int(each) >= 1 and int(each) <= 9:
 ValueError: invalid literal for int() with base 10: '.'
 ----------------------------------------
@@ -92,9 +92,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "solutio_n.py", line 33, in <module>
+  File "solutio_n.py", line 35, in <module>
     main()
-  File "solutio_n.py", line 17, in main
+  File "solutio_n.py", line 20, in main
     if int(each) >= 1 and int(each) <= 9:
 ValueError: invalid literal for int() with base 10: '.'
 ----------------------------------------
@@ -113,9 +113,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "solutio_n.py", line 33, in <module>
+  File "solutio_n.py", line 35, in <module>
     main()
-  File "solutio_n.py", line 17, in main
+  File "solutio_n.py", line 20, in main
     if int(each) >= 1 and int(each) <= 9:
 ValueError: invalid literal for int() with base 10: '.'
 ----------------------------------------
@@ -134,9 +134,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "solutio_n.py", line 33, in <module>
+  File "solutio_n.py", line 35, in <module>
     main()
-  File "solutio_n.py", line 17, in main
+  File "solutio_n.py", line 20, in main
     if int(each) >= 1 and int(each) <= 9:
 ValueError: invalid literal for int() with base 10: '.'
 ----------------------------------------
@@ -155,9 +155,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "solutio_n.py", line 33, in <module>
+  File "solutio_n.py", line 35, in <module>
     main()
-  File "solutio_n.py", line 17, in main
+  File "solutio_n.py", line 20, in main
     if int(each) >= 1 and int(each) <= 9:
 ValueError: invalid literal for int() with base 10: '.'
 ----------------------------------------
@@ -176,9 +176,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "solutio_n.py", line 33, in <module>
+  File "solutio_n.py", line 35, in <module>
     main()
-  File "solutio_n.py", line 17, in main
+  File "solutio_n.py", line 20, in main
     if int(each) >= 1 and int(each) <= 9:
 ValueError: invalid literal for int() with base 10: '.'
 ----------------------------------------
@@ -197,9 +197,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "solutio_n.py", line 33, in <module>
+  File "solutio_n.py", line 35, in <module>
     main()
-  File "solutio_n.py", line 17, in main
+  File "solutio_n.py", line 20, in main
     if int(each) >= 1 and int(each) <= 9:
 ValueError: invalid literal for int() with base 10: '.'
 ----------------------------------------
@@ -218,9 +218,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "solutio_n.py", line 33, in <module>
+  File "solutio_n.py", line 35, in <module>
     main()
-  File "solutio_n.py", line 17, in main
+  File "solutio_n.py", line 20, in main
     if int(each) >= 1 and int(each) <= 9:
 ValueError: invalid literal for int() with base 10: '.'
 ----------------------------------------
@@ -239,9 +239,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "solutio_n.py", line 33, in <module>
+  File "solutio_n.py", line 35, in <module>
     main()
-  File "solutio_n.py", line 17, in main
+  File "solutio_n.py", line 20, in main
     if int(each) >= 1 and int(each) <= 9:
 ValueError: invalid literal for int() with base 10: '.'
 ----------------------------------------
@@ -260,9 +260,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "solutio_n.py", line 33, in <module>
+  File "solutio_n.py", line 35, in <module>
     main()
-  File "solutio_n.py", line 17, in main
+  File "solutio_n.py", line 20, in main
     if int(each) >= 1 and int(each) <= 9:
 ValueError: invalid literal for int() with base 10: '.'
 ----------------------------------------
@@ -290,9 +290,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "solutio_n.py", line 33, in <module>
+  File "solutio_n.py", line 35, in <module>
     main()
-  File "solutio_n.py", line 17, in main
+  File "solutio_n.py", line 20, in main
     if int(each) >= 1 and int(each) <= 9:
 ValueError: invalid literal for int() with base 10: '.'
 ----------------------------------------
@@ -334,9 +334,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "solutio_n.py", line 33, in <module>
+  File "solutio_n.py", line 35, in <module>
     main()
-  File "solutio_n.py", line 17, in main
+  File "solutio_n.py", line 20, in main
     if int(each) >= 1 and int(each) <= 9:
 ValueError: invalid literal for int() with base 10: '.'
 ----------------------------------------
@@ -347,33 +347,19 @@ Invalid Sudoku:Duplicate values
 
 Your Output: 
 Traceback (most recent call last):
-  File "solutio_n.py", line 33, in <module>
+  File "solutio_n.py", line 35, in <module>
     main()
-  File "solutio_n.py", line 17, in main
+  File "solutio_n.py", line 20, in main
     if int(each) >= 1 and int(each) <= 9:
 ValueError: invalid literal for int() with base 10: '.'
 ----------------------------------------
 
-########## Testcase 17: Failed ##########
+########## Testcase 17: Passed ##########
 Expected Output: 
 Invalid input
 
 Your Output: 
 Invalid input
-Invalid input
-Invalid input
-Invalid input
-Invalid input
-Invalid input
-Invalid input
-Invalid input
-Invalid input
-Traceback (most recent call last):
-  File "solutio_n.py", line 33, in <module>
-    main()
-  File "solutio_n.py", line 17, in main
-    if int(each) >= 1 and int(each) <= 9:
-ValueError: invalid literal for int() with base 10: '.'
 ----------------------------------------
 
 ########## Testcase 18: Failed ##########
@@ -382,9 +368,9 @@ Invalid Sudoku:Duplicate values
 
 Your Output: 
 Traceback (most recent call last):
-  File "solutio_n.py", line 33, in <module>
+  File "solutio_n.py", line 35, in <module>
     main()
-  File "solutio_n.py", line 17, in main
+  File "solutio_n.py", line 20, in main
     if int(each) >= 1 and int(each) <= 9:
 ValueError: invalid literal for int() with base 10: '.'
 ----------------------------------------
@@ -458,55 +444,19 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "solutio_n.py", line 33, in <module>
+  File "solutio_n.py", line 35, in <module>
     main()
-  File "solutio_n.py", line 17, in main
+  File "solutio_n.py", line 20, in main
     if int(each) >= 1 and int(each) <= 9:
 ValueError: invalid literal for int() with base 10: '.'
 ----------------------------------------
 
-########## Testcase 20: Failed ##########
+########## Testcase 20: Passed ##########
 Expected Output: 
 Invalid input
 
 Your Output: 
 Invalid input
-Invalid input
-Invalid input
-Invalid input
-Invalid input
-Invalid input
-Invalid input
-Invalid input
-Invalid input
-Invalid input
-Invalid input
-Invalid input
-Invalid input
-Invalid input
-Invalid input
-Invalid input
-Invalid input
-Invalid input
-Invalid input
-Invalid input
-Invalid input
-Invalid input
-Invalid input
-Invalid input
-Invalid input
-Invalid input
-Invalid input
-Invalid input
-Invalid input
-Invalid input
-Invalid input
-Traceback (most recent call last):
-  File "solutio_n.py", line 33, in <module>
-    main()
-  File "solutio_n.py", line 17, in main
-    if int(each) >= 1 and int(each) <= 9:
-ValueError: invalid literal for int() with base 10: '.'
 ----------------------------------------
 
 ########## Testcase 21: Failed ##########
@@ -565,9 +515,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "solutio_n.py", line 33, in <module>
+  File "solutio_n.py", line 35, in <module>
     main()
-  File "solutio_n.py", line 17, in main
+  File "solutio_n.py", line 20, in main
     if int(each) >= 1 and int(each) <= 9:
 ValueError: invalid literal for int() with base 10: '.'
 ----------------------------------------
@@ -635,9 +585,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "solutio_n.py", line 33, in <module>
+  File "solutio_n.py", line 35, in <module>
     main()
-  File "solutio_n.py", line 17, in main
+  File "solutio_n.py", line 20, in main
     if int(each) >= 1 and int(each) <= 9:
 ValueError: invalid literal for int() with base 10: '.'
 ----------------------------------------
@@ -671,9 +621,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "solutio_n.py", line 33, in <module>
+  File "solutio_n.py", line 35, in <module>
     main()
-  File "solutio_n.py", line 17, in main
+  File "solutio_n.py", line 20, in main
     if int(each) >= 1 and int(each) <= 9:
 ValueError: invalid literal for int() with base 10: '.'
 ----------------------------------------
@@ -720,9 +670,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "solutio_n.py", line 33, in <module>
+  File "solutio_n.py", line 35, in <module>
     main()
-  File "solutio_n.py", line 17, in main
+  File "solutio_n.py", line 20, in main
     if int(each) >= 1 and int(each) <= 9:
 ValueError: invalid literal for int() with base 10: '.'
 ----------------------------------------
