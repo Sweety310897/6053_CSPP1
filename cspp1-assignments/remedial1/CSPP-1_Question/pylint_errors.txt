@@ -1,7 +1,6 @@
-************* Module Solutio_n
-Solutio_n.py:22:0: C0305: Trailing newlines (trailing-newlines)
-Solutio_n.py:1:0: C0103: Module name "Solutio_n" doesn't conform to snake_case naming style (invalid-name)
+************* Module solutio_n
+solutio_n.py:19:0: C0304: Final newline missing (missing-final-newline)
 
------------------------------------
-Your code has been rated at 8.00/10
+------------------------------------------------------------------
+Your code has been rated at 9.00/10 (previous run: 8.00/10, +1.00)
 

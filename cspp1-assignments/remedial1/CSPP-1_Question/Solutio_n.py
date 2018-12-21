@@ -17,6 +17,3 @@ def main():
         print("Given sudoku is solved")
 if __name__ == '__main__':
     main()
-
-
-
