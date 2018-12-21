@@ -2,6 +2,9 @@
     pgm'''
 #main function.
 def main():
+    """
+    { item_description }
+    """
     inpu_t = input()
     #temp = 0123456789"
     coun_t = 0

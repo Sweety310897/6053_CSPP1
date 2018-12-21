@@ -1,8 +1,7 @@
 ************* Module Solution
-Solution.py:16:0: C0304: Final newline missing (missing-final-newline)
+Solution.py:19:0: C0304: Final newline missing (missing-final-newline)
 Solution.py:1:0: C0103: Module name "Solution" doesn't conform to snake_case naming style (invalid-name)
-Solution.py:4:0: C0111: Missing function docstring (missing-docstring)
 
 ------------------------------------------------------------------
-Your code has been rated at 7.00/10 (previous run: 7.00/10, +0.00)
+Your code has been rated at 8.00/10 (previous run: 7.00/10, +1.00)
 
