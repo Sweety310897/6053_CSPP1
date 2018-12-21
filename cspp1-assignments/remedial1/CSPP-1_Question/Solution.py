@@ -1,4 +1,5 @@
-#python sudoku pgm.
+'''this is main
+    pgm'''
 def main():
     inpu_t = input()
     #temp = 0123456789"
