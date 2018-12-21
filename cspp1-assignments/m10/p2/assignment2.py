@@ -47,7 +47,7 @@ def hangman(secretWord):
     print("hangman game started")
     print("iam thinking of a word that is ", guess, "letters long")
     while guess > 0:
-        print("You have", guesses , "left")
+        print("You have", guess , "left")
         print("available letters", + availableletter(letters))
         guess -= 1
 
