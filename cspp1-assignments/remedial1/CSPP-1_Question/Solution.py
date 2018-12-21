@@ -4,7 +4,7 @@ def main():
     count = 0
     #print(len(inpu_t))
     for each in inpu_t:
-        if int(each) >=1 and int(each) <=9:
+        if int(each) >= 1 and int(each) <= 9:
             count = count + 1
     #print(count)
     if(count == 81):

@@ -23,7 +23,7 @@ Traceback (most recent call last):
   File "Solution.py", line 15, in <module>
     main()
   File "Solution.py", line 7, in main
-    if int(each) >=1 and int(each) <=9:
+    if int(each) >= 1 and int(each) <= 9:
 ValueError: invalid literal for int() with base 10: '.'
 ----------------------------------------
 
@@ -44,7 +44,7 @@ Traceback (most recent call last):
   File "Solution.py", line 15, in <module>
     main()
   File "Solution.py", line 7, in main
-    if int(each) >=1 and int(each) <=9:
+    if int(each) >= 1 and int(each) <= 9:
 ValueError: invalid literal for int() with base 10: '.'
 ----------------------------------------
 
@@ -59,7 +59,7 @@ Traceback (most recent call last):
   File "Solution.py", line 15, in <module>
     main()
   File "Solution.py", line 7, in main
-    if int(each) >=1 and int(each) <=9:
+    if int(each) >= 1 and int(each) <= 9:
 ValueError: invalid literal for int() with base 10: '.'
 ----------------------------------------
 
@@ -74,7 +74,7 @@ Traceback (most recent call last):
   File "Solution.py", line 15, in <module>
     main()
   File "Solution.py", line 7, in main
-    if int(each) >=1 and int(each) <=9:
+    if int(each) >= 1 and int(each) <= 9:
 ValueError: invalid literal for int() with base 10: '.'
 ----------------------------------------
 
@@ -95,7 +95,7 @@ Traceback (most recent call last):
   File "Solution.py", line 15, in <module>
     main()
   File "Solution.py", line 7, in main
-    if int(each) >=1 and int(each) <=9:
+    if int(each) >= 1 and int(each) <= 9:
 ValueError: invalid literal for int() with base 10: '.'
 ----------------------------------------
 
@@ -116,7 +116,7 @@ Traceback (most recent call last):
   File "Solution.py", line 15, in <module>
     main()
   File "Solution.py", line 7, in main
-    if int(each) >=1 and int(each) <=9:
+    if int(each) >= 1 and int(each) <= 9:
 ValueError: invalid literal for int() with base 10: '.'
 ----------------------------------------
 
@@ -137,7 +137,7 @@ Traceback (most recent call last):
   File "Solution.py", line 15, in <module>
     main()
   File "Solution.py", line 7, in main
-    if int(each) >=1 and int(each) <=9:
+    if int(each) >= 1 and int(each) <= 9:
 ValueError: invalid literal for int() with base 10: '.'
 ----------------------------------------
 
@@ -158,7 +158,7 @@ Traceback (most recent call last):
   File "Solution.py", line 15, in <module>
     main()
   File "Solution.py", line 7, in main
-    if int(each) >=1 and int(each) <=9:
+    if int(each) >= 1 and int(each) <= 9:
 ValueError: invalid literal for int() with base 10: '.'
 ----------------------------------------
 
@@ -179,7 +179,7 @@ Traceback (most recent call last):
   File "Solution.py", line 15, in <module>
     main()
   File "Solution.py", line 7, in main
-    if int(each) >=1 and int(each) <=9:
+    if int(each) >= 1 and int(each) <= 9:
 ValueError: invalid literal for int() with base 10: '.'
 ----------------------------------------
 
@@ -200,7 +200,7 @@ Traceback (most recent call last):
   File "Solution.py", line 15, in <module>
     main()
   File "Solution.py", line 7, in main
-    if int(each) >=1 and int(each) <=9:
+    if int(each) >= 1 and int(each) <= 9:
 ValueError: invalid literal for int() with base 10: '.'
 ----------------------------------------
 
@@ -221,7 +221,7 @@ Traceback (most recent call last):
   File "Solution.py", line 15, in <module>
     main()
   File "Solution.py", line 7, in main
-    if int(each) >=1 and int(each) <=9:
+    if int(each) >= 1 and int(each) <= 9:
 ValueError: invalid literal for int() with base 10: '.'
 ----------------------------------------
 
@@ -242,7 +242,7 @@ Traceback (most recent call last):
   File "Solution.py", line 15, in <module>
     main()
   File "Solution.py", line 7, in main
-    if int(each) >=1 and int(each) <=9:
+    if int(each) >= 1 and int(each) <= 9:
 ValueError: invalid literal for int() with base 10: '.'
 ----------------------------------------
 
@@ -263,7 +263,7 @@ Traceback (most recent call last):
   File "Solution.py", line 15, in <module>
     main()
   File "Solution.py", line 7, in main
-    if int(each) >=1 and int(each) <=9:
+    if int(each) >= 1 and int(each) <= 9:
 ValueError: invalid literal for int() with base 10: '.'
 ----------------------------------------
 
@@ -293,7 +293,7 @@ Traceback (most recent call last):
   File "Solution.py", line 15, in <module>
     main()
   File "Solution.py", line 7, in main
-    if int(each) >=1 and int(each) <=9:
+    if int(each) >= 1 and int(each) <= 9:
 ValueError: invalid literal for int() with base 10: '.'
 ----------------------------------------
 
@@ -337,7 +337,7 @@ Traceback (most recent call last):
   File "Solution.py", line 15, in <module>
     main()
   File "Solution.py", line 7, in main
-    if int(each) >=1 and int(each) <=9:
+    if int(each) >= 1 and int(each) <= 9:
 ValueError: invalid literal for int() with base 10: '.'
 ----------------------------------------
 
@@ -350,7 +350,7 @@ Traceback (most recent call last):
   File "Solution.py", line 15, in <module>
     main()
   File "Solution.py", line 7, in main
-    if int(each) >=1 and int(each) <=9:
+    if int(each) >= 1 and int(each) <= 9:
 ValueError: invalid literal for int() with base 10: '.'
 ----------------------------------------
 
@@ -363,7 +363,7 @@ Traceback (most recent call last):
   File "Solution.py", line 15, in <module>
     main()
   File "Solution.py", line 7, in main
-    if int(each) >=1 and int(each) <=9:
+    if int(each) >= 1 and int(each) <= 9:
 ValueError: invalid literal for int() with base 10: '.'
 ----------------------------------------
 
@@ -376,7 +376,7 @@ Traceback (most recent call last):
   File "Solution.py", line 15, in <module>
     main()
   File "Solution.py", line 7, in main
-    if int(each) >=1 and int(each) <=9:
+    if int(each) >= 1 and int(each) <= 9:
 ValueError: invalid literal for int() with base 10: '.'
 ----------------------------------------
 
@@ -452,7 +452,7 @@ Traceback (most recent call last):
   File "Solution.py", line 15, in <module>
     main()
   File "Solution.py", line 7, in main
-    if int(each) >=1 and int(each) <=9:
+    if int(each) >= 1 and int(each) <= 9:
 ValueError: invalid literal for int() with base 10: '.'
 ----------------------------------------
 
@@ -465,7 +465,7 @@ Traceback (most recent call last):
   File "Solution.py", line 15, in <module>
     main()
   File "Solution.py", line 7, in main
-    if int(each) >=1 and int(each) <=9:
+    if int(each) >= 1 and int(each) <= 9:
 ValueError: invalid literal for int() with base 10: '.'
 ----------------------------------------
 
@@ -528,7 +528,7 @@ Traceback (most recent call last):
   File "Solution.py", line 15, in <module>
     main()
   File "Solution.py", line 7, in main
-    if int(each) >=1 and int(each) <=9:
+    if int(each) >= 1 and int(each) <= 9:
 ValueError: invalid literal for int() with base 10: '.'
 ----------------------------------------
 
@@ -598,7 +598,7 @@ Traceback (most recent call last):
   File "Solution.py", line 15, in <module>
     main()
   File "Solution.py", line 7, in main
-    if int(each) >=1 and int(each) <=9:
+    if int(each) >= 1 and int(each) <= 9:
 ValueError: invalid literal for int() with base 10: '.'
 ----------------------------------------
 
@@ -634,7 +634,7 @@ Traceback (most recent call last):
   File "Solution.py", line 15, in <module>
     main()
   File "Solution.py", line 7, in main
-    if int(each) >=1 and int(each) <=9:
+    if int(each) >= 1 and int(each) <= 9:
 ValueError: invalid literal for int() with base 10: '.'
 ----------------------------------------
 
@@ -683,7 +683,7 @@ Traceback (most recent call last):
   File "Solution.py", line 15, in <module>
     main()
   File "Solution.py", line 7, in main
-    if int(each) >=1 and int(each) <=9:
+    if int(each) >= 1 and int(each) <= 9:
 ValueError: invalid literal for int() with base 10: '.'
 ----------------------------------------
 
