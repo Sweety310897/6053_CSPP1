@@ -38,7 +38,6 @@ sudoku.py:59:0: W0312: Found indentation with tabs instead of spaces (mixed-inde
 sudoku.py:66:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:73:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:74:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:75:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:76:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:77:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:80:0: C0303: Trailing whitespace (trailing-whitespace)
@@ -106,5 +105,5 @@ sudoku.py:87:2: W0612: Unused variable 'hi' (unused-variable)
 sudoku.py:93:7: W0612: Unused variable 'j' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -6.10/10 (previous run: -5.90/10, -0.20)
+Your code has been rated at -6.21/10 (previous run: -6.10/10, -0.11)
 
