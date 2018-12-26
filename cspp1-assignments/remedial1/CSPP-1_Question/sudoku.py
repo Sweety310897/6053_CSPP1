@@ -73,10 +73,10 @@ def validateinput(temp1):
 	if len(temp1) < 81:
 		raise Exception("Invalid input")
 	for i in temp1:
-		if i not in "123456789.":
-			raise Exception("invalid expressions")
-	if len(temp1) == 81:
-		raise Exception("Given sudoku is solved")
+		if i not in ".":
+			raise Exception("Given sudoku is solved")
+	# if len(temp1) == 81:
+	# 	raise Exception("Given sudoku is solved")
 	
 
 def main():
