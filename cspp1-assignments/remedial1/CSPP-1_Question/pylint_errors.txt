@@ -1,10 +1,111 @@
-************* Module solutio_n
-solutio_n.py:1:0: C0111: Missing module docstring (missing-docstring)
-solutio_n.py:3:-1: W0105: String statement has no effect (pointless-string-statement)
-solutio_n.py:10:4: W0612: Unused variable 'list1' (unused-variable)
-solutio_n.py:11:4: W0612: Unused variable 'temp1' (unused-variable)
-solutio_n.py:1:0: W0611: Unused Counter imported from collections (unused-import)
+************* Module sudoku
+sudoku.py:13:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:14:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:14:26: C0326: Exactly one space required after comma
+		temprow = getRowValues(x,sudoku)
+                          ^ (bad-whitespace)
+sudoku.py:15:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:15:30: C0326: Exactly one space required after comma
+		tempcols = getColumnValues(x,sudoku)
+                              ^ (bad-whitespace)
+sudoku.py:16:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:17:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:18:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:19:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:22:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:23:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:24:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:26:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:30:18: C0326: Exactly one space required after comma
+def getRowValues(y,sudoku):
+                  ^ (bad-whitespace)
+sudoku.py:31:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:33:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:34:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:35:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:38:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:39:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:43:21: C0326: Exactly one space required after comma
+def getColumnValues(y,sudoku):
+                     ^ (bad-whitespace)
+sudoku.py:44:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:46:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:47:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:48:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:51:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:52:0: C0303: Trailing whitespace (trailing-whitespace)
+sudoku.py:53:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:59:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:66:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:73:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:74:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:75:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:76:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:77:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:80:0: C0303: Trailing whitespace (trailing-whitespace)
+sudoku.py:83:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:84:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:85:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:86:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:87:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:89:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:91:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:91:18: C0326: Exactly one space required after comma
+		for i in range(0,81,9):
+                  ^ (bad-whitespace)
+sudoku.py:91:21: C0326: Exactly one space required after comma
+		for i in range(0,81,9):
+                     ^ (bad-whitespace)
+sudoku.py:92:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:93:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:93:19: C0326: Exactly one space required after comma
+			for j in range(0,9):
+                   ^ (bad-whitespace)
+sudoku.py:94:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:95:10: C0303: Trailing whitespace (trailing-whitespace)
+sudoku.py:95:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:96:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:99:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:100:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:101:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:102:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:121:21: C0303: Trailing whitespace (trailing-whitespace)
+sudoku.py:128:0: C0305: Trailing newlines (trailing-newlines)
+sudoku.py:11:0: C0103: Function name "validateSudoku" doesn't conform to snake_case naming style (invalid-name)
+sudoku.py:11:0: C0111: Missing function docstring (missing-docstring)
+sudoku.py:13:5: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+sudoku.py:26:1: W0107: Unnecessary pass statement (unnecessary-pass)
+sudoku.py:17:2: W0612: Unused variable 'dup2' (unused-variable)
+sudoku.py:29:-1: W0105: String statement has no effect (pointless-string-statement)
+sudoku.py:30:0: C0103: Function name "getRowValues" doesn't conform to snake_case naming style (invalid-name)
+sudoku.py:30:0: C0103: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+sudoku.py:30:0: C0111: Missing function docstring (missing-docstring)
+sudoku.py:39:1: W0101: Unreachable code (unreachable)
+sudoku.py:39:1: W0107: Unnecessary pass statement (unnecessary-pass)
+sudoku.py:42:-1: W0105: String statement has no effect (pointless-string-statement)
+sudoku.py:43:0: C0103: Function name "getColumnValues" doesn't conform to snake_case naming style (invalid-name)
+sudoku.py:43:0: C0103: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
+sudoku.py:43:0: C0111: Missing function docstring (missing-docstring)
+sudoku.py:53:1: W0101: Unreachable code (unreachable)
+sudoku.py:53:1: W0107: Unnecessary pass statement (unnecessary-pass)
+sudoku.py:57:-1: W0105: String statement has no effect (pointless-string-statement)
+sudoku.py:58:0: C0103: Function name "getGridValues" doesn't conform to snake_case naming style (invalid-name)
+sudoku.py:58:0: C0111: Missing function docstring (missing-docstring)
+sudoku.py:64:-1: W0105: String statement has no effect (pointless-string-statement)
+sudoku.py:65:0: C0103: Function name "possibleValues" doesn't conform to snake_case naming style (invalid-name)
+sudoku.py:65:0: C0111: Missing function docstring (missing-docstring)
+sudoku.py:70:-1: W0105: String statement has no effect (pointless-string-statement)
+sudoku.py:71:0: C0111: Missing function docstring (missing-docstring)
+sudoku.py:82:0: C0111: Missing function docstring (missing-docstring)
+sudoku.py:100:8: W0703: Catching too general exception Exception (broad-except)
+sudoku.py:87:2: E1111: Assigning to function call which doesn't return (assignment-from-no-return)
+sudoku.py:87:2: C0103: Variable name "hi" doesn't conform to snake_case naming style (invalid-name)
+sudoku.py:99:2: W0107: Unnecessary pass statement (unnecessary-pass)
+sudoku.py:100:1: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+sudoku.py:83:1: W0612: Unused variable 'list1' (unused-variable)
+sudoku.py:87:2: W0612: Unused variable 'hi' (unused-variable)
+sudoku.py:93:7: W0612: Unused variable 'j' (unused-variable)
 
-------------------------------------------------------------------
-Your code has been rated at 7.06/10 (previous run: 7.06/10, +0.00)
+------------------------------------
+Your code has been rated at -6.00/10
 
