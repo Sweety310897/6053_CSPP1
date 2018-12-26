@@ -22,7 +22,7 @@ def validateSudoku(sudoku):
 		#print(sudoku[x+1])
 		if sudoku[x] == sudoku[x + 1]:
 			raise Exception("Invalid Sudoku:Duplicate values")
-	#print(temp)
+	#print(sudoku)
 	pass
 """
 This  method should retunn all the values present in the ith row
