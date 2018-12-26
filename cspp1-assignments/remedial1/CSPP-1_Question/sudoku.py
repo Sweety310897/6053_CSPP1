@@ -16,12 +16,12 @@ def validateSudoku(sudoku):
 		dup1 = set(temprow)
 		dup2 = set(tempcols)
 		if len(temprow) != len(dup1):
-			raise Exception("invalid suudok")
+			raise Exception("Invalid Sudoku:Duplicate values")
 		# elif len(tempcols) != len(dup2):
 		# 	raise Exception("invalid suudokkkk")
-		print(sudoku[x+1])
+		#print(sudoku[x+1])
 		if sudoku[x] == sudoku[x + 1]:
-			raise Exception("invalid sudooooookkkkk")
+			raise Exception("Invalid Sudoku:Duplicate values")
 	#print(temp)
 	pass
 """
@@ -71,12 +71,12 @@ Then travese through each value, if you get a "." then collect the possible valu
 def validateinput(temp1):
 	#print(temp1)
 	if len(temp1) < 81:
-		raise Exception("invalid input")
+		raise Exception("Invalid input")
 	for i in temp1:
 		if i not in "123456789.":
 			raise Exception("invalid expressions")
-	# if len(temp1) == 81:
-	# 	raise Exception("given sudok solved")
+	if len(temp1) == 81:
+		raise Exception("Given sudoku is solved")
 	
 
 def main():
