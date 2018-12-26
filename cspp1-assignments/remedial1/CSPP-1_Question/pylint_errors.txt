@@ -66,10 +66,10 @@ sudoku.py:94:0: W0312: Found indentation with tabs instead of spaces (mixed-inde
 sudoku.py:95:10: C0303: Trailing whitespace (trailing-whitespace)
 sudoku.py:95:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:96:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:98:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:99:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:100:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:101:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:102:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:121:21: C0303: Trailing whitespace (trailing-whitespace)
 sudoku.py:128:0: C0305: Trailing newlines (trailing-newlines)
 sudoku.py:11:0: C0103: Function name "validateSudoku" doesn't conform to snake_case naming style (invalid-name)
@@ -108,5 +108,5 @@ sudoku.py:87:2: W0612: Unused variable 'hi' (unused-variable)
 sudoku.py:93:7: W0612: Unused variable 'j' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -5.90/10 (previous run: -6.00/10, +0.10)
+Your code has been rated at -5.90/10 (previous run: -5.90/10, +0.00)
 

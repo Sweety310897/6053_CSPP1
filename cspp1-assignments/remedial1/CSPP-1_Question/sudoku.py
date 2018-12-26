@@ -95,11 +95,11 @@ def main():
 				i += 1 
 			listres.append(lst)
 		#print(listres)
-		# validateSudoku(listres)
+		validateSudoku(listres)
 		pass
 	except Exception as e:
 		print(e)
-	validateSudoku(listres)
+	#validateSudoku(listres)
 	# i=0
 	# while(i < 81):
 	# 	lst =[]
