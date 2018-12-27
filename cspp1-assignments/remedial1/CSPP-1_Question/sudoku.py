@@ -27,7 +27,7 @@ def validateSudoku(sudoku):
 """
 This  method should retunn all the values present in the ith row
 """
-def getRowValues(y,sudoku):
+def getRowValues(x,sudoku):
 	list1 = []
 
 	for i in sudoku[y]:
@@ -62,7 +62,9 @@ This method should collect all the available values present for a "."
 You should get the values present in row,column,grid.
 Then you should return the values that doesnot exist in the previous values.
 """
-def possibleValues():
+def possibleValues(temp11):
+	print(temp11)
+
 	pass
 """
 Read the input and store the values in an appropriate data sturcture.
@@ -96,6 +98,7 @@ def main():
 			listres.append(lst)
 		#print(listres)
 		validateSudoku(listres)
+		possibleValues(listres)
 		pass
 	except Exception as e:
 		print(e)
