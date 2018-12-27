@@ -77,8 +77,7 @@ def possibleValues(temp11):
 				for each in range(1,10):
 					if str(each) not in values:
 						str1 = str1 + str(each)
-	print(str1)
-
+				print(str1)
 
 
 """
