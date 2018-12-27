@@ -30,7 +30,7 @@ This  method should retunn all the values present in the ith row
 def getRowValues(x,sudoku):
 	list1 = []
 
-	for i in sudoku[y]:
+	for i in sudoku[x]:
 		if i != ".":
 			list1.append(i)
 	# print("hi")

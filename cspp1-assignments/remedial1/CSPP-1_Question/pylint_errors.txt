@@ -80,10 +80,8 @@ sudoku.py:29:-1: W0105: String statement has no effect (pointless-string-stateme
 sudoku.py:30:0: C0103: Function name "getRowValues" doesn't conform to snake_case naming style (invalid-name)
 sudoku.py:30:0: C0103: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
 sudoku.py:30:0: C0111: Missing function docstring (missing-docstring)
-sudoku.py:33:17: E0602: Undefined variable 'y' (undefined-variable)
 sudoku.py:39:1: W0101: Unreachable code (unreachable)
 sudoku.py:39:1: W0107: Unnecessary pass statement (unnecessary-pass)
-sudoku.py:30:17: W0613: Unused argument 'x' (unused-argument)
 sudoku.py:42:-1: W0105: String statement has no effect (pointless-string-statement)
 sudoku.py:43:0: C0103: Function name "getColumnValues" doesn't conform to snake_case naming style (invalid-name)
 sudoku.py:43:0: C0103: Argument name "y" doesn't conform to snake_case naming style (invalid-name)
@@ -110,5 +108,5 @@ sudoku.py:89:2: W0612: Unused variable 'hi' (unused-variable)
 sudoku.py:95:7: W0612: Unused variable 'j' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -7.17/10 (previous run: -6.21/10, -0.96)
+Your code has been rated at -6.17/10 (previous run: -7.17/10, +1.00)
 
