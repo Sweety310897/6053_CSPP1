@@ -74,7 +74,7 @@ def possibleValues(temp11):
 				rowval = getRowValues(i,temp11)
 				colval = getColumnValues(j,temp11)
 				values = rowval + colval
-				for each in range(9):
+				for each in range(1,9):
 					if str(each) not in values:
 						str1 = str1 + str(each)
 	print(str1)
