@@ -81,7 +81,6 @@ def possibleValues(temp11):
 
 
 
-	pass
 """
 Read the input and store the values in an appropriate data sturcture.
 Then travese through each value, if you get a "." then collect the possible values
@@ -104,7 +103,7 @@ def main():
 	try:
 		hi = validateinput(temp)
 		#print(hi)
-		input1 = list(temp)
+		input1 = temp
 	#i = 0
 		for i in range(0,81,9):
 			lst = []
