@@ -1,16 +1,9 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 Given sudoku is solved
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 144, in <module>
-    main()
-  File "sudoku.py", line 104, in main
-    hi = validateinput(temp)
-  File "sudoku.py", line 94, in validateinput
-    raise Exception("Given sudoku is solved")
-Exception: Given sudoku is solved
+Given sudoku is solved
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -26,14 +19,7 @@ Expected Output:
 7
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 144, in <module>
-    main()
-  File "sudoku.py", line 115, in main
-    validateSudoku(listres)
-  File "sudoku.py", line 23, in validateSudoku
-    if sudoku[x] == sudoku[x + 1]:
-IndexError: list index out of range
+can only concatenate str (not "int") to str
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -49,14 +35,7 @@ Expected Output:
 9
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 144, in <module>
-    main()
-  File "sudoku.py", line 115, in main
-    validateSudoku(listres)
-  File "sudoku.py", line 23, in validateSudoku
-    if sudoku[x] == sudoku[x + 1]:
-IndexError: list index out of range
+can only concatenate str (not "int") to str
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -66,14 +45,7 @@ Expected Output:
 2
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 144, in <module>
-    main()
-  File "sudoku.py", line 115, in main
-    validateSudoku(listres)
-  File "sudoku.py", line 23, in validateSudoku
-    if sudoku[x] == sudoku[x + 1]:
-IndexError: list index out of range
+can only concatenate str (not "int") to str
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -83,14 +55,7 @@ Expected Output:
 9
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 144, in <module>
-    main()
-  File "sudoku.py", line 115, in main
-    validateSudoku(listres)
-  File "sudoku.py", line 23, in validateSudoku
-    if sudoku[x] == sudoku[x + 1]:
-IndexError: list index out of range
+can only concatenate str (not "int") to str
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -106,14 +71,7 @@ Expected Output:
 15
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 144, in <module>
-    main()
-  File "sudoku.py", line 115, in main
-    validateSudoku(listres)
-  File "sudoku.py", line 23, in validateSudoku
-    if sudoku[x] == sudoku[x + 1]:
-IndexError: list index out of range
+can only concatenate str (not "int") to str
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -129,14 +87,7 @@ Expected Output:
 3
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 144, in <module>
-    main()
-  File "sudoku.py", line 115, in main
-    validateSudoku(listres)
-  File "sudoku.py", line 23, in validateSudoku
-    if sudoku[x] == sudoku[x + 1]:
-IndexError: list index out of range
+can only concatenate str (not "int") to str
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -152,14 +103,7 @@ Expected Output:
 9
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 144, in <module>
-    main()
-  File "sudoku.py", line 115, in main
-    validateSudoku(listres)
-  File "sudoku.py", line 23, in validateSudoku
-    if sudoku[x] == sudoku[x + 1]:
-IndexError: list index out of range
+can only concatenate str (not "int") to str
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -175,14 +119,7 @@ Expected Output:
 6
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 144, in <module>
-    main()
-  File "sudoku.py", line 115, in main
-    validateSudoku(listres)
-  File "sudoku.py", line 23, in validateSudoku
-    if sudoku[x] == sudoku[x + 1]:
-IndexError: list index out of range
+can only concatenate str (not "int") to str
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -198,14 +135,7 @@ Expected Output:
 469
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 144, in <module>
-    main()
-  File "sudoku.py", line 115, in main
-    validateSudoku(listres)
-  File "sudoku.py", line 23, in validateSudoku
-    if sudoku[x] == sudoku[x + 1]:
-IndexError: list index out of range
+can only concatenate str (not "int") to str
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -221,14 +151,7 @@ Expected Output:
 8
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 144, in <module>
-    main()
-  File "sudoku.py", line 115, in main
-    validateSudoku(listres)
-  File "sudoku.py", line 23, in validateSudoku
-    if sudoku[x] == sudoku[x + 1]:
-IndexError: list index out of range
+can only concatenate str (not "int") to str
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -244,14 +167,7 @@ Expected Output:
 4
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 144, in <module>
-    main()
-  File "sudoku.py", line 115, in main
-    validateSudoku(listres)
-  File "sudoku.py", line 23, in validateSudoku
-    if sudoku[x] == sudoku[x + 1]:
-IndexError: list index out of range
+can only concatenate str (not "int") to str
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -267,14 +183,7 @@ Expected Output:
 8
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 144, in <module>
-    main()
-  File "sudoku.py", line 115, in main
-    validateSudoku(listres)
-  File "sudoku.py", line 23, in validateSudoku
-    if sudoku[x] == sudoku[x + 1]:
-IndexError: list index out of range
+can only concatenate str (not "int") to str
 ----------------------------------------
 
 ########## Testcase 13: Failed ##########
@@ -290,14 +199,7 @@ Expected Output:
 469
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 144, in <module>
-    main()
-  File "sudoku.py", line 115, in main
-    validateSudoku(listres)
-  File "sudoku.py", line 23, in validateSudoku
-    if sudoku[x] == sudoku[x + 1]:
-IndexError: list index out of range
+can only concatenate str (not "int") to str
 ----------------------------------------
 
 ########## Testcase 14: Failed ##########
@@ -322,14 +224,7 @@ Expected Output:
 469
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 144, in <module>
-    main()
-  File "sudoku.py", line 115, in main
-    validateSudoku(listres)
-  File "sudoku.py", line 23, in validateSudoku
-    if sudoku[x] == sudoku[x + 1]:
-IndexError: list index out of range
+can only concatenate str (not "int") to str
 ----------------------------------------
 
 ########## Testcase 15: Failed ##########
@@ -368,59 +263,31 @@ Expected Output:
 23689
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 144, in <module>
-    main()
-  File "sudoku.py", line 115, in main
-    validateSudoku(listres)
-  File "sudoku.py", line 23, in validateSudoku
-    if sudoku[x] == sudoku[x + 1]:
-IndexError: list index out of range
+can only concatenate str (not "int") to str
 ----------------------------------------
 
-########## Testcase 16: Failed ##########
+########## Testcase 16: Passed ##########
 Expected Output: 
 Invalid Sudoku:Duplicate values
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 144, in <module>
-    main()
-  File "sudoku.py", line 115, in main
-    validateSudoku(listres)
-  File "sudoku.py", line 24, in validateSudoku
-    raise Exception("Invalid Sudoku:Duplicate values")
-Exception: Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
 ----------------------------------------
 
-########## Testcase 17: Failed ##########
+########## Testcase 17: Passed ##########
 Expected Output: 
 Invalid input
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 144, in <module>
-    main()
-  File "sudoku.py", line 104, in main
-    hi = validateinput(temp)
-  File "sudoku.py", line 91, in validateinput
-    raise Exception("Invalid input")
-Exception: Invalid input
+Invalid input
 ----------------------------------------
 
-########## Testcase 18: Failed ##########
+########## Testcase 18: Passed ##########
 Expected Output: 
 Invalid Sudoku:Duplicate values
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 144, in <module>
-    main()
-  File "sudoku.py", line 115, in main
-    validateSudoku(listres)
-  File "sudoku.py", line 19, in validateSudoku
-    raise Exception("Invalid Sudoku:Duplicate values")
-Exception: Invalid Sudoku:Duplicate values
+Invalid Sudoku:Duplicate values
 ----------------------------------------
 
 ########## Testcase 19: Failed ##########
@@ -491,29 +358,15 @@ Expected Output:
 235689
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 144, in <module>
-    main()
-  File "sudoku.py", line 115, in main
-    validateSudoku(listres)
-  File "sudoku.py", line 23, in validateSudoku
-    if sudoku[x] == sudoku[x + 1]:
-IndexError: list index out of range
+can only concatenate str (not "int") to str
 ----------------------------------------
 
-########## Testcase 20: Failed ##########
+########## Testcase 20: Passed ##########
 Expected Output: 
 Invalid input
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 144, in <module>
-    main()
-  File "sudoku.py", line 104, in main
-    hi = validateinput(temp)
-  File "sudoku.py", line 91, in validateinput
-    raise Exception("Invalid input")
-Exception: Invalid input
+Invalid input
 ----------------------------------------
 
 ########## Testcase 21: Failed ##########
@@ -571,14 +424,7 @@ Expected Output:
 1346
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 144, in <module>
-    main()
-  File "sudoku.py", line 115, in main
-    validateSudoku(listres)
-  File "sudoku.py", line 23, in validateSudoku
-    if sudoku[x] == sudoku[x + 1]:
-IndexError: list index out of range
+can only concatenate str (not "int") to str
 ----------------------------------------
 
 ########## Testcase 22: Failed ##########
@@ -643,14 +489,7 @@ Expected Output:
 4567
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 144, in <module>
-    main()
-  File "sudoku.py", line 115, in main
-    validateSudoku(listres)
-  File "sudoku.py", line 23, in validateSudoku
-    if sudoku[x] == sudoku[x + 1]:
-IndexError: list index out of range
+can only concatenate str (not "int") to str
 ----------------------------------------
 
 ########## Testcase 23: Failed ##########
@@ -681,14 +520,7 @@ Expected Output:
 6
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 144, in <module>
-    main()
-  File "sudoku.py", line 115, in main
-    validateSudoku(listres)
-  File "sudoku.py", line 23, in validateSudoku
-    if sudoku[x] == sudoku[x + 1]:
-IndexError: list index out of range
+can only concatenate str (not "int") to str
 ----------------------------------------
 
 ########## Testcase 24: Failed ##########
@@ -732,13 +564,6 @@ Expected Output:
 19
 
 Your Output: 
-Traceback (most recent call last):
-  File "sudoku.py", line 144, in <module>
-    main()
-  File "sudoku.py", line 115, in main
-    validateSudoku(listres)
-  File "sudoku.py", line 23, in validateSudoku
-    if sudoku[x] == sudoku[x + 1]:
-IndexError: list index out of range
+can only concatenate str (not "int") to str
 ----------------------------------------
 

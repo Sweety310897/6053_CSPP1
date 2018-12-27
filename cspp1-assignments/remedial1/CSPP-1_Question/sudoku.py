@@ -20,7 +20,7 @@ def validateSudoku(sudoku):
 		# elif len(tempcols) != len(dup2):
 		# 	raise Exception("invalid suudokkkk")
 		#print(sudoku[x+1])
-		if sudoku[x] == sudoku[x + 1]:
+		if len(tempcols) != len(dup2):
 			raise Exception("Invalid Sudoku:Duplicate values")
 	#print(sudoku)
 	pass
@@ -100,23 +100,23 @@ def main():
 	list1 = []
 	listres = []
 	temp = input()
-	#try:
-	hi = validateinput(temp)
-	#print(hi)
-	input1 = temp
-#i = 0
-	for i in range(0,81,9):
-		lst = []
-		for j in range(0,9):
-			lst.append(input1[i])
-			i += 1 
-		listres.append(lst)
-	#print(listres)
-	validateSudoku(listres)
-	possibleValues(listres)
-	pass
-	# except Exception as e:
-	# 	print(e)
+	try:
+		hi = validateinput(temp)
+		#print(hi)
+		input1 = temp
+	#i = 0
+		for i in range(0,81,9):
+			lst = []
+			for j in range(0,9):
+				lst.append(input1[i])
+				i += 1 
+			listres.append(lst)
+		#print(listres)
+		validateSudoku(listres)
+		possibleValues(listres)
+		pass
+	except Exception as e:
+	 	print(e)
 	#validateSudoku(listres)
 	# i=0
 	# while(i < 81):

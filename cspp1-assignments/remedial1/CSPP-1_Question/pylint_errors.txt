@@ -60,34 +60,36 @@ sudoku.py:97:0: C0303: Trailing whitespace (trailing-whitespace)
 sudoku.py:100:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:101:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:102:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:103:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:104:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:106:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:108:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:108:17: C0326: Exactly one space required after comma
-	for i in range(0,81,9):
-                 ^ (bad-whitespace)
-sudoku.py:108:20: C0326: Exactly one space required after comma
-	for i in range(0,81,9):
-                    ^ (bad-whitespace)
+sudoku.py:108:18: C0326: Exactly one space required after comma
+		for i in range(0,81,9):
+                  ^ (bad-whitespace)
+sudoku.py:108:21: C0326: Exactly one space required after comma
+		for i in range(0,81,9):
+                     ^ (bad-whitespace)
 sudoku.py:109:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:110:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:110:18: C0326: Exactly one space required after comma
-		for j in range(0,9):
-                  ^ (bad-whitespace)
+sudoku.py:110:19: C0326: Exactly one space required after comma
+			for j in range(0,9):
+                   ^ (bad-whitespace)
 sudoku.py:111:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-sudoku.py:112:9: C0303: Trailing whitespace (trailing-whitespace)
+sudoku.py:112:10: C0303: Trailing whitespace (trailing-whitespace)
 sudoku.py:112:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:113:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:115:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:116:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:117:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:118:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+sudoku.py:119:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 sudoku.py:139:21: C0303: Trailing whitespace (trailing-whitespace)
 sudoku.py:146:0: C0305: Trailing newlines (trailing-newlines)
 sudoku.py:11:0: C0103: Function name "validateSudoku" doesn't conform to snake_case naming style (invalid-name)
 sudoku.py:11:0: C0111: Missing function docstring (missing-docstring)
 sudoku.py:13:5: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
 sudoku.py:26:1: W0107: Unnecessary pass statement (unnecessary-pass)
-sudoku.py:17:2: W0612: Unused variable 'dup2' (unused-variable)
 sudoku.py:29:-1: W0105: String statement has no effect (pointless-string-statement)
 sudoku.py:30:0: C0103: Function name "getRowValues" doesn't conform to snake_case naming style (invalid-name)
 sudoku.py:30:0: C0103: Argument name "x" doesn't conform to snake_case naming style (invalid-name)
@@ -110,13 +112,15 @@ sudoku.py:71:1: C0200: Consider using enumerate instead of iterating with range 
 sudoku.py:87:-1: W0105: String statement has no effect (pointless-string-statement)
 sudoku.py:88:0: C0111: Missing function docstring (missing-docstring)
 sudoku.py:99:0: C0111: Missing function docstring (missing-docstring)
-sudoku.py:104:1: E1111: Assigning to function call which doesn't return (assignment-from-no-return)
-sudoku.py:104:1: C0103: Variable name "hi" doesn't conform to snake_case naming style (invalid-name)
-sudoku.py:117:1: W0107: Unnecessary pass statement (unnecessary-pass)
+sudoku.py:118:8: W0703: Catching too general exception Exception (broad-except)
+sudoku.py:104:2: E1111: Assigning to function call which doesn't return (assignment-from-no-return)
+sudoku.py:104:2: C0103: Variable name "hi" doesn't conform to snake_case naming style (invalid-name)
+sudoku.py:117:2: W0107: Unnecessary pass statement (unnecessary-pass)
+sudoku.py:118:1: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
 sudoku.py:100:1: W0612: Unused variable 'list1' (unused-variable)
-sudoku.py:104:1: W0612: Unused variable 'hi' (unused-variable)
-sudoku.py:110:6: W0612: Unused variable 'j' (unused-variable)
+sudoku.py:104:2: W0612: Unused variable 'hi' (unused-variable)
+sudoku.py:110:7: W0612: Unused variable 'j' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -5.61/10 (previous run: -5.65/10, +0.05)
+Your code has been rated at -5.51/10 (previous run: -5.61/10, +0.10)
 
