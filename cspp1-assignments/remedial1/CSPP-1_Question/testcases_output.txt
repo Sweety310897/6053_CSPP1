@@ -1,12 +1,9 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 Given sudoku is solved
 
 Your Output: 
-  File "sudoku.py", line 117
-    pass
-       ^
-SyntaxError: invalid syntax
+Given sudoku is solved
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -22,10 +19,7 @@ Expected Output:
 7
 
 Your Output: 
-  File "sudoku.py", line 117
-    pass
-       ^
-SyntaxError: invalid syntax
+070707070707070707
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -41,10 +35,7 @@ Expected Output:
 9
 
 Your Output: 
-  File "sudoku.py", line 117
-    pass
-       ^
-SyntaxError: invalid syntax
+0102030405060700
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -54,10 +45,7 @@ Expected Output:
 2
 
 Your Output: 
-  File "sudoku.py", line 117
-    pass
-       ^
-SyntaxError: invalid syntax
+050602
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -67,10 +55,7 @@ Expected Output:
 9
 
 Your Output: 
-  File "sudoku.py", line 117
-    pass
-       ^
-SyntaxError: invalid syntax
+04060
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -86,10 +71,7 @@ Expected Output:
 15
 
 Your Output: 
-  File "sudoku.py", line 117
-    pass
-       ^
-SyntaxError: invalid syntax
+0307040600200105
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -105,10 +87,7 @@ Expected Output:
 3
 
 Your Output: 
-  File "sudoku.py", line 117
-    pass
-       ^
-SyntaxError: invalid syntax
+0201005070400603
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -124,10 +103,7 @@ Expected Output:
 9
 
 Your Output: 
-  File "sudoku.py", line 117
-    pass
-       ^
-SyntaxError: invalid syntax
+0702060301050400
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -143,10 +119,7 @@ Expected Output:
 6
 
 Your Output: 
-  File "sudoku.py", line 117
-    pass
-       ^
-SyntaxError: invalid syntax
+0105020400030706
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -162,10 +135,7 @@ Expected Output:
 469
 
 Your Output: 
-  File "sudoku.py", line 117
-    pass
-       ^
-SyntaxError: invalid syntax
+0070305010200604
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -181,10 +151,7 @@ Expected Output:
 8
 
 Your Output: 
-  File "sudoku.py", line 117
-    pass
-       ^
-SyntaxError: invalid syntax
+0107040305020060
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -200,10 +167,7 @@ Expected Output:
 4
 
 Your Output: 
-  File "sudoku.py", line 117
-    pass
-       ^
-SyntaxError: invalid syntax
+0601050003020704
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -219,10 +183,7 @@ Expected Output:
 8
 
 Your Output: 
-  File "sudoku.py", line 117
-    pass
-       ^
-SyntaxError: invalid syntax
+0105020703004060
 ----------------------------------------
 
 ########## Testcase 13: Failed ##########
@@ -238,10 +199,7 @@ Expected Output:
 469
 
 Your Output: 
-  File "sudoku.py", line 117
-    pass
-       ^
-SyntaxError: invalid syntax
+0500201030700604
 ----------------------------------------
 
 ########## Testcase 14: Failed ##########
@@ -266,10 +224,7 @@ Expected Output:
 469
 
 Your Output: 
-  File "sudoku.py", line 117
-    pass
-       ^
-SyntaxError: invalid syntax
+01050207030040600500201030700604
 ----------------------------------------
 
 ########## Testcase 15: Failed ##########
@@ -308,43 +263,31 @@ Expected Output:
 23689
 
 Your Output: 
-  File "sudoku.py", line 117
-    pass
-       ^
-SyntaxError: invalid syntax
+012345670130570160460570230012345670340340270270150150170170505060603603601234567013057016046057023001234567
 ----------------------------------------
 
-########## Testcase 16: Failed ##########
+########## Testcase 16: Passed ##########
 Expected Output: 
 Invalid Sudoku:Duplicate values
 
 Your Output: 
-  File "sudoku.py", line 117
-    pass
-       ^
-SyntaxError: invalid syntax
+Invalid Sudoku:Duplicate values
 ----------------------------------------
 
-########## Testcase 17: Failed ##########
+########## Testcase 17: Passed ##########
 Expected Output: 
 Invalid input
 
 Your Output: 
-  File "sudoku.py", line 117
-    pass
-       ^
-SyntaxError: invalid syntax
+Invalid input
 ----------------------------------------
 
-########## Testcase 18: Failed ##########
+########## Testcase 18: Passed ##########
 Expected Output: 
 Invalid Sudoku:Duplicate values
 
 Your Output: 
-  File "sudoku.py", line 117
-    pass
-       ^
-SyntaxError: invalid syntax
+Invalid Sudoku:Duplicate values
 ----------------------------------------
 
 ########## Testcase 19: Failed ##########
@@ -415,21 +358,15 @@ Expected Output:
 235689
 
 Your Output: 
-  File "sudoku.py", line 117
-    pass
-       ^
-SyntaxError: invalid syntax
+01670123670130236701267012302670125670145024567012456701256701245012467023601456012356023456012456012356012345012346037013570134503457014570135701347023670156701235670135012567012350123670236704567023567034502456702356702345023467020145012502450125012401467013670346701467013670134013467056703502356702567023567023502367
 ----------------------------------------
 
-########## Testcase 20: Failed ##########
+########## Testcase 20: Passed ##########
 Expected Output: 
 Invalid input
 
 Your Output: 
-  File "sudoku.py", line 117
-    pass
-       ^
-SyntaxError: invalid syntax
+Invalid input
 ----------------------------------------
 
 ########## Testcase 21: Failed ##########
@@ -487,10 +424,7 @@ Expected Output:
 1346
 
 Your Output: 
-  File "sudoku.py", line 117
-    pass
-       ^
-SyntaxError: invalid syntax
+01246026012460146012402402470234703470234024701230235703450124701345702470124570124570257012470145701245025702567050567025014501345035014013450134501301345703570345014704702302702367036702301230124501234560235601246013456
 ----------------------------------------
 
 ########## Testcase 22: Failed ##########
@@ -555,10 +489,7 @@ Expected Output:
 4567
 
 Your Output: 
-  File "sudoku.py", line 117
-    pass
-       ^
-SyntaxError: invalid syntax
+02346023467012467023467013460234670124702670467024560245670456024567024701367023602367012670236701360136703456014567013456034567014702346702467023467034602346702470123013402345023450124502345023450236034602345602456023456024012367013467023456012456701345602345670124706704670456045670456704567
 ----------------------------------------
 
 ########## Testcase 23: Failed ##########
@@ -589,10 +520,7 @@ Expected Output:
 6
 
 Your Output: 
-  File "sudoku.py", line 117
-    pass
-       ^
-SyntaxError: invalid syntax
+020105050606067050406060450460107070403407060404602606
 ----------------------------------------
 
 ########## Testcase 24: Failed ##########
@@ -636,9 +564,6 @@ Expected Output:
 19
 
 Your Output: 
-  File "sudoku.py", line 117
-    pass
-       ^
-SyntaxError: invalid syntax
+024034602346012301234045050040036013013003403603035023502302402340230301034701340134703702301303013012001201
 ----------------------------------------
 

@@ -114,7 +114,6 @@ def main():
 		#print(listres)
 		validateSudoku(listres)
 		possibleValues(listres)
-	pass
 	except Exception as e:
 	  	print(e)
 	#validateSudoku(listres)
