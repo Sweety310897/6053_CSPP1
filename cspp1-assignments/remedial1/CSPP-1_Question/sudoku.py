@@ -67,7 +67,7 @@ Then you should return the values that doesnot exist in the previous values.
 """
 def possibleValues(temp11):
 	#print(temp11)
-	str1 = ""
+	
 	for i in range(len(temp11)):
 		for j in range(len(temp11)):
 			if temp11[i][j] == ".":
@@ -75,9 +75,10 @@ def possibleValues(temp11):
 				colval = getColumnValues(j,temp11)
 				values = rowval + colval
 				for each in range(1,10):
+					str1 = ""
 					if str(each) not in values:
 						str1 = str1 + str(each)
-				print(str1)
+			print(str1)
 
 
 """
