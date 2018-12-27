@@ -123,5 +123,5 @@ sudoku.py:103:2: W0612: Unused variable 'hi' (unused-variable)
 sudoku.py:109:7: W0612: Unused variable 'j' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -5.59/10 (previous run: -5.44/10, -0.15)
+Your code has been rated at -5.59/10 (previous run: -5.59/10, +0.00)
 
