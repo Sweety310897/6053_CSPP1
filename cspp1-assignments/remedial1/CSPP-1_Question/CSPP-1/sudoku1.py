@@ -58,83 +58,8 @@ def getColumnValues(y,sudoku):
 """
 This  method should retunn all the values present in the i,j th subgrid
 """
-def getGridValues(subgridrow,subgridcol,sudoku):
-
-	flag = False
-	#print("hi")
-	templist = []
-	for i in range(0,3):
-		for j in range(0,3):
-			if i == subgridrow and j == subgridcol:
-				flag = True
-			templist.append(sudoku[i][j])
-	if flag == True:
-		return templist
-	templist = []
-	for i in range(0,3):
-		for j in range(3,6):
-			if i == subgridrow and j == subgridcol:
-				flag = True
-			templist.append(sudoku[i][j])	
-	if flag == True:
-		return templist
-	templist = []
-	for i in range(0,3):
-		for j in range(6,9):
-			if i == subgridrow and j == subgridcol:
-				flag = True
-			templist.append(sudoku[i][j])
-	if flag == True:	
-		return templist
-	templist = []
-	for i in range(3,6):
-		for j in range(0,3):
-			if i == subgridrow and j == subgridcol:
-				flag = True
-			templist.append(sudoku[i][j])
-	if flag == True:	
-		return templist
-	templist = []
-	for i in range(3,6):
-		for j in range(3,6):
-			if i == subgridrow and j == subgridcol:
-				flag = True
-			templist.append(sudoku[i][j])
-	if flag == True:	
-		return templist
-	templist = []
-	for i in range(3,6):
-		for j in range(6,9):
-			if i == subgridrow and j == subgridcol:
-				flag = True
-			templist.append(sudoku[i][j])
-	if flag == True:	
-		return templist
-	templist = []
-	for i in range(6,9):
-		for j in range(0,3):
-			if i == subgridrow and j == subgridcol:
-				flag = True
-			templist.append(sudoku[i][j])
-	if flag == True:	
-		return templist
-	templist = []
-	for i in range(6,9):
-		for j in range(3,6):
-			if i == subgridrow and j == subgridcol:
-				flag = True
-			templist.append(sudoku[i][j])
-	if flag == True:	
-		return templist
-	templist = []
-	for i in range(6,9):
-		for j in range(6,9):
-			if i == subgridrow and j == subgridcol:
-				flag = True
-			templist.append(sudoku[i][j])
-	if flag == True:	
-		return templist
-
+def getGridValues():
+	pass
 """
 This method should collect all the available values present for a "."
 You should get the values present in row,column,grid.
@@ -148,8 +73,7 @@ def possibleValues(temp11):
 			if temp11[i][j] == ".":
 				rowval = getRowValues(i,temp11)
 				colval = getColumnValues(j,temp11)
-				gridval = getGridValues(i,j,temp11)
-				values = rowval + colval + gridval
+				values = rowval + colval
 				str1 = ""
 				for each in range(1,10):
 					if str(each) not in values:
@@ -163,7 +87,7 @@ Then travese through each value, if you get a "." then collect the possible valu
 """
 def validateinput(temp1):
 	#print(temp1)
-	if len(temp1) != 81:
+	if len(temp1) < 81:
 		raise Exception("Invalid input")
 	#for i in temp1:
 	if '.' not in temp1:
@@ -191,7 +115,7 @@ def main():
 		validateSudoku(listres)
 		possibleValues(listres)
 	except Exception as e:
-	   	print(e)
+	  	print(e)
 	#validateSudoku(listres)
 	# i=0
 	# while(i < 81):
