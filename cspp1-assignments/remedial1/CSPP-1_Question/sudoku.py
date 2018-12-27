@@ -29,7 +29,7 @@ This  method should retunn all the values present in the ith row
 """
 def getRowValues(x,sudoku):
 	list1 = []
-
+	#print(sudoku[x])
 	for i in sudoku[x]:
 		if i != ".":
 			list1.append(i)
@@ -42,11 +42,14 @@ This  method should retunn all the values present in the ith column
 """
 def getColumnValues(y,sudoku):
 	list2 = []
+	# print(sudoku[0])
+	# for i in sudoku[y]:
 
-	for i in sudoku[y]:
-		if i != ".":
-			list2.append(i)
-	# print("hi")
+
+	for i in sudoku:
+	 	if i[y] != ".":
+	 		list2.append(i[y])
+	 # print("hi")
 	#print(list2)
 	return list2
 	
@@ -63,7 +66,20 @@ You should get the values present in row,column,grid.
 Then you should return the values that doesnot exist in the previous values.
 """
 def possibleValues(temp11):
-	print(temp11)
+	#print(temp11)
+	str1 = ""
+	for i in range(len(temp11)):
+		for j in range(len(temp11)):
+			if temp11[i][j] == ".":
+				rowval = getRowValues(i,temp11)
+				colval = getColumnValues(j,temp11)
+				values = rowval + colval
+				for each in range(9):
+					if each not in values:
+						str1 = str1 + each
+	print(str1)
+
+
 
 	pass
 """
