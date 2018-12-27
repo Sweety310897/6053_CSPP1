@@ -75,8 +75,8 @@ def possibleValues(temp11):
 				colval = getColumnValues(j,temp11)
 				values = rowval + colval
 				for each in range(8):
-					if each not in values:
-						str1 = str1 + each
+					if str(each) not in values:
+						str1 = str1 + str(each)
 	print(str1)
 
 
@@ -100,23 +100,23 @@ def main():
 	list1 = []
 	listres = []
 	temp = input()
-	# try:
-	hi = validateinput(temp)
-	#print(hi)
-	input1 = temp
-#i = 0
-	for i in range(0,81,9):
-		lst = []
-		for j in range(0,9):
-			lst.append(input1[i])
-			i += 1 
-		listres.append(lst)
-	#print(listres)
-	validateSudoku(listres)
-	possibleValues(listres)
+	try:
+		hi = validateinput(temp)
+		#print(hi)
+		input1 = temp
+	#i = 0
+		for i in range(0,81,9):
+			lst = []
+			for j in range(0,9):
+				lst.append(input1[i])
+				i += 1 
+			listres.append(lst)
+		#print(listres)
+		validateSudoku(listres)
+		possibleValues(listres)
 	pass
-	# except Exception as e:
-	#  	print(e)
+	except Exception as e:
+	  	print(e)
 	#validateSudoku(listres)
 	# i=0
 	# while(i < 81):
