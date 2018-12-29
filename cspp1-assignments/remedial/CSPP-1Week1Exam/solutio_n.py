@@ -4,6 +4,7 @@ def imagelinks(fh):
 	head = "\""
 	tail = "\""
 	# print(temp1)
+	count = 0
 	for each in temp1:
 		templist1.append(each)
 	for j in templist1:
@@ -12,7 +13,9 @@ def imagelinks(fh):
 			# print(valu)
 			j = j[valu + len(head):]
 			temppp = j.index(tail)
-			print(j[:temppp]) 
+			print(j[:temppp])
+			count += 1
+	print(count)
 	
 	# print(templist1[0])
 	# print("hello")
@@ -29,6 +32,7 @@ def listlinks(h):
 	tail = "</a"
 	list1= []
 	list2 = []
+	count = 0
 	for each in temp:
 		list1.append(each)
 	for j in list1:
@@ -42,6 +46,8 @@ def listlinks(h):
 			# print(j[:])
 			# list2.append(j[:temporart])
 			print(j[:temporart])
+			count += 1
+	print(count)
 	#print(list2)
 
 def backlinks(fh):
@@ -49,6 +55,7 @@ def backlinks(fh):
 	temp = fh.split("{")
 	list1 = []
 	list2 = []
+	count = 0
 	head = "background-color:"
 	tail = ";"
 	for each in temp:
@@ -63,7 +70,9 @@ def backlinks(fh):
 			j = j[valu + len(head):]
 
 			temppp = j.index(tail)
-			print(j[:temppp]) 
+			print(j[:temppp])
+			count += 1
+	print(count)
 	# print(temp1)
 	# list1 = []
 	# list2 = []
