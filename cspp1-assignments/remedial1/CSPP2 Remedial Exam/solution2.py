@@ -59,6 +59,9 @@ def main():
     # print(count)
     # countfunction(count)
         # break
+    if temp[0] == "cancel":
+        if temp[1] in dic.values():
+            print(temp[1] + " now has no reservations.")
     j += 1
     
     
