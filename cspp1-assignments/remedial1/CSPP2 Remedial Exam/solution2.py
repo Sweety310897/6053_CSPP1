@@ -60,8 +60,18 @@ def main():
     # countfunction(count)
         # break
     if temp[0] == "cancel":
-        if temp[1] in dic.values():
-            print(temp[1] + " now has no reservations.")
+        # for k,v in dic.keys():
+        #     if v == temp[1]:
+        #         del dic[k]
+        #         print(temp[1] + " now has no reservations.")
+        tempstoredname = temp[1]
+        listkeys = list(dic.keys())
+        for each in listkeys:
+            if dic[each] == tempstoredname:
+                dic.pop(each, None)
+        # if temp[1] in dic.values():
+        #     del dic[temp[1]]
+        #     print(temp[1] + " now has no reservations.")
     j += 1
     
     

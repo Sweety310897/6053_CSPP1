@@ -254,23 +254,20 @@ kiran 2
 kalyani 3
 kumar 4
 swathi 5
-kumar now has no reservations.
 murthy 1
 kiran 2
 kalyani 3
-kumar 4
 swathi 5
 Added 2 more rooms
 alekhya 6
-manasa 7
+manasa 4
 All Rooms are reserved
 murthy 1
 kiran 2
 kalyani 3
-kumar 4
+manasa 4
 swathi 5
 alekhya 6
-manasa 7
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -321,29 +318,24 @@ kiran 2
 kalyani 3
 kumar 4
 kumar 5
-kumar now has no reservations.
 murthy 1
 kiran 2
 kalyani 3
-kumar 4
-kumar 5
 Added 5 more rooms
 alekhya 6
-manasa 7
-kumar 8
-karthik 9
-manohar 10
+manasa 4
+kumar 5
+karthik 7
+manohar 8
 All Rooms are reserved
 All Rooms are reserved
 murthy 1
 kiran 2
 kalyani 3
-kumar 4
+manasa 4
 kumar 5
 alekhya 6
-manasa 7
-kumar 8
-karthik 9
-manohar 10
+karthik 7
+manohar 8
 ----------------------------------------
 
