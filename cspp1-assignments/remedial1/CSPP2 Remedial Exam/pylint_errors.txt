@@ -35,8 +35,6 @@ solution2.py:36:0: W0311: Bad indentation. Found 24 spaces, expected 28 (bad-ind
 solution2.py:37:0: C0303: Trailing whitespace (trailing-whitespace)
 solution2.py:38:0: C0303: Trailing whitespace (trailing-whitespace)
 solution2.py:40:0: W0311: Bad indentation. Found 4 spaces, expected 8 (bad-indentation)
-solution2.py:41:0: W0311: Bad indentation. Found 8 spaces, expected 12 (bad-indentation)
-solution2.py:42:0: W0311: Bad indentation. Found 12 spaces, expected 16 (bad-indentation)
 solution2.py:43:0: W0311: Bad indentation. Found 8 spaces, expected 12 (bad-indentation)
 solution2.py:44:0: W0311: Bad indentation. Found 12 spaces, expected 16 (bad-indentation)
 solution2.py:46:13: C0303: Trailing whitespace (trailing-whitespace)
@@ -74,8 +72,8 @@ solution2.py:81:0: C0305: Trailing newlines (trailing-newlines)
 solution2.py:1:0: C0111: Missing module docstring (missing-docstring)
 solution2.py:5:0: C0111: Missing function docstring (missing-docstring)
 solution2.py:11:2: R1702: Too many nested blocks (6/5) (too-many-nested-blocks)
-solution2.py:5:0: R0912: Too many branches (17/12) (too-many-branches)
+solution2.py:5:0: R0912: Too many branches (16/12) (too-many-branches)
 
 --------------------------------------------------------------------
-Your code has been rated at -4.22/10 (previous run: -4.32/10, +0.10)
+Your code has been rated at -4.42/10 (previous run: -4.22/10, -0.20)
 
