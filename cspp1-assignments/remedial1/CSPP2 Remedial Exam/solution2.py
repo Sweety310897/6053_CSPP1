@@ -15,6 +15,7 @@ def main():
     # if count > 5:
     #     print("All Rooms are reserved")
     if temp[0] == "reserve":
+        # print(count,"cr")
         if count == maxcapacity-1:
             print("All Rooms are reserved")
         else:
@@ -38,6 +39,7 @@ def main():
         
             # return
     if temp[0] == "reserveN":
+        # print(count,"cn")
         if count == maxcapacity-1:
             print("All Rooms are reserved")
         elif int(temp[2]) in dic.keys():
@@ -54,7 +56,8 @@ def main():
         for key,value in sorted(dic.items()):
             print(value,key)
     if temp[0] == "build":
-        maxcapacity += int(temp[1])
+        maxcapacity += int(temp[1]) + 1
+        # print(maxcapacity,"m")
         # print(maxcapacity)
         print("Added" +" "+ temp[1] +" "+ "more rooms")
     # print(count)
