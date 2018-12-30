@@ -15,7 +15,7 @@ def main():
     # if count > 5:
     #     print("All Rooms are reserved")
     if temp[0] == "reserve":
-        if count == maxcapacity:
+        if count == maxcapacity-1:
             print("All Rooms are reserved in reserv")
         else:
             if dic == {}:
