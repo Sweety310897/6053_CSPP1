@@ -7,7 +7,7 @@ def main():
   j = 0
   dic = {}
   count = 0
-  maxcapacity = 6
+  maxcapacity = 5
   while j < rangeofinputs:
     temp = input().split(" ")
     
@@ -15,7 +15,7 @@ def main():
     # if count > 5:
     #     print("All Rooms are reserved")
     if temp[0] == "reserve":
-        if count == maxcapacity-1:
+        if count >= maxcapacity:
             print("All Rooms are reserved")
         else:
             if dic == {}:
@@ -38,7 +38,7 @@ def main():
         
             # return
     if temp[0] == "reserveN":
-        if count == maxcapacity-1:
+        if count >= maxcapacity:
             print("All Rooms are reserved")
         elif int(temp[2]) in dic.keys():
             print("Room is already reserved")
