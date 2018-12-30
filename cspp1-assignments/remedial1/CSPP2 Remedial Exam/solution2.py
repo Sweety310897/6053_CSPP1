@@ -16,7 +16,7 @@ def main():
     #     print("All Rooms are reserved")
     if temp[0] == "reserve":
         if count == maxcapacity-1:
-            print("All rooms are reserved")
+            print("All Rooms are reserved")
         else:
             if dic == {}:
                 count += 1
