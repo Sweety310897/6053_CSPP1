@@ -38,9 +38,9 @@ def main():
         
             # return
     if temp[0] == "reserveN":
-        # if count == maxcapacity-1:
-        #     print("All Rooms are reserved")
-        if int(temp[2]) in dic.keys():
+        if count == maxcapacity-1:
+            print("All Rooms are reserved")
+        elif int(temp[2]) in dic.keys():
             print("Room is already reserved")
             # break
         else:    
