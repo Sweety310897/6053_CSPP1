@@ -15,7 +15,8 @@ def main():
     # if count > 5:
     #     print("All Rooms are reserved")
     if temp[0] == "reserve":
-        if count == maxcapacity-1:
+        # print(count,"c")
+        if count == maxcapacity:
             print("All Rooms are reserved")
         else:
             if dic == {}:
@@ -55,7 +56,7 @@ def main():
             print(value,key)
     if temp[0] == "build":
         maxcapacity += int(temp[1])
-        # print(maxcapacity)
+        # print(maxcapacity,"m")
         print("Added" +" "+ temp[1] +" "+ "more rooms")
     # print(count)
     # countfunction(count)
