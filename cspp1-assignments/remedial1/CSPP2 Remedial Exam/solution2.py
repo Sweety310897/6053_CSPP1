@@ -15,13 +15,13 @@ def main():
     # if count > 5:
     #     print("All Rooms are reserved")
     if temp[0] == "reserve":
-        count += 1
+        # count += 1
         # print(count,"cr")
         if count >= maxcapacity:
             print("All Rooms are reserved")
         else:
             if dic == {}:
-                # count += 1
+                count += 1
                 dic[1] = temp[1]
                 print(temp[1],1)
             else:
@@ -32,7 +32,7 @@ def main():
                         #     print("All Rooms ")
                         #     break
                         dic[i] = temp[1]
-                        # count += 1
+                        count += 1
                         print(temp[1],i)
                         # print(hi)
                         break
@@ -40,7 +40,7 @@ def main():
         
             # return
     if temp[0] == "reserveN":
-        count += 1
+        # count += 1
         # print(count,"cn")
         if count >= maxcapacity:
             print("All Rooms are reserved")
@@ -50,7 +50,7 @@ def main():
         else:    
             dic[int(temp[2])] = temp[1]
             # print(len(dic),"idc")
-            # count += 1
+            count += 1
             print(temp[1],temp[2])
             # return
         
