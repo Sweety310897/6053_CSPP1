@@ -80,5 +80,5 @@ solution2.py:11:2: R1702: Too many nested blocks (6/5) (too-many-nested-blocks)
 solution2.py:5:0: R0912: Too many branches (17/12) (too-many-branches)
 
 --------------------------------------------------------------------
-Your code has been rated at -4.44/10 (previous run: -4.22/10, -0.22)
+Your code has been rated at -4.44/10 (previous run: -4.44/10, +0.00)
 
