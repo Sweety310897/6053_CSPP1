@@ -7,60 +7,68 @@ solution2.py:9:0: W0311: Bad indentation. Found 2 spaces, expected 4 (bad-indent
 solution2.py:10:0: W0311: Bad indentation. Found 2 spaces, expected 4 (bad-indentation)
 solution2.py:11:0: W0311: Bad indentation. Found 2 spaces, expected 4 (bad-indentation)
 solution2.py:12:0: W0311: Bad indentation. Found 4 spaces, expected 8 (bad-indentation)
-solution2.py:16:0: W0311: Bad indentation. Found 4 spaces, expected 8 (bad-indentation)
+solution2.py:13:0: C0303: Trailing whitespace (trailing-whitespace)
+solution2.py:17:0: W0311: Bad indentation. Found 4 spaces, expected 8 (bad-indentation)
 solution2.py:18:0: W0311: Bad indentation. Found 8 spaces, expected 12 (bad-indentation)
 solution2.py:19:0: W0311: Bad indentation. Found 12 spaces, expected 16 (bad-indentation)
-solution2.py:20:0: W0311: Bad indentation. Found 12 spaces, expected 16 (bad-indentation)
+solution2.py:20:0: W0311: Bad indentation. Found 8 spaces, expected 12 (bad-indentation)
 solution2.py:21:0: W0311: Bad indentation. Found 12 spaces, expected 16 (bad-indentation)
-solution2.py:21:25: C0326: Exactly one space required after comma
-            print(temp[1],1)
-                         ^ (bad-whitespace)
-solution2.py:22:0: W0311: Bad indentation. Found 8 spaces, expected 12 (bad-indentation)
-solution2.py:23:0: W0311: Bad indentation. Found 12 spaces, expected 16 (bad-indentation)
-solution2.py:23:28: C0326: Exactly one space required after comma
-            for i in range(1,maxcapacity):
-                            ^ (bad-whitespace)
+solution2.py:22:0: W0311: Bad indentation. Found 16 spaces, expected 20 (bad-indentation)
+solution2.py:23:0: W0311: Bad indentation. Found 16 spaces, expected 20 (bad-indentation)
 solution2.py:24:0: W0311: Bad indentation. Found 16 spaces, expected 20 (bad-indentation)
-solution2.py:29:0: W0311: Bad indentation. Found 20 spaces, expected 24 (bad-indentation)
-solution2.py:30:0: W0311: Bad indentation. Found 20 spaces, expected 24 (bad-indentation)
-solution2.py:31:0: W0311: Bad indentation. Found 20 spaces, expected 24 (bad-indentation)
-solution2.py:31:33: C0326: Exactly one space required after comma
-                    print(temp[1],i)
-                                 ^ (bad-whitespace)
-solution2.py:33:0: W0311: Bad indentation. Found 20 spaces, expected 24 (bad-indentation)
-solution2.py:34:0: C0303: Trailing whitespace (trailing-whitespace)
-solution2.py:35:0: C0303: Trailing whitespace (trailing-whitespace)
-solution2.py:37:0: W0311: Bad indentation. Found 4 spaces, expected 8 (bad-indentation)
-solution2.py:41:0: C0303: Trailing whitespace (trailing-whitespace)
-solution2.py:42:0: W0311: Bad indentation. Found 8 spaces, expected 12 (bad-indentation)
-solution2.py:43:0: W0311: Bad indentation. Found 12 spaces, expected 16 (bad-indentation)
-solution2.py:45:13: C0303: Trailing whitespace (trailing-whitespace)
-solution2.py:45:0: W0311: Bad indentation. Found 8 spaces, expected 12 (bad-indentation)
-solution2.py:46:0: W0311: Bad indentation. Found 12 spaces, expected 16 (bad-indentation)
-solution2.py:48:0: W0311: Bad indentation. Found 12 spaces, expected 16 (bad-indentation)
+solution2.py:24:29: C0326: Exactly one space required after comma
+                print(temp[1],1)
+                             ^ (bad-whitespace)
+solution2.py:25:0: W0311: Bad indentation. Found 12 spaces, expected 16 (bad-indentation)
+solution2.py:26:0: W0311: Bad indentation. Found 16 spaces, expected 20 (bad-indentation)
+solution2.py:26:32: C0326: Exactly one space required after comma
+                for i in range(1,maxcapacity):
+                                ^ (bad-whitespace)
+solution2.py:27:0: W0311: Bad indentation. Found 20 spaces, expected 24 (bad-indentation)
+solution2.py:32:0: W0311: Bad indentation. Found 24 spaces, expected 28 (bad-indentation)
+solution2.py:33:0: W0311: Bad indentation. Found 24 spaces, expected 28 (bad-indentation)
+solution2.py:34:0: W0311: Bad indentation. Found 24 spaces, expected 28 (bad-indentation)
+solution2.py:34:37: C0326: Exactly one space required after comma
+                        print(temp[1],i)
+                                     ^ (bad-whitespace)
+solution2.py:36:0: W0311: Bad indentation. Found 24 spaces, expected 28 (bad-indentation)
+solution2.py:37:0: C0303: Trailing whitespace (trailing-whitespace)
+solution2.py:38:0: C0303: Trailing whitespace (trailing-whitespace)
+solution2.py:40:0: W0311: Bad indentation. Found 4 spaces, expected 8 (bad-indentation)
+solution2.py:41:0: W0311: Bad indentation. Found 8 spaces, expected 12 (bad-indentation)
+solution2.py:42:0: W0311: Bad indentation. Found 12 spaces, expected 16 (bad-indentation)
+solution2.py:43:0: W0311: Bad indentation. Found 8 spaces, expected 12 (bad-indentation)
+solution2.py:44:0: W0311: Bad indentation. Found 12 spaces, expected 16 (bad-indentation)
+solution2.py:46:13: C0303: Trailing whitespace (trailing-whitespace)
+solution2.py:46:0: W0311: Bad indentation. Found 8 spaces, expected 12 (bad-indentation)
+solution2.py:47:0: W0311: Bad indentation. Found 12 spaces, expected 16 (bad-indentation)
 solution2.py:49:0: W0311: Bad indentation. Found 12 spaces, expected 16 (bad-indentation)
-solution2.py:49:25: C0326: Exactly one space required after comma
+solution2.py:50:0: W0311: Bad indentation. Found 12 spaces, expected 16 (bad-indentation)
+solution2.py:50:25: C0326: Exactly one space required after comma
             print(temp[1],temp[2])
                          ^ (bad-whitespace)
-solution2.py:51:0: C0303: Trailing whitespace (trailing-whitespace)
-solution2.py:52:0: W0311: Bad indentation. Found 4 spaces, expected 8 (bad-indentation)
-solution2.py:53:0: W0311: Bad indentation. Found 8 spaces, expected 12 (bad-indentation)
-solution2.py:53:15: C0326: Exactly one space required after comma
+solution2.py:52:0: C0303: Trailing whitespace (trailing-whitespace)
+solution2.py:53:0: W0311: Bad indentation. Found 4 spaces, expected 8 (bad-indentation)
+solution2.py:54:0: W0311: Bad indentation. Found 8 spaces, expected 12 (bad-indentation)
+solution2.py:54:15: C0326: Exactly one space required after comma
         for key,value in sorted(dic.items()):
                ^ (bad-whitespace)
-solution2.py:54:0: W0311: Bad indentation. Found 12 spaces, expected 16 (bad-indentation)
-solution2.py:54:23: C0326: Exactly one space required after comma
+solution2.py:55:0: W0311: Bad indentation. Found 12 spaces, expected 16 (bad-indentation)
+solution2.py:55:23: C0326: Exactly one space required after comma
             print(value,key)
                        ^ (bad-whitespace)
-solution2.py:55:0: W0311: Bad indentation. Found 4 spaces, expected 8 (bad-indentation)
-solution2.py:56:0: W0311: Bad indentation. Found 8 spaces, expected 12 (bad-indentation)
+solution2.py:56:0: W0311: Bad indentation. Found 4 spaces, expected 8 (bad-indentation)
 solution2.py:57:0: W0311: Bad indentation. Found 8 spaces, expected 12 (bad-indentation)
-solution2.py:61:0: W0311: Bad indentation. Found 4 spaces, expected 8 (bad-indentation)
-solution2.py:62:0: C0303: Trailing whitespace (trailing-whitespace)
-solution2.py:65:0: C0305: Trailing newlines (trailing-newlines)
+solution2.py:58:0: W0311: Bad indentation. Found 8 spaces, expected 12 (bad-indentation)
+solution2.py:62:0: W0311: Bad indentation. Found 4 spaces, expected 8 (bad-indentation)
+solution2.py:63:0: C0303: Trailing whitespace (trailing-whitespace)
+solution2.py:64:0: C0303: Trailing whitespace (trailing-whitespace)
+solution2.py:67:0: C0305: Trailing newlines (trailing-newlines)
 solution2.py:1:0: C0111: Missing module docstring (missing-docstring)
 solution2.py:5:0: C0111: Missing function docstring (missing-docstring)
+solution2.py:11:2: R1702: Too many nested blocks (6/5) (too-many-nested-blocks)
+solution2.py:5:0: R0912: Too many branches (14/12) (too-many-branches)
 
 --------------------------------------------------------------------
-Your code has been rated at -4.41/10 (previous run: -3.71/10, -0.70)
+Your code has been rated at -5.00/10 (previous run: -4.41/10, -0.59)
 

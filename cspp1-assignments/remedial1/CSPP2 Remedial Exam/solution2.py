@@ -10,36 +10,37 @@ def main():
   maxcapacity = 6
   while j < rangeofinputs:
     temp = input().split(" ")
+    
     # count += 1
     # if count > 5:
     #     print("All Rooms are reserved")
     if temp[0] == "reserve":
-        # print(len(dic))
-        if dic == {}:
-            count += 1
-            dic[1] = temp[1]
-            print(temp[1],1)
+        if count == maxcapacity-1:
+            print("All rooms are reserved")
         else:
-            for i in range(1,maxcapacity):
-                if i not in dic.keys():
-                    # print(i)
-                    # if i >= maxcapacity:
-                    #     print("All Rooms ")
-                    #     break
-                    dic[i] = temp[1]
-                    count += 1
-                    print(temp[1],i)
-                    # print(hi)
-                    break
-        
+            if dic == {}:
+                count += 1
+                dic[1] = temp[1]
+                print(temp[1],1)
+            else:
+                for i in range(1,maxcapacity):
+                    if i not in dic.keys():
+                        # print(i)
+                        # if i >= maxcapacity:
+                        #     print("All Rooms ")
+                        #     break
+                        dic[i] = temp[1]
+                        count += 1
+                        print(temp[1],i)
+                        # print(hi)
+                        break
+            
         
             # return
     if temp[0] == "reserveN":
-        # print(len(dic),"lp")
-        # if len(dic) >= maxcapacity:
-        #     print("All ")
-        
-        if int(temp[2]) in dic.keys():
+        if count == maxcapacity-1:
+            print("All rooms are reserved")
+        elif int(temp[2]) in dic.keys():
             print("Room is already reserved")
             # break
         else:    
@@ -59,6 +60,7 @@ def main():
     # countfunction(count)
         # break
     j += 1
+    
     
 if __name__ == '__main__':
     main()
