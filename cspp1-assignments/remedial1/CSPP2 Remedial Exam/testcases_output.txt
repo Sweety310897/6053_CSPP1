@@ -24,7 +24,7 @@ kalyani 4
 rajiv 5
 ----------------------------------------
 
-########## Testcase 1: Passed ##########
+########## Testcase 1: Failed ##########
 Expected Output: 
 kiran 2
 murthy 1
@@ -44,7 +44,6 @@ murthy 1
 rajiv 3
 kalyani 4
 kumar 5
-All Rooms are reserved
 murthy 1
 kiran 2
 rajiv 3
@@ -52,7 +51,7 @@ kalyani 4
 kumar 5
 ----------------------------------------
 
-########## Testcase 2: Passed ##########
+########## Testcase 2: Failed ##########
 Expected Output: 
 kiran 2
 murthy 1
@@ -73,8 +72,7 @@ murthy 1
 rajiv 3
 kalyani 4
 kumar 5
-All Rooms are reserved
-All Rooms are reserved
+Room is already reserved
 murthy 1
 kiran 2
 rajiv 3
@@ -82,7 +80,7 @@ kalyani 4
 kumar 5
 ----------------------------------------
 
-########## Testcase 3: Passed ##########
+########## Testcase 3: Failed ##########
 Expected Output: 
 kiran 2
 murthy 1
@@ -104,7 +102,7 @@ Room is already reserved
 kalyani 3
 kumar 4
 swathi 5
-All Rooms are reserved
+Room is already reserved
 murthy 1
 kiran 2
 kalyani 3
@@ -112,7 +110,7 @@ kumar 4
 swathi 5
 ----------------------------------------
 
-########## Testcase 4: Passed ##########
+########## Testcase 4: Failed ##########
 Expected Output: 
 kiran 2
 murthy 1
@@ -138,6 +136,7 @@ Room is already reserved
 kalyani 3
 kumar 4
 swathi 5
+8 m
 Added 2 more rooms
 alekhya 6
 manasa 7
@@ -194,6 +193,7 @@ Room is already reserved
 murthy 1
 kiran 2
 kumar 3
+11 m
 Added 5 more rooms
 alekhya 6
 manasa 4
@@ -259,6 +259,7 @@ murthy 1
 kiran 2
 kalyani 3
 swathi 5
+8 m
 Added 2 more rooms
 alekhya 6
 manasa 4
@@ -324,6 +325,7 @@ kumar now has no reservations.
 murthy 1
 kiran 2
 kalyani 3
+11 m
 Added 5 more rooms
 alekhya 6
 manasa 4
