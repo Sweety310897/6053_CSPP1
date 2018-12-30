@@ -321,7 +321,6 @@ kalyani 3
 kumar 4
 kumar 5
 kumar now has no reservations.
-kumar now has no reservations.
 murthy 1
 kiran 2
 kalyani 3

@@ -73,7 +73,7 @@ def main():
         for each in listkeys:
             if dic[each] == tempstoredname:
                 dic.pop(each, None)
-                print(temp[1] + " now has no reservations.")
+        print(temp[1] + " now has no reservations.")
         # if temp[1] in dic.values():
         #     del dic[temp[1]]
         #     print(temp[1] + " now has no reservations.")

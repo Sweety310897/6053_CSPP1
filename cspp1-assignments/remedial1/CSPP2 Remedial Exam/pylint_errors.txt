@@ -66,7 +66,7 @@ solution2.py:72:0: W0311: Bad indentation. Found 8 spaces, expected 12 (bad-inde
 solution2.py:73:0: W0311: Bad indentation. Found 8 spaces, expected 12 (bad-indentation)
 solution2.py:74:0: W0311: Bad indentation. Found 12 spaces, expected 16 (bad-indentation)
 solution2.py:75:0: W0311: Bad indentation. Found 16 spaces, expected 20 (bad-indentation)
-solution2.py:76:0: W0311: Bad indentation. Found 16 spaces, expected 20 (bad-indentation)
+solution2.py:76:0: W0311: Bad indentation. Found 8 spaces, expected 12 (bad-indentation)
 solution2.py:80:0: W0311: Bad indentation. Found 4 spaces, expected 8 (bad-indentation)
 solution2.py:81:0: C0303: Trailing whitespace (trailing-whitespace)
 solution2.py:82:0: C0303: Trailing whitespace (trailing-whitespace)
