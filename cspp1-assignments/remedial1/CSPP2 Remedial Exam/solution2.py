@@ -38,8 +38,8 @@ def main():
         
             # return
     if temp[0] == "reserveN":
-        if count == maxcapacity-1:
-            print("All Rooms are reserved")
+        # if count == maxcapacity-1:
+        #     print("All Rooms are reserved")
         elif int(temp[2]) in dic.keys():
             print("Room is already reserved")
             # break
@@ -69,6 +69,7 @@ def main():
         for each in listkeys:
             if dic[each] == tempstoredname:
                 dic.pop(each, None)
+                print(temp[1] + " now has no reservations.")
         # if temp[1] in dic.values():
         #     del dic[temp[1]]
         #     print(temp[1] + " now has no reservations.")
