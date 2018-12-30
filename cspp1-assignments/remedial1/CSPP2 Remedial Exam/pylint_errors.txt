@@ -59,9 +59,6 @@ solution2.py:55:23: C0326: Exactly one space required after comma
                        ^ (bad-whitespace)
 solution2.py:56:0: W0311: Bad indentation. Found 4 spaces, expected 8 (bad-indentation)
 solution2.py:57:0: W0311: Bad indentation. Found 8 spaces, expected 12 (bad-indentation)
-solution2.py:57:20: C0326: Exactly one space required after assignment
-        maxcapacity +=  int(temp[1])
-                    ^^ (bad-whitespace)
 solution2.py:59:0: W0311: Bad indentation. Found 8 spaces, expected 12 (bad-indentation)
 solution2.py:63:0: W0311: Bad indentation. Found 4 spaces, expected 8 (bad-indentation)
 solution2.py:68:0: W0311: Bad indentation. Found 8 spaces, expected 12 (bad-indentation)
@@ -80,5 +77,5 @@ solution2.py:11:2: R1702: Too many nested blocks (6/5) (too-many-nested-blocks)
 solution2.py:5:0: R0912: Too many branches (17/12) (too-many-branches)
 
 --------------------------------------------------------------------
-Your code has been rated at -4.44/10 (previous run: -4.44/10, +0.00)
+Your code has been rated at -4.22/10 (previous run: -4.44/10, +0.22)
 

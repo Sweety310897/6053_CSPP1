@@ -54,7 +54,7 @@ def main():
         for key,value in sorted(dic.items()):
             print(value,key)
     if temp[0] == "build":
-        maxcapacity +=  int(temp[1])
+        maxcapacity += int(temp[1])
         # print(maxcapacity)
         print("Added" +" "+ temp[1] +" "+ "more rooms")
     # print(count)
