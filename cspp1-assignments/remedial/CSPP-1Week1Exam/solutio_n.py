@@ -1,12 +1,15 @@
 def imagelinks(fh):
 	templist1 = []
 	temp1 = fh.split("img src=")
-	head = "\""
+	head = "src=\""
 	tail = "\""
 	# print(temp1)
 	count = 0
 	for each in temp1:
 		templist1.append(each)
+	# temp2 = temp.split("<img")
+	# print(temp2)
+	# print("hi")
 	for j in templist1:
 		if head in j:
 			valu = j.index(head)

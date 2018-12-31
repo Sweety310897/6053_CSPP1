@@ -68,67 +68,63 @@ https://sb.scorecardresearch.com/p?c1=2&c2=3005617&cv=2.0&cj=1
 65
 
 Your Output: 
-
-./webpage5_files/INVbaltimore_SG33.jpg
-./webpage5_files/INVbaltimore_SG37.jpg
-./webpage5_files/INVbaltimore_SG07.jpg
-./webpage5_files/INVbaltimore_SG18.jpg
-./webpage5_files/crop_90CVH_6163.jpg
-./webpage5_files/crop_90CVH_6054.jpg
-./webpage5_files/crop_90CVH_6453.jpg
-./webpage5_files/crop_90CVH_6218.jpg
-./webpage5_files/crop_90CVH_6020.jpg
-./webpage5_files/post_reports_400x400.jpg
-./webpage5_files/twp-logo-300x46.png
-./webpage5_files/JCXGFBAKFUI6TBNWIHAP4DC3R4.jpg
-./webpage5_files/2SRCZGQKEII6TI7QOHEVCBWZNI.jpg
-./webpage5_files/EJSWZPQKBUI6TI7QOHEVCBWZNI.jpg
-./webpage5_files/GUZMLXQKCMI6TI7QOHEVCBWZNI.jpg
-./webpage5_files/XLHFA7CMPUI6RNZFSLEJ7Y6KJQ.jpg
-./webpage5_files/WLMNRUAKBUI6TCKCB32EFZMQSQ.jpg
-./webpage5_files/crop_90Guatemala_Child_Dead_Border_41957-878ac.jpg
-./webpage5_files/ELAWR3QKKII6TCKCB32EFZMQSQ.jpg
-./webpage5_files/56WDC5AEOQI6TEJCQLUY7EPON4.jpg
-./webpage5_files/NJJDAFHZXMI6RBSCZFYYUJLMXU.jpg
-./webpage5_files/crop_90KEY-Britain_Obit_Sister_Wendy_Beckett_71782.jpg-b098b.jpg
-./webpage5_files/FZQHN5YG6I3B7FVZJOMWAMMQYU.jpg
-./webpage5_files/BFCYE5AD7EI6TFMMBJQBEJX7NM.jpg
-./webpage5_files/2300-shutdown-what-closes-promo.jpg
-./webpage5_files/HPSPJGQHVYI6TCHDTCND4RLIEA.jpg
-./webpage5_files/COPSHOOTN1005.jpg
-./webpage5_files/AFP_1BT6Y5.jpg
-./webpage5_files/t_736052d2ae8049b48161d25d930d49ce_name_2018_12_26T194744Z_242160190_RC1175CD5BE0_RTRMADP_3_USA_TRUMP.jpg
-./webpage5_files/t_8c479738cd4d405d8b403e3aa0e0ca2a_name_thelistvideothumb.jpg
-./webpage5_files/t_cea9ae8faaa246be912b6cd509aa761c_name_20181231_CRAZIEST_MOMENTS_V6.png
-./webpage5_files/t_0c0633c768b94ff1a7e2a29fe0375c8d_name_D29A0250_Copy_01_00_04_21_17_Still002.jpg
-./webpage5_files/VJCQL2H6MEI6RIL6CYVXCLUPYI.jpg
-./webpage5_files/RJJ26BAJ3EI6TCKCB32EFZMQSQ.jpg
-./webpage5_files/UBK4POAKGUI6TBNWIHAP4DC3R4.jpg
-./webpage5_files/GUZMLXQKCMI6TI7QOHEVCBWZNI(1).jpg
-./webpage5_files/WLMNRUAKBUI6TCKCB32EFZMQSQ(1).jpg
-./webpage5_files/GQMMYOLYSRH2PAERATH3WB5YTY.jpg
-./webpage5_files/EWLPTWLRZNGVRAIC25QVIJYPF4.jpg
-./webpage5_files/IBUNTTBXA5AYPCGEM4W74NLUJM.jpg
-./webpage5_files/confidential-tips-70.png
-./webpage5_files/WPBS_KP_hero.jpg
-./webpage5_files/WPBS_TRP_R2_native_1113.jpg
-./webpage5_files/screenshot-www.harrykotlar.com-2018.11.20-13-36-59.png
-./webpage5_files/AD542KUGWQI6RHQGJW2SVRBOAU.jpg
-./webpage5_files/AFP_1BG82F.jpg
-./webpage5_files/181204_wp_alabama_jews_0539.jpg
-./webpage5_files/4WC2IJQEWII6TFMMBJQBEJX7NM.jpg
-./webpage5_files/Filler-Corn07.JPG
-./webpage5_files/VIFFIQXV6II6RGOCZ7FG7T3BBQ.jpg
-./webpage5_files/dinmins-flanksteakgyros__163leadweb.jpg
-./webpage5_files/GettyImages-1068135686.JPG
-./webpage5_files/VMZRLVYGHZDXPBXT7XAL3N2GBY.PNG
-./webpage5_files/YBBGP6AJUMI6TCKCB32EFZMQSQ.jpg
-./webpage5_files/54SNSHAG7II6TCKCB32EFZMQSQ.jpg
-./webpage5_files/jack-odwyer-crop.JPG
-https://sb.scorecardresearch.com/p?c1=2&c2=3005617&cv=2.0&cj=1
-//me.effectivemeasure.net/em_image
-./webpage5_files/pixel
-60
+javascript:false
+https://www.washingtonpost.com/resizer/GeI4HSjUOKNC2OhSq0QJ3yq7PVw=/1248x832/www.washingtonpost.com/r/2010-2019/WashingtonPost/2018/12/27/Investigative/Images/INVbaltimore_SG33.jpg
+https://www.washingtonpost.com/resizer/3JWsYDQZ_mIJ-U9xYBUrBp7jy6M=/1248x832/www.washingtonpost.com/r/2010-2019/WashingtonPost/2018/12/27/Investigative/Images/INVbaltimore_SG37.jpg
+https://www.washingtonpost.com/resizer/3ojvit2v17noE8V35zQ105aheqE=/1248x832/www.washingtonpost.com/r/2010-2019/WashingtonPost/2018/12/27/Investigative/Images/INVbaltimore_SG07.jpg
+https://www.washingtonpost.com/resizer/jlhSHRzN98Jp0FA829ki7e8qCR4=/1248x832/www.washingtonpost.com/r/2010-2019/WashingtonPost/2018/12/27/Investigative/Images/INVbaltimore_SG18.jpg
+https://www.washingtonpost.com/resizer/QtFyFCVrjbJeHsSCMs8WLlbhEh0=/1248x832/www.washingtonpost.com/r/2010-2019/WashingtonPost/2018/12/27/Interactivity/Images/crop_90CVH_6163.jpg
+https://www.washingtonpost.com/resizer/Y9W7gtJKIQIXX4gjHbQy8T_ozaQ=/1248x832/www.washingtonpost.com/r/2010-2019/WashingtonPost/2018/12/27/Interactivity/Images/crop_90CVH_6054.jpg
+https://www.washingtonpost.com/resizer/F7tG6rjkeNc9egCFT2111sbRols=/1248x832/www.washingtonpost.com/r/2010-2019/WashingtonPost/2018/12/27/Interactivity/Images/crop_90CVH_6453.jpg
+https://www.washingtonpost.com/resizer/7P8815JY48c_n0mD9jpaqXpbldg=/1248x832/www.washingtonpost.com/r/2010-2019/WashingtonPost/2018/12/27/Interactivity/Images/crop_90CVH_6218.jpg
+https://www.washingtonpost.com/resizer/wZuYY-apCQKVtQJ2QfMw1e7NP-8=/1248x832/www.washingtonpost.com/r/2010-2019/WashingtonPost/2018/12/27/Interactivity/Images/crop_90CVH_6020.jpg
+https://www.washingtonpost.com/resizer/u9_K7xLyl9BtH5oGXZVVgKjzc-U=/1248x1248/wp-stat.s3.amazonaws.com/graphics/homepage-promos/standing-features/post_reports_400x400.jpg
+https://www.washingtonpost.com/resizer/JPBf22sLYvMqcatVjerjzq_eUL4=/300x0/www.washingtonpost.com/pb/resources/img/twp-logo-300x46.png
+https://www.washingtonpost.com/resizer/zfNb5c16jzVKB7qJsZhiwG_l3uk=/480x480/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/JCXGFBAKFUI6TBNWIHAP4DC3R4.jpg
+https://www.washingtonpost.com/resizer/tqkh2lFyNbwc5p7AkYdGKFh4deo=/480x480/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/2SRCZGQKEII6TI7QOHEVCBWZNI.jpg
+https://www.washingtonpost.com/resizer/9ABluaH3VLCA6za69MHdGzdxMq4=/480x480/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EJSWZPQKBUI6TI7QOHEVCBWZNI.jpg
+https://www.washingtonpost.com/resizer/s3JE53at0upRHWXNf2O70wqqrwk=/480x480/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/XLHFA7CMPUI6RNZFSLEJ7Y6KJQ.jpg
+https://www.washingtonpost.com/resizer/gDgaBnzK6wHhP4ryURIrmAlyqfg=/480x480/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/WLMNRUAKBUI6TCKCB32EFZMQSQ.jpg
+https://www.washingtonpost.com/resizer/EiBN53mR3K2rY2UeW8H6WA5pniY=/480x320/www.washingtonpost.com/r/2010-2019/WashingtonPost/2018/12/28/Interactivity/Images/crop_90Guatemala_Child_Dead_Border_41957-878ac.jpg
+https://www.washingtonpost.com/resizer/GwN2-IOTsUuAGwphjg4ypHeIdGs=/480x320/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/ELAWR3QKKII6TCKCB32EFZMQSQ.jpg
+https://www.washingtonpost.com/resizer/TD-Gj_tVf7FMg4mQAwXtrRSBH6o=/480x320/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/56WDC5AEOQI6TEJCQLUY7EPON4.jpg
+https://www.washingtonpost.com/resizer/LHxEMVqEBKmLZi1yoejemXHlf0w=/480x320/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/NJJDAFHZXMI6RBSCZFYYUJLMXU.jpg
+https://www.washingtonpost.com/resizer/0KS8czo9VG0sEXurfOplv0rdVe4=/480x320/www.washingtonpost.com/r/2010-2019/WashingtonPost/2018/12/28/Interactivity/Images/crop_90KEY-Britain_Obit_Sister_Wendy_Beckett_71782.jpg-b098b.jpg
+https://www.washingtonpost.com/resizer/ZOS5JMVlM10cEx8bnlxHSkHUHro=/1248x832/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/FZQHN5YG6I3B7FVZJOMWAMMQYU.jpg
+https://www.washingtonpost.com/resizer/twpNI2q0XdYGmTdhiUXOGH3jX7Q=/1248x832/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/BFCYE5AD7EI6TFMMBJQBEJX7NM.jpg
+https://www.washingtonpost.com/resizer/eZtdhrGy5d8I7Fd6HJ0G8qUvDZE=/1248x832/www.washingtonpost.com/r/2010-2019/WashingtonPost/2018/01/19/National-Politics/Graphics/2300-shutdown-what-closes-promo.jpg
+https://www.washingtonpost.com/resizer/dAuiAA4kjW3ZuKXnUeIdKV-wmLA=/1248x832/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/HPSPJGQHVYI6TCHDTCND4RLIEA.jpg
+https://www.washingtonpost.com/resizer/oc_qoW1eMDreBN6GlNjetFwfW1s=/1248x832/www.washingtonpost.com/r/2010-2019/WashingtonPost/2018/12/19/National-Enterprise/Images/COPSHOOTN1005.jpg
+https://www.washingtonpost.com/resizer/FEX4VaWTNfbKCV84srdv6ZDCHDA=/1248x832/www.washingtonpost.com/rw/2010-2019/WashingtonPost/2018/12/26/Style/Images/AFP_1BT6Y5.jpg
+https://www.washingtonpost.com/resizer/Fg_nzFfTaKNAwTMfr2PRS8KsFBE=/480x270/d1i4t8bqe7zgj6.cloudfront.net/12-27-2018/t_736052d2ae8049b48161d25d930d49ce_name_2018_12_26T194744Z_242160190_RC1175CD5BE0_RTRMADP_3_USA_TRUMP.jpg
+https://www.washingtonpost.com/resizer/2CiLndFo1qMXLGM-2b4ExaGPcpk=/480x270/d1i4t8bqe7zgj6.cloudfront.net/12-20-2018/t_8c479738cd4d405d8b403e3aa0e0ca2a_name_thelistvideothumb.jpg
+https://www.washingtonpost.com/resizer/0XRV7IVLWmEqH0wahSdlM4rBerE=/480x270/d1i4t8bqe7zgj6.cloudfront.net/12-21-2018/t_cea9ae8faaa246be912b6cd509aa761c_name_20181231_CRAZIEST_MOMENTS_V6.png
+https://www.washingtonpost.com/resizer/UJY_D4bO3nw5iTcvrE4E_fsJFBc=/480x270/d1i4t8bqe7zgj6.cloudfront.net/12-24-2018/t_0c0633c768b94ff1a7e2a29fe0375c8d_name_D29A0250_Copy_01_00_04_21_17_Still002.jpg
+https://www.washingtonpost.com/resizer/ZQjEDKZyQ-TbeWlGDVOa3qCYup0=/60x60/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/VJCQL2H6MEI6RIL6CYVXCLUPYI.jpg
+https://www.washingtonpost.com/resizer/Xel2Qqm9AF2DlzeiBOxs9VUZaaw=/60x60/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/RJJ26BAJ3EI6TCKCB32EFZMQSQ.jpg
+https://www.washingtonpost.com/resizer/0QRYNSKU9acQofqjsZSq7sIl0mc=/60x60/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/UBK4POAKGUI6TBNWIHAP4DC3R4.jpg
+https://www.washingtonpost.com/resizer/fGwdlMwUrRhq3cpwfF60Oqqge00=/60x60/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/GUZMLXQKCMI6TI7QOHEVCBWZNI.jpg
+https://www.washingtonpost.com/resizer/iP-_mg-6EjWMumep3bim7C6mesk=/60x60/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/WLMNRUAKBUI6TCKCB32EFZMQSQ.jpg
+https://www.washingtonpost.com/resizer/qm9rEXnk_Qk7CIiFkezlGeoSrp4=/480x0/arc-anglerfish-washpost-prod-thelily-washpost.s3.amazonaws.com/public/GQMMYOLYSRH2PAERATH3WB5YTY.jpg
+https://www.washingtonpost.com/resizer/xntyvovKyIsYIlTyaBIBEItolH0=/480x0/arc-anglerfish-washpost-prod-thelily-washpost.s3.amazonaws.com/public/EWLPTWLRZNGVRAIC25QVIJYPF4.jpg
+https://www.washingtonpost.com/resizer/_7Fl343nj3sZ9RWKYbdQDaQtk0w=/480x0/arc-anglerfish-washpost-prod-thelily-washpost.s3.amazonaws.com/public/IBUNTTBXA5AYPCGEM4W74NLUJM.jpg
+https://www.washingtonpost.com/resizer/iaYEs7FOBmiUY5B5cPfp7_3UUbg=/60x60/www.washingtonpost.com/brand-studio/wp-content/uploads/2018/12/WPBS_KP_hero.jpg
+https://www.washingtonpost.com/resizer/K4eL9qvu4MmBekm7ZFtd0Y42k0g=/60x60/www.washingtonpost.com/brand-studio/wp-content/uploads/2018/11/WPBS_TRP_R2_native_1113.jpg
+https://www.washingtonpost.com/resizer/lTqpGJY3ExjOYbg0hwIX6Lb-Z6M=/60x60/www.washingtonpost.com/brand-studio/wp-content/uploads/2018/11/screenshot-www.harrykotlar.com-2018.11.20-13-36-59.png
+https://www.washingtonpost.com/resizer/nXWaBUa3IfZDKrqU25xCeCwVrTw=/1484x989/www.washingtonpost.com/rw/2010-2019/WashingtonPost/2018/12/27/Technology/Images/AD542KUGWQI6RHQGJW2SVRBOAU.jpg
+https://www.washingtonpost.com/resizer/011CcCcsIJ-gg7zu3V93Abw_wcE=/1484x989/www.washingtonpost.com/rw/2010-2019/WashingtonPost/2018/12/27/Foreign/Images/AFP_1BG82F.jpg
+https://www.washingtonpost.com/resizer/24leTAx7eZm18n45tQaj1TcnHN0=/1484x989/www.washingtonpost.com/rw/2010-2019/WashingtonPost/2018/12/27/SocialIssues-Religion-Immigration/Images/181204_wp_alabama_jews_0539.jpg
+https://www.washingtonpost.com/resizer/RRYrEeKJTxHVjb0dfKnvcvhXeL8=/1484x989/www.washingtonpost.com/rw/2010-2019/WashingtonPost/2018/12/23/Outlook/Images/4WC2IJQEWII6TFMMBJQBEJX7NM.jpg
+https://www.washingtonpost.com/resizer/FNx7y-FjKQk7Scl8ZJP0tkwi2rw=/1484x989/www.washingtonpost.com/rw/2010-2019/WashingtonPost/2018/12/27/Local/Images/Filler-Corn07.JPG
+https://www.washingtonpost.com/resizer/BvcqRqUY51JMjIVgRXcSHPWX8b0=/1484x989/www.washingtonpost.com/rw/2010-2019/WashingtonPost/2018/12/27/Sports/Images/VIFFIQXV6II6RGOCZ7FG7T3BBQ.jpg
+https://www.washingtonpost.com/resizer/N1COmI_zbnR6UK-8ir6yTh98DqA=/1484x989/www.washingtonpost.com/news/voraciously/wp-content/uploads/sites/68/2018/12/dinmins-flanksteakgyros__163leadweb.jpg
+https://www.washingtonpost.com/resizer/uoXv2DkYYLijmC_cjb_rBmXwxfA=/1484x989/www.washingtonpost.com/rw/2010-2019/WashingtonPost/2018/12/26/Style/Images/GettyImages-1068135686.JPG
+https://www.washingtonpost.com/resizer/VyUQwZi2mFCRzgfJOeklq72tfKc=/1484x989/www.washingtonpost.com/rw/2010-2019/WashingtonPost/2018/12/27/Technology/Images/VMZRLVYGHZDXPBXT7XAL3N2GBY.PNG
+https://www.washingtonpost.com/resizer/3YnccLGnNdmoeeRDBNqOU9LGPaQ=/1484x989/www.washingtonpost.com/rw/2010-2019/WashingtonPost/2018/12/27/National-Economy/Images/YBBGP6AJUMI6TCKCB32EFZMQSQ.jpg
+https://www.washingtonpost.com/resizer/iZ_H5IZ4Vww3WblNbXkYZA95xVY=/1484x989/www.washingtonpost.com/rw/2010-2019/WashingtonPost/2018/12/24/National-Politics/Images/54SNSHAG7II6TCKCB32EFZMQSQ.jpg
+https://www.washingtonpost.com/resizer/FIvTHjPkzAR-bSCRSwGeMYuYf_g=/1484x989/www.washingtonpost.com/rw/2010-2019/WashingtonPost/2018/12/24/Others/Images/2018-12-24/jack-odwyer-crop.JPG
+./webpage5_files/render(5).js
+56
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -168,11 +164,11 @@ transparent
 #d5d5d5
 #fff
 Traceback (most recent call last):
-  File "solutio_n.py", line 105, in <module>
+  File "solutio_n.py", line 108, in <module>
     main()
-  File "solutio_n.py", line 100, in main
+  File "solutio_n.py", line 103, in main
     backlinks(fh)
-  File "solutio_n.py", line 72, in backlinks
+  File "solutio_n.py", line 75, in backlinks
     temppp = j.index(tail)
 ValueError: substring not found
 ----------------------------------------
@@ -1069,11 +1065,11 @@ N.J. wrestler
 Redskins
 More than 4 million children endured lockdowns last school year. Many were traumatized.
 Traceback (most recent call last):
-  File "solutio_n.py", line 105, in <module>
+  File "solutio_n.py", line 108, in <module>
     main()
-  File "solutio_n.py", line 103, in main
+  File "solutio_n.py", line 106, in main
     listlinks(fh)
-  File "solutio_n.py", line 44, in listlinks
+  File "solutio_n.py", line 47, in listlinks
     temporart = j.index(tail)
 ValueError: substring not found
 ----------------------------------------
