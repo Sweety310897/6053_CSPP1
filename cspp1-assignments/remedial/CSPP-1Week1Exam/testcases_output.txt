@@ -74,7 +74,7 @@ Traceback (most recent call last):
   File "solutio_n.py", line 123, in main
     imagelinks(fh)
   File "solutio_n.py", line 3, in imagelinks
-    temp1 = fh.split("img src=")
+    temp1 = fh.split("<img")
 AttributeError: '_io.TextIOWrapper' object has no attribute 'split'
 ----------------------------------------
 

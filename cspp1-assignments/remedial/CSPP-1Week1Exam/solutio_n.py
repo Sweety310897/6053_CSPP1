@@ -1,34 +1,34 @@
 def imagelinks(fh):
 	templist1 = []
-	temp1 = fh.split("img src=")
+	temp1 = fh.split("<img")
 	#print(temp1)
-	head = "\""
+	head = "src=\""
 	tail = "\""
 	# print(temp1)
-	headtag = "\""
-	endtag = ".png"
-	count = 0
+	# headtag = "\""
+	# endtag = ".png"
+	# count = 0
 	for each in temp1:
 		templist1.append(each)
 	#print(templist1)
 	
 	list2 = []
 
-	temp21 = fh.split("src=")
-	# print(temp21[0])
-	# print(temp21[1])
-	for j in temp21:
-		if headtag in j:
-			if endtag in j:
-				#print(endtag)
-				valu = j.index(headtag)
-				#print(valu)
-				j = j[valu + len(headtag):]
-				temppp = j.index(endtag)
-			# tempppplist.append(j)
-				# print(j[:temppp])
-				list2.append(j)
-				count += 1
+	# temp21 = fh.split("src=")
+	# # print(temp21[0])
+	# # print(temp21[1])
+	# for j in temp21:
+	# 	if headtag in j:
+	# 		if endtag in j:
+	# 			#print(endtag)
+	# 			valu = j.index(headtag)
+	# 			#print(valu)
+	# 			j = j[valu + len(headtag):]
+	# 			temppp = j.index(endtag)
+	# 		# tempppplist.append(j)
+	# 			# print(j[:temppp])
+	# 			list2.append(j)
+	# 			count += 1
 
 
 	for j in templist1:
@@ -38,10 +38,10 @@ def imagelinks(fh):
 	 		j = j[valu + len(head):]
 	 		temppp = j.index(tail)
 	 		# tempppplist.append(j)
-	 		# print(j[:temppp])
-	 		list2.append(j)
+	 		print(j[:temppp])
+	 		# list2.append(j)
 	 		count += 1
-	print(list2)
+	# print(list2)
 	print(count)
 
 	# print(templist1[0])
