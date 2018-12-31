@@ -1,25 +1,49 @@
 def imagelinks(fh):
 	templist1 = []
 	temp1 = fh.split("img src=")
-	head = "src=\""
+	#print(temp1)
+	head = "\""
 	tail = "\""
 	# print(temp1)
+	headtag = "\""
+	endtag = ".png"
 	count = 0
 	for each in temp1:
 		templist1.append(each)
-	# temp2 = temp.split("<img")
-	# print(temp2)
-	# print("hi")
+	#print(templist1)
+	
+	list2 = []
+
+	temp21 = fh.split("src=")
+	# print(temp21[0])
+	# print(temp21[1])
+	for j in temp21:
+		if headtag in j:
+			if endtag in j:
+				#print(endtag)
+				valu = j.index(headtag)
+				#print(valu)
+				j = j[valu + len(headtag):]
+				temppp = j.index(endtag)
+			# tempppplist.append(j)
+				# print(j[:temppp])
+				list2.append(j)
+				count += 1
+
+
 	for j in templist1:
 		if head in j:
-			valu = j.index(head)
-			# print(valu)
-			j = j[valu + len(head):]
-			temppp = j.index(tail)
-			print(j[:temppp])
-			count += 1
+	 		valu = j.index(head)
+	 		# print(valu)
+	 		j = j[valu + len(head):]
+	 		temppp = j.index(tail)
+	 		# tempppplist.append(j)
+	 		# print(j[:temppp])
+	 		list2.append(j)
+	 		count += 1
+	print(list2)
 	print(count)
-	
+
 	# print(templist1[0])
 	# print("hello")
 	# print(templist1[1])
@@ -91,11 +115,9 @@ def backlinks(fh):
 
 
 
-
-
-
 def main():
-	fh = open("webpage5.html",encoding = "utf8").read()
+	fh = open("webpage5.html",encoding = "utf8")
+	# fh = input()
 	input1 = input()
 	if input1 == "image":
 		imagelinks(fh)
