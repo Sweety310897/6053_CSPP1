@@ -1,4 +1,4 @@
-def lister(l,templen):
+def lister(l,templen, count):
     output = []
     outer = []
     templi = []
@@ -8,24 +8,33 @@ def lister(l,templen):
     glo = 0
     for item in l:
         if type(item) in [list, tuple, set]:
-            lister(item,templen)
+            count+=1
+            fsum += lister(item,templen, count)[0]
+
         else:
             output.append(item)
             sum1 += item
             # str1 += sum1
+            # print(sum1)
             outer.append(sum1)
+        count += 1
         # templi.append(sum1)
-    print(output)
+    # print(output)    
     for each in output:    
         fsum += float(each)
         templi.append(each)
+    # print(fsum)
+    return (fsum, count)
+    
     # print(templen)
     # print(output[0],"0")
 def main():
     input1 = eval(input())
     temp = len(input1)
-    tempvalues = lister(input1,temp)
-    # print(tempvalues)
+    count = 0
+    tempvalues = lister(input1,temp, 0)
+    print(tempvalues[0])
+    print(tempvalues[1])
     # sum1 = 0
     # j = 1
     # i = 0
@@ -47,5 +56,6 @@ def main():
     # print(list1)
     
     # input2 = input1.split("")
+count = 0
 if __name__ == '__main__':
     main()
