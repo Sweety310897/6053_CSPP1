@@ -15,8 +15,8 @@ def main():
 		# print(input1.split(","))
 		# while j != "]":
 		# print(length)
-		for j in range(length):
-			sum1 += input1[j]
+		# for j in range(length):
+		# 	sum1 += input1[j]
 		i += 1
 	print(sum1)
 	print(len(input1))

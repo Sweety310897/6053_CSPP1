@@ -9,8 +9,6 @@ solution.py:8:0: C0303: Trailing whitespace (trailing-whitespace)
 solution.py:10:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 solution.py:11:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 solution.py:13:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-solution.py:18:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-solution.py:19:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 solution.py:20:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 solution.py:21:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 solution.py:22:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -20,10 +18,10 @@ solution.py:87:0: W0312: Found indentation with tabs instead of spaces (mixed-in
 solution.py:1:0: C0111: Missing module docstring (missing-docstring)
 solution.py:1:0: C0111: Missing function docstring (missing-docstring)
 solution.py:2:10: W0123: Use of eval (eval-used)
-solution.py:18:17: E0602: Undefined variable 'length' (undefined-variable)
+solution.py:4:1: W0612: Unused variable 'j' (unused-variable)
 solution.py:6:1: W0612: Unused variable 'count' (unused-variable)
 solution.py:7:1: W0612: Unused variable 'list1' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -6.47/10 (previous run: -3.57/10, -2.90)
+Your code has been rated at -4.67/10 (previous run: -6.47/10, +1.80)
 

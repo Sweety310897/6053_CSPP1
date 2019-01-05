@@ -7,9 +7,9 @@ Your Output:
 Traceback (most recent call last):
   File "solution.py", line 87, in <module>
     main()
-  File "solution.py", line 18, in main
-    for j in range(length):
-NameError: name 'length' is not defined
+  File "solution.py", line 13, in main
+    sum1 += each
+TypeError: unsupported operand type(s) for +=: 'int' and 'list'
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
