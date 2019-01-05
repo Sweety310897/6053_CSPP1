@@ -3,6 +3,7 @@ def lister(l,templen):
     outer = []
     templi = []
     sum1 = 0
+    str1 = ""
     fsum = 0
     for item in l:
         if type(item) in [list, tuple, set]:
@@ -10,19 +11,20 @@ def lister(l,templen):
         else:
             output.append(item)
             sum1 += item
+            # str1 += sum1
             outer.append(sum1)
         # templi.append(sum1)
-    # for each in templi:
-    #     fsum += int(each)
-    # print(templi)
-    print(sum1)
-    print(templen,"l")
-    # print(outer,"ou")
-    # print(fsum)
+    # print(output)
+    for each in output:
+        fsum += float(each)
+    print(fsum)
+    print(templen)
+    # print(output[0],"0")
 def main():
     input1 = eval(input())
     temp = len(input1)
-    print(lister(input1,temp))
+    tempvalues = lister(input1,temp)
+    # print(tempvalues)
     # sum1 = 0
     # j = 1
     # i = 0

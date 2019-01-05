@@ -4,21 +4,20 @@ Expected Output:
 6
 
 Your Output: 
-6
-3 l
-7
-3 l
-32
-3 l
-10
-3 l
-6
-3 l
+6.0
+3
+7.0
+3
+32.0
+3
+10.0
+3
+6.0
+3
 15.8
-3 l
+3
 0
-3 l
-None
+3
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -28,11 +27,11 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "solution.py", line 48, in <module>
+  File "solution.py", line 50, in <module>
     main()
-  File "solution.py", line 25, in main
-    print(lister(input1,temp))
-  File "solution.py", line 12, in lister
+  File "solution.py", line 26, in main
+    tempvalues = lister(input1,temp)
+  File "solution.py", line 13, in lister
     sum1 += item
 TypeError: unsupported operand type(s) for +=: 'int' and 'str'
 ----------------------------------------
@@ -43,21 +42,20 @@ Expected Output:
 6
 
 Your Output: 
+1.0
 1
-1 l
 0
-1 l
+1
 0
-1 l
+1
 0
-1 l
+1
 0
-1 l
+1
 0
-1 l
+1
 0
-1 l
-None
+1
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -66,17 +64,16 @@ Expected Output:
 4
 
 Your Output: 
-1
-2 l
-1
-2 l
-1
-2 l
-1
-2 l
-1
-2 l
-None
+1.0
+2
+1.0
+2
+1.0
+2
+1.0
+2
+1.0
+2
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -86,24 +83,23 @@ Expected Output:
 
 Your Output: 
 0
-1 l
+1
 0
-1 l
+1
 0
-1 l
+1
 0
-1 l
+1
 0
-1 l
+1
 0
-1 l
+1
 0
-1 l
+1
 0
-1 l
+1
 0
-1 l
-None
+1
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -113,15 +109,15 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "solution.py", line 48, in <module>
+  File "solution.py", line 50, in <module>
     main()
-  File "solution.py", line 25, in main
-    print(lister(input1,temp))
-  File "solution.py", line 9, in lister
+  File "solution.py", line 26, in main
+    tempvalues = lister(input1,temp)
+  File "solution.py", line 10, in lister
     lister(item,templen)
-  File "solution.py", line 9, in lister
+  File "solution.py", line 10, in lister
     lister(item,templen)
-  File "solution.py", line 12, in lister
+  File "solution.py", line 13, in lister
     sum1 += item
 TypeError: unsupported operand type(s) for +=: 'int' and 'str'
 ----------------------------------------
