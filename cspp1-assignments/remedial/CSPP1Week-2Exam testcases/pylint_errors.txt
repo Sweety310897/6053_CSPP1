@@ -1,0 +1,24 @@
+************* Module solution
+solution.py:2:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+solution.py:3:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+solution.py:4:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+solution.py:5:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+solution.py:6:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+solution.py:7:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+solution.py:8:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+solution.py:9:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+solution.py:10:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+solution.py:11:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+solution.py:12:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+solution.py:47:0: C0303: Trailing whitespace (trailing-whitespace)
+solution.py:76:0: C0304: Final newline missing (missing-final-newline)
+solution.py:76:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+solution.py:1:0: C0111: Missing module docstring (missing-docstring)
+solution.py:1:0: C0111: Missing function docstring (missing-docstring)
+solution.py:2:10: W0123: Use of eval (eval-used)
+solution.py:4:1: W0612: Unused variable 'j' (unused-variable)
+solution.py:6:1: W0612: Unused variable 'list1' (unused-variable)
+
+--------------------------------------------------------------------
+Your code has been rated at -3.57/10 (previous run: 8.00/10, -11.57)
+
