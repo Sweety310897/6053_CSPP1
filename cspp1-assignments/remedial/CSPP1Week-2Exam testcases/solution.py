@@ -16,7 +16,7 @@ def lister(l):
     #     fsum += int(each)
     # print(templi)
     print(sum1)
-    print(len(l))
+    print(len(l),"l")
     # print(outer,"ou")
     # print(fsum)
 def main():

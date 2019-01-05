@@ -1,4 +1,7 @@
 ************* Module solution
+solution.py:19:16: C0326: Exactly one space required after comma
+    print(len(l),"l")
+                ^ (bad-whitespace)
 solution.py:41:0: C0303: Trailing whitespace (trailing-whitespace)
 solution.py:44:0: C0303: Trailing whitespace (trailing-whitespace)
 solution.py:47:0: C0304: Final newline missing (missing-final-newline)
@@ -12,5 +15,5 @@ solution.py:22:0: C0111: Missing function docstring (missing-docstring)
 solution.py:23:13: W0123: Use of eval (eval-used)
 
 ------------------------------------------------------------------
-Your code has been rated at 4.21/10 (previous run: 3.89/10, +0.32)
+Your code has been rated at 3.68/10 (previous run: 4.21/10, -0.53)
 
