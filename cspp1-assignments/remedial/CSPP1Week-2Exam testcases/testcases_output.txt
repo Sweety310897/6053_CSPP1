@@ -4,12 +4,14 @@ Expected Output:
 6
 
 Your Output: 
-Traceback (most recent call last):
-  File "solution.py", line 94, in <module>
-    main()
-  File "solution.py", line 11, in main
-    if j in "0123456789":
-TypeError: 'in <string>' requires string as left operand, not int
+6
+7
+32
+10
+6
+15.8
+0
+None
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -19,11 +21,13 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "solution.py", line 94, in <module>
+  File "solution.py", line 46, in <module>
     main()
-  File "solution.py", line 10, in main
-    for j in i:
-TypeError: 'int' object is not iterable
+  File "solution.py", line 23, in main
+    print(lister(input1))
+  File "solution.py", line 12, in lister
+    sum1 += item
+TypeError: unsupported operand type(s) for +=: 'int' and 'str'
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -32,12 +36,14 @@ Expected Output:
 6
 
 Your Output: 
-Traceback (most recent call last):
-  File "solution.py", line 94, in <module>
-    main()
-  File "solution.py", line 11, in main
-    if j in "0123456789":
-TypeError: 'in <string>' requires string as left operand, not list
+1
+0
+0
+0
+0
+0
+0
+None
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -46,12 +52,12 @@ Expected Output:
 4
 
 Your Output: 
-Traceback (most recent call last):
-  File "solution.py", line 94, in <module>
-    main()
-  File "solution.py", line 10, in main
-    for j in i:
-TypeError: 'int' object is not iterable
+1
+1
+1
+1
+1
+None
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -60,12 +66,16 @@ Expected Output:
 8
 
 Your Output: 
-Traceback (most recent call last):
-  File "solution.py", line 94, in <module>
-    main()
-  File "solution.py", line 11, in main
-    if j in "0123456789":
-TypeError: 'in <string>' requires string as left operand, not list
+0
+0
+0
+0
+0
+0
+0
+0
+0
+None
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -75,10 +85,16 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "solution.py", line 94, in <module>
+  File "solution.py", line 46, in <module>
     main()
-  File "solution.py", line 11, in main
-    if j in "0123456789":
-TypeError: 'in <string>' requires string as left operand, not int
+  File "solution.py", line 23, in main
+    print(lister(input1))
+  File "solution.py", line 9, in lister
+    lister(item)
+  File "solution.py", line 9, in lister
+    lister(item)
+  File "solution.py", line 12, in lister
+    sum1 += item
+TypeError: unsupported operand type(s) for +=: 'int' and 'str'
 ----------------------------------------
 
