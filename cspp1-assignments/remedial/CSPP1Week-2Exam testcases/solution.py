@@ -13,7 +13,7 @@ def lister(l,templen, count):
 
         else:
             output.append(item)
-            sum1 += item
+            sum1 += int(item)
             # str1 += sum1
             # print(sum1)
             outer.append(sum1)

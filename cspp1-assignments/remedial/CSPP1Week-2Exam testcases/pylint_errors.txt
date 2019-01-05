@@ -31,5 +31,5 @@ solution.py:34:4: W0612: Unused variable 'count' (unused-variable)
 solution.py:59:0: C0103: Constant name "count" doesn't conform to UPPER_CASE naming style (invalid-name)
 
 ------------------------------------------------------------------
-Your code has been rated at 2.67/10 (previous run: 1.25/10, +1.42)
+Your code has been rated at 2.67/10 (previous run: 2.67/10, +0.00)
 
