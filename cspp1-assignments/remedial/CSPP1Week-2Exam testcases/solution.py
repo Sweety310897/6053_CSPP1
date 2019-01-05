@@ -1,15 +1,26 @@
 def main():
 	input1 = eval(input())
 	sum1 = 0
-	j = 0
+	j = 1
 	i = 0
+	count = 0
 	list1 = []
-	print(len(input1))
+	
+	# print(max(input1))
 	while i < len(input1):
 		for each in input1[i]:
-			sum1 += int(each)
-			print(sum1)
+			# print(each)
+			sum1 += each
+
+		# print(input1.split(","))
+		# while j != "]":
+		# print(length)
+		for j in range(length):
+			sum1 += input1[j]
 		i += 1
+	print(sum1)
+	print(len(input1))
+	# print(list1)
 	# for each in input1:
 	# 	while j < len()
 	# 	len1 = len(input1[i])
