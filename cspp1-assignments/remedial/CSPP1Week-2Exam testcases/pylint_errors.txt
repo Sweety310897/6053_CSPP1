@@ -5,6 +5,9 @@ def lister(l,templen):
 solution.py:9:23: C0326: Exactly one space required after comma
             lister(item,templen)
                        ^ (bad-whitespace)
+solution.py:19:17: C0326: Exactly one space required after comma
+    print(templen,"l")
+                 ^ (bad-whitespace)
 solution.py:25:23: C0326: Exactly one space required after comma
     print(lister(input1,temp))
                        ^ (bad-whitespace)
@@ -21,5 +24,5 @@ solution.py:22:0: C0111: Missing function docstring (missing-docstring)
 solution.py:23:13: W0123: Use of eval (eval-used)
 
 ------------------------------------------------------------------
-Your code has been rated at 3.00/10 (previous run: 1.00/10, +2.00)
+Your code has been rated at 2.50/10 (previous run: 3.00/10, -0.50)
 
