@@ -5,12 +5,19 @@ Expected Output:
 
 Your Output: 
 6
+3
 7
+2
 32
+8
 10
+4
 6
+3
 15.8
+4
 0
+3
 None
 ----------------------------------------
 
@@ -21,9 +28,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "solution.py", line 46, in <module>
+  File "solution.py", line 47, in <module>
     main()
-  File "solution.py", line 23, in main
+  File "solution.py", line 24, in main
     print(lister(input1))
   File "solution.py", line 12, in lister
     sum1 += item
@@ -37,12 +44,19 @@ Expected Output:
 
 Your Output: 
 1
+1
 0
+1
 0
+1
 0
+1
 0
+1
 0
+1
 0
+1
 None
 ----------------------------------------
 
@@ -55,8 +69,13 @@ Your Output:
 1
 1
 1
+2
 1
+2
 1
+2
+1
+2
 None
 ----------------------------------------
 
@@ -69,12 +88,21 @@ Your Output:
 0
 0
 0
+1
 0
+1
 0
+1
 0
+1
 0
+1
 0
+1
 0
+1
+0
+1
 None
 ----------------------------------------
 
@@ -85,9 +113,9 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "solution.py", line 46, in <module>
+  File "solution.py", line 47, in <module>
     main()
-  File "solution.py", line 23, in main
+  File "solution.py", line 24, in main
     print(lister(input1))
   File "solution.py", line 9, in lister
     lister(item)
