@@ -4,21 +4,12 @@ Expected Output:
 6
 
 Your Output: 
-6
-3 l
-7
-2 l
-32
-8 l
-10
-4 l
-6
-3 l
-15.8
-4 l
-0
-3 l
-None
+Traceback (most recent call last):
+  File "solution.py", line 48, in <module>
+    main()
+  File "solution.py", line 25, in main
+    print(lister(input1,templen))
+NameError: name 'templen' is not defined
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -28,13 +19,11 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "solution.py", line 47, in <module>
+  File "solution.py", line 48, in <module>
     main()
-  File "solution.py", line 24, in main
-    print(lister(input1))
-  File "solution.py", line 12, in lister
-    sum1 += item
-TypeError: unsupported operand type(s) for +=: 'int' and 'str'
+  File "solution.py", line 25, in main
+    print(lister(input1,templen))
+NameError: name 'templen' is not defined
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -43,21 +32,12 @@ Expected Output:
 6
 
 Your Output: 
-1
-1 l
-0
-1 l
-0
-1 l
-0
-1 l
-0
-1 l
-0
-1 l
-0
-1 l
-None
+Traceback (most recent call last):
+  File "solution.py", line 48, in <module>
+    main()
+  File "solution.py", line 25, in main
+    print(lister(input1,templen))
+NameError: name 'templen' is not defined
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -66,17 +46,12 @@ Expected Output:
 4
 
 Your Output: 
-1
-1 l
-1
-2 l
-1
-2 l
-1
-2 l
-1
-2 l
-None
+Traceback (most recent call last):
+  File "solution.py", line 48, in <module>
+    main()
+  File "solution.py", line 25, in main
+    print(lister(input1,templen))
+NameError: name 'templen' is not defined
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -85,25 +60,12 @@ Expected Output:
 8
 
 Your Output: 
-0
-0 l
-0
-1 l
-0
-1 l
-0
-1 l
-0
-1 l
-0
-1 l
-0
-1 l
-0
-1 l
-0
-1 l
-None
+Traceback (most recent call last):
+  File "solution.py", line 48, in <module>
+    main()
+  File "solution.py", line 25, in main
+    print(lister(input1,templen))
+NameError: name 'templen' is not defined
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -113,16 +75,10 @@ Expected Output:
 
 Your Output: 
 Traceback (most recent call last):
-  File "solution.py", line 47, in <module>
+  File "solution.py", line 48, in <module>
     main()
-  File "solution.py", line 24, in main
-    print(lister(input1))
-  File "solution.py", line 9, in lister
-    lister(item)
-  File "solution.py", line 9, in lister
-    lister(item)
-  File "solution.py", line 12, in lister
-    sum1 += item
-TypeError: unsupported operand type(s) for +=: 'int' and 'str'
+  File "solution.py", line 25, in main
+    print(lister(input1,templen))
+NameError: name 'templen' is not defined
 ----------------------------------------
 

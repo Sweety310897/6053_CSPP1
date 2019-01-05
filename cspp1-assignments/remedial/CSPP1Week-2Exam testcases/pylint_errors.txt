@@ -1,19 +1,25 @@
 ************* Module solution
-solution.py:19:16: C0326: Exactly one space required after comma
-    print(len(l),"l")
-                ^ (bad-whitespace)
-solution.py:41:0: C0303: Trailing whitespace (trailing-whitespace)
-solution.py:44:0: C0303: Trailing whitespace (trailing-whitespace)
-solution.py:47:0: C0304: Final newline missing (missing-final-newline)
+solution.py:1:12: C0326: Exactly one space required after comma
+def lister(l,templen):
+            ^ (bad-whitespace)
+solution.py:25:23: C0326: Exactly one space required after comma
+    print(lister(input1,templen))
+                       ^ (bad-whitespace)
+solution.py:42:0: C0303: Trailing whitespace (trailing-whitespace)
+solution.py:45:0: C0303: Trailing whitespace (trailing-whitespace)
+solution.py:48:0: C0304: Final newline missing (missing-final-newline)
 solution.py:1:0: C0111: Missing module docstring (missing-docstring)
 solution.py:1:0: C0103: Argument name "l" doesn't conform to snake_case naming style (invalid-name)
 solution.py:1:0: C0111: Missing function docstring (missing-docstring)
 solution.py:8:11: C0123: Using type() instead of isinstance() for a typecheck. (unidiomatic-typecheck)
+solution.py:9:12: E1120: No value for argument 'templen' in function call (no-value-for-parameter)
 solution.py:4:4: W0612: Unused variable 'templi' (unused-variable)
 solution.py:6:4: W0612: Unused variable 'fsum' (unused-variable)
 solution.py:22:0: C0111: Missing function docstring (missing-docstring)
 solution.py:23:13: W0123: Use of eval (eval-used)
+solution.py:25:24: E0602: Undefined variable 'templen' (undefined-variable)
+solution.py:24:4: W0612: Unused variable 'temp' (unused-variable)
 
-------------------------------------------------------------------
-Your code has been rated at 3.68/10 (previous run: 4.21/10, -0.53)
+-------------------------------------------------------------------
+Your code has been rated at -2.00/10 (previous run: 3.68/10, -5.68)
 

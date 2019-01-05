@@ -1,4 +1,4 @@
-def lister(l):
+def lister(l,templen):
     output = []
     outer = []
     templi = []
@@ -16,12 +16,13 @@ def lister(l):
     #     fsum += int(each)
     # print(templi)
     print(sum1)
-    print(len(l),"l")
+    print(templen)
     # print(outer,"ou")
     # print(fsum)
 def main():
     input1 = eval(input())
-    print(lister(input1))
+    temp = len(input1)
+    print(lister(input1,templen))
     # sum1 = 0
     # j = 1
     # i = 0
