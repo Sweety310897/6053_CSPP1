@@ -8,6 +8,7 @@ solution.py:7:0: W0312: Found indentation with tabs instead of spaces (mixed-ind
 solution.py:8:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 solution.py:10:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 solution.py:11:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+solution.py:14:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 solution.py:63:0: C0303: Trailing whitespace (trailing-whitespace)
 solution.py:92:0: C0304: Final newline missing (missing-final-newline)
 solution.py:92:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -16,8 +17,7 @@ solution.py:1:0: C0111: Missing function docstring (missing-docstring)
 solution.py:2:10: W0123: Use of eval (eval-used)
 solution.py:3:1: W0612: Unused variable 'sum1' (unused-variable)
 solution.py:6:1: W0612: Unused variable 'count' (unused-variable)
-solution.py:7:1: W0612: Unused variable 'list1' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -5.00/10 (previous run: -5.33/10, +0.33)
+Your code has been rated at -3.85/10 (previous run: -5.00/10, +1.15)
 

@@ -8,10 +8,10 @@ def main():
 	for i in input1:
 		# print(i,"i")
 		for j in i:
-			print(j)
+			list1.append(j)
 			# print(input1[i][j])
 			# print(sum1)
-	# print(j)
+	print(list1)
 	# print(max(input1))
 	# while i < len(input1):
 	# 	for each in input1[i]:
