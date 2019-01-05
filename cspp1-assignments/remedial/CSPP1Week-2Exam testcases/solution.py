@@ -5,21 +5,26 @@ def main():
 	i = 0
 	count = 0
 	list1 = []
-	
+	for i in input1:
+		# print(i,"i")
+		for j in i:
+			print(j)
+			# print(input1[i][j])
+			# print(sum1)
+	# print(j)
 	# print(max(input1))
-	while i < len(input1):
-		for each in input1:
-			# print(each)
-			sum1 += int(input1[i])
-
+	# while i < len(input1):
+	# 	for each in input1[i]:
+	# 		sum1 += int(input1[each])
+	# 		print(sum1)
 		# print(input1.split(","))
 		# while j != "]":
 		# print(length)
 		# for j in range(length):
 		# 	sum1 += input1[j]
-		i += 1
-	print(sum1)
-	print(len(input1))
+		# i += 1
+	# print(sum1)
+	# print(len(input1))
 	# print(list1)
 	# for each in input1:
 	# 	while j < len()
