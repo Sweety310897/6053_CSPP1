@@ -8,7 +8,7 @@ def main():
 	
 	# print(max(input1))
 	while i < len(input1):
-		for each in input1[i]:
+		for each in input1:
 			# print(each)
 			sum1 += int(input1[i])
 
