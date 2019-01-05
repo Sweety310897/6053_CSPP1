@@ -5,6 +5,7 @@ def lister(l,templen):
     sum1 = 0
     str1 = ""
     fsum = 0
+    glo = 0
     for item in l:
         if type(item) in [list, tuple, set]:
             lister(item,templen)
@@ -14,11 +15,11 @@ def lister(l,templen):
             # str1 += sum1
             outer.append(sum1)
         # templi.append(sum1)
-    # print(output)
-    for each in output:
+    print(output)
+    for each in output:    
         fsum += float(each)
-    print(fsum)
-    print(templen)
+        templi.append(each)
+    # print(templen)
     # print(output[0],"0")
 def main():
     input1 = eval(input())

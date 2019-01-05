@@ -2,26 +2,27 @@
 solution.py:1:12: C0326: Exactly one space required after comma
 def lister(l,templen):
             ^ (bad-whitespace)
-solution.py:10:23: C0326: Exactly one space required after comma
+solution.py:11:23: C0326: Exactly one space required after comma
             lister(item,templen)
                        ^ (bad-whitespace)
-solution.py:26:30: C0326: Exactly one space required after comma
+solution.py:19:23: C0303: Trailing whitespace (trailing-whitespace)
+solution.py:27:30: C0326: Exactly one space required after comma
     tempvalues = lister(input1,temp)
                               ^ (bad-whitespace)
-solution.py:44:0: C0303: Trailing whitespace (trailing-whitespace)
-solution.py:47:0: C0303: Trailing whitespace (trailing-whitespace)
-solution.py:50:0: C0304: Final newline missing (missing-final-newline)
+solution.py:45:0: C0303: Trailing whitespace (trailing-whitespace)
+solution.py:48:0: C0303: Trailing whitespace (trailing-whitespace)
+solution.py:51:0: C0304: Final newline missing (missing-final-newline)
 solution.py:1:0: C0111: Missing module docstring (missing-docstring)
 solution.py:1:0: C0103: Argument name "l" doesn't conform to snake_case naming style (invalid-name)
 solution.py:1:0: C0111: Missing function docstring (missing-docstring)
-solution.py:9:11: C0123: Using type() instead of isinstance() for a typecheck. (unidiomatic-typecheck)
-solution.py:4:4: W0612: Unused variable 'templi' (unused-variable)
+solution.py:10:11: C0123: Using type() instead of isinstance() for a typecheck. (unidiomatic-typecheck)
 solution.py:6:4: W0612: Unused variable 'str1' (unused-variable)
-solution.py:23:0: C0111: Missing function docstring (missing-docstring)
-solution.py:24:13: W0123: Use of eval (eval-used)
-solution.py:26:4: E1111: Assigning to function call which doesn't return (assignment-from-no-return)
-solution.py:26:4: W0612: Unused variable 'tempvalues' (unused-variable)
+solution.py:8:4: W0612: Unused variable 'glo' (unused-variable)
+solution.py:24:0: C0111: Missing function docstring (missing-docstring)
+solution.py:25:13: W0123: Use of eval (eval-used)
+solution.py:27:4: E1111: Assigning to function call which doesn't return (assignment-from-no-return)
+solution.py:27:4: W0612: Unused variable 'tempvalues' (unused-variable)
 
 ------------------------------------------------------------------
-Your code has been rated at 1.30/10 (previous run: 2.50/10, -1.20)
+Your code has been rated at 1.25/10 (previous run: 1.30/10, -0.05)
 
