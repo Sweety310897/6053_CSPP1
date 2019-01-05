@@ -10,7 +10,7 @@ def main():
 	while i < len(input1):
 		for each in input1[i]:
 			# print(each)
-			sum1 += int(each)
+			sum1 += int(input1[i])
 
 		# print(input1.split(","))
 		# while j != "]":

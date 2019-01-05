@@ -21,7 +21,8 @@ solution.py:2:10: W0123: Use of eval (eval-used)
 solution.py:4:1: W0612: Unused variable 'j' (unused-variable)
 solution.py:6:1: W0612: Unused variable 'count' (unused-variable)
 solution.py:7:1: W0612: Unused variable 'list1' (unused-variable)
+solution.py:11:6: W0612: Unused variable 'each' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -4.67/10 (previous run: -4.67/10, +0.00)
+Your code has been rated at -5.33/10 (previous run: -4.67/10, -0.67)
 

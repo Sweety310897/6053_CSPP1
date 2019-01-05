@@ -8,7 +8,7 @@ Traceback (most recent call last):
   File "solution.py", line 87, in <module>
     main()
   File "solution.py", line 13, in main
-    sum1 += int(each)
+    sum1 += int(input1[i])
 TypeError: int() argument must be a string, a bytes-like object or a number, not 'list'
 ----------------------------------------
 
@@ -22,8 +22,8 @@ Traceback (most recent call last):
   File "solution.py", line 87, in <module>
     main()
   File "solution.py", line 13, in main
-    sum1 += int(each)
-ValueError: invalid literal for int() with base 10: 'a'
+    sum1 += int(input1[i])
+ValueError: invalid literal for int() with base 10: 'a,'
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -36,7 +36,7 @@ Traceback (most recent call last):
   File "solution.py", line 87, in <module>
     main()
   File "solution.py", line 13, in main
-    sum1 += int(each)
+    sum1 += int(input1[i])
 TypeError: int() argument must be a string, a bytes-like object or a number, not 'list'
 ----------------------------------------
 
@@ -64,7 +64,7 @@ Traceback (most recent call last):
   File "solution.py", line 87, in <module>
     main()
   File "solution.py", line 13, in main
-    sum1 += int(each)
+    sum1 += int(input1[i])
 TypeError: int() argument must be a string, a bytes-like object or a number, not 'list'
 ----------------------------------------
 
@@ -78,7 +78,7 @@ Traceback (most recent call last):
   File "solution.py", line 87, in <module>
     main()
   File "solution.py", line 13, in main
-    sum1 += int(each)
+    sum1 += int(input1[i])
 TypeError: int() argument must be a string, a bytes-like object or a number, not 'list'
 ----------------------------------------
 
