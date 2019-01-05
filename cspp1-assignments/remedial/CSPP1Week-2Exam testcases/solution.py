@@ -6,7 +6,7 @@ def lister(l,templen):
     fsum = 0
     for item in l:
         if type(item) in [list, tuple, set]:
-            lister(item)
+            lister(item,templen)
         else:
             output.append(item)
             sum1 += item
