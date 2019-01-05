@@ -22,7 +22,7 @@ def lister(l,templen):
 def main():
     input1 = eval(input())
     temp = len(input1)
-    print(lister(input1,templen))
+    print(lister(input1,temp))
     # sum1 = 0
     # j = 1
     # i = 0

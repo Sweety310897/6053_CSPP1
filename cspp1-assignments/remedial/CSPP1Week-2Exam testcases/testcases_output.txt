@@ -8,8 +8,10 @@ Traceback (most recent call last):
   File "solution.py", line 48, in <module>
     main()
   File "solution.py", line 25, in main
-    print(lister(input1,templen))
-NameError: name 'templen' is not defined
+    print(lister(input1,temp))
+  File "solution.py", line 9, in lister
+    lister(item)
+TypeError: lister() missing 1 required positional argument: 'templen'
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -22,8 +24,10 @@ Traceback (most recent call last):
   File "solution.py", line 48, in <module>
     main()
   File "solution.py", line 25, in main
-    print(lister(input1,templen))
-NameError: name 'templen' is not defined
+    print(lister(input1,temp))
+  File "solution.py", line 12, in lister
+    sum1 += item
+TypeError: unsupported operand type(s) for +=: 'int' and 'str'
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -36,8 +40,10 @@ Traceback (most recent call last):
   File "solution.py", line 48, in <module>
     main()
   File "solution.py", line 25, in main
-    print(lister(input1,templen))
-NameError: name 'templen' is not defined
+    print(lister(input1,temp))
+  File "solution.py", line 9, in lister
+    lister(item)
+TypeError: lister() missing 1 required positional argument: 'templen'
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -50,8 +56,10 @@ Traceback (most recent call last):
   File "solution.py", line 48, in <module>
     main()
   File "solution.py", line 25, in main
-    print(lister(input1,templen))
-NameError: name 'templen' is not defined
+    print(lister(input1,temp))
+  File "solution.py", line 9, in lister
+    lister(item)
+TypeError: lister() missing 1 required positional argument: 'templen'
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -64,8 +72,10 @@ Traceback (most recent call last):
   File "solution.py", line 48, in <module>
     main()
   File "solution.py", line 25, in main
-    print(lister(input1,templen))
-NameError: name 'templen' is not defined
+    print(lister(input1,temp))
+  File "solution.py", line 9, in lister
+    lister(item)
+TypeError: lister() missing 1 required positional argument: 'templen'
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -78,7 +88,9 @@ Traceback (most recent call last):
   File "solution.py", line 48, in <module>
     main()
   File "solution.py", line 25, in main
-    print(lister(input1,templen))
-NameError: name 'templen' is not defined
+    print(lister(input1,temp))
+  File "solution.py", line 9, in lister
+    lister(item)
+TypeError: lister() missing 1 required positional argument: 'templen'
 ----------------------------------------
 
