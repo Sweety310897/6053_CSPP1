@@ -8,7 +8,9 @@ def main():
 	for i in input1:
 		# print(i,"i")
 		for j in i:
-			list1.append(j)
+			if j in "0123456789":
+
+				list1.append(j)
 			# print(input1[i][j])
 			# print(sum1)
 	print(list1)
