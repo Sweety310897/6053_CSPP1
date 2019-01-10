@@ -15,7 +15,7 @@ def main():
 		i += 1
 
 	startq = input().split(" ")
-	# print(list1)
+	print(list1)
 	count = 0
 	for i in range(len(list1)):
 		templist = list1[i][1]
