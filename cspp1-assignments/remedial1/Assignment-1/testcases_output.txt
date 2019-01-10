@@ -415,20 +415,13 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-question text 1(1)
-choice 1	choice 2	choice 3	choice 4
-
-|--------------|
-| Score Report |
-|--------------|
-question text 1
- Wrong Answer! - Penalty: 
+Error! Malformed question
 Traceback (most recent call last):
-  File "Solution.py", line 74, in <module>
+  File "Solution.py", line 80, in <module>
     main()
-  File "Solution.py", line 57, in main
-    sum1 = sum1 + int(list1[i][4])
-ValueError: invalid literal for int() with base 10: ''
+  File "Solution.py", line 45, in main
+    scorereport = input()
+EOFError: EOF when reading a line
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -486,9 +479,9 @@ Your Output:
 |------------|
 trick question (1)
 Traceback (most recent call last):
-  File "Solution.py", line 74, in <module>
+  File "Solution.py", line 80, in <module>
     main()
-  File "Solution.py", line 29, in main
+  File "Solution.py", line 35, in main
     print(templist2[0]+"\t"+templist2[1]+"\t"+templist2[2]+"\t"+templist2[3] + "\n")
 IndexError: list index out of range
 ----------------------------------------
@@ -522,9 +515,9 @@ Your Output:
 |------------|
 question about sony(1)
 Traceback (most recent call last):
-  File "Solution.py", line 74, in <module>
+  File "Solution.py", line 80, in <module>
     main()
-  File "Solution.py", line 29, in main
+  File "Solution.py", line 35, in main
     print(templist2[0]+"\t"+templist2[1]+"\t"+templist2[2]+"\t"+templist2[3] + "\n")
 IndexError: list index out of range
 ----------------------------------------
@@ -552,9 +545,9 @@ Your Output:
 |------------|
 question about sony(1)
 Traceback (most recent call last):
-  File "Solution.py", line 74, in <module>
+  File "Solution.py", line 80, in <module>
     main()
-  File "Solution.py", line 29, in main
+  File "Solution.py", line 35, in main
     print(templist2[0]+"\t"+templist2[1]+"\t"+templist2[2]+"\t"+templist2[3] + "\n")
 IndexError: list index out of range
 ----------------------------------------
@@ -582,9 +575,9 @@ Your Output:
 |------------|
 question about sony(1)
 Traceback (most recent call last):
-  File "Solution.py", line 74, in <module>
+  File "Solution.py", line 80, in <module>
     main()
-  File "Solution.py", line 29, in main
+  File "Solution.py", line 35, in main
     print(templist2[0]+"\t"+templist2[1]+"\t"+templist2[2]+"\t"+templist2[3] + "\n")
 IndexError: list index out of range
 ----------------------------------------

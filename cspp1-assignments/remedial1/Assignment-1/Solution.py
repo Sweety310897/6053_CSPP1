@@ -12,6 +12,12 @@ def main():
 		list1 = []
 		while i < int(loadq[1]):
 			temp = input().split(":")
+			if temp[4] == "":
+				startq = input()
+				print("Error! Malformed question")
+				
+
+				break
 			list1.append(temp)
 			i += 1
 
