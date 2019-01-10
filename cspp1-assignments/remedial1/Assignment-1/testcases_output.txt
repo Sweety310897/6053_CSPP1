@@ -1,4 +1,4 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -40,7 +40,6 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-[['question text 1', 'choice 1,choice 2,choice 3,choice 4', '3', '1', '-4'], ['question text 2', 'choice 1,choice 2,choice 3,choice 4', '1', '2', '-3'], ['question text 3', 'choice 1,choice 2,choice 3,choice 4', '2', '3', '-2'], ['question text 4', 'choice 1,choice 2,choice 3,choice 4', '4', '4', '-1']]
 question text 1(1)
 choice 1	choice 2	choice 3	choice 4
 
@@ -67,7 +66,7 @@ question text 4
 Total Score: 10
 ----------------------------------------
 
-########## Testcase 1: Failed ##########
+########## Testcase 1: Passed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -109,7 +108,6 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-[['question text 1', 'choice 1,choice 2,choice 3,choice 4', '3', '1', '-4'], ['question text 2', 'choice 1,choice 2,choice 3,choice 4', '1', '2', '-3'], ['question text 3', 'choice 1,choice 2,choice 3,choice 4', '2', '3', '-2'], ['question text 4', 'choice 1,choice 2,choice 3,choice 4', '4', '4', '-1']]
 question text 1(1)
 choice 1	choice 2	choice 3	choice 4
 
@@ -125,22 +123,18 @@ choice 1	choice 2	choice 3	choice 4
 |--------------|
 | Score Report |
 |--------------|
-1
 question text 1
- Wrong Answer! - Penalty: 1
-2
+ Wrong Answer! - Penalty: -4
 question text 2
- Wrong Answer! - Penalty: 2
-3
+ Wrong Answer! - Penalty: -3
 question text 3
- Wrong Answer! - Penalty: 3
-4
+ Wrong Answer! - Penalty: -2
 question text 4
- Wrong Answer! - Penalty: 4
+ Wrong Answer! - Penalty: -1
 Total Score: -10
 ----------------------------------------
 
-########## Testcase 2: Failed ##########
+########## Testcase 2: Passed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -182,7 +176,6 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-[['question text 1', 'choice 1,choice 2,choice 3,choice 4', '3', '1', '-4'], ['question text 2', 'choice 1,choice 2,choice 3,choice 4', '1', '2', '-3'], ['question text 3', 'choice 1,choice 2,choice 3,choice 4', '2', '3', '-2'], ['question text 4', 'choice 1,choice 2,choice 3,choice 4', '4', '4', '-1']]
 question text 1(1)
 choice 1	choice 2	choice 3	choice 4
 
@@ -200,15 +193,12 @@ choice 1	choice 2	choice 3	choice 4
 |--------------|
 question text 1
  Correct Answer! - Marks Awarded: 1
-2
 question text 2
- Wrong Answer! - Penalty: 2
-3
+ Wrong Answer! - Penalty: -3
 question text 3
- Wrong Answer! - Penalty: 3
-4
+ Wrong Answer! - Penalty: -2
 question text 4
- Wrong Answer! - Penalty: 4
+ Wrong Answer! - Penalty: -1
 Total Score: -5
 ----------------------------------------
 
@@ -284,7 +274,6 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-[['question a', 'choice a,choice b,choice c,choice d', '1', '1', '0'], ['question b', 'choice a,choice b,choice c,choice d', '3', '2', '0'], ['question c', 'choice a,choice b,choice c,choice d', '2', '3', '0'], ['question d', 'choice a,choice b,choice c,choice d', '1', '4', '0'], ['question e', 'choice a,choice b,choice c,choice d', '4', '1', '0'], ['question f', 'choice a,choice b,choice c,choice d', '3', '2', '0'], ['question g', 'choice a,choice b,choice c,choice d', '1', '3', '0'], ['question h', 'choice a,choice b,choice c,choice d', '1', '4', '0'], ['question i', 'choice a,choice b,choice c,choice d', '4', '1', '0'], ['question j', 'choice a,choice b,choice c,choice d', '2', '2', '0']]
 question a(1)
 choice a	choice b	choice c	choice d
 
@@ -318,40 +307,30 @@ choice a	choice b	choice c	choice d
 |--------------|
 | Score Report |
 |--------------|
-1
 question a
- Wrong Answer! - Penalty: 1
-2
+ Wrong Answer! - Penalty: 0
 question b
- Wrong Answer! - Penalty: 2
-3
+ Wrong Answer! - Penalty: 0
 question c
- Wrong Answer! - Penalty: 3
-4
+ Wrong Answer! - Penalty: 0
 question d
- Wrong Answer! - Penalty: 4
-1
+ Wrong Answer! - Penalty: 0
 question e
- Wrong Answer! - Penalty: 1
-2
+ Wrong Answer! - Penalty: 0
 question f
- Wrong Answer! - Penalty: 2
-3
+ Wrong Answer! - Penalty: 0
 question g
- Wrong Answer! - Penalty: 3
-4
+ Wrong Answer! - Penalty: 0
 question h
- Wrong Answer! - Penalty: 4
-1
+ Wrong Answer! - Penalty: 0
 question i
- Wrong Answer! - Penalty: 1
-2
+ Wrong Answer! - Penalty: 0
 question j
- Wrong Answer! - Penalty: 2
+ Wrong Answer! - Penalty: 0
 Total Score: 0
 ----------------------------------------
 
-########## Testcase 4: Failed ##########
+########## Testcase 4: Passed ##########
 Expected Output: 
 |----------------|
 | Load Questions |
@@ -378,16 +357,14 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-[['question text 1', 'choice 1,choice 2,choice 3,choice 4', '3', '1', '-4']]
 question text 1(1)
 choice 1	choice 2	choice 3	choice 4
 
 |--------------|
 | Score Report |
 |--------------|
-1
 question text 1
- Wrong Answer! - Penalty: 1
+ Wrong Answer! - Penalty: -4
 Total Score: -4
 ----------------------------------------
 
@@ -412,7 +389,6 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-[]
 |--------------|
 | Score Report |
 |--------------|
@@ -445,16 +421,14 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-[['question text 1', 'choice 1,choice 2,choice 3,choice 4', '3', '1', '']]
 question text 1(1)
 choice 1	choice 2	choice 3	choice 4
 
 |--------------|
 | Score Report |
 |--------------|
-1
 question text 1
- Wrong Answer! - Penalty: 1
+ Wrong Answer! - Penalty: 
 Traceback (most recent call last):
   File "Solution.py", line 59, in <module>
     main()
@@ -484,16 +458,14 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-[['question text 1', 'choice 1,choice 2,choice 3,choice 4', '6', '1', '-1']]
 question text 1(1)
 choice 1	choice 2	choice 3	choice 4
 
 |--------------|
 | Score Report |
 |--------------|
-1
 question text 1
- Wrong Answer! - Penalty: 1
+ Wrong Answer! - Penalty: -1
 Total Score: -1
 ----------------------------------------
 
@@ -518,7 +490,6 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-[['trick question ', 'choice 4', '6', '1', '-1']]
 trick question (1)
 Traceback (most recent call last):
   File "Solution.py", line 59, in <module>
@@ -555,7 +526,6 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-[['question about sony', 'choice 4,choice 2', '1', '1', '-1']]
 question about sony(1)
 Traceback (most recent call last):
   File "Solution.py", line 59, in <module>
@@ -586,7 +556,6 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-[['question about sony', 'choice 4,choice 2', '1', '-1', '-1']]
 question about sony(1)
 Traceback (most recent call last):
   File "Solution.py", line 59, in <module>
@@ -617,7 +586,6 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-[['question about sony', 'choice 4,choice 2', '1', '1', '1']]
 question about sony(1)
 Traceback (most recent call last):
   File "Solution.py", line 59, in <module>
@@ -648,16 +616,14 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-[['', 'choice 1,choice 2,choice 3,choice 4', '3', '1', '-1']]
 (1)
 choice 1	choice 2	choice 3	choice 4
 
 |--------------|
 | Score Report |
 |--------------|
-1
 
- Wrong Answer! - Penalty: 1
+ Wrong Answer! - Penalty: -1
 Total Score: -1
 ----------------------------------------
 

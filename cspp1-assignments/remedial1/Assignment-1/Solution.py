@@ -15,7 +15,7 @@ def main():
 		i += 1
 
 	startq = input().split(" ")
-	print(list1)
+	# print(list1)
 	count = 0
 	for i in range(len(list1)):
 		templist = list1[i][1]
@@ -48,9 +48,9 @@ def main():
 			sum1 += int(list1[i][3])
 			# print(sum1)
 		else:
-			print(list1[i][3])
+			# print(list1[i][3])
 			print(list1[i][0])
-			print(" Wrong Answer! - Penalty:", list1[i][3])
+			print(" Wrong Answer! - Penalty:", list1[i][4])
 			sum1 = sum1 + int(list1[i][4])
 			# print(sum1)
 	print("Total Score:",sum1)
