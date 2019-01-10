@@ -41,12 +41,14 @@ Solution.py:47:0: W0312: Found indentation with tabs instead of spaces (mixed-in
 Solution.py:48:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:50:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:52:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:53:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:54:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:54:21: C0326: Exactly one space required after comma
+Solution.py:56:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:56:21: C0326: Exactly one space required after comma
 	print("Total Score:",sum1)
                      ^ (bad-whitespace)
-Solution.py:57:0: C0304: Final newline missing (missing-final-newline)
-Solution.py:57:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:59:0: C0304: Final newline missing (missing-final-newline)
+Solution.py:59:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:1:0: C0103: Module name "Solution" doesn't conform to snake_case naming style (invalid-name)
 Solution.py:1:0: C0111: Missing module docstring (missing-docstring)
 Solution.py:1:0: C0111: Missing function docstring (missing-docstring)
@@ -56,5 +58,5 @@ Solution.py:38:1: W0612: Unused variable 'scorereport' (unused-variable)
 Solution.py:42:1: W0612: Unused variable 'marks' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -1.78/10 (previous run: -1.74/10, -0.04)
+Your code has been rated at -1.70/10 (previous run: -1.78/10, +0.08)
 

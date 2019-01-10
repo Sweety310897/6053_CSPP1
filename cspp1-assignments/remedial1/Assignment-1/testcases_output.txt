@@ -123,6 +123,14 @@ choice 1	choice 2	choice 3	choice 4
 |--------------|
 | Score Report |
 |--------------|
+question text 1
+ Wrong Answer! - Penalty: 1
+question text 2
+ Wrong Answer! - Penalty: 2
+question text 3
+ Wrong Answer! - Penalty: 3
+question text 4
+ Wrong Answer! - Penalty: 4
 Total Score: -10
 ----------------------------------------
 
@@ -185,6 +193,12 @@ choice 1	choice 2	choice 3	choice 4
 |--------------|
 question text 1
  Correct Answer! - Marks Awarded: 1
+question text 2
+ Wrong Answer! - Penalty: 2
+question text 3
+ Wrong Answer! - Penalty: 3
+question text 4
+ Wrong Answer! - Penalty: 4
 Total Score: -5
 ----------------------------------------
 
@@ -293,6 +307,26 @@ choice a	choice b	choice c	choice d
 |--------------|
 | Score Report |
 |--------------|
+question a
+ Wrong Answer! - Penalty: 1
+question b
+ Wrong Answer! - Penalty: 2
+question c
+ Wrong Answer! - Penalty: 3
+question d
+ Wrong Answer! - Penalty: 4
+question e
+ Wrong Answer! - Penalty: 1
+question f
+ Wrong Answer! - Penalty: 2
+question g
+ Wrong Answer! - Penalty: 3
+question h
+ Wrong Answer! - Penalty: 4
+question i
+ Wrong Answer! - Penalty: 1
+question j
+ Wrong Answer! - Penalty: 2
 Total Score: 0
 ----------------------------------------
 
@@ -329,6 +363,8 @@ choice 1	choice 2	choice 3	choice 4
 |--------------|
 | Score Report |
 |--------------|
+question text 1
+ Wrong Answer! - Penalty: 1
 Total Score: -4
 ----------------------------------------
 
@@ -357,7 +393,7 @@ Your Output:
 | Score Report |
 |--------------|
 Traceback (most recent call last):
-  File "Solution.py", line 57, in <module>
+  File "Solution.py", line 59, in <module>
     main()
   File "Solution.py", line 45, in main
     if list2[i][1] == list1[i][2]:
@@ -391,10 +427,12 @@ choice 1	choice 2	choice 3	choice 4
 |--------------|
 | Score Report |
 |--------------|
+question text 1
+ Wrong Answer! - Penalty: 1
 Traceback (most recent call last):
-  File "Solution.py", line 57, in <module>
+  File "Solution.py", line 59, in <module>
     main()
-  File "Solution.py", line 52, in main
+  File "Solution.py", line 54, in main
     sum1 = sum1 + int(list1[i][4])
 ValueError: invalid literal for int() with base 10: ''
 ----------------------------------------
@@ -426,6 +464,8 @@ choice 1	choice 2	choice 3	choice 4
 |--------------|
 | Score Report |
 |--------------|
+question text 1
+ Wrong Answer! - Penalty: 1
 Total Score: -1
 ----------------------------------------
 
@@ -452,7 +492,7 @@ Your Output:
 |------------|
 trick question (1)
 Traceback (most recent call last):
-  File "Solution.py", line 57, in <module>
+  File "Solution.py", line 59, in <module>
     main()
   File "Solution.py", line 28, in main
     print(templist2[0]+"\t"+templist2[1]+"\t"+templist2[2]+"\t"+templist2[3] + "\n")
@@ -488,7 +528,7 @@ Your Output:
 |------------|
 question about sony(1)
 Traceback (most recent call last):
-  File "Solution.py", line 57, in <module>
+  File "Solution.py", line 59, in <module>
     main()
   File "Solution.py", line 28, in main
     print(templist2[0]+"\t"+templist2[1]+"\t"+templist2[2]+"\t"+templist2[3] + "\n")
@@ -518,7 +558,7 @@ Your Output:
 |------------|
 question about sony(1)
 Traceback (most recent call last):
-  File "Solution.py", line 57, in <module>
+  File "Solution.py", line 59, in <module>
     main()
   File "Solution.py", line 28, in main
     print(templist2[0]+"\t"+templist2[1]+"\t"+templist2[2]+"\t"+templist2[3] + "\n")
@@ -548,7 +588,7 @@ Your Output:
 |------------|
 question about sony(1)
 Traceback (most recent call last):
-  File "Solution.py", line 57, in <module>
+  File "Solution.py", line 59, in <module>
     main()
   File "Solution.py", line 28, in main
     print(templist2[0]+"\t"+templist2[1]+"\t"+templist2[2]+"\t"+templist2[3] + "\n")
@@ -582,6 +622,8 @@ choice 1	choice 2	choice 3	choice 4
 |--------------|
 | Score Report |
 |--------------|
+
+ Wrong Answer! - Penalty: 1
 Total Score: -1
 ----------------------------------------
 
