@@ -40,13 +40,13 @@ Solution.py:28:56: C0326: Exactly one space required after comma
 Solution.py:28:61: C0326: Exactly one space required after comma
 		print(templist2[0],"  ",templist2[1],"  ",templist2[2],"  ",templist2[3])
                                                              ^ (bad-whitespace)
-Solution.py:30:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:29:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:31:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:32:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:33:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:34:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:35:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:37:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:36:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:38:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:39:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:40:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -57,22 +57,23 @@ Solution.py:44:0: W0312: Found indentation with tabs instead of spaces (mixed-in
 Solution.py:45:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:46:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:47:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:49:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:51:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:53:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:53:21: C0326: Exactly one space required after comma
+Solution.py:48:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:50:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:52:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:54:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:54:21: C0326: Exactly one space required after comma
 	print("Total Score:",sum1)
                      ^ (bad-whitespace)
-Solution.py:56:0: C0304: Final newline missing (missing-final-newline)
-Solution.py:56:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:57:0: C0304: Final newline missing (missing-final-newline)
+Solution.py:57:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:1:0: C0103: Module name "Solution" doesn't conform to snake_case naming style (invalid-name)
 Solution.py:1:0: C0111: Missing module docstring (missing-docstring)
 Solution.py:1:0: C0111: Missing function docstring (missing-docstring)
 Solution.py:20:1: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
-Solution.py:43:1: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
-Solution.py:37:1: W0612: Unused variable 'scorereport' (unused-variable)
-Solution.py:41:1: W0612: Unused variable 'marks' (unused-variable)
+Solution.py:44:1: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+Solution.py:38:1: W0612: Unused variable 'scorereport' (unused-variable)
+Solution.py:42:1: W0612: Unused variable 'marks' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -3.11/10 (previous run: -3.11/10, +0.00)
+Your code has been rated at -3.04/10 (previous run: -3.11/10, +0.07)
 

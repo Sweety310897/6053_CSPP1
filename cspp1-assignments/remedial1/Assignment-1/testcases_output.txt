@@ -42,12 +42,16 @@ Your Output:
 |------------|
 question text 1(1)
 choice 1    choice 2    choice 3    choice 4
+ 
 question text 2(2)
 choice 1    choice 2    choice 3    choice 4
+ 
 question text 3(3)
 choice 1    choice 2    choice 3    choice 4
+ 
 question text 4(4)
 choice 1    choice 2    choice 3    choice 4
+ 
 |--------------|
 | Score Report |
 |--------------|
@@ -106,12 +110,16 @@ Your Output:
 |------------|
 question text 1(1)
 choice 1    choice 2    choice 3    choice 4
+ 
 question text 2(2)
 choice 1    choice 2    choice 3    choice 4
+ 
 question text 3(3)
 choice 1    choice 2    choice 3    choice 4
+ 
 question text 4(4)
 choice 1    choice 2    choice 3    choice 4
+ 
 |--------------|
 | Score Report |
 |--------------|
@@ -162,12 +170,16 @@ Your Output:
 |------------|
 question text 1(1)
 choice 1    choice 2    choice 3    choice 4
+ 
 question text 2(2)
 choice 1    choice 2    choice 3    choice 4
+ 
 question text 3(3)
 choice 1    choice 2    choice 3    choice 4
+ 
 question text 4(4)
 choice 1    choice 2    choice 3    choice 4
+ 
 |--------------|
 | Score Report |
 |--------------|
@@ -250,24 +262,34 @@ Your Output:
 |------------|
 question a(1)
 choice a    choice b    choice c    choice d
+ 
 question b(2)
 choice a    choice b    choice c    choice d
+ 
 question c(3)
 choice a    choice b    choice c    choice d
+ 
 question d(4)
 choice a    choice b    choice c    choice d
+ 
 question e(5)
 choice a    choice b    choice c    choice d
+ 
 question f(6)
 choice a    choice b    choice c    choice d
+ 
 question g(7)
 choice a    choice b    choice c    choice d
+ 
 question h(8)
 choice a    choice b    choice c    choice d
+ 
 question i(9)
 choice a    choice b    choice c    choice d
+ 
 question j(10)
 choice a    choice b    choice c    choice d
+ 
 |--------------|
 | Score Report |
 |--------------|
@@ -303,6 +325,7 @@ Your Output:
 |------------|
 question text 1(1)
 choice 1    choice 2    choice 3    choice 4
+ 
 |--------------|
 | Score Report |
 |--------------|
@@ -334,9 +357,9 @@ Your Output:
 | Score Report |
 |--------------|
 Traceback (most recent call last):
-  File "Solution.py", line 56, in <module>
+  File "Solution.py", line 57, in <module>
     main()
-  File "Solution.py", line 44, in main
+  File "Solution.py", line 45, in main
     if list2[i][1] == list1[i][2]:
 IndexError: list index out of range
 ----------------------------------------
@@ -364,13 +387,14 @@ Your Output:
 |------------|
 question text 1(1)
 choice 1    choice 2    choice 3    choice 4
+ 
 |--------------|
 | Score Report |
 |--------------|
 Traceback (most recent call last):
-  File "Solution.py", line 56, in <module>
+  File "Solution.py", line 57, in <module>
     main()
-  File "Solution.py", line 51, in main
+  File "Solution.py", line 52, in main
     sum1 = sum1 + int(list1[i][4])
 ValueError: invalid literal for int() with base 10: ''
 ----------------------------------------
@@ -398,6 +422,7 @@ Your Output:
 |------------|
 question text 1(1)
 choice 1    choice 2    choice 3    choice 4
+ 
 |--------------|
 | Score Report |
 |--------------|
@@ -427,7 +452,7 @@ Your Output:
 |------------|
 trick question (1)
 Traceback (most recent call last):
-  File "Solution.py", line 56, in <module>
+  File "Solution.py", line 57, in <module>
     main()
   File "Solution.py", line 28, in main
     print(templist2[0],"  ",templist2[1],"  ",templist2[2],"  ",templist2[3])
@@ -463,7 +488,7 @@ Your Output:
 |------------|
 question about sony(1)
 Traceback (most recent call last):
-  File "Solution.py", line 56, in <module>
+  File "Solution.py", line 57, in <module>
     main()
   File "Solution.py", line 28, in main
     print(templist2[0],"  ",templist2[1],"  ",templist2[2],"  ",templist2[3])
@@ -493,7 +518,7 @@ Your Output:
 |------------|
 question about sony(1)
 Traceback (most recent call last):
-  File "Solution.py", line 56, in <module>
+  File "Solution.py", line 57, in <module>
     main()
   File "Solution.py", line 28, in main
     print(templist2[0],"  ",templist2[1],"  ",templist2[2],"  ",templist2[3])
@@ -523,7 +548,7 @@ Your Output:
 |------------|
 question about sony(1)
 Traceback (most recent call last):
-  File "Solution.py", line 56, in <module>
+  File "Solution.py", line 57, in <module>
     main()
   File "Solution.py", line 28, in main
     print(templist2[0],"  ",templist2[1],"  ",templist2[2],"  ",templist2[3])
@@ -553,6 +578,7 @@ Your Output:
 |------------|
 (1)
 choice 1    choice 2    choice 3    choice 4
+ 
 |--------------|
 | Score Report |
 |--------------|
