@@ -48,7 +48,7 @@ def main():
 			sum1 += int(list1[i][3])
 			# print(sum1)
 		else:
-			# print(list1[i][4])
+			print(list1[i][3])
 			print(list1[i][0])
 			print(" Wrong Answer! - Penalty:", list1[i][3])
 			sum1 = sum1 + int(list1[i][4])

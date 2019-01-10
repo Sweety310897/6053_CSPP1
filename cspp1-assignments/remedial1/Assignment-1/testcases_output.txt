@@ -123,12 +123,16 @@ choice 1	choice 2	choice 3	choice 4
 |--------------|
 | Score Report |
 |--------------|
+1
 question text 1
  Wrong Answer! - Penalty: 1
+2
 question text 2
  Wrong Answer! - Penalty: 2
+3
 question text 3
  Wrong Answer! - Penalty: 3
+4
 question text 4
  Wrong Answer! - Penalty: 4
 Total Score: -10
@@ -193,10 +197,13 @@ choice 1	choice 2	choice 3	choice 4
 |--------------|
 question text 1
  Correct Answer! - Marks Awarded: 1
+2
 question text 2
  Wrong Answer! - Penalty: 2
+3
 question text 3
  Wrong Answer! - Penalty: 3
+4
 question text 4
  Wrong Answer! - Penalty: 4
 Total Score: -5
@@ -307,24 +314,34 @@ choice a	choice b	choice c	choice d
 |--------------|
 | Score Report |
 |--------------|
+1
 question a
  Wrong Answer! - Penalty: 1
+2
 question b
  Wrong Answer! - Penalty: 2
+3
 question c
  Wrong Answer! - Penalty: 3
+4
 question d
  Wrong Answer! - Penalty: 4
+1
 question e
  Wrong Answer! - Penalty: 1
+2
 question f
  Wrong Answer! - Penalty: 2
+3
 question g
  Wrong Answer! - Penalty: 3
+4
 question h
  Wrong Answer! - Penalty: 4
+1
 question i
  Wrong Answer! - Penalty: 1
+2
 question j
  Wrong Answer! - Penalty: 2
 Total Score: 0
@@ -363,6 +380,7 @@ choice 1	choice 2	choice 3	choice 4
 |--------------|
 | Score Report |
 |--------------|
+1
 question text 1
  Wrong Answer! - Penalty: 1
 Total Score: -4
@@ -427,6 +445,7 @@ choice 1	choice 2	choice 3	choice 4
 |--------------|
 | Score Report |
 |--------------|
+1
 question text 1
  Wrong Answer! - Penalty: 1
 Traceback (most recent call last):
@@ -464,6 +483,7 @@ choice 1	choice 2	choice 3	choice 4
 |--------------|
 | Score Report |
 |--------------|
+1
 question text 1
  Wrong Answer! - Penalty: 1
 Total Score: -1
@@ -622,6 +642,7 @@ choice 1	choice 2	choice 3	choice 4
 |--------------|
 | Score Report |
 |--------------|
+1
 
  Wrong Answer! - Penalty: 1
 Total Score: -1
