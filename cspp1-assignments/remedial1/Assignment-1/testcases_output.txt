@@ -40,13 +40,13 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-question text 1 (1)
+question text 1(1)
 choice 1      choice 2      choice 3      choice 4
-question text 2 (2)
+question text 2(2)
 choice 1      choice 2      choice 3      choice 4
-question text 3 (3)
+question text 3(3)
 choice 1      choice 2      choice 3      choice 4
-question text 4 (4)
+question text 4(4)
 choice 1      choice 2      choice 3      choice 4
 |--------------|
 | Score Report |
@@ -104,13 +104,13 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-question text 1 (1)
+question text 1(1)
 choice 1      choice 2      choice 3      choice 4
-question text 2 (2)
+question text 2(2)
 choice 1      choice 2      choice 3      choice 4
-question text 3 (3)
+question text 3(3)
 choice 1      choice 2      choice 3      choice 4
-question text 4 (4)
+question text 4(4)
 choice 1      choice 2      choice 3      choice 4
 |--------------|
 | Score Report |
@@ -160,13 +160,13 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-question text 1 (1)
+question text 1(1)
 choice 1      choice 2      choice 3      choice 4
-question text 2 (2)
+question text 2(2)
 choice 1      choice 2      choice 3      choice 4
-question text 3 (3)
+question text 3(3)
 choice 1      choice 2      choice 3      choice 4
-question text 4 (4)
+question text 4(4)
 choice 1      choice 2      choice 3      choice 4
 |--------------|
 | Score Report |
@@ -248,25 +248,25 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-question a (1)
+question a(1)
 choice a      choice b      choice c      choice d
-question b (2)
+question b(2)
 choice a      choice b      choice c      choice d
-question c (3)
+question c(3)
 choice a      choice b      choice c      choice d
-question d (4)
+question d(4)
 choice a      choice b      choice c      choice d
-question e (5)
+question e(5)
 choice a      choice b      choice c      choice d
-question f (6)
+question f(6)
 choice a      choice b      choice c      choice d
-question g (7)
+question g(7)
 choice a      choice b      choice c      choice d
-question h (8)
+question h(8)
 choice a      choice b      choice c      choice d
-question i (9)
+question i(9)
 choice a      choice b      choice c      choice d
-question j (10)
+question j(10)
 choice a      choice b      choice c      choice d
 |--------------|
 | Score Report |
@@ -301,7 +301,7 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-question text 1 (1)
+question text 1(1)
 choice 1      choice 2      choice 3      choice 4
 |--------------|
 | Score Report |
@@ -362,7 +362,7 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-question text 1 (1)
+question text 1(1)
 choice 1      choice 2      choice 3      choice 4
 |--------------|
 | Score Report |
@@ -396,7 +396,7 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-question text 1 (1)
+question text 1(1)
 choice 1      choice 2      choice 3      choice 4
 |--------------|
 | Score Report |
@@ -425,7 +425,7 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-trick question  (1)
+trick question (1)
 Traceback (most recent call last):
   File "Solution.py", line 56, in <module>
     main()
@@ -461,7 +461,7 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-question about sony (1)
+question about sony(1)
 Traceback (most recent call last):
   File "Solution.py", line 56, in <module>
     main()
@@ -491,7 +491,7 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-question about sony (1)
+question about sony(1)
 Traceback (most recent call last):
   File "Solution.py", line 56, in <module>
     main()
@@ -521,7 +521,7 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-question about sony (1)
+question about sony(1)
 Traceback (most recent call last):
   File "Solution.py", line 56, in <module>
     main()
@@ -551,7 +551,7 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
- (1)
+(1)
 choice 1      choice 2      choice 3      choice 4
 |--------------|
 | Score Report |

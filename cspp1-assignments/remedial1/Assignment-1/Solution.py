@@ -24,7 +24,7 @@ def main():
 		tempcount = str(count)
 		# templist3 = list1[i][0]
 		# print(templist3,"3")
-		print(list1[i][0] +" " +"("+ tempcount+")")
+		print(list1[i][0] +"("+ tempcount+")")
 		print(templist2[0],"    ",templist2[1],"    ",templist2[2],"    ",templist2[3])
 		# print(list1[i][1])
 	j = 0

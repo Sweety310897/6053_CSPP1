@@ -74,5 +74,5 @@ Solution.py:37:1: W0612: Unused variable 'scorereport' (unused-variable)
 Solution.py:41:1: W0612: Unused variable 'marks' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -3.11/10 (previous run: -4.05/10, +0.94)
+Your code has been rated at -3.11/10 (previous run: -3.11/10, +0.00)
 
