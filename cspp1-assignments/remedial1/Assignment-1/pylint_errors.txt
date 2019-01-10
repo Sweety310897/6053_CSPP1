@@ -13,43 +13,63 @@ Solution.py:12:0: W0312: Found indentation with tabs instead of spaces (mixed-in
 Solution.py:13:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:14:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:15:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:16:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:18:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:17:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:19:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:20:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:21:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:22:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:23:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:24:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:25:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:24:20: C0326: Exactly one space required after comma
+		print(templist2[0],"    ",templist2[1],"    ",templist2[2],"    ",templist2[3])
+                    ^ (bad-whitespace)
+Solution.py:24:27: C0326: Exactly one space required after comma
+		print(templist2[0],"    ",templist2[1],"    ",templist2[2],"    ",templist2[3])
+                           ^ (bad-whitespace)
+Solution.py:24:40: C0326: Exactly one space required after comma
+		print(templist2[0],"    ",templist2[1],"    ",templist2[2],"    ",templist2[3])
+                                        ^ (bad-whitespace)
+Solution.py:24:47: C0326: Exactly one space required after comma
+		print(templist2[0],"    ",templist2[1],"    ",templist2[2],"    ",templist2[3])
+                                               ^ (bad-whitespace)
+Solution.py:24:60: C0326: Exactly one space required after comma
+		print(templist2[0],"    ",templist2[1],"    ",templist2[2],"    ",templist2[3])
+                                                            ^ (bad-whitespace)
+Solution.py:24:67: C0326: Exactly one space required after comma
+		print(templist2[0],"    ",templist2[1],"    ",templist2[2],"    ",templist2[3])
+                                                                   ^ (bad-whitespace)
 Solution.py:26:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:27:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:28:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:29:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:30:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:31:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:32:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:33:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:34:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:35:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:36:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:37:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:38:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:39:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:40:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:41:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:42:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:44:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:44:20: C0326: Exactly one space required after comma
-	print("Total Score",sum1)
-                    ^ (bad-whitespace)
-Solution.py:47:0: C0304: Final newline missing (missing-final-newline)
+Solution.py:43:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:45:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:47:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:49:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:49:21: C0326: Exactly one space required after comma
+	print("Total Score:",sum1)
+                     ^ (bad-whitespace)
+Solution.py:52:0: C0304: Final newline missing (missing-final-newline)
+Solution.py:52:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:1:0: C0103: Module name "Solution" doesn't conform to snake_case naming style (invalid-name)
 Solution.py:1:0: C0111: Missing module docstring (missing-docstring)
 Solution.py:1:0: C0111: Missing function docstring (missing-docstring)
-Solution.py:18:1: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
-Solution.py:34:1: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
-Solution.py:28:1: W0612: Unused variable 'scorereport' (unused-variable)
-Solution.py:32:1: W0612: Unused variable 'marks' (unused-variable)
+Solution.py:19:1: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+Solution.py:39:1: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+Solution.py:33:1: W0612: Unused variable 'scorereport' (unused-variable)
+Solution.py:37:1: W0612: Unused variable 'marks' (unused-variable)
 
--------------------------------------------------------------------
-Your code has been rated at -2.00/10 (previous run: 2.67/10, -4.67)
+--------------------------------------------------------------------
+Your code has been rated at -3.33/10 (previous run: -2.00/10, -1.33)
 

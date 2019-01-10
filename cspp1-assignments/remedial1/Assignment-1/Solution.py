@@ -13,11 +13,16 @@ def main():
 		temp = input().split(":")
 		list1.append(temp)
 		i += 1
+
 	startq = input().split(" ")
 	# print(list1)
 	for i in range(len(list1)):
+		templist = list1[i][1]
+		templist2 = templist.split(",")
+
 		print(list1[i][0])
-		print(list1[i][1])
+		print(templist2[0],"    ",templist2[1],"    ",templist2[2],"    ",templist2[3])
+		# print(list1[i][1])
 	j = 0
 	list2 = []
 	while j < int(startq[1]):
@@ -41,7 +46,7 @@ def main():
 			# print(list1[i][4])
 			sum1 = sum1 + int(list1[i][4])
 			# print(sum1)
-	print("Total Score",sum1)
+	print("Total Score:",sum1)
 
 if __name__ == '__main__':
 	main()
