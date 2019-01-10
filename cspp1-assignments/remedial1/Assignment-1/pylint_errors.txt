@@ -22,7 +22,6 @@ Solution.py:23:0: W0312: Found indentation with tabs instead of spaces (mixed-in
 Solution.py:24:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:27:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:28:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-Solution.py:29:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:31:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:32:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:33:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -57,5 +56,5 @@ Solution.py:38:1: W0612: Unused variable 'scorereport' (unused-variable)
 Solution.py:42:1: W0612: Unused variable 'marks' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -1.74/10 (previous run: -3.04/10, +1.30)
+Your code has been rated at -1.78/10 (previous run: -1.74/10, -0.04)
 
