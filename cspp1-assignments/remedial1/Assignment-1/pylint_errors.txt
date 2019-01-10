@@ -18,6 +18,15 @@ Solution.py:19:0: W0312: Found indentation with tabs instead of spaces (mixed-in
 Solution.py:20:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:21:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:23:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+Solution.py:23:19: C0326: Exactly one space required after comma
+		print(list1[i][0],"(",i,")")
+                   ^ (bad-whitespace)
+Solution.py:23:23: C0326: Exactly one space required after comma
+		print(list1[i][0],"(",i,")")
+                       ^ (bad-whitespace)
+Solution.py:23:25: C0326: Exactly one space required after comma
+		print(list1[i][0],"(",i,")")
+                         ^ (bad-whitespace)
 Solution.py:24:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 Solution.py:24:20: C0326: Exactly one space required after comma
 		print(templist2[0],"    ",templist2[1],"    ",templist2[2],"    ",templist2[3])
@@ -71,5 +80,5 @@ Solution.py:33:1: W0612: Unused variable 'scorereport' (unused-variable)
 Solution.py:37:1: W0612: Unused variable 'marks' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -3.33/10 (previous run: -2.00/10, -1.33)
+Your code has been rated at -4.05/10 (previous run: -3.33/10, -0.71)
 

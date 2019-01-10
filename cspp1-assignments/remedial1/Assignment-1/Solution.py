@@ -20,7 +20,7 @@ def main():
 		templist = list1[i][1]
 		templist2 = templist.split(",")
 
-		print(list1[i][0])
+		print(list1[i][0],"(",i,")")
 		print(templist2[0],"    ",templist2[1],"    ",templist2[2],"    ",templist2[3])
 		# print(list1[i][1])
 	j = 0

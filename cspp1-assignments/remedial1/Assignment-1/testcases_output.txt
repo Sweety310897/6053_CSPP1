@@ -40,13 +40,13 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-question text 1
+question text 1 ( 0 )
 choice 1      choice 2      choice 3      choice 4
-question text 2
+question text 2 ( 1 )
 choice 1      choice 2      choice 3      choice 4
-question text 3
+question text 3 ( 2 )
 choice 1      choice 2      choice 3      choice 4
-question text 4
+question text 4 ( 3 )
 choice 1      choice 2      choice 3      choice 4
 |--------------|
 | Score Report |
@@ -104,13 +104,13 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-question text 1
+question text 1 ( 0 )
 choice 1      choice 2      choice 3      choice 4
-question text 2
+question text 2 ( 1 )
 choice 1      choice 2      choice 3      choice 4
-question text 3
+question text 3 ( 2 )
 choice 1      choice 2      choice 3      choice 4
-question text 4
+question text 4 ( 3 )
 choice 1      choice 2      choice 3      choice 4
 |--------------|
 | Score Report |
@@ -160,13 +160,13 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-question text 1
+question text 1 ( 0 )
 choice 1      choice 2      choice 3      choice 4
-question text 2
+question text 2 ( 1 )
 choice 1      choice 2      choice 3      choice 4
-question text 3
+question text 3 ( 2 )
 choice 1      choice 2      choice 3      choice 4
-question text 4
+question text 4 ( 3 )
 choice 1      choice 2      choice 3      choice 4
 |--------------|
 | Score Report |
@@ -248,25 +248,25 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-question a
+question a ( 0 )
 choice a      choice b      choice c      choice d
-question b
+question b ( 1 )
 choice a      choice b      choice c      choice d
-question c
+question c ( 2 )
 choice a      choice b      choice c      choice d
-question d
+question d ( 3 )
 choice a      choice b      choice c      choice d
-question e
+question e ( 4 )
 choice a      choice b      choice c      choice d
-question f
+question f ( 5 )
 choice a      choice b      choice c      choice d
-question g
+question g ( 6 )
 choice a      choice b      choice c      choice d
-question h
+question h ( 7 )
 choice a      choice b      choice c      choice d
-question i
+question i ( 8 )
 choice a      choice b      choice c      choice d
-question j
+question j ( 9 )
 choice a      choice b      choice c      choice d
 |--------------|
 | Score Report |
@@ -301,7 +301,7 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-question text 1
+question text 1 ( 0 )
 choice 1      choice 2      choice 3      choice 4
 |--------------|
 | Score Report |
@@ -362,7 +362,7 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-question text 1
+question text 1 ( 0 )
 choice 1      choice 2      choice 3      choice 4
 |--------------|
 | Score Report |
@@ -396,7 +396,7 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-question text 1
+question text 1 ( 0 )
 choice 1      choice 2      choice 3      choice 4
 |--------------|
 | Score Report |
@@ -425,7 +425,7 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-trick question 
+trick question  ( 0 )
 Traceback (most recent call last):
   File "Solution.py", line 52, in <module>
     main()
@@ -461,7 +461,7 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-question about sony
+question about sony ( 0 )
 Traceback (most recent call last):
   File "Solution.py", line 52, in <module>
     main()
@@ -491,7 +491,7 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-question about sony
+question about sony ( 0 )
 Traceback (most recent call last):
   File "Solution.py", line 52, in <module>
     main()
@@ -521,7 +521,7 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-question about sony
+question about sony ( 0 )
 Traceback (most recent call last):
   File "Solution.py", line 52, in <module>
     main()
@@ -551,7 +551,7 @@ Your Output:
 |------------|
 | Start Quiz |
 |------------|
-
+ ( 0 )
 choice 1      choice 2      choice 3      choice 4
 |--------------|
 | Score Report |
