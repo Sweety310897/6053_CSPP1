@@ -4,7 +4,10 @@ Expected Output:
 1235: 100.0%
 
 Your Output: 
-
+  File "Solution.py", line 13
+    temp = input().split("|")
+       ^
+IndentationError: expected an indented block
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -16,7 +19,10 @@ Expected Output:
 1239: 0.0%
 
 Your Output: 
-
+  File "Solution.py", line 13
+    temp = input().split("|")
+       ^
+IndentationError: expected an indented block
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -24,12 +30,10 @@ Expected Output:
 Invalid Points
 
 Your Output: 
-Traceback (most recent call last):
-  File "Solution.py", line 75, in <module>
-    main()
-  File "Solution.py", line 46, in main
-    sum5 -= int(list1[i][4])
-ValueError: invalid literal for int() with base 10: 'a'
+  File "Solution.py", line 13
+    temp = input().split("|")
+       ^
+IndentationError: expected an indented block
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -45,7 +49,10 @@ Expected Output:
 12311: 0.0%
 
 Your Output: 
-
+  File "Solution.py", line 13
+    temp = input().split("|")
+       ^
+IndentationError: expected an indented block
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -55,7 +62,10 @@ Expected Output:
 12349: 50.0%
 
 Your Output: 
-
+  File "Solution.py", line 13
+    temp = input().split("|")
+       ^
+IndentationError: expected an indented block
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -63,6 +73,9 @@ Expected Output:
 12345: 100.0%
 
 Your Output: 
-
+  File "Solution.py", line 13
+    temp = input().split("|")
+       ^
+IndentationError: expected an indented block
 ----------------------------------------
 

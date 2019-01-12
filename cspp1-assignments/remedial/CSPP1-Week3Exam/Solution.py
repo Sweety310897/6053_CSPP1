@@ -9,11 +9,11 @@ def main():
 	dic = {}
 	i = 0
 	while i < noofinputs:
-		# try :
+		try :
 		temp = input().split("|")
-		# 	validate(temp)
-		# except Exception as e:
-	 #   		print(e)
+			validate(temp)
+		except Exception as e:
+	   		print(e)
 
 		list3.append(temp[0])		
 		# dic[temp[0]] = 0
