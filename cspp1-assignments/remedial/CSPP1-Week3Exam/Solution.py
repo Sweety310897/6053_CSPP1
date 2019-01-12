@@ -10,7 +10,7 @@ def main():
 	i = 0
 	while i < noofinputs:
 		try :
-		temp = input().split("|")
+			temp = input().split("|")
 			validate(temp)
 		except Exception as e:
 	   		print(e)
@@ -55,7 +55,7 @@ def main():
 	# print(list6[0])
 	k = 1
 	# print(list6,"6")
-	
+
 	# while k < len(list6):
 	# 	if list6[k] not in dic19.keys():
 	# 		if k%2 == 0:
