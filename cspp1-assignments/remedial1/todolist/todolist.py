@@ -40,7 +40,7 @@ def main():
 				
 		except EOFError:
 			break
-	print(sum1)
+	# print(sum1)
 	# except Exception as e:
 	# 	print(e)
 	

@@ -1,28 +1,25 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 task1, akshay, 30, Important, Urgent, todo
 
 Your Output: 
 task1, akshay, 30, Important, Urgent, todo
-0
 ----------------------------------------
 
-########## Testcase 1: Failed ##########
+########## Testcase 1: Passed ##########
 Expected Output: 
 task2, manoj, 10, Not Important, Not Urgent, done
 
 Your Output: 
 task2, manoj, 10, Not Important, Not Urgent, done
-0
 ----------------------------------------
 
-########## Testcase 2: Failed ##########
+########## Testcase 2: Passed ##########
 Expected Output: 
 taska, tarun, 120, Important, Not Urgent, todo
 
 Your Output: 
 taska, tarun, 120, Important, Not Urgent, todo
-0
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########

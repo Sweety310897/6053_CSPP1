@@ -38,7 +38,6 @@ todolist.py:39:0: W0312: Found indentation with tabs instead of spaces (mixed-in
 todolist.py:40:0: C0303: Trailing whitespace (trailing-whitespace)
 todolist.py:41:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todolist.py:42:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-todolist.py:43:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todolist.py:46:0: C0303: Trailing whitespace (trailing-whitespace)
 todolist.py:48:0: C0304: Final newline missing (missing-final-newline)
 todolist.py:48:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -47,7 +46,8 @@ todolist.py:1:0: C0111: Missing function docstring (missing-docstring)
 todolist.py:14:0: C0111: Missing function docstring (missing-docstring)
 todolist.py:23:0: C0111: Missing function docstring (missing-docstring)
 todolist.py:39:4: E0602: Undefined variable 'totaltime' (undefined-variable)
+todolist.py:25:1: W0612: Unused variable 'sum1' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -3.51/10 (previous run: -2.20/10, -1.32)
+Your code has been rated at -3.89/10 (previous run: -3.51/10, -0.38)
 
