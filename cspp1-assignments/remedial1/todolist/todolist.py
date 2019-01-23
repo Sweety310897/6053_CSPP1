@@ -24,17 +24,24 @@ def validate(temp):
 
 def main():
 	
-	temp = input().split(",")			
-	try:
-		if temp[0] == "task":
-			validate(temp)
-			str1 = ""
-			temp1 = task(temp)
-			for each in temp1:
-				str1 += each + ", "
-			print(str1[0:len(str1)-2])
-	except Exception as e:
-		print(e)
+				
+	while True:
+		try:
+			temp = input().split(",")
+			try:
+				if temp[0] == "task":
+					validate(temp)
+					str1 = ""
+					temp1 = task(temp)
+					for each in temp1:
+						str1 += each + ", "
+					print(str1[0:len(str1)-2])
+			except Exception as e:
+			print(e)
+	
+		except EOFError:
+			break
+	
 	
 if __name__ == '__main__':
 	main()
