@@ -1,48 +1,26 @@
-def addtask(temp):
-	str1 = ""
-	str1 = temp[1] +", " + temp[2] + ", " + temp[3] + ", "
+def task(temp):
+	list1 = []
+	# print(temp)
+	list1.append(temp[1])
+	list1.append(temp[2])
+	list1.append(temp[3])
 	if temp[4] == "y":
-		str1 += "Important" + ", "
+		list1.append("Important")
 	else:
-		str1 += "Not Important" + ", "
+		list1.append("Not Important")
 	if temp[5] == "y":
-		str1 += "Urgent" + ", "
+		list1.append("Urgent")
 	else:
-		str1 += "Not Urgent" + ", "
-	str1 += temp[6]
-	print(str1)
-def validate(temp):
-	# print(temp[6]=="todo")
-	if temp[1] == "":
-		raise Exception("Title not provided")
-	if int(temp[3]) < 0:
-		raise Exception("Invalid timeToComplete " + temp[3])
-	if temp[6] != "todo" and temp[6] != "done" :
-		raise Exception("Invalid status dud")
-	
+		list1.append("Not Urgent")
+	return list1
 def main():
-	try :
-		sum1 = 0
-		while True:
-			try:
-				temp = input().split(",")
-				# print(temp)
-				if temp[0] == "add-task":
-					validate(temp)
-				if temp[0] == "task":
-					addtask(temp)
-				# if temp[0] == "add-task":
-				# 	addtask(temp)
-				if temp[0] == "print-todoist":
-					print(temp)
-				if temp[0] == "total-time":
-					totaltime(temp)
-					
-			except EOFError:
-				break
-	# print(sum1)
-	except Exception as e:
-		print(e)
 	
+	temp = input().split(",")			
+	if temp[0] == "task":
+		str1 = ""
+		temp1 = task(temp)
+		for each in temp1:
+			str1 += each + ", "
+		print(str1)
 if __name__ == '__main__':
 	main()
