@@ -28,7 +28,7 @@ todolist.py:25:5: C0326: No space allowed before :
 todolist.py:26:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todolist.py:27:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todolist.py:28:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-todolist.py:30:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+todolist.py:29:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todolist.py:31:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todolist.py:32:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todolist.py:33:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -38,16 +38,22 @@ todolist.py:36:0: W0312: Found indentation with tabs instead of spaces (mixed-in
 todolist.py:37:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todolist.py:38:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todolist.py:39:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-todolist.py:40:0: C0303: Trailing whitespace (trailing-whitespace)
-todolist.py:42:0: C0304: Final newline missing (missing-final-newline)
+todolist.py:40:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+todolist.py:41:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todolist.py:42:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+todolist.py:43:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+todolist.py:44:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+todolist.py:45:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+todolist.py:46:0: C0303: Trailing whitespace (trailing-whitespace)
+todolist.py:48:0: C0304: Final newline missing (missing-final-newline)
+todolist.py:48:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todolist.py:1:0: C0111: Missing module docstring (missing-docstring)
 todolist.py:1:0: C0111: Missing function docstring (missing-docstring)
 todolist.py:15:0: C0111: Missing function docstring (missing-docstring)
 todolist.py:24:0: C0111: Missing function docstring (missing-docstring)
-todolist.py:38:8: W0703: Catching too general exception Exception (broad-except)
-todolist.py:38:1: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
+todolist.py:44:8: W0703: Catching too general exception Exception (broad-except)
+todolist.py:44:1: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
 
 --------------------------------------------------------------------
-Your code has been rated at -2.57/10 (previous run: -2.50/10, -0.07)
+Your code has been rated at -2.20/10 (previous run: -2.57/10, +0.38)
 

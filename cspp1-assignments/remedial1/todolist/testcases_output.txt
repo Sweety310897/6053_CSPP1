@@ -1,25 +1,28 @@
-########## Testcase 0: Passed ##########
+########## Testcase 0: Failed ##########
 Expected Output: 
 task1, akshay, 30, Important, Urgent, todo
 
 Your Output: 
 task1, akshay, 30, Important, Urgent, todo
+30
 ----------------------------------------
 
-########## Testcase 1: Passed ##########
+########## Testcase 1: Failed ##########
 Expected Output: 
 task2, manoj, 10, Not Important, Not Urgent, done
 
 Your Output: 
 task2, manoj, 10, Not Important, Not Urgent, done
+0
 ----------------------------------------
 
-########## Testcase 2: Passed ##########
+########## Testcase 2: Failed ##########
 Expected Output: 
 taska, tarun, 120, Important, Not Urgent, todo
 
 Your Output: 
 taska, tarun, 120, Important, Not Urgent, todo
+120
 ----------------------------------------
 
 ########## Testcase 3: Passed ##########
@@ -46,7 +49,7 @@ Your Output:
 Title not provided
 ----------------------------------------
 
-########## Testcase 6: Passed ##########
+########## Testcase 6: Failed ##########
 Expected Output: 
 task1, akshay, 30, Important, Urgent, todo
 task2, manoj, 10, Not Important, Not Urgent, done
@@ -56,9 +59,10 @@ Your Output:
 task1, akshay, 30, Important, Urgent, todo
 task2, manoj, 10, Not Important, Not Urgent, done
 taska, tarun, 120, Important, Not Urgent, todo
+list index out of range
 ----------------------------------------
 
-########## Testcase 7: Passed ##########
+########## Testcase 7: Failed ##########
 Expected Output: 
 task-1, akshay, 30, Important, Urgent, todo
 task-2, manoj, 10, Not Important, Not Urgent, done
@@ -104,6 +108,7 @@ task-e, tarun, 120, Important, Not Urgent, todo
 task-h, akshay, 30, Important, Urgent, todo
 task-x, manoj, 10, Not Important, Not Urgent, done
 task-z, tarun, 120, Important, Not Urgent, todo
+list index out of range
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########

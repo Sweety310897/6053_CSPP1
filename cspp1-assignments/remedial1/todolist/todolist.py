@@ -23,6 +23,7 @@ def validate(temp):
 	
 def main():
 	try :
+		sum1 = 0
 		while True:
 			try:
 				temp = input().split(",")
@@ -33,8 +34,13 @@ def main():
 					addtask(temp)
 				if temp[0] == "add-task":
 					addtask(temp)
+				if temp[6] == "todo":
+					sum1 += int(temp[3])
+				if temp[6] == "done":
+					sum1 = 0
 			except EOFError:
 				break
+		print(sum1)
 	except Exception as e:
 		print(e)
 	
