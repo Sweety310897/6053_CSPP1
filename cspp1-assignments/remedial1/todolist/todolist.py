@@ -22,6 +22,6 @@ def main():
 		temp1 = task(temp)
 		for each in temp1:
 			str1 += each + ", "
-		print(str1)
+		print(str1[0:len(str1)-2])
 if __name__ == '__main__':
 	main()
