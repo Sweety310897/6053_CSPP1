@@ -37,7 +37,7 @@ def main():
 						str1 += each + ", "
 					print(str1[0:len(str1)-2])
 			except Exception as e:
-			print(e)
+				print(e)
 	
 		except EOFError:
 			break
