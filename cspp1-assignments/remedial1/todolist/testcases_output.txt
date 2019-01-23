@@ -1,74 +1,64 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 task1, akshay, 30, Important, Urgent, todo
 
 Your Output: 
-['task', 'task1', 'akshay', '30', 'y', 'y', 'todo']
 task1, akshay, 30, Important, Urgent, todo
 ----------------------------------------
 
-########## Testcase 1: Failed ##########
+########## Testcase 1: Passed ##########
 Expected Output: 
 task2, manoj, 10, Not Important, Not Urgent, done
 
 Your Output: 
-['task', 'task2', 'manoj', '10', 'n', 'n', 'done']
 task2, manoj, 10, Not Important, Not Urgent, done
 ----------------------------------------
 
-########## Testcase 2: Failed ##########
+########## Testcase 2: Passed ##########
 Expected Output: 
 taska, tarun, 120, Important, Not Urgent, todo
 
 Your Output: 
-['task', 'taska', 'tarun', '120', 'y', 'n', 'todo']
 taska, tarun, 120, Important, Not Urgent, todo
 ----------------------------------------
 
-########## Testcase 3: Failed ##########
+########## Testcase 3: Passed ##########
 Expected Output: 
 Invalid status dud
 
 Your Output: 
-['task', 'taskb', 'ram', '10', 'n', 'y', 'dud']
 Invalid status dud
 ----------------------------------------
 
-########## Testcase 4: Failed ##########
+########## Testcase 4: Passed ##########
 Expected Output: 
 Invalid timeToComplete -1
 
 Your Output: 
-['task', 'taskb', 'ram', '-1', 'y', 'y', 'todo']
 Invalid timeToComplete -1
 ----------------------------------------
 
-########## Testcase 5: Failed ##########
+########## Testcase 5: Passed ##########
 Expected Output: 
 Title not provided
 
 Your Output: 
-['task', '', 'ram', '1', 'y', 'y', 'todo']
 Title not provided
 ----------------------------------------
 
-########## Testcase 6: Failed ##########
+########## Testcase 6: Passed ##########
 Expected Output: 
 task1, akshay, 30, Important, Urgent, todo
 task2, manoj, 10, Not Important, Not Urgent, done
 taska, tarun, 120, Important, Not Urgent, todo
 
 Your Output: 
-['add-task', 'task1', 'akshay', '30', 'y', 'y', 'todo']
 task1, akshay, 30, Important, Urgent, todo
-['add-task', 'task2', 'manoj', '10', 'n', 'n', 'done']
 task2, manoj, 10, Not Important, Not Urgent, done
-['add-task', 'taska', 'tarun', '120', 'y', 'n', 'todo']
 taska, tarun, 120, Important, Not Urgent, todo
-['print-todoist']
 ----------------------------------------
 
-########## Testcase 7: Failed ##########
+########## Testcase 7: Passed ##########
 Expected Output: 
 task-1, akshay, 30, Important, Urgent, todo
 task-2, manoj, 10, Not Important, Not Urgent, done
@@ -93,49 +83,27 @@ task-x, manoj, 10, Not Important, Not Urgent, done
 task-z, tarun, 120, Important, Not Urgent, todo
 
 Your Output: 
-['add-task', 'task-1', 'akshay', '30', 'y', 'y', 'todo']
 task-1, akshay, 30, Important, Urgent, todo
-['add-task', 'task-2', 'manoj', '10', 'n', 'n', 'done']
 task-2, manoj, 10, Not Important, Not Urgent, done
-['add-task', 'task-a', 'tarun', '120', 'y', 'n', 'todo']
 task-a, tarun, 120, Important, Not Urgent, todo
-['add-task', 'task-b', 'akshay', '30', 'y', 'y', 'todo']
 task-b, akshay, 30, Important, Urgent, todo
-['add-task', 'task-c', 'manoj', '10', 'n', 'n', 'done']
 task-c, manoj, 10, Not Important, Not Urgent, done
-['add-task', 'task-p', 'tarun', '120', 'y', 'n', 'todo']
 task-p, tarun, 120, Important, Not Urgent, todo
-['add-task', 'task-q', 'akshay', '30', 'y', 'y', 'todo']
 task-q, akshay, 30, Important, Urgent, todo
-['add-task', 'task-r', 'manoj', '10', 'n', 'n', 'done']
 task-r, manoj, 10, Not Important, Not Urgent, done
-['add-task', 'task-s', 'tarun', '120', 'y', 'n', 'todo']
 task-s, tarun, 120, Important, Not Urgent, todo
-['add-task', 'task-9', 'akshay', '30', 'y', 'y', 'todo']
 task-9, akshay, 30, Important, Urgent, todo
-['add-task', 'task-8', 'manoj', '10', 'n', 'n', 'done']
 task-8, manoj, 10, Not Important, Not Urgent, done
-['add-task', 'task-7', 'tarun', '120', 'y', 'n', 'todo']
 task-7, tarun, 120, Important, Not Urgent, todo
-['add-task', 'task-6', 'akshay', '30', 'y', 'y', 'todo']
 task-6, akshay, 30, Important, Urgent, todo
-['add-task', 'task-7', 'manoj', '10', 'n', 'n', 'done']
 task-7, manoj, 10, Not Important, Not Urgent, done
-['add-task', 'task-4', 'tarun', '120', 'y', 'n', 'todo']
 task-4, tarun, 120, Important, Not Urgent, todo
-['add-task', 'task-3', 'akshay', '30', 'y', 'y', 'todo']
 task-3, akshay, 30, Important, Urgent, todo
-['add-task', 'task-t', 'manoj', '10', 'n', 'n', 'done']
 task-t, manoj, 10, Not Important, Not Urgent, done
-['add-task', 'task-e', 'tarun', '120', 'y', 'n', 'todo']
 task-e, tarun, 120, Important, Not Urgent, todo
-['add-task', 'task-h', 'akshay', '30', 'y', 'y', 'todo']
 task-h, akshay, 30, Important, Urgent, todo
-['add-task', 'task-x', 'manoj', '10', 'n', 'n', 'done']
 task-x, manoj, 10, Not Important, Not Urgent, done
-['add-task', 'task-z', 'tarun', '120', 'y', 'n', 'todo']
 task-z, tarun, 120, Important, Not Urgent, todo
-['print-todoist']
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -145,25 +113,15 @@ null
 task-h, tarun, 27, Important, Not Urgent, todo
 
 Your Output: 
-['add-task', 'task-1', 'akshay', '30', 'y', 'y', 'todo']
 task-1, akshay, 30, Important, Urgent, todo
-['add-task', 'task-6', 'akshay', '130', 'y', 'n', 'done']
 task-6, akshay, 130, Important, Not Urgent, done
-['add-task', 'task-2', 'manoj', '10', 'n', 'y', 'done']
 task-2, manoj, 10, Not Important, Urgent, done
-['add-task', 'task-a', 'tarun', '120', 'y', 'y', 'todo']
 task-a, tarun, 120, Important, Urgent, todo
-['add-task', 'task-b', 'akshay', '30', 'y', 'n', 'todo']
 task-b, akshay, 30, Important, Not Urgent, todo
-['add-task', 'task-c', 'manoj', '10', 'n', 'n', 'done']
 task-c, manoj, 10, Not Important, Not Urgent, done
-['add-task', 'task-c', 'manoj', '10', 'n', 'y', 'todo']
 task-c, manoj, 10, Not Important, Urgent, todo
-['add-task', 'task-p', 'tarun', '120', 'n', 'n', 'todo']
 task-p, tarun, 120, Not Important, Not Urgent, todo
-['add-task', 'task-h', 'tarun', '27', 'y', 'n', 'todo']
 task-h, tarun, 27, Important, Not Urgent, todo
-['get-next', 'akshay']
 list index out of range
 ----------------------------------------
 
@@ -173,25 +131,15 @@ task-j1, john, 30, Important, Not Urgent, todo
 task-ta, tom, 120, Important, Not Urgent, todo
 
 Your Output: 
-['add-task', 'task-j1', 'john', '30', 'y', 'n', 'todo']
 task-j1, john, 30, Important, Not Urgent, todo
-['add-task', 'task-j6', 'john', '130', 'y', 'n', 'todo']
 task-j6, john, 130, Important, Not Urgent, todo
-['add-task', 'task-j2', 'john', '10', 'y', 'n', 'todo']
 task-j2, john, 10, Important, Not Urgent, todo
-['add-task', 'task-ta', 'tom', '120', 'y', 'n', 'todo']
 task-ta, tom, 120, Important, Not Urgent, todo
-['add-task', 'task-jb', 'john', '30', 'y', 'n', 'todo']
 task-jb, john, 30, Important, Not Urgent, todo
-['add-task', 'task-jc', 'john', '10', 'y', 'n', 'todo']
 task-jc, john, 10, Important, Not Urgent, todo
-['add-task', 'task-jc', 'john', '10', 'y', 'n', 'todo']
 task-jc, john, 10, Important, Not Urgent, todo
-['add-task', 'task-tp', 'tom', '120', 'y', 'n', 'todo']
 task-tp, tom, 120, Important, Not Urgent, todo
-['add-task', 'task-th', 'tom', '27', 'y', 'n', 'todo']
 task-th, tom, 27, Important, Not Urgent, todo
-['get-next', 'john']
 list index out of range
 ----------------------------------------
 
@@ -201,25 +149,15 @@ Expected Output:
 [task-tp, tom, 120, Important, Not Urgent, todo, task-th, tom, 27, Important, Not Urgent, todo, null]
 
 Your Output: 
-['add-task', 'task-j1', 'john', '30', 'y', 'n', 'todo']
 task-j1, john, 30, Important, Not Urgent, todo
-['add-task', 'task-j6', 'john', '130', 'y', 'n', 'todo']
 task-j6, john, 130, Important, Not Urgent, todo
-['add-task', 'task-j2', 'john', '10', 'y', 'n', 'todo']
 task-j2, john, 10, Important, Not Urgent, todo
-['add-task', 'task-ta', 'tom', '120', 'y', 'n', 'done']
 task-ta, tom, 120, Important, Not Urgent, done
-['add-task', 'task-jb', 'john', '30', 'y', 'n', 'todo']
 task-jb, john, 30, Important, Not Urgent, todo
-['add-task', 'task-jc', 'john', '10', 'y', 'n', 'todo']
 task-jc, john, 10, Important, Not Urgent, todo
-['add-task', 'task-jc', 'john', '10', 'y', 'n', 'todo']
 task-jc, john, 10, Important, Not Urgent, todo
-['add-task', 'task-tp', 'tom', '120', 'y', 'n', 'todo']
 task-tp, tom, 120, Important, Not Urgent, todo
-['add-task', 'task-th', 'tom', '27', 'y', 'n', 'todo']
 task-th, tom, 27, Important, Not Urgent, todo
-['get-next-n', 'john', '3']
 list index out of range
 ----------------------------------------
 
@@ -228,25 +166,15 @@ Expected Output:
 337
 
 Your Output: 
-['add-task', 'task-1', 'akshay', '30', 'y', 'y', 'todo']
 task-1, akshay, 30, Important, Urgent, todo
-['add-task', 'task-6', 'akshay', '130', 'y', 'n', 'done']
 task-6, akshay, 130, Important, Not Urgent, done
-['add-task', 'task-2', 'manoj', '10', 'n', 'y', 'done']
 task-2, manoj, 10, Not Important, Urgent, done
-['add-task', 'task-a', 'tarun', '120', 'y', 'y', 'todo']
 task-a, tarun, 120, Important, Urgent, todo
-['add-task', 'task-b', 'akshay', '30', 'y', 'n', 'todo']
 task-b, akshay, 30, Important, Not Urgent, todo
-['add-task', 'task-c', 'manoj', '10', 'n', 'n', 'done']
 task-c, manoj, 10, Not Important, Not Urgent, done
-['add-task', 'task-c', 'manoj', '10', 'n', 'y', 'todo']
 task-c, manoj, 10, Not Important, Urgent, todo
-['add-task', 'task-p', 'tarun', '120', 'n', 'n', 'todo']
 task-p, tarun, 120, Not Important, Not Urgent, todo
-['add-task', 'task-h', 'tarun', '27', 'y', 'n', 'todo']
 task-h, tarun, 27, Important, Not Urgent, todo
-['total-time']
 list index out of range
 ----------------------------------------
 
@@ -255,25 +183,15 @@ Expected Output:
 0
 
 Your Output: 
-['add-task', 'task-1', 'akshay', '30', 'y', 'y', 'done']
 task-1, akshay, 30, Important, Urgent, done
-['add-task', 'task-6', 'akshay', '130', 'y', 'n', 'done']
 task-6, akshay, 130, Important, Not Urgent, done
-['add-task', 'task-2', 'manoj', '10', 'n', 'y', 'done']
 task-2, manoj, 10, Not Important, Urgent, done
-['add-task', 'task-a', 'tarun', '120', 'y', 'y', 'done']
 task-a, tarun, 120, Important, Urgent, done
-['add-task', 'task-b', 'akshay', '30', 'y', 'n', 'done']
 task-b, akshay, 30, Important, Not Urgent, done
-['add-task', 'task-c', 'manoj', '10', 'n', 'n', 'done']
 task-c, manoj, 10, Not Important, Not Urgent, done
-['add-task', 'task-c', 'manoj', '10', 'n', 'y', 'done']
 task-c, manoj, 10, Not Important, Urgent, done
-['add-task', 'task-p', 'tarun', '120', 'n', 'n', 'done']
 task-p, tarun, 120, Not Important, Not Urgent, done
-['add-task', 'task-h', 'tarun', '27', 'y', 'n', 'done']
 task-h, tarun, 27, Important, Not Urgent, done
-['total-time']
 list index out of range
 ----------------------------------------
 
@@ -282,25 +200,15 @@ Expected Output:
 487
 
 Your Output: 
-['add-task', 'task-1', 'akshay', '30', 'y', 'y', 'todo']
 task-1, akshay, 30, Important, Urgent, todo
-['add-task', 'task-6', 'akshay', '130', 'y', 'n', 'todo']
 task-6, akshay, 130, Important, Not Urgent, todo
-['add-task', 'task-2', 'manoj', '10', 'n', 'y', 'todo']
 task-2, manoj, 10, Not Important, Urgent, todo
-['add-task', 'task-a', 'tarun', '120', 'y', 'y', 'todo']
 task-a, tarun, 120, Important, Urgent, todo
-['add-task', 'task-b', 'akshay', '30', 'y', 'n', 'todo']
 task-b, akshay, 30, Important, Not Urgent, todo
-['add-task', 'task-c', 'manoj', '10', 'n', 'n', 'todo']
 task-c, manoj, 10, Not Important, Not Urgent, todo
-['add-task', 'task-c', 'manoj', '10', 'n', 'y', 'todo']
 task-c, manoj, 10, Not Important, Urgent, todo
-['add-task', 'task-p', 'tarun', '120', 'n', 'n', 'todo']
 task-p, tarun, 120, Not Important, Not Urgent, todo
-['add-task', 'task-h', 'tarun', '27', 'y', 'n', 'todo']
 task-h, tarun, 27, Important, Not Urgent, todo
-['total-time']
 list index out of range
 ----------------------------------------
 

@@ -26,7 +26,7 @@ def main():
 		while True:
 			try:
 				temp = input().split(",")
-				print(temp)
+				# print(temp)
 				if temp[0] != "print-todoist":
 					validate(temp)
 				if temp[0] == "task":

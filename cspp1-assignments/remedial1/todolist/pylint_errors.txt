@@ -28,7 +28,6 @@ todolist.py:25:5: C0326: No space allowed before :
 todolist.py:26:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todolist.py:27:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todolist.py:28:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-todolist.py:29:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todolist.py:30:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todolist.py:31:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todolist.py:32:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -50,5 +49,5 @@ todolist.py:38:8: W0703: Catching too general exception Exception (broad-except)
 todolist.py:38:1: C0103: Variable name "e" doesn't conform to snake_case naming style (invalid-name)
 
 --------------------------------------------------------------------
-Your code has been rated at -2.50/10 (previous run: -2.65/10, +0.15)
+Your code has been rated at -2.57/10 (previous run: -2.50/10, -0.07)
 
