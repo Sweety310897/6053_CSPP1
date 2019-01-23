@@ -31,8 +31,8 @@ def main():
 					validate(temp)
 				if temp[0] == "task":
 					addtask(temp)
-				if temp[0] == "add-task":
-					addtask(temp)
+				# if temp[0] == "add-task":
+				# 	addtask(temp)
 				if temp[0] == "print-todoist":
 					print(temp)
 				if temp[0] == "total-time":

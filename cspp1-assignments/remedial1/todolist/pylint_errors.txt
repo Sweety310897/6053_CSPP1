@@ -33,8 +33,6 @@ todolist.py:30:0: W0312: Found indentation with tabs instead of spaces (mixed-in
 todolist.py:31:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todolist.py:32:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todolist.py:33:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-todolist.py:34:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-todolist.py:35:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todolist.py:36:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todolist.py:37:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todolist.py:38:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -57,5 +55,5 @@ todolist.py:44:1: C0103: Variable name "e" doesn't conform to snake_case naming 
 todolist.py:25:2: W0612: Unused variable 'sum1' (unused-variable)
 
 --------------------------------------------------------------------
-Your code has been rated at -4.00/10 (previous run: -3.89/10, -0.11)
+Your code has been rated at -4.21/10 (previous run: -4.00/10, -0.21)
 
