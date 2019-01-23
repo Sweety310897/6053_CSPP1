@@ -54,6 +54,9 @@ taska, tarun, 120, Important, Not Urgent, todo
 
 Your Output: 
 task1, akshay, 30, Important, Urgent, todo
+task2, manoj, 10, Not Important, Not Urgent, done
+taska, tarun, 120, Important, Not Urgent, todo
+list index out of range
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -82,6 +85,27 @@ task-z, tarun, 120, Important, Not Urgent, todo
 
 Your Output: 
 task-1, akshay, 30, Important, Urgent, todo
+task-2, manoj, 10, Not Important, Not Urgent, done
+task-a, tarun, 120, Important, Not Urgent, todo
+task-b, akshay, 30, Important, Urgent, todo
+task-c, manoj, 10, Not Important, Not Urgent, done
+task-p, tarun, 120, Important, Not Urgent, todo
+task-q, akshay, 30, Important, Urgent, todo
+task-r, manoj, 10, Not Important, Not Urgent, done
+task-s, tarun, 120, Important, Not Urgent, todo
+task-9, akshay, 30, Important, Urgent, todo
+task-8, manoj, 10, Not Important, Not Urgent, done
+task-7, tarun, 120, Important, Not Urgent, todo
+task-6, akshay, 30, Important, Urgent, todo
+task-7, manoj, 10, Not Important, Not Urgent, done
+task-4, tarun, 120, Important, Not Urgent, todo
+task-3, akshay, 30, Important, Urgent, todo
+task-t, manoj, 10, Not Important, Not Urgent, done
+task-e, tarun, 120, Important, Not Urgent, todo
+task-h, akshay, 30, Important, Urgent, todo
+task-x, manoj, 10, Not Important, Not Urgent, done
+task-z, tarun, 120, Important, Not Urgent, todo
+list index out of range
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -92,6 +116,15 @@ task-h, tarun, 27, Important, Not Urgent, todo
 
 Your Output: 
 task-1, akshay, 30, Important, Urgent, todo
+task-6, akshay, 130, Important, Not Urgent, done
+task-2, manoj, 10, Not Important, Urgent, done
+task-a, tarun, 120, Important, Urgent, todo
+task-b, akshay, 30, Important, Not Urgent, todo
+task-c, manoj, 10, Not Important, Not Urgent, done
+task-c, manoj, 10, Not Important, Urgent, todo
+task-p, tarun, 120, Not Important, Not Urgent, todo
+task-h, tarun, 27, Important, Not Urgent, todo
+list index out of range
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -101,6 +134,15 @@ task-ta, tom, 120, Important, Not Urgent, todo
 
 Your Output: 
 task-j1, john, 30, Important, Not Urgent, todo
+task-j6, john, 130, Important, Not Urgent, todo
+task-j2, john, 10, Important, Not Urgent, todo
+task-ta, tom, 120, Important, Not Urgent, todo
+task-jb, john, 30, Important, Not Urgent, todo
+task-jc, john, 10, Important, Not Urgent, todo
+task-jc, john, 10, Important, Not Urgent, todo
+task-tp, tom, 120, Important, Not Urgent, todo
+task-th, tom, 27, Important, Not Urgent, todo
+list index out of range
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -110,6 +152,15 @@ Expected Output:
 
 Your Output: 
 task-j1, john, 30, Important, Not Urgent, todo
+task-j6, john, 130, Important, Not Urgent, todo
+task-j2, john, 10, Important, Not Urgent, todo
+task-ta, tom, 120, Important, Not Urgent, done
+task-jb, john, 30, Important, Not Urgent, todo
+task-jc, john, 10, Important, Not Urgent, todo
+task-jc, john, 10, Important, Not Urgent, todo
+task-tp, tom, 120, Important, Not Urgent, todo
+task-th, tom, 27, Important, Not Urgent, todo
+list index out of range
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -118,6 +169,15 @@ Expected Output:
 
 Your Output: 
 task-1, akshay, 30, Important, Urgent, todo
+task-6, akshay, 130, Important, Not Urgent, done
+task-2, manoj, 10, Not Important, Urgent, done
+task-a, tarun, 120, Important, Urgent, todo
+task-b, akshay, 30, Important, Not Urgent, todo
+task-c, manoj, 10, Not Important, Not Urgent, done
+task-c, manoj, 10, Not Important, Urgent, todo
+task-p, tarun, 120, Not Important, Not Urgent, todo
+task-h, tarun, 27, Important, Not Urgent, todo
+list index out of range
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -126,6 +186,15 @@ Expected Output:
 
 Your Output: 
 task-1, akshay, 30, Important, Urgent, done
+task-6, akshay, 130, Important, Not Urgent, done
+task-2, manoj, 10, Not Important, Urgent, done
+task-a, tarun, 120, Important, Urgent, done
+task-b, akshay, 30, Important, Not Urgent, done
+task-c, manoj, 10, Not Important, Not Urgent, done
+task-c, manoj, 10, Not Important, Urgent, done
+task-p, tarun, 120, Not Important, Not Urgent, done
+task-h, tarun, 27, Important, Not Urgent, done
+list index out of range
 ----------------------------------------
 
 ########## Testcase 13: Failed ##########
@@ -134,5 +203,14 @@ Expected Output:
 
 Your Output: 
 task-1, akshay, 30, Important, Urgent, todo
+task-6, akshay, 130, Important, Not Urgent, todo
+task-2, manoj, 10, Not Important, Urgent, todo
+task-a, tarun, 120, Important, Urgent, todo
+task-b, akshay, 30, Important, Not Urgent, todo
+task-c, manoj, 10, Not Important, Not Urgent, todo
+task-c, manoj, 10, Not Important, Urgent, todo
+task-p, tarun, 120, Not Important, Not Urgent, todo
+task-h, tarun, 27, Important, Not Urgent, todo
+list index out of range
 ----------------------------------------
 
