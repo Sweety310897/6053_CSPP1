@@ -4,7 +4,7 @@ task1, akshay, 30, Important, Urgent, todo
 
 Your Output: 
 task1, akshay, 30, Important, Urgent, todo
-30
+0
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -22,31 +22,52 @@ taska, tarun, 120, Important, Not Urgent, todo
 
 Your Output: 
 taska, tarun, 120, Important, Not Urgent, todo
-120
+0
 ----------------------------------------
 
-########## Testcase 3: Passed ##########
+########## Testcase 3: Failed ##########
 Expected Output: 
 Invalid status dud
 
 Your Output: 
-Invalid status dud
+Traceback (most recent call last):
+  File "todolist.py", line 48, in <module>
+    main()
+  File "todolist.py", line 31, in main
+    validate(temp)
+  File "todolist.py", line 21, in validate
+    raise Exception("Invalid status dud")
+Exception: Invalid status dud
 ----------------------------------------
 
-########## Testcase 4: Passed ##########
+########## Testcase 4: Failed ##########
 Expected Output: 
 Invalid timeToComplete -1
 
 Your Output: 
-Invalid timeToComplete -1
+Traceback (most recent call last):
+  File "todolist.py", line 48, in <module>
+    main()
+  File "todolist.py", line 31, in main
+    validate(temp)
+  File "todolist.py", line 19, in validate
+    raise Exception("Invalid timeToComplete " + temp[3])
+Exception: Invalid timeToComplete -1
 ----------------------------------------
 
-########## Testcase 5: Passed ##########
+########## Testcase 5: Failed ##########
 Expected Output: 
 Title not provided
 
 Your Output: 
-Title not provided
+Traceback (most recent call last):
+  File "todolist.py", line 48, in <module>
+    main()
+  File "todolist.py", line 31, in main
+    validate(temp)
+  File "todolist.py", line 17, in validate
+    raise Exception("Title not provided")
+Exception: Title not provided
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -59,7 +80,14 @@ Your Output:
 task1, akshay, 30, Important, Urgent, todo
 task2, manoj, 10, Not Important, Not Urgent, done
 taska, tarun, 120, Important, Not Urgent, todo
-list index out of range
+Traceback (most recent call last):
+  File "todolist.py", line 48, in <module>
+    main()
+  File "todolist.py", line 31, in main
+    validate(temp)
+  File "todolist.py", line 16, in validate
+    if temp[1] == "":
+IndexError: list index out of range
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -108,7 +136,14 @@ task-e, tarun, 120, Important, Not Urgent, todo
 task-h, akshay, 30, Important, Urgent, todo
 task-x, manoj, 10, Not Important, Not Urgent, done
 task-z, tarun, 120, Important, Not Urgent, todo
-list index out of range
+Traceback (most recent call last):
+  File "todolist.py", line 48, in <module>
+    main()
+  File "todolist.py", line 31, in main
+    validate(temp)
+  File "todolist.py", line 16, in validate
+    if temp[1] == "":
+IndexError: list index out of range
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -127,7 +162,14 @@ task-c, manoj, 10, Not Important, Not Urgent, done
 task-c, manoj, 10, Not Important, Urgent, todo
 task-p, tarun, 120, Not Important, Not Urgent, todo
 task-h, tarun, 27, Important, Not Urgent, todo
-list index out of range
+Traceback (most recent call last):
+  File "todolist.py", line 48, in <module>
+    main()
+  File "todolist.py", line 31, in main
+    validate(temp)
+  File "todolist.py", line 18, in validate
+    if int(temp[3]) < 0:
+IndexError: list index out of range
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -145,7 +187,14 @@ task-jc, john, 10, Important, Not Urgent, todo
 task-jc, john, 10, Important, Not Urgent, todo
 task-tp, tom, 120, Important, Not Urgent, todo
 task-th, tom, 27, Important, Not Urgent, todo
-list index out of range
+Traceback (most recent call last):
+  File "todolist.py", line 48, in <module>
+    main()
+  File "todolist.py", line 31, in main
+    validate(temp)
+  File "todolist.py", line 18, in validate
+    if int(temp[3]) < 0:
+IndexError: list index out of range
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -163,7 +212,14 @@ task-jc, john, 10, Important, Not Urgent, todo
 task-jc, john, 10, Important, Not Urgent, todo
 task-tp, tom, 120, Important, Not Urgent, todo
 task-th, tom, 27, Important, Not Urgent, todo
-list index out of range
+Traceback (most recent call last):
+  File "todolist.py", line 48, in <module>
+    main()
+  File "todolist.py", line 31, in main
+    validate(temp)
+  File "todolist.py", line 18, in validate
+    if int(temp[3]) < 0:
+IndexError: list index out of range
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -180,7 +236,14 @@ task-c, manoj, 10, Not Important, Not Urgent, done
 task-c, manoj, 10, Not Important, Urgent, todo
 task-p, tarun, 120, Not Important, Not Urgent, todo
 task-h, tarun, 27, Important, Not Urgent, todo
-list index out of range
+Traceback (most recent call last):
+  File "todolist.py", line 48, in <module>
+    main()
+  File "todolist.py", line 31, in main
+    validate(temp)
+  File "todolist.py", line 16, in validate
+    if temp[1] == "":
+IndexError: list index out of range
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -197,7 +260,14 @@ task-c, manoj, 10, Not Important, Not Urgent, done
 task-c, manoj, 10, Not Important, Urgent, done
 task-p, tarun, 120, Not Important, Not Urgent, done
 task-h, tarun, 27, Important, Not Urgent, done
-list index out of range
+Traceback (most recent call last):
+  File "todolist.py", line 48, in <module>
+    main()
+  File "todolist.py", line 31, in main
+    validate(temp)
+  File "todolist.py", line 16, in validate
+    if temp[1] == "":
+IndexError: list index out of range
 ----------------------------------------
 
 ########## Testcase 13: Failed ##########
@@ -214,6 +284,13 @@ task-c, manoj, 10, Not Important, Not Urgent, todo
 task-c, manoj, 10, Not Important, Urgent, todo
 task-p, tarun, 120, Not Important, Not Urgent, todo
 task-h, tarun, 27, Important, Not Urgent, todo
-list index out of range
+Traceback (most recent call last):
+  File "todolist.py", line 48, in <module>
+    main()
+  File "todolist.py", line 31, in main
+    validate(temp)
+  File "todolist.py", line 16, in validate
+    if temp[1] == "":
+IndexError: list index out of range
 ----------------------------------------
 
