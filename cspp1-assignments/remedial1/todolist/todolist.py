@@ -12,6 +12,7 @@ def task(temp):
 		list1.append("Urgent")
 	else:
 		list1.append("Not Urgent")
+	list1.append(temp[6])
 	return list1
 def main():
 	

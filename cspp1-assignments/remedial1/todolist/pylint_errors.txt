@@ -12,21 +12,22 @@ todolist.py:12:0: W0312: Found indentation with tabs instead of spaces (mixed-in
 todolist.py:13:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todolist.py:14:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todolist.py:15:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-todolist.py:17:0: C0303: Trailing whitespace (trailing-whitespace)
-todolist.py:18:26: C0303: Trailing whitespace (trailing-whitespace)
-todolist.py:18:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+todolist.py:16:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+todolist.py:18:0: C0303: Trailing whitespace (trailing-whitespace)
+todolist.py:19:26: C0303: Trailing whitespace (trailing-whitespace)
 todolist.py:19:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todolist.py:20:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todolist.py:21:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todolist.py:22:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todolist.py:23:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todolist.py:24:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-todolist.py:26:0: C0304: Final newline missing (missing-final-newline)
-todolist.py:26:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+todolist.py:25:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+todolist.py:27:0: C0304: Final newline missing (missing-final-newline)
+todolist.py:27:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todolist.py:1:0: C0111: Missing module docstring (missing-docstring)
 todolist.py:1:0: C0111: Missing function docstring (missing-docstring)
-todolist.py:16:0: C0111: Missing function docstring (missing-docstring)
+todolist.py:17:0: C0111: Missing function docstring (missing-docstring)
 
 --------------------------------------------------------------------
-Your code has been rated at -2.27/10 (previous run: -4.21/10, +1.94)
+Your code has been rated at -2.17/10 (previous run: -2.27/10, +0.10)
 

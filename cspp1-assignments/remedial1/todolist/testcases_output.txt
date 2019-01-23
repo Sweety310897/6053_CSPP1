@@ -3,7 +3,7 @@ Expected Output:
 task1, akshay, 30, Important, Urgent, todo
 
 Your Output: 
-task1, akshay, 30, Important, Urgent,
+task1, akshay, 30, Important, Urgent, todo,
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -11,7 +11,7 @@ Expected Output:
 task2, manoj, 10, Not Important, Not Urgent, done
 
 Your Output: 
-task2, manoj, 10, Not Important, Not Urgent,
+task2, manoj, 10, Not Important, Not Urgent, done,
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -19,7 +19,7 @@ Expected Output:
 taska, tarun, 120, Important, Not Urgent, todo
 
 Your Output: 
-taska, tarun, 120, Important, Not Urgent,
+taska, tarun, 120, Important, Not Urgent, todo,
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -27,7 +27,7 @@ Expected Output:
 Invalid status dud
 
 Your Output: 
-taskb, ram, 10, Not Important, Urgent,
+taskb, ram, 10, Not Important, Urgent, dud,
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -35,7 +35,7 @@ Expected Output:
 Invalid timeToComplete -1
 
 Your Output: 
-taskb, ram, -1, Important, Urgent,
+taskb, ram, -1, Important, Urgent, todo,
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -43,7 +43,7 @@ Expected Output:
 Title not provided
 
 Your Output: 
-, ram, 1, Important, Urgent,
+, ram, 1, Important, Urgent, todo,
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
