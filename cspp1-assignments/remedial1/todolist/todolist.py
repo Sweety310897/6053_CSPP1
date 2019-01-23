@@ -21,28 +21,28 @@ def validate(temp):
 		raise Exception("Invalid status dud")
 	
 def main():
-	
-	sum1 = 0
-	while True:
-		try:
-			temp = input().split(",")
-			# print(temp)
-			# if temp[0] != "print-todoist":
-			validate(temp)
-			if temp[0] == "task":
-				addtask(temp)
-			if temp[0] == "add-task":
-				addtask(temp)
-			if temp[0] == "print-todoist":
-				print(temp)
-			if temp[0] == "total-time":
-				totaltime(temp)
-				
-		except EOFError:
-			break
+	try :
+		sum1 = 0
+		while True:
+			try:
+				temp = input().split(",")
+				# print(temp)
+				if temp[0] == "add-task":
+					validate(temp)
+				if temp[0] == "task":
+					addtask(temp)
+				if temp[0] == "add-task":
+					addtask(temp)
+				if temp[0] == "print-todoist":
+					print(temp)
+				if temp[0] == "total-time":
+					totaltime(temp)
+					
+			except EOFError:
+				break
 	# print(sum1)
-	# except Exception as e:
-	# 	print(e)
+	except Exception as e:
+		print(e)
 	
 if __name__ == '__main__':
 	main()
