@@ -21,10 +21,11 @@ def validate(temp):
 		raise Exception("Invalid timeToComplete " + temp[3])
 	if temp[6] != "todo" and temp[6] != "done":
 		raise Exception("Invalid status dud")
-
+# def gettime(temp):
+# 	print(temp)
 def main():
 	list10 = []
-	
+	sum1 = 0
 	while True:
 		try:
 			temp = input().split(",")
@@ -49,9 +50,9 @@ def main():
 					for val in each:
 						str10 += val + ", "
 						# print(val)
-
 					print(str10[0:len(str10)-2])
 				# print(list10)
+				# gettime(temp)
 		except EOFError:
 			break
 	
