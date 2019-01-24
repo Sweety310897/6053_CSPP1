@@ -56,18 +56,22 @@ todolist.py:65:0: W0312: Found indentation with tabs instead of spaces (mixed-in
 todolist.py:66:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todolist.py:68:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todolist.py:69:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-todolist.py:71:0: C0301: Line too long (124/100) (line-too-long)
-todolist.py:71:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-todolist.py:72:0: C0301: Line too long (137/100) (line-too-long)
-todolist.py:72:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-todolist.py:74:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-todolist.py:75:0: C0301: Line too long (124/100) (line-too-long)
+todolist.py:76:0: C0301: Line too long (124/100) (line-too-long)
+todolist.py:76:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+todolist.py:77:0: C0301: Line too long (137/100) (line-too-long)
+todolist.py:77:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todolist.py:79:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todolist.py:80:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-todolist.py:81:0: C0303: Trailing whitespace (trailing-whitespace)
-todolist.py:82:0: C0303: Trailing whitespace (trailing-whitespace)
-todolist.py:84:0: C0304: Final newline missing (missing-final-newline)
-todolist.py:84:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+todolist.py:81:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+todolist.py:82:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+todolist.py:83:0: C0303: Trailing whitespace (trailing-whitespace)
+todolist.py:87:0: C0301: Line too long (124/100) (line-too-long)
+todolist.py:91:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+todolist.py:92:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
+todolist.py:93:0: C0303: Trailing whitespace (trailing-whitespace)
+todolist.py:94:0: C0303: Trailing whitespace (trailing-whitespace)
+todolist.py:96:0: C0304: Final newline missing (missing-final-newline)
+todolist.py:96:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 todolist.py:1:0: C0111: Missing module docstring (missing-docstring)
 todolist.py:1:0: C0111: Missing function docstring (missing-docstring)
 todolist.py:17:0: C0111: Missing function docstring (missing-docstring)
@@ -77,8 +81,8 @@ todolist.py:42:3: C0103: Variable name "e" doesn't conform to snake_case naming 
 todolist.py:68:4: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
 todolist.py:29:1: W0612: Unused variable 'getlist' (unused-variable)
 todolist.py:66:4: W0612: Unused variable 'tempgetnext' (unused-variable)
-todolist.py:26:0: R0912: Too many branches (15/12) (too-many-branches)
+todolist.py:26:0: R0912: Too many branches (16/12) (too-many-branches)
 
 --------------------------------------------------------------------
-Your code has been rated at -2.34/10 (previous run: -1.43/10, -0.92)
+Your code has been rated at -2.58/10 (previous run: -2.34/10, -0.23)
 

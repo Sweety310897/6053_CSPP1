@@ -67,11 +67,23 @@ def main():
 				# print(list10)
 				for i in range(len(list10)):
 					strget = ""
+					# print(list10[i])
 					# print(list10[i][1],"l")
+					# if list10[i][1] == temp[1]:
+					# 	if list10[i][5] != "todo":
+					# 		print("null")
+					# 		break
 					if list10[i][1] == temp[1] and list10[i][3] == "Important" and list10[i][4] == "Not Urgent" and list10[i][5] == "todo":
 						strget += list10[i][0] + ", " + list10[i][1] + ", " + list10[i][2] + ", " + list10[i][3] + ", " + list10[i][4] + ", "+ list10[i][5]
 						# print("hi")
 						print(strget)
+						break
+				else:
+					print("null")
+					
+					# if len(strget) == 0:
+					# 	print("null")
+
 					# if list10[i][1] == temp[1] and list10[i][3] != "Important" or list10[i][4] != "Not Urgent" or list10[i][5] == "todo":
 					# 	print(strget)
 				# print(getlist,"g")
