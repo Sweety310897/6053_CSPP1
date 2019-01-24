@@ -23,8 +23,8 @@ def validate(temp):
 		raise Exception("Invalid status dud")
 
 def main():
+	list10 = []
 	
-				
 	while True:
 		try:
 			temp = input().split(",")
@@ -38,7 +38,20 @@ def main():
 					print(str1[0:len(str1)-2])
 			except Exception as e:
 				print(e)
-	
+			if temp[0] == "add-task":
+				temp2 = task(temp)
+				list10.append(temp2)
+				# print(temp2,"2")
+			if temp[0] == "print-todoist":
+				# print(list10)
+				for each in list10:
+					str10 = ""
+					for val in each:
+						str10 += val + ", "
+						# print(val)
+
+					print(str10)
+				# print(list10)
 		except EOFError:
 			break
 	
