@@ -50,7 +50,7 @@ def main():
 						str10 += val + ", "
 						# print(val)
 
-					print(str10)
+					print(str10[0:len(str10)-2])
 				# print(list10)
 		except EOFError:
 			break
