@@ -26,6 +26,7 @@ def validate(temp):
 def main():
 	list10 = []
 	list11 = []
+	getlist = []
 	sum1 = 0
 	while True:
 		try:
@@ -61,6 +62,19 @@ def main():
 				for each in list11:
 					sum1 += each
 				print(sum1)
+			if temp[0] == "get-next":
+				tempgetnext = list10
+				# print(list10)
+				for i in range(len(list10)):
+					strget = ""
+					# print(list10[i][1],"l")
+					if list10[i][1] == temp[1] and list10[i][3] == "Important" and list10[i][4] == "Not Urgent" and list10[i][5] == "todo":
+						strget += list10[i][0] + ", " + list10[i][1] + ", " + list10[i][2] + ", " + list10[i][3] + ", " + list10[i][4] + ", "+ list10[i][5]
+						# print("hi")
+						print(strget)
+					# if list10[i][1] == temp[1] and list10[i][3] != "Important" or list10[i][4] != "Not Urgent" or list10[i][5] == "todo":
+					# 	print(strget)
+				# print(getlist,"g")
 			# print(list11)
 		except EOFError:
 			break
