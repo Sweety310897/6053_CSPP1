@@ -45,6 +45,7 @@ def main():
 				list10.append(temp2)
 				if temp[6] == "todo":
 					list11.append(int(temp[3]))
+				
 				# print(temp2,"2")
 			if temp[0] == "print-todoist":
 				# print(list10)
