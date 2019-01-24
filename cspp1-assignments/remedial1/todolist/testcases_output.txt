@@ -134,27 +134,27 @@ Your Output:
 
 ----------------------------------------
 
-########## Testcase 11: Failed ##########
+########## Testcase 11: Passed ##########
 Expected Output: 
 337
 
 Your Output: 
-
+337
 ----------------------------------------
 
-########## Testcase 12: Failed ##########
+########## Testcase 12: Passed ##########
 Expected Output: 
 0
 
 Your Output: 
-
+0
 ----------------------------------------
 
-########## Testcase 13: Failed ##########
+########## Testcase 13: Passed ##########
 Expected Output: 
 487
 
 Your Output: 
-
+487
 ----------------------------------------
 

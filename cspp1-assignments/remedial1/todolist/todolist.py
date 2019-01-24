@@ -25,6 +25,7 @@ def validate(temp):
 # 	print(temp)
 def main():
 	list10 = []
+	list11 = []
 	sum1 = 0
 	while True:
 		try:
@@ -42,6 +43,8 @@ def main():
 			if temp[0] == "add-task":
 				temp2 = task(temp)
 				list10.append(temp2)
+				if temp[6] == "todo":
+					list11.append(int(temp[3]))
 				# print(temp2,"2")
 			if temp[0] == "print-todoist":
 				# print(list10)
@@ -53,6 +56,11 @@ def main():
 					print(str10[0:len(str10)-2])
 				# print(list10)
 				# gettime(temp)
+			if temp[0] == "total-time":
+				for each in list11:
+					sum1 += each
+				print(sum1)
+			# print(list11)
 		except EOFError:
 			break
 	
