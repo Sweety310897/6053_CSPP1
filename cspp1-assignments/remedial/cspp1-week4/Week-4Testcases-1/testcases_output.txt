@@ -29,21 +29,32 @@ Sleep:
 - 10:30: 8hr
 
 Your Output: 
+1
+2
+3
+4
+5
+6
 Food:
 18/9/2018:
 - 8:30AM: Dosa
+2
 Water:
 18/9/2018:
 - 8:30AM: Dosa
+2
 PhysicalActivity:
 18/9/2018:
 - 7:00AM: walking
+3
 Weight:
 18/9/2018:
 - 6:30AM: 61KG
+4
 Sleep:
 18/9/2018:
 - 10:30: 8hr
+5
 Summary:
 18/9/2018:
 Food:
@@ -56,6 +67,13 @@ Weight:
 - 6:30AM: 61KG
 Sleep:
 - 10:30: 8hr
+6
+Traceback (most recent call last):
+  File "solution.py", line 207, in <module>
+    main()
+  File "solution.py", line 70, in main
+    temp = input().split(" ")
+EOFError: EOF when reading a line
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -115,6 +133,19 @@ Sleep:
 - 10:30: 8hr
 
 Your Output: 
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
 Food:
 18/9/2018:
 - 8:30AM: Dosa
@@ -122,12 +153,13 @@ Food:
 19/9/2018:
 - 8:30AM: Dosa
 - 12:30PM: Biryani
+4
 Water:
 Traceback (most recent call last):
-  File "solution.py", line 210, in <module>
+  File "solution.py", line 207, in <module>
     main()
-  File "solution.py", line 110, in main
-    dicw[templistwater[i+1]] += [templistwater[i+2]]
+  File "solution.py", line 109, in main
+    dicw[templistwater[z+1]] += [templistwater[z+2]]
 KeyError: '19/9/2018'
 ----------------------------------------
 
@@ -185,17 +217,29 @@ Sleep:
 - 10:30PM: 9hrs
 
 Your Output: 
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
 Food:
 18/9/2018:
 - 8:30AM: Dosa
 20/9/2018:
 - 8:30AM: Dosa
+2
 Water:
 Traceback (most recent call last):
-  File "solution.py", line 210, in <module>
+  File "solution.py", line 207, in <module>
     main()
-  File "solution.py", line 106, in main
-    if templist[i+1] not in dicw:
+  File "solution.py", line 105, in main
+    if templist[z+1] not in dicw:
 IndexError: list index out of range
 ----------------------------------------
 
@@ -295,6 +339,27 @@ Sleep:
 - 10:30PM: 5hrs
 
 Your Output: 
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
 Food:
 16/9/2018:
 - 8:30AM: Idli
@@ -304,12 +369,13 @@ Food:
 - 8:30AM: Dosa
 20/9/2018:
 - 8:30AM: Dosa
+2
 Water:
 Traceback (most recent call last):
-  File "solution.py", line 210, in <module>
+  File "solution.py", line 207, in <module>
     main()
-  File "solution.py", line 106, in main
-    if templist[i+1] not in dicw:
+  File "solution.py", line 105, in main
+    if templist[z+1] not in dicw:
 IndexError: list index out of range
 ----------------------------------------
 
