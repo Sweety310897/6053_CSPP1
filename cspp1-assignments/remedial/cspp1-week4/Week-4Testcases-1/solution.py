@@ -170,24 +170,37 @@ def main():
 					if y%2 == 0:
 						str100 = "-" + " " +  tempval[y] + ": " +  tempval[y+1]
 						print(str100)
-
-			# strweight = templistweight[0] + ":"
-			# strweightdate = templistweight[1] + ":"
-			# print(strweight)
-			# strwttimequant = "-" + " " + templistweight[2] + ":" + " " + templistweight[3]
-			# print(strweightdate)
-			# print(strwttimequant)
 		if temp[0] == "Sleep":
 			tempsleep = sleep(temp)
 			for each in tempsleep:
 				templistsleep.append(each)
 		if temp[0] == "Sleeplog":
-			strsleep = templistsleep[0] + ":"
-			strsleepdate = templistsleep[1] + ":"
-			print(strsleep)
-			strsleeptimequant = "-" + " " + templistsleep[2] + ":" + " " + templistsleep[3]
-			print(strsleepdate)
-			print(strsleeptimequant)
+			print("Sleep:")
+			dicsl = {}
+			# print(templistwater,"w")
+			for z in range(len(templistsleep)):
+				if templistsleep[z] == "Sleep":
+					if templistsleep[z+1] not in dicsl:
+						dicsl[templistsleep[z+1]] = [templistsleep[z+2]]
+						dicsl[templistsleep[z+1]] +=  [templistsleep[z+3]]
+					else:
+						dicsl[templistsleep[z+1]] += [templistsleep[z+2]]
+						dicsl[templistsleep[z+1]] += [templistsleep[z+3]]
+			for key,value in sorted(dicsl.items()):
+				tempkey = key + ":"
+				print(tempkey)
+				tempval = value
+				k = 1
+				for y in range(len(tempval)):
+					if y%2 == 0:
+						str100 = "-" + " " +  tempval[y] + ": " +  tempval[y+1]
+						print(str100)
+			# strsleep = templistsleep[0] + ":"
+			# strsleepdate = templistsleep[1] + ":"
+			# print(strsleep)
+			# strsleeptimequant = "-" + " " + templistsleep[2] + ":" + " " + templistsleep[3]
+			# print(strsleepdate)
+			# print(strsleeptimequant)
 		if temp[0] == "Summary":
 			print("Summary:")
 			# print(templist[1])
