@@ -1,4 +1,4 @@
-########## Testcase 0: Passed ##########
+########## Testcase 0: Failed ##########
 Expected Output: 
 Food:
 18/9/2018:
@@ -29,33 +29,15 @@ Sleep:
 - 10:30: 8hr
 
 Your Output: 
-Food:
-18/9/2018:
+['Food', '18/9/2018', '8:30AM', 'Dosa']
+18/9/2018
 - 8:30AM: Dosa
-Water:
-18/9/2018:
-- 8:40PM: 1250
-PhysicalActivity:
-18/9/2018:
-- 7:00AM: walking
-Weight:
-18/9/2018:
-- 6:30AM: 61KG
-Sleep:
-18/9/2018:
-- 10:30: 8hr
-Summary:
-18/9/2018:
-Food:
-- 8:30AM: Dosa
-Water:
-- 8:40PM: 1250
-PhysicalActivity:
-- 7:00AM: walking
-Weight:
-- 6:30AM: 61KG
-Sleep:
-- 10:30: 8hr
+Traceback (most recent call last):
+  File "solution.py", line 228, in <module>
+    main()
+  File "solution.py", line 100, in main
+    str300 = "-"  + " " + tempval[2] + ": " +  tempval[3]
+IndexError: list index out of range
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -115,17 +97,12 @@ Sleep:
 - 10:30: 8hr
 
 Your Output: 
-Food:
-18/9/2018:
+['Food', '18/9/2018', '8:30AM', 'Dosa', 'Food', '18/9/2018', '12:30PM', 'Biryani', 'Food', '19/9/2018', '8:30AM', 'Dosa', 'Food', '19/9/2018', '12:30PM', 'Biryani']
+18/9/2018
 - 8:30AM: Dosa
-Food:
-18/9/2018:
 - 12:30PM: Biryani
-Food:
-19/9/2018:
+19/9/2018
 - 8:30AM: Dosa
-Food:
-19/9/2018:
 - 12:30PM: Biryani
 ----------------------------------------
 
@@ -183,20 +160,14 @@ Sleep:
 - 10:30PM: 9hrs
 
 Your Output: 
-Food:
-18/9/2018:
+['Food', '18/9/2018', '8:30AM', 'Dosa', 'Food', '20/9/2018', '8:30AM', 'Dosa']
+18/9/2018
 - 8:30AM: Dosa
-Food:
-20/9/2018:
-- 8:30AM: Dosa
-Water:
-18/9/2018:
-- 9:45AM: 500
 Traceback (most recent call last):
-  File "solution.py", line 200, in <module>
+  File "solution.py", line 228, in <module>
     main()
-  File "solution.py", line 123, in main
-    strphysical = templistphysical[0] + ":"
+  File "solution.py", line 100, in main
+    str300 = "-"  + " " + tempval[2] + ": " +  tempval[3]
 IndexError: list index out of range
 ----------------------------------------
 
@@ -296,41 +267,14 @@ Sleep:
 - 10:30PM: 5hrs
 
 Your Output: 
-Food:
-17/9/2018:
+['Food', '17/9/2018', '8:30AM', 'Idli', 'Food', '16/9/2018', '8:30AM', 'Idli', 'Food', '18/9/2018', '8:30AM', 'Dosa', 'Food', '20/9/2018', '8:30AM', 'Dosa']
+16/9/2018
 - 8:30AM: Idli
-Food:
-16/9/2018:
-- 8:30AM: Idli
-Food:
-18/9/2018:
-- 8:30AM: Dosa
-Food:
-20/9/2018:
-- 8:30AM: Dosa
-Water:
-17/9/2018:
-- 3PM: 1250
-PhysicalActivity:
-17/9/2018:
-- 7:00AM: walking
-Weight:
-17/9/2018:
-- 6:30AM: 100Kg
-Sleep:
-17/9/2018:
-- 10:30PM: 5hrs
-Summary:
-17/9/2018:
-Food:
-- 8:30AM: Idli
-Water:
-- 3PM: 1250
-PhysicalActivity:
-- 7:00AM: walking
-Weight:
-- 6:30AM: 100Kg
-Sleep:
-- 10:30PM: 5hrs
+Traceback (most recent call last):
+  File "solution.py", line 228, in <module>
+    main()
+  File "solution.py", line 100, in main
+    str300 = "-"  + " " + tempval[2] + ": " +  tempval[3]
+IndexError: list index out of range
 ----------------------------------------
 

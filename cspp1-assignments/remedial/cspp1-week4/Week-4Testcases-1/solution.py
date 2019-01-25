@@ -74,18 +74,46 @@ def main():
 				templist.append(each)
 			# print(tempfood)
 		if temp[0] == "Foodlog":
-			# print(templist)
+			print(templist)
+			dic1 = {}
 			for i in range(len(templist)):
 				if templist[i] == "Food":
-					strfood = templist[i] + ":"
-					strdate = templist[i+1] + ":"
-					strtimequ = "-" + " " + templist[i+2] + ":" + " " + templist[i+3]
-					print(strfood)
-					print(strdate)
-					print(strtimequ)
-					# print(templist[i+1],":")
-					# print(templist[i+2],":")
-					# print(templist[i+3])
+					dic2 = {}
+					if templist[i+1] not in dic1:
+						dic1[templist[i+1]] = [templist[i+2]]
+						dic1[templist[i+1]] +=  [templist[i+3]]
+
+						# print(dic1)
+					else:
+						dic1[templist[i+1]] += [templist[i+2]]
+						dic1[templist[i+1]] += [templist[i+3]]
+			# print(dic1)
+			for key,value in sorted(dic1.items()):
+				print(key)
+				tempval = value
+				# str100 = ""
+				str100 = "-" + " " +  tempval[0] + ": " +  tempval[1]
+				# print(tempval,"tv")
+				print(str100)
+				# str200 = tempval[1]
+				# print(str200)
+				str300 = "-"  + " " + tempval[2] + ": " +  tempval[3]
+				print(str300)
+				# str400 = tempval[3]
+				# print(str400) 
+				
+			# for i in range(len(templist)):
+			# 	if templist[i] == "Food":
+
+			# 		strfood = templist[i] + ":"
+			# 		strdate = templist[i+1] + ":"
+			# 		strtimequ = "-" + " " + templist[i+2] + ":" + " " + templist[i+3]
+			# 		print(strfood)
+			# 		print(strdate)
+			# 		print(strtimequ)
+			# 		print(templist[i+1],":")
+			# 		print(templist[i+2],":")
+			# 		print(templist[i+3])
 			# tempfoodlist = []
 			# for each in templist:
 			# 	print(each)
