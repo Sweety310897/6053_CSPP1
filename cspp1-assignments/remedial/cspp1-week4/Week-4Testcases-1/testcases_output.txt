@@ -36,6 +36,8 @@ Water:
 18/9/2018:
 - 8:40PM: 1250
 PhysicalActivitylog:
+18/9/2018:
+- 7:00AM: walking
 Weight:
 18/9/2018:
 - 6:30AM: 61KG

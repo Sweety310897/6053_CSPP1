@@ -128,7 +128,7 @@ def main():
 			dicp = {}
 			# print(templistwater,"w")
 			for z in range(len(templistphysical)):
-				if templistphysical[z] == "Water":
+				if templistphysical[z] == "PhysicalActivity":
 					if templist[z+1] not in dicp:
 						dicp[templistphysical[z+1]] = [templistphysical[z+2]]
 						dicp[templistphysical[z+1]] +=  [templistphysical[z+3]]
