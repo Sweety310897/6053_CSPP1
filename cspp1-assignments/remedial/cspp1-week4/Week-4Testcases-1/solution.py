@@ -1,5 +1,7 @@
 def food(temp):
 	list1 = []
+	# print(temp)
+	dic = {}
 	list1.append(temp[0])
 	str1 = temp[1].split(",")
 	# print(str1)
@@ -66,11 +68,17 @@ def main():
 	while i < num:
 		temp = input().split(" ")
 		if temp[0] == "Food":
+			dic = {}
 			temp = food(temp)
 			for each in temp:
 				templist.append(each)
 			# print(tempfood)
 		if temp[0] == "Foodlog":
+			# print(templist)
+			tempfoodlist = []
+			# for each in templist:
+			# 	print(each)
+			# print(tempfoodlist)
 			strfood = templist[0] + ":"
 			# print(templist[0],":")
 			strdate = templist[1] + ":"

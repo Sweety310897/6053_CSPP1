@@ -205,9 +205,9 @@ Water:
 18/9/2018:
 - 9:45AM: 500
 Traceback (most recent call last):
-  File "solution.py", line 181, in <module>
+  File "solution.py", line 189, in <module>
     main()
-  File "solution.py", line 104, in main
+  File "solution.py", line 112, in main
     strphysical = templistphysical[0] + ":"
 IndexError: list index out of range
 ----------------------------------------
