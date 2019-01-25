@@ -74,6 +74,7 @@ def main():
 				templist.append(each)
 			# print(tempfood)
 		if temp[0] == "Foodlog":
+			print("Food")
 			# print(templist)
 			dic1 = {}
 			for i in range(len(templist)):
