@@ -1,4 +1,4 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 Food:
 18/9/2018:
@@ -35,7 +35,7 @@ Food:
 Water:
 18/9/2018:
 - 8:40PM: 1250
-PhysicalActivitylog:
+PhysicalActivity:
 18/9/2018:
 - 7:00AM: walking
 Weight:

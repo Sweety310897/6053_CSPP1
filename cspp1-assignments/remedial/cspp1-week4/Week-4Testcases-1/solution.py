@@ -124,7 +124,7 @@ def main():
 			for each in tempphysical:
 				templistphysical.append(each)
 		if temp[0] == "PhysicalActivitylog":
-			print("PhysicalActivitylog:")
+			print("PhysicalActivity:")
 			dicp = {}
 			# print(templistwater,"w")
 			for z in range(len(templistphysical)):
