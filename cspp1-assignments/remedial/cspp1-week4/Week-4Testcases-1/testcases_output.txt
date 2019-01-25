@@ -1,4 +1,4 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 Food:
 18/9/2018:
@@ -30,7 +30,7 @@ Sleep:
 
 Your Output: 
 Food:
-18/9/2018
+18/9/2018:
 - 8:30AM: Dosa
 Water:
 18/9/2018:
@@ -116,10 +116,10 @@ Sleep:
 
 Your Output: 
 Food:
-18/9/2018
+18/9/2018:
 - 8:30AM: Dosa
 - 12:30PM: Biryani
-19/9/2018
+19/9/2018:
 - 8:30AM: Dosa
 - 12:30PM: Biryani
 Water:
@@ -203,17 +203,17 @@ Sleep:
 
 Your Output: 
 Food:
-18/9/2018
+18/9/2018:
 - 8:30AM: Dosa
-20/9/2018
+20/9/2018:
 - 8:30AM: Dosa
 Water:
 18/9/2018:
 - 9:45AM: 500
 Traceback (most recent call last):
-  File "solution.py", line 239, in <module>
+  File "solution.py", line 241, in <module>
     main()
-  File "solution.py", line 162, in main
+  File "solution.py", line 164, in main
     strphysical = templistphysical[0] + ":"
 IndexError: list index out of range
 ----------------------------------------
@@ -315,13 +315,13 @@ Sleep:
 
 Your Output: 
 Food:
-16/9/2018
+16/9/2018:
 - 8:30AM: Idli
-17/9/2018
+17/9/2018:
 - 8:30AM: Idli
-18/9/2018
+18/9/2018:
 - 8:30AM: Dosa
-20/9/2018
+20/9/2018:
 - 8:30AM: Dosa
 Water:
 17/9/2018:
@@ -348,7 +348,7 @@ Weight:
 Sleep:
 - 10:30PM: 5hrs
 Traceback (most recent call last):
-  File "solution.py", line 239, in <module>
+  File "solution.py", line 241, in <module>
     main()
   File "solution.py", line 69, in main
     temp = input().split(" ")

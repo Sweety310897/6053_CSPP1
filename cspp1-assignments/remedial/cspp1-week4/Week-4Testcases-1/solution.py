@@ -90,7 +90,9 @@ def main():
 						dic1[templist[i+1]] += [templist[i+3]]
 			# print(dic1)
 			for key,value in sorted(dic1.items()):
-				print(key)
+				# print(key)
+				tempkey = key + ":"
+				print(tempkey)
 				tempval = value
 				# str100 = ""
 				# print(tempval)
