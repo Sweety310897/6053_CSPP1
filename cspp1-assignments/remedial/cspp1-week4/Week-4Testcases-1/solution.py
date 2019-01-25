@@ -68,14 +68,12 @@ def main():
 	while i < num-4:
 		temp = input().split(" ")
 		if temp[0] == "Food":
-			dic = {}
 			temp = food(temp)
 			for each in temp:
 				templist.append(each)
 			# print(tempfood)
 		if temp[0] == "Foodlog":
 			print("Food:")
-			# print(templist)
 			dic1 = {}
 			for i in range(len(templist)):
 				if templist[i] == "Food":
@@ -83,63 +81,18 @@ def main():
 					if templist[i+1] not in dic1:
 						dic1[templist[i+1]] = [templist[i+2]]
 						dic1[templist[i+1]] +=  [templist[i+3]]
-
-						# print(dic1)
 					else:
 						dic1[templist[i+1]] += [templist[i+2]]
 						dic1[templist[i+1]] += [templist[i+3]]
-			# print(dic1)
 			for key,value in sorted(dic1.items()):
-				# print(key)
 				tempkey = key + ":"
 				print(tempkey)
 				tempval = value
-				# str100 = ""
-				# print(tempval)
 				k = 1
 				for i in range(len(tempval)):
 					if i%2 == 0:
 						str100 = "-" + " " +  tempval[i] + ": " +  tempval[i+1]
-						# print(tempval[i],tempval[i+1],"new")
 						print(str100)
-				# for i in range(len(tempval)-1):
-				# 	if i % 2 == 0:
-				# 		str100 = "-" + " " +  tempval[i] + ": " +  tempval[i+1]
-				# 	i += 2
-				# print(tempval,"tv")
-				# print(str100)
-				# str200 = tempval[1]
-				# print(str200)
-				# str300 = "-"  + " " + tempval[2] + ": " +  tempval[3]
-				# print(str300)
-				# str400 = tempval[3]
-				# print(str400) 
-				
-			# for i in range(len(templist)):
-			# 	if templist[i] == "Food":
-
-			# 		strfood = templist[i] + ":"
-			# 		strdate = templist[i+1] + ":"
-			# 		strtimequ = "-" + " " + templist[i+2] + ":" + " " + templist[i+3]
-			# 		print(strfood)
-			# 		print(strdate)
-			# 		print(strtimequ)
-			# 		print(templist[i+1],":")
-			# 		print(templist[i+2],":")
-			# 		print(templist[i+3])
-			# tempfoodlist = []
-			# for each in templist:
-			# 	print(each)
-			# print(tempfoodlist)
-			# strfood = templist[0] + ":"
-			# print(templist[0],":")
-			# strdate = templist[1] + ":"
-			# print(strfood)
-			# print(templist[1],":")
-			# print(strdate)
-			# strtimequ = "-" + " " + templist[2] + ":" + " " + templist[3]
-			# print("-",templist[2], ":" ,templist[3])
-			# print(strtimequ)
 		if temp[0] == "Water":
 			tempwater = water(temp)
 			for each in tempwater:
