@@ -144,27 +144,39 @@ def main():
 					if y%2 == 0:
 						str100 = "-" + " " +  tempval[y] + ": " +  tempval[y+1]
 						print(str100)
-			# strphysical = templistphysical[0] + ":"
-			# print(templist[0],":")
-			# strpdate = templistphysical[1] + ":"
-			# print(strphysical)
-			# strphytimequant = "-" + " " + templistphysical[2] + ":" + " " + templistphysical[3]
-			# print(templist[1],":")
-			# print(strpdate)
-			# print("-",templistwater[2], ":", templistwater[3])
-			# print(strphytimequant)
 		if temp[0] == "Weight":
 			tempweight = weight(temp)
 			# print(tempweight)
 			for each in tempweight:
 				templistweight.append(each)
 		if temp[0] == "Weightlog":
-			strweight = templistweight[0] + ":"
-			strweightdate = templistweight[1] + ":"
-			print(strweight)
-			strwttimequant = "-" + " " + templistweight[2] + ":" + " " + templistweight[3]
-			print(strweightdate)
-			print(strwttimequant)
+			print("Weight:")
+			dicwt = {}
+			# print(templistwater,"w")
+			for z in range(len(templistweight)):
+				if templistphysical[z] == "Wight":
+					if templist[z+1] not in dicwt:
+						dicwt[templistweight[z+1]] = [templistweight[z+2]]
+						dicwt[templistweight[z+1]] +=  [templistweight[z+3]]
+					else:
+						dicwt[templistweight[z+1]] += [templistweight[z+2]]
+						dicwt[templistweight[z+1]] += [templistweight[z+3]]
+			for key,value in sorted(dicwt.items()):
+				tempkey = key + ":"
+				print(tempkey)
+				tempval = value
+				k = 1
+				for y in range(len(tempval)):
+					if y%2 == 0:
+						str100 = "-" + " " +  tempval[y] + ": " +  tempval[y+1]
+						print(str100)
+
+			# strweight = templistweight[0] + ":"
+			# strweightdate = templistweight[1] + ":"
+			# print(strweight)
+			# strwttimequant = "-" + " " + templistweight[2] + ":" + " " + templistweight[3]
+			# print(strweightdate)
+			# print(strwttimequant)
 		if temp[0] == "Sleep":
 			tempsleep = sleep(temp)
 			for each in tempsleep:
