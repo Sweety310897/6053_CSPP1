@@ -100,7 +100,7 @@ def main():
 		if temp[0] == "Waterlog":
 			print("Water:")
 			dicw = {}
-			print(templistwater,"w")
+			# print(templistwater,"w")
 			for z in range(len(templistwater)):
 				if templistwater[z] == "Water":
 					if templist[z+1] not in dicw:

@@ -91,10 +91,6 @@ solution.py:99:0: W0312: Found indentation with tabs instead of spaces (mixed-in
 solution.py:100:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 solution.py:101:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 solution.py:102:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-solution.py:103:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-solution.py:103:22: C0326: Exactly one space required after comma
-			print(templistwater,"w")
-                      ^ (bad-whitespace)
 solution.py:104:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 solution.py:105:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 solution.py:106:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -198,8 +194,8 @@ solution.py:117:4: C0200: Consider using enumerate instead of iterating with ran
 solution.py:117:8: C0103: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
 solution.py:91:4: W0612: Unused variable 'k' (unused-variable)
 solution.py:60:0: R0912: Too many branches (31/12) (too-many-branches)
-solution.py:60:0: R0915: Too many statements (105/50) (too-many-statements)
+solution.py:60:0: R0915: Too many statements (104/50) (too-many-statements)
 
 --------------------------------------------------------------------
-Your code has been rated at -1.31/10 (previous run: -1.26/10, -0.05)
+Your code has been rated at -1.26/10 (previous run: -1.31/10, +0.05)
 

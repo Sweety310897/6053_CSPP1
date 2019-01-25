@@ -1,4 +1,4 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 Food:
 18/9/2018:
@@ -33,7 +33,6 @@ Food:
 18/9/2018:
 - 8:30AM: Dosa
 Water:
-['Water', '18/9/2018', '8:40PM', '1250'] w
 18/9/2018:
 - 8:40PM: 1250
 PhysicalActivity:
@@ -124,7 +123,6 @@ Food:
 - 8:30AM: Dosa
 - 12:30PM: Biryani
 Water:
-['Water', '18/9/2018', '8:40PM', '1250', 'Water', '19/9/2018', '8:40PM', '1250'] w
 Traceback (most recent call last):
   File "solution.py", line 208, in <module>
     main()
@@ -193,7 +191,6 @@ Food:
 20/9/2018:
 - 8:30AM: Dosa
 Water:
-['Water', '18/9/2018', '9:45AM', '500', 'Water', '18/9/2018', '9:49PM', '1000', 'Water', '19/9/2018', '9:45AM', '500', 'Water', '21/9/2018', '9:49PM', '1000'] w
 Traceback (most recent call last):
   File "solution.py", line 208, in <module>
     main()
@@ -308,7 +305,6 @@ Food:
 20/9/2018:
 - 8:30AM: Dosa
 Water:
-['Water', '17/9/2018', '3PM', '1250', 'Water', '16/9/2018', '6PM', '1250', 'Water', '18/9/2018', '9:45AM', '500', 'Water', '18/9/2018', '9:49PM', '1000', 'Water', '19/9/2018', '9:45AM', '500', 'Water', '21/9/2018', '9:49PM', '1000'] w
 Traceback (most recent call last):
   File "solution.py", line 208, in <module>
     main()
