@@ -74,7 +74,7 @@ def main():
 				templist.append(each)
 			# print(tempfood)
 		if temp[0] == "Foodlog":
-			print(templist)
+			# print(templist)
 			dic1 = {}
 			for i in range(len(templist)):
 				if templist[i] == "Food":
@@ -92,13 +92,23 @@ def main():
 				print(key)
 				tempval = value
 				# str100 = ""
-				str100 = "-" + " " +  tempval[0] + ": " +  tempval[1]
+				# print(tempval)
+				k = 1
+				for i in range(len(tempval)):
+					if i%2 == 0:
+						str100 = "-" + " " +  tempval[i] + ": " +  tempval[i+1]
+						# print(tempval[i],tempval[i+1],"new")
+						print(str100)
+				# for i in range(len(tempval)-1):
+				# 	if i % 2 == 0:
+				# 		str100 = "-" + " " +  tempval[i] + ": " +  tempval[i+1]
+				# 	i += 2
 				# print(tempval,"tv")
-				print(str100)
+				# print(str100)
 				# str200 = tempval[1]
 				# print(str200)
-				str300 = "-"  + " " + tempval[2] + ": " +  tempval[3]
-				print(str300)
+				# str300 = "-"  + " " + tempval[2] + ": " +  tempval[3]
+				# print(str300)
 				# str400 = tempval[3]
 				# print(str400) 
 				
