@@ -48,12 +48,14 @@ Summary
 18/9/2018:
 Food:
 - 8:30AM: Dosa
-Traceback (most recent call last):
-  File "solution.py", line 181, in <module>
-    main()
-  File "solution.py", line 149, in main
-    print(str20)
-NameError: name 'str20' is not defined
+Water:
+- 8:40PM: 1250
+PhysicalActivity:
+- 7:00AM: walking
+Weight:
+- 6:30AM: 61KG
+Sleep:
+- 10:30: 8hr
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -132,12 +134,14 @@ Summary
 18/9/2018:
 Food:
 - 8:30AM: Dosa
-Traceback (most recent call last):
-  File "solution.py", line 181, in <module>
-    main()
-  File "solution.py", line 149, in main
-    print(str20)
-NameError: name 'str20' is not defined
+Water:
+- 8:40PM: 1250
+PhysicalActivity:
+- 7:00AM: walking
+Weight:
+- 6:30AM: 61KG
+Sleep:
+- 10:30: 8hr
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -323,11 +327,13 @@ Summary
 17/9/2018:
 Food:
 - 8:30AM: Idli
-Traceback (most recent call last):
-  File "solution.py", line 181, in <module>
-    main()
-  File "solution.py", line 149, in main
-    print(str20)
-NameError: name 'str20' is not defined
+Water:
+- 3PM: 1250
+PhysicalActivity:
+- 7:00AM: walking
+Weight:
+- 6:30AM: 100Kg
+Sleep:
+- 10:30PM: 5hrs
 ----------------------------------------
 

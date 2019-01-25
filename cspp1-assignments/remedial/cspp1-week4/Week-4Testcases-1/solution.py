@@ -146,28 +146,28 @@ def main():
 			# str20 = templistwater[1] + ":"
 			str21 = templistwater[0] + ":"
 			str22 = "-" + " " + templistwater[2] + ": "  + templistwater[3]
-			print(str20)
+			# print(str20)
 			print(str21)
 			print(str22)
 
 			# str30 = templistphysical[1] + ":"
 			str31 = templistphysical[0] + ":"
 			str32 = "-" + " " + templistphysical[2] + ": "  + templistphysical[3]
-			print(str30)
+			# print(str30)
 			print(str31)
 			print(str32)
 
 			# str40 = templistweight[1] + ":"
 			str41 = templistweight[0] + ":"
 			str42 = "-" + " " + templistweight[2] + ": "  + templistweight[3]
-			print(str40)
+			# print(str40)
 			print(str41)
 			print(str42)
 
 			# str50 = templistsleep[1] + ":"
 			str51 = templistsleep[0] + ":"
 			str52 = "-" + " " + templistsleep[2] + ": "  + templistsleep[3]
-			print(str50)
+			# print(str50)
 			print(str51)
 			print(str52)
 
