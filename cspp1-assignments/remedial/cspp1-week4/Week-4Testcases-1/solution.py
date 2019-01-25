@@ -75,19 +75,30 @@ def main():
 			# print(tempfood)
 		if temp[0] == "Foodlog":
 			# print(templist)
-			tempfoodlist = []
+			for i in range(len(templist)):
+				if templist[i] == "Food":
+					strfood = templist[i] + ":"
+					strdate = templist[i+1] + ":"
+					strtimequ = "-" + " " + templist[i+2] + ":" + " " + templist[i+3]
+					print(strfood)
+					print(strdate)
+					print(strtimequ)
+					# print(templist[i+1],":")
+					# print(templist[i+2],":")
+					# print(templist[i+3])
+			# tempfoodlist = []
 			# for each in templist:
 			# 	print(each)
 			# print(tempfoodlist)
-			strfood = templist[0] + ":"
+			# strfood = templist[0] + ":"
 			# print(templist[0],":")
-			strdate = templist[1] + ":"
-			print(strfood)
+			# strdate = templist[1] + ":"
+			# print(strfood)
 			# print(templist[1],":")
-			print(strdate)
-			strtimequ = "-" + " " + templist[2] + ":" + " " + templist[3]
+			# print(strdate)
+			# strtimequ = "-" + " " + templist[2] + ":" + " " + templist[3]
 			# print("-",templist[2], ":" ,templist[3])
-			print(strtimequ)
+			# print(strtimequ)
 		if temp[0] == "Water":
 			tempwater = water(temp)
 			for each in tempwater:
