@@ -38,23 +38,23 @@ Your Output:
 Food:
 18/9/2018:
 - 8:30AM: Dosa
-2
+7
 Water:
 18/9/2018:
 - 8:30AM: Dosa
-2
+8
 PhysicalActivity:
 18/9/2018:
 - 7:00AM: walking
-3
+9
 Weight:
 18/9/2018:
 - 6:30AM: 61KG
-4
+10
 Sleep:
 18/9/2018:
 - 10:30: 8hr
-5
+11
 Summary:
 18/9/2018:
 Food:
@@ -67,13 +67,6 @@ Weight:
 - 6:30AM: 61KG
 Sleep:
 - 10:30: 8hr
-6
-Traceback (most recent call last):
-  File "solution.py", line 207, in <module>
-    main()
-  File "solution.py", line 70, in main
-    temp = input().split(" ")
-EOFError: EOF when reading a line
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -153,7 +146,7 @@ Food:
 19/9/2018:
 - 8:30AM: Dosa
 - 12:30PM: Biryani
-4
+14
 Water:
 Traceback (most recent call last):
   File "solution.py", line 207, in <module>
@@ -233,7 +226,7 @@ Food:
 - 8:30AM: Dosa
 20/9/2018:
 - 8:30AM: Dosa
-2
+12
 Water:
 Traceback (most recent call last):
   File "solution.py", line 207, in <module>
@@ -369,7 +362,7 @@ Food:
 - 8:30AM: Dosa
 20/9/2018:
 - 8:30AM: Dosa
-2
+22
 Water:
 Traceback (most recent call last):
   File "solution.py", line 207, in <module>

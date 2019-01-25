@@ -184,17 +184,19 @@ solution.py:25:0: C0111: Missing function docstring (missing-docstring)
 solution.py:36:0: C0111: Missing function docstring (missing-docstring)
 solution.py:48:0: C0111: Missing function docstring (missing-docstring)
 solution.py:60:0: C0111: Missing function docstring (missing-docstring)
-solution.py:60:0: R0914: Too many local variables (42/15) (too-many-locals)
+solution.py:60:0: R0914: Too many local variables (43/15) (too-many-locals)
 solution.py:79:3: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
 solution.py:79:7: C0103: Variable name "z" doesn't conform to snake_case naming style (invalid-name)
 solution.py:92:4: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+solution.py:92:8: C0103: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
 solution.py:103:3: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
 solution.py:103:7: C0103: Variable name "z" doesn't conform to snake_case naming style (invalid-name)
 solution.py:116:4: C0200: Consider using enumerate instead of iterating with range and len (consider-using-enumerate)
+solution.py:116:8: C0103: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
 solution.py:91:4: W0612: Unused variable 'k' (unused-variable)
 solution.py:60:0: R0912: Too many branches (31/12) (too-many-branches)
 solution.py:60:0: R0915: Too many statements (105/50) (too-many-statements)
 
 --------------------------------------------------------------------
-Your code has been rated at -1.13/10 (previous run: -1.23/10, +0.10)
+Your code has been rated at -1.25/10 (previous run: -1.13/10, -0.12)
 

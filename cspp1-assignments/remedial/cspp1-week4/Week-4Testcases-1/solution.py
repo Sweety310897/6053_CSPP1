@@ -89,9 +89,9 @@ def main():
 				print(tempkey)
 				tempval = value
 				k = 1
-				for i in range(len(tempval)):
-					if i%2 == 0:
-						str100 = "-" + " " +  tempval[i] + ": " +  tempval[i+1]
+				for y in range(len(tempval)):
+					if y%2 == 0:
+						str100 = "-" + " " +  tempval[y] + ": " +  tempval[y+1]
 						print(str100)
 		if temp[0] == "Water":
 			tempwater = water(temp)
@@ -113,9 +113,9 @@ def main():
 				print(tempkey)
 				tempval = value
 				k = 1
-				for i in range(len(tempval)):
-					if i%2 == 0:
-						str100 = "-" + " " +  tempval[i] + ": " +  tempval[i+1]
+				for y in range(len(tempval)):
+					if y%2 == 0:
+						str100 = "-" + " " +  tempval[y] + ": " +  tempval[y+1]
 						print(str100)
 			# strwater = templistwater[0] + ":"
 			# strwdate = templistwater[1] + ":"
