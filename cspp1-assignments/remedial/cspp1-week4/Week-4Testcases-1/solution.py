@@ -65,7 +65,7 @@ def main():
 	templistweight = []
 	templistsleep = []
 	i = 0
-	while i < num:
+	while i < num-2:
 		temp = input().split(" ")
 		if temp[0] == "Food":
 			dic = {}
@@ -83,7 +83,6 @@ def main():
 					print(strfood)
 					print(strdate)
 					print(strtimequ)
-					break
 					# print(templist[i+1],":")
 					# print(templist[i+2],":")
 					# print(templist[i+3])
