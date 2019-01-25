@@ -103,12 +103,14 @@ def main():
 			# print(templistwater,"w")
 			for z in range(len(templistwater)):
 				if templistwater[z] == "Water":
-					if templist[z+1] not in dicw:
+					if templistwater[z+1] not in dicw:
 						dicw[templistwater[z+1]] = [templistwater[z+2]]
 						dicw[templistwater[z+1]] +=  [templistwater[z+3]]
+						# print(dicw)
 					else:
 						dicw[templistwater[z+1]] += [templistwater[z+2]]
 						dicw[templistwater[z+1]] += [templistwater[z+3]]
+					# print(dicw)
 			for key,value in sorted(dicw.items()):
 				tempkey = key + ":"
 				print(tempkey)
