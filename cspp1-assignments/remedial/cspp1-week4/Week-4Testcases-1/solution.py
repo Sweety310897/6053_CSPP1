@@ -65,7 +65,7 @@ def main():
 	templistweight = []
 	templistsleep = []
 	i = 0
-	while i < num-2:
+	while i < num:
 		temp = input().split(" ")
 		if temp[0] == "Food":
 			dic = {}
