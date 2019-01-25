@@ -29,39 +29,7 @@ Sleep:
 - 10:30: 8hr
 
 Your Output: 
-Food:
-18/9/2018:
-- 8:30AM: Dosa
-Water:
-18/9/2018:
-- 8:30AM: Dosa
-PhysicalActivity:
-18/9/2018:
-- 7:00AM: walking
-Weight:
-18/9/2018:
-- 6:30AM: 61KG
-Sleep:
-18/9/2018:
-- 10:30: 8hr
-Summary:
-18/9/2018:
-Food:
-- 8:30AM: Dosa
-Water:
-- 8:40PM: 1250
-PhysicalActivity:
-- 7:00AM: walking
-Weight:
-- 6:30AM: 61KG
-Sleep:
-- 10:30: 8hr
-Traceback (most recent call last):
-  File "solution.py", line 210, in <module>
-    main()
-  File "solution.py", line 69, in main
-    temp = input().split(" ")
-EOFError: EOF when reading a line
+
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -121,20 +89,7 @@ Sleep:
 - 10:30: 8hr
 
 Your Output: 
-Food:
-18/9/2018:
-- 8:30AM: Dosa
-- 12:30PM: Biryani
-19/9/2018:
-- 8:30AM: Dosa
-- 12:30PM: Biryani
-Water:
-Traceback (most recent call last):
-  File "solution.py", line 210, in <module>
-    main()
-  File "solution.py", line 108, in main
-    dicw[templistwater[i+1]] += [templistwater[i+2]]
-KeyError: '19/9/2018'
+
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -191,18 +146,7 @@ Sleep:
 - 10:30PM: 9hrs
 
 Your Output: 
-Food:
-18/9/2018:
-- 8:30AM: Dosa
-20/9/2018:
-- 8:30AM: Dosa
-Water:
-Traceback (most recent call last):
-  File "solution.py", line 210, in <module>
-    main()
-  File "solution.py", line 104, in main
-    if templist[i+1] not in dicw:
-IndexError: list index out of range
+
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -301,21 +245,6 @@ Sleep:
 - 10:30PM: 5hrs
 
 Your Output: 
-Food:
-16/9/2018:
-- 8:30AM: Idli
-17/9/2018:
-- 8:30AM: Idli
-18/9/2018:
-- 8:30AM: Dosa
-20/9/2018:
-- 8:30AM: Dosa
-Water:
-Traceback (most recent call last):
-  File "solution.py", line 210, in <module>
-    main()
-  File "solution.py", line 104, in main
-    if templist[i+1] not in dicw:
-IndexError: list index out of range
+
 ----------------------------------------
 
