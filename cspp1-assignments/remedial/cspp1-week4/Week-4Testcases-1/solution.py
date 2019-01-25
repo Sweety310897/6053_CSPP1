@@ -204,7 +204,7 @@ def main():
 					# print(templist,"tl")
 
 				i += 1
-			except EOFError:
-				break 
+		except EOFError:
+			break	
 if __name__ == '__main__':
 	main()
