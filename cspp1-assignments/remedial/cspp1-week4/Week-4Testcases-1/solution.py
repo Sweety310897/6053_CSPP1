@@ -154,7 +154,7 @@ def main():
 			dicwt = {}
 			# print(templistwater,"w")
 			for z in range(len(templistweight)):
-				if templistphysical[z] == "Wight":
+				if templistphysical[z] == "Weight":
 					if templist[z+1] not in dicwt:
 						dicwt[templistweight[z+1]] = [templistweight[z+2]]
 						dicwt[templistweight[z+1]] +=  [templistweight[z+3]]
