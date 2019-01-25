@@ -56,12 +56,6 @@ Weight:
 - 6:30AM: 61KG
 Sleep:
 - 10:30: 8hr
-Traceback (most recent call last):
-  File "solution.py", line 239, in <module>
-    main()
-  File "solution.py", line 69, in main
-    temp = input().split(" ")
-EOFError: EOF when reading a line
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -152,12 +146,6 @@ Weight:
 - 6:30AM: 61KG
 Sleep:
 - 10:30: 8hr
-Traceback (most recent call last):
-  File "solution.py", line 239, in <module>
-    main()
-  File "solution.py", line 69, in main
-    temp = input().split(" ")
-EOFError: EOF when reading a line
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
