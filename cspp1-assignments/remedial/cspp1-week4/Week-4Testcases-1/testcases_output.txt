@@ -29,7 +29,7 @@ Sleep:
 - 10:30: 8hr
 
 Your Output: 
-Food
+Food:
 18/9/2018
 - 8:30AM: Dosa
 Water:
@@ -121,7 +121,7 @@ Sleep:
 - 10:30: 8hr
 
 Your Output: 
-Food
+Food:
 18/9/2018
 - 8:30AM: Dosa
 - 12:30PM: Biryani
@@ -214,7 +214,7 @@ Sleep:
 - 10:30PM: 9hrs
 
 Your Output: 
-Food
+Food:
 18/9/2018
 - 8:30AM: Dosa
 20/9/2018
@@ -326,7 +326,7 @@ Sleep:
 - 10:30PM: 5hrs
 
 Your Output: 
-Food
+Food:
 16/9/2018
 - 8:30AM: Idli
 17/9/2018
