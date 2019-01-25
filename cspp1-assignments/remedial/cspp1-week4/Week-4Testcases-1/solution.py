@@ -58,153 +58,153 @@ def sleep(temp):
 	list2.append(str1[0])
 	return list2
 def main():
-	num = int(input())
-	templist = []
-	templistwater = []
-	templistphysical = []
-	templistweight = []
-	templistsleep = []
-	i = 0
-	while i < num-6:
-		temp = input().split(" ")
-		if temp[0] == "Food":
-			temp = food(temp)
-			for each in temp:
-				templist.append(each)
-			# print(tempfood)
-		if temp[0] == "Foodlog":
-			print("Food:")
-			dic1 = {}
-			for i in range(len(templist)):
-				if templist[i] == "Food":
-					if templist[i+1] not in dic1:
-						dic1[templist[i+1]] = [templist[i+2]]
-						dic1[templist[i+1]] +=  [templist[i+3]]
-					else:
-						dic1[templist[i+1]] += [templist[i+2]]
-						dic1[templist[i+1]] += [templist[i+3]]
-			for key,value in sorted(dic1.items()):
-				tempkey = key + ":"
-				print(tempkey)
-				tempval = value
-				k = 1
-				for i in range(len(tempval)):
-					if i%2 == 0:
-						str100 = "-" + " " +  tempval[i] + ": " +  tempval[i+1]
-						print(str100)
-		if temp[0] == "Water":
-			tempwater = water(temp)
-			for each in tempwater:
-				templistwater.append(each)
-		if temp[0] == "Waterlog":
-			print("Water:")
-			dicw = {}
-			for i in range(len(templistwater)):
-				if templistwater[i] == "Water":
-					if templist[i+1] not in dicw:
-						dicw[templistwater[i+1]] = [templistwater[i+2]]
-						dicw[templistwater[i+1]] +=  [templistwater[i+3]]
-					else:
-						dicw[templistwater[i+1]] += [templistwater[i+2]]
-						dicw[templistwater[i+1]] += [templistwater[i+3]]
-			for key,value in sorted(dic1.items()):
-				tempkey = key + ":"
-				print(tempkey)
-				tempval = value
-				k = 1
-				for i in range(len(tempval)):
-					if i%2 == 0:
-						str100 = "-" + " " +  tempval[i] + ": " +  tempval[i+1]
-						print(str100)
-			# strwater = templistwater[0] + ":"
-			# strwdate = templistwater[1] + ":"
-			# print(strwater)
-			# strwatertimequant = "-" + " " + templistwater[2] + ":" + " " + templistwater[3]
-			# print(templist[1],":")
-			# print(strwdate)
-			# print("-",templistwater[2], ":", templistwater[3])
-			# print(strwatertimequant)
-		if temp[0] == "PhysicalActivity":
-			tempphysical = physical(temp)
-			# print(tempphysical)
-			for each in tempphysical:
-				templistphysical.append(each)
-		if temp[0] == "PhysicalActivitylog":
-			strphysical = templistphysical[0] + ":"
-			# print(templist[0],":")
-			strpdate = templistphysical[1] + ":"
-			print(strphysical)
-			strphytimequant = "-" + " " + templistphysical[2] + ":" + " " + templistphysical[3]
-			# print(templist[1],":")
-			print(strpdate)
-			# print("-",templistwater[2], ":", templistwater[3])
-			print(strphytimequant)
-		if temp[0] == "Weight":
-			tempweight = weight(temp)
-			# print(tempweight)
-			for each in tempweight:
-				templistweight.append(each)
-		if temp[0] == "Weightlog":
-			strweight = templistweight[0] + ":"
-			strweightdate = templistweight[1] + ":"
-			print(strweight)
-			strwttimequant = "-" + " " + templistweight[2] + ":" + " " + templistweight[3]
-			print(strweightdate)
-			print(strwttimequant)
-		if temp[0] == "Sleep":
-			tempsleep = sleep(temp)
-			for each in tempsleep:
-				templistsleep.append(each)
-		if temp[0] == "Sleeplog":
-			strsleep = templistsleep[0] + ":"
-			strsleepdate = templistsleep[1] + ":"
-			print(strsleep)
-			strsleeptimequant = "-" + " " + templistsleep[2] + ":" + " " + templistsleep[3]
-			print(strsleepdate)
-			print(strsleeptimequant)
-		if temp[0] == "Summary":
-			print("Summary:")
-			# print(templist[1])
-			str10 = templist[1] + ":"
-			str11 = templist[0] + ":"
-			str12 = "-" + " " + templist[2] + ": "  + templist[3]
-			print(str10)
-			print(str11)
-			print(str12)
+	while True:
+		try:
+			num = int(input())
+			templist = []
+			templistwater = []
+			templistphysical = []
+			templistweight = []
+			templistsleep = []
+			i = 1
+			while i <= num:
+				temp = input().split(" ")
+				if temp[0] == "Food":
+					temp = food(temp)
+					for each in temp:
+						templist.append(each)
+					# print(tempfood)
+				if temp[0] == "Foodlog":
+					print("Food:")
+					dic1 = {}
+					for i in range(len(templist)):
+						if templist[i] == "Food":
+							if templist[i+1] not in dic1:
+								dic1[templist[i+1]] = [templist[i+2]]
+								dic1[templist[i+1]] +=  [templist[i+3]]
+							else:
+								dic1[templist[i+1]] += [templist[i+2]]
+								dic1[templist[i+1]] += [templist[i+3]]
+					for key,value in sorted(dic1.items()):
+						tempkey = key + ":"
+						print(tempkey)
+						tempval = value
+						k = 1
+						for i in range(len(tempval)):
+							if i%2 == 0:
+								str100 = "-" + " " +  tempval[i] + ": " +  tempval[i+1]
+								print(str100)
+				if temp[0] == "Water":
+					tempwater = water(temp)
+					for each in tempwater:
+						templistwater.append(each)
+				if temp[0] == "Waterlog":
+					print("Water:")
+					dicw = {}
+					for i in range(len(templistwater)):
+						if templistwater[i] == "Water":
+							if templist[i+1] not in dicw:
+								dicw[templistwater[i+1]] = [templistwater[i+2]]
+								dicw[templistwater[i+1]] +=  [templistwater[i+3]]
+							else:
+								dicw[templistwater[i+1]] += [templistwater[i+2]]
+								dicw[templistwater[i+1]] += [templistwater[i+3]]
+					for key,value in sorted(dic1.items()):
+						tempkey = key + ":"
+						print(tempkey)
+						tempval = value
+						k = 1
+						for i in range(len(tempval)):
+							if i%2 == 0:
+								str100 = "-" + " " +  tempval[i] + ": " +  tempval[i+1]
+								print(str100)
+					# strwater = templistwater[0] + ":"
+					# strwdate = templistwater[1] + ":"
+					# print(strwater)
+					# strwatertimequant = "-" + " " + templistwater[2] + ":" + " " + templistwater[3]
+					# print(templist[1],":")
+					# print(strwdate)
+					# print("-",templistwater[2], ":", templistwater[3])
+					# print(strwatertimequant)
+				if temp[0] == "PhysicalActivity":
+					tempphysical = physical(temp)
+					# print(tempphysical)
+					for each in tempphysical:
+						templistphysical.append(each)
+				if temp[0] == "PhysicalActivitylog":
+					strphysical = templistphysical[0] + ":"
+					# print(templist[0],":")
+					strpdate = templistphysical[1] + ":"
+					print(strphysical)
+					strphytimequant = "-" + " " + templistphysical[2] + ":" + " " + templistphysical[3]
+					# print(templist[1],":")
+					print(strpdate)
+					# print("-",templistwater[2], ":", templistwater[3])
+					print(strphytimequant)
+				if temp[0] == "Weight":
+					tempweight = weight(temp)
+					# print(tempweight)
+					for each in tempweight:
+						templistweight.append(each)
+				if temp[0] == "Weightlog":
+					strweight = templistweight[0] + ":"
+					strweightdate = templistweight[1] + ":"
+					print(strweight)
+					strwttimequant = "-" + " " + templistweight[2] + ":" + " " + templistweight[3]
+					print(strweightdate)
+					print(strwttimequant)
+				if temp[0] == "Sleep":
+					tempsleep = sleep(temp)
+					for each in tempsleep:
+						templistsleep.append(each)
+				if temp[0] == "Sleeplog":
+					strsleep = templistsleep[0] + ":"
+					strsleepdate = templistsleep[1] + ":"
+					print(strsleep)
+					strsleeptimequant = "-" + " " + templistsleep[2] + ":" + " " + templistsleep[3]
+					print(strsleepdate)
+					print(strsleeptimequant)
+				if temp[0] == "Summary":
+					print("Summary:")
+					# print(templist[1])
+					str10 = templist[1] + ":"
+					str11 = templist[0] + ":"
+					str12 = "-" + " " + templist[2] + ": "  + templist[3]
+					print(str10)
+					print(str11)
+					print(str12)
 
-			# str20 = templistwater[1] + ":"
-			str21 = templistwater[0] + ":"
-			str22 = "-" + " " + templistwater[2] + ": "  + templistwater[3]
-			# print(str20)
-			print(str21)
-			print(str22)
+					# str20 = templistwater[1] + ":"
+					str21 = templistwater[0] + ":"
+					str22 = "-" + " " + templistwater[2] + ": "  + templistwater[3]
+					# print(str20)
+					print(str21)
+					print(str22)
 
-			# str30 = templistphysical[1] + ":"
-			str31 = templistphysical[0] + ":"
-			str32 = "-" + " " + templistphysical[2] + ": "  + templistphysical[3]
-			# print(str30)
-			print(str31)
-			print(str32)
+					# str30 = templistphysical[1] + ":"
+					str31 = templistphysical[0] + ":"
+					str32 = "-" + " " + templistphysical[2] + ": "  + templistphysical[3]
+					# print(str30)
+					print(str31)
+					print(str32)
 
-			# str40 = templistweight[1] + ":"
-			str41 = templistweight[0] + ":"
-			str42 = "-" + " " + templistweight[2] + ": "  + templistweight[3]
-			# print(str40)
-			print(str41)
-			print(str42)
+					# str40 = templistweight[1] + ":"
+					str41 = templistweight[0] + ":"
+					str42 = "-" + " " + templistweight[2] + ": "  + templistweight[3]
+					# print(str40)
+					print(str41)
+					print(str42)
 
-			# str50 = templistsleep[1] + ":"
-			str51 = templistsleep[0] + ":"
-			str52 = "-" + " " + templistsleep[2] + ": "  + templistsleep[3]
-			# print(str50)
-			print(str51)
-			print(str52)
+					# str50 = templistsleep[1] + ":"
+					str51 = templistsleep[0] + ":"
+					str52 = "-" + " " + templistsleep[2] + ": "  + templistsleep[3]
+					# print(str50)
+					print(str51)
+					print(str52)
+					# print(templist,"tl")
 
-			
-
-
-			# print(templist,"tl")
-
-		i += 1 
+				i += 1
+			except EOFError:
+				break 
 if __name__ == '__main__':
 	main()

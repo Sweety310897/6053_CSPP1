@@ -29,7 +29,10 @@ Sleep:
 - 10:30: 8hr
 
 Your Output: 
-
+  File "solution.py", line 207
+    except EOFError:
+         ^
+SyntaxError: invalid syntax
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -89,7 +92,10 @@ Sleep:
 - 10:30: 8hr
 
 Your Output: 
-
+  File "solution.py", line 207
+    except EOFError:
+         ^
+SyntaxError: invalid syntax
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -146,7 +152,10 @@ Sleep:
 - 10:30PM: 9hrs
 
 Your Output: 
-
+  File "solution.py", line 207
+    except EOFError:
+         ^
+SyntaxError: invalid syntax
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -245,6 +254,9 @@ Sleep:
 - 10:30PM: 5hrs
 
 Your Output: 
-
+  File "solution.py", line 207
+    except EOFError:
+         ^
+SyntaxError: invalid syntax
 ----------------------------------------
 
