@@ -100,6 +100,7 @@ def main():
 		if temp[0] == "Waterlog":
 			print("Water:")
 			dicw = {}
+			print(templistwater,"w")
 			for z in range(len(templistwater)):
 				if templistwater[z] == "Water":
 					if templist[z+1] not in dicw:
@@ -108,7 +109,7 @@ def main():
 					else:
 						dicw[templistwater[z+1]] += [templistwater[z+2]]
 						dicw[templistwater[z+1]] += [templistwater[z+3]]
-			for key,value in sorted(dic1.items()):
+			for key,value in sorted(dicw.items()):
 				tempkey = key + ":"
 				print(tempkey)
 				tempval = value

@@ -33,8 +33,9 @@ Food:
 18/9/2018:
 - 8:30AM: Dosa
 Water:
+['Water', '18/9/2018', '8:40PM', '1250'] w
 18/9/2018:
-- 8:30AM: Dosa
+- 8:40PM: 1250
 PhysicalActivity:
 18/9/2018:
 - 7:00AM: walking
@@ -123,10 +124,11 @@ Food:
 - 8:30AM: Dosa
 - 12:30PM: Biryani
 Water:
+['Water', '18/9/2018', '8:40PM', '1250', 'Water', '19/9/2018', '8:40PM', '1250'] w
 Traceback (most recent call last):
-  File "solution.py", line 207, in <module>
+  File "solution.py", line 208, in <module>
     main()
-  File "solution.py", line 109, in main
+  File "solution.py", line 110, in main
     dicw[templistwater[z+1]] += [templistwater[z+2]]
 KeyError: '19/9/2018'
 ----------------------------------------
@@ -191,10 +193,11 @@ Food:
 20/9/2018:
 - 8:30AM: Dosa
 Water:
+['Water', '18/9/2018', '9:45AM', '500', 'Water', '18/9/2018', '9:49PM', '1000', 'Water', '19/9/2018', '9:45AM', '500', 'Water', '21/9/2018', '9:49PM', '1000'] w
 Traceback (most recent call last):
-  File "solution.py", line 207, in <module>
+  File "solution.py", line 208, in <module>
     main()
-  File "solution.py", line 105, in main
+  File "solution.py", line 106, in main
     if templist[z+1] not in dicw:
 IndexError: list index out of range
 ----------------------------------------
@@ -305,10 +308,11 @@ Food:
 20/9/2018:
 - 8:30AM: Dosa
 Water:
+['Water', '17/9/2018', '3PM', '1250', 'Water', '16/9/2018', '6PM', '1250', 'Water', '18/9/2018', '9:45AM', '500', 'Water', '18/9/2018', '9:49PM', '1000', 'Water', '19/9/2018', '9:45AM', '500', 'Water', '21/9/2018', '9:49PM', '1000'] w
 Traceback (most recent call last):
-  File "solution.py", line 207, in <module>
+  File "solution.py", line 208, in <module>
     main()
-  File "solution.py", line 105, in main
+  File "solution.py", line 106, in main
     if templist[z+1] not in dicw:
 IndexError: list index out of range
 ----------------------------------------
