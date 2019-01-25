@@ -83,6 +83,7 @@ def main():
 					print(strfood)
 					print(strdate)
 					print(strtimequ)
+					break
 					# print(templist[i+1],":")
 					# print(templist[i+2],":")
 					# print(templist[i+3])
