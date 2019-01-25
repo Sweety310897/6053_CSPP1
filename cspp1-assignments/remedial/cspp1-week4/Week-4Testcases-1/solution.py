@@ -131,7 +131,7 @@ def main():
 			# print(templistwater,"w")
 			for z in range(len(templistphysical)):
 				if templistphysical[z] == "PhysicalActivity":
-					if templist[z+1] not in dicp:
+					if templistphysical[z+1] not in dicp:
 						dicp[templistphysical[z+1]] = [templistphysical[z+2]]
 						dicp[templistphysical[z+1]] +=  [templistphysical[z+3]]
 					else:
@@ -157,7 +157,7 @@ def main():
 			# print(templistwater,"w")
 			for z in range(len(templistweight)):
 				if templistweight[z] == "Weight":
-					if templist[z+1] not in dicwt:
+					if templistweight[z+1] not in dicwt:
 						dicwt[templistweight[z+1]] = [templistweight[z+2]]
 						dicwt[templistweight[z+1]] +=  [templistweight[z+3]]
 					else:

@@ -128,12 +128,32 @@ Water:
 19/9/2018:
 - 8:40PM: 1250
 PhysicalActivity:
-Traceback (most recent call last):
-  File "solution.py", line 247, in <module>
-    main()
-  File "solution.py", line 138, in main
-    dicp[templistphysical[z+1]] += [templistphysical[z+2]]
-KeyError: '17/9/2018'
+17/9/2018:
+- 7:00AM: walking
+18/9/2018:
+- 7:00AM: walking
+Weight:
+18/9/2018:
+- 6:30AM: 61KG
+19/9/2018:
+- 6:30AM: 61KG
+Sleep:
+17/9/2018:
+- 10:30: 8hr
+18/9/2018:
+- 10:30: 8hr
+Summary:
+18/9/2018:
+Food:
+- 8:30AM: Dosa
+Water:
+- 8:40PM: 1250
+PhysicalActivity:
+- 7:00AM: walking
+Weight:
+- 6:30AM: 61KG
+Sleep:
+- 10:30: 8hr
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
