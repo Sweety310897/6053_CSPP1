@@ -149,5 +149,5 @@ solution.py:58:0: R0912: Too many branches (17/12) (too-many-branches)
 solution.py:58:0: R0915: Too many statements (84/50) (too-many-statements)
 
 --------------------------------------------------------------------
-Your code has been rated at -0.42/10 (previous run: -1.78/10, +1.36)
+Your code has been rated at -0.42/10 (previous run: -0.42/10, +0.00)
 

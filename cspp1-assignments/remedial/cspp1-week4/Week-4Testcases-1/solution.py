@@ -134,7 +134,7 @@ def main():
 			print(strsleepdate)
 			print(strsleeptimequant)
 		if temp[0] == "Summary":
-			print("Summary")
+			print("Summary:")
 			# print(templist[1])
 			str10 = templist[1] + ":"
 			str11 = templist[0] + ":"

@@ -1,4 +1,4 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 Food:
 18/9/2018:
@@ -44,7 +44,7 @@ Weight:
 Sleep:
 18/9/2018:
 - 10:30: 8hr
-Summary
+Summary:
 18/9/2018:
 Food:
 - 8:30AM: Dosa
@@ -130,7 +130,7 @@ Weight:
 Sleep:
 18/9/2018:
 - 10:30: 8hr
-Summary
+Summary:
 18/9/2018:
 Food:
 - 8:30AM: Dosa
@@ -323,7 +323,7 @@ Weight:
 Sleep:
 17/9/2018:
 - 10:30PM: 5hrs
-Summary
+Summary:
 17/9/2018:
 Food:
 - 8:30AM: Idli
