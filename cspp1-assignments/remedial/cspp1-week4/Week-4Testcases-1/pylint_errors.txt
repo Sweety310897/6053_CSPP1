@@ -116,25 +116,21 @@ solution.py:141:0: W0312: Found indentation with tabs instead of spaces (mixed-i
 solution.py:142:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 solution.py:143:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 solution.py:144:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-solution.py:146:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 solution.py:147:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 solution.py:148:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 solution.py:149:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 solution.py:150:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 solution.py:151:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-solution.py:153:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 solution.py:154:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 solution.py:155:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 solution.py:156:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 solution.py:157:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 solution.py:158:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-solution.py:160:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 solution.py:161:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 solution.py:162:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 solution.py:163:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 solution.py:164:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 solution.py:165:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
-solution.py:167:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 solution.py:168:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 solution.py:169:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
 solution.py:170:0: W0312: Found indentation with tabs instead of spaces (mixed-indentation)
@@ -152,10 +148,14 @@ solution.py:23:0: C0111: Missing function docstring (missing-docstring)
 solution.py:34:0: C0111: Missing function docstring (missing-docstring)
 solution.py:46:0: C0111: Missing function docstring (missing-docstring)
 solution.py:58:0: C0111: Missing function docstring (missing-docstring)
-solution.py:58:0: R0914: Too many local variables (43/15) (too-many-locals)
+solution.py:58:0: R0914: Too many local variables (39/15) (too-many-locals)
+solution.py:149:9: E0602: Undefined variable 'str20' (undefined-variable)
+solution.py:156:9: E0602: Undefined variable 'str30' (undefined-variable)
+solution.py:163:9: E0602: Undefined variable 'str40' (undefined-variable)
+solution.py:170:9: E0602: Undefined variable 'str50' (undefined-variable)
 solution.py:58:0: R0912: Too many branches (17/12) (too-many-branches)
-solution.py:58:0: R0915: Too many statements (92/50) (too-many-statements)
+solution.py:58:0: R0915: Too many statements (88/50) (too-many-statements)
 
-------------------------------------
-Your code has been rated at -0.40/10
+--------------------------------------------------------------------
+Your code has been rated at -1.78/10 (previous run: -0.40/10, -1.38)
 
