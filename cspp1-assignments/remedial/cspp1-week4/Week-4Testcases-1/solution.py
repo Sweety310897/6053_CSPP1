@@ -66,7 +66,7 @@ def main():
 	templistsleep = []
 	i = 1
 	while i <= num:
-		print(i)
+		# print(i)
 		temp = input().split(" ")
 		if temp[0] == "Food":
 			temp = food(temp)

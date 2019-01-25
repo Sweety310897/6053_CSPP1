@@ -29,32 +29,21 @@ Sleep:
 - 10:30: 8hr
 
 Your Output: 
-1
-2
-3
-4
-5
-6
 Food:
 18/9/2018:
 - 8:30AM: Dosa
-7
 Water:
 18/9/2018:
 - 8:30AM: Dosa
-8
 PhysicalActivity:
 18/9/2018:
 - 7:00AM: walking
-9
 Weight:
 18/9/2018:
 - 6:30AM: 61KG
-10
 Sleep:
 18/9/2018:
 - 10:30: 8hr
-11
 Summary:
 18/9/2018:
 Food:
@@ -126,19 +115,6 @@ Sleep:
 - 10:30: 8hr
 
 Your Output: 
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
 Food:
 18/9/2018:
 - 8:30AM: Dosa
@@ -146,7 +122,6 @@ Food:
 19/9/2018:
 - 8:30AM: Dosa
 - 12:30PM: Biryani
-14
 Water:
 Traceback (most recent call last):
   File "solution.py", line 207, in <module>
@@ -210,23 +185,11 @@ Sleep:
 - 10:30PM: 9hrs
 
 Your Output: 
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
 Food:
 18/9/2018:
 - 8:30AM: Dosa
 20/9/2018:
 - 8:30AM: Dosa
-12
 Water:
 Traceback (most recent call last):
   File "solution.py", line 207, in <module>
@@ -332,27 +295,6 @@ Sleep:
 - 10:30PM: 5hrs
 
 Your Output: 
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
 Food:
 16/9/2018:
 - 8:30AM: Idli
@@ -362,7 +304,6 @@ Food:
 - 8:30AM: Dosa
 20/9/2018:
 - 8:30AM: Dosa
-22
 Water:
 Traceback (most recent call last):
   File "solution.py", line 207, in <module>
