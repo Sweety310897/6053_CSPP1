@@ -118,29 +118,41 @@ def main():
 					if y%2 == 0:
 						str100 = "-" + " " +  tempval[y] + ": " +  tempval[y+1]
 						print(str100)
-			# strwater = templistwater[0] + ":"
-			# strwdate = templistwater[1] + ":"
-			# print(strwater)
-			# strwatertimequant = "-" + " " + templistwater[2] + ":" + " " + templistwater[3]
-			# print(templist[1],":")
-			# print(strwdate)
-			# print("-",templistwater[2], ":", templistwater[3])
-			# print(strwatertimequant)
+			
 		if temp[0] == "PhysicalActivity":
 			tempphysical = physical(temp)
-			# print(tempphysical)
 			for each in tempphysical:
 				templistphysical.append(each)
 		if temp[0] == "PhysicalActivitylog":
-			strphysical = templistphysical[0] + ":"
+			print("PhysicalActivitylog:")
+			dicp = {}
+			# print(templistwater,"w")
+			for z in range(len(templistphysical)):
+				if templistphysical[z] == "Water":
+					if templist[z+1] not in dicp:
+						dicp[templistphysical[z+1]] = [templistphysical[z+2]]
+						dicp[templistphysical[z+1]] +=  [templistphysical[z+3]]
+					else:
+						dicp[templistphysical[z+1]] += [templistphysical[z+2]]
+						dicp[templistphysical[z+1]] += [templistphysical[z+3]]
+			for key,value in sorted(dicp.items()):
+				tempkey = key + ":"
+				print(tempkey)
+				tempval = value
+				k = 1
+				for y in range(len(tempval)):
+					if y%2 == 0:
+						str100 = "-" + " " +  tempval[y] + ": " +  tempval[y+1]
+						print(str100)
+			# strphysical = templistphysical[0] + ":"
 			# print(templist[0],":")
-			strpdate = templistphysical[1] + ":"
-			print(strphysical)
-			strphytimequant = "-" + " " + templistphysical[2] + ":" + " " + templistphysical[3]
+			# strpdate = templistphysical[1] + ":"
+			# print(strphysical)
+			# strphytimequant = "-" + " " + templistphysical[2] + ":" + " " + templistphysical[3]
 			# print(templist[1],":")
-			print(strpdate)
+			# print(strpdate)
 			# print("-",templistwater[2], ":", templistwater[3])
-			print(strphytimequant)
+			# print(strphytimequant)
 		if temp[0] == "Weight":
 			tempweight = weight(temp)
 			# print(tempweight)
