@@ -77,7 +77,6 @@ def main():
 			dic1 = {}
 			for i in range(len(templist)):
 				if templist[i] == "Food":
-					dic2 = {}
 					if templist[i+1] not in dic1:
 						dic1[templist[i+1]] = [templist[i+2]]
 						dic1[templist[i+1]] +=  [templist[i+3]]
@@ -98,16 +97,33 @@ def main():
 			for each in tempwater:
 				templistwater.append(each)
 		if temp[0] == "Waterlog":
-			strwater = templistwater[0] + ":"
-			# print(templist[0],":")
-			strwdate = templistwater[1] + ":"
-			print(strwater)
-			strwatertimequant = "-" + " " + templistwater[2] + ":" + " " + templistwater[3]
+			print("Water:")
+			dicw = {}
+			for i in range(len(templistwater)):
+				if templistwater[i] == "Water":
+					if templist[i+1] not in dicw:
+						dicw[templistwater[i+1]] = [templistwater[i+2]]
+						dicw[templistwater[i+1]] +=  [templistwater[i+3]]
+					else:
+						dicw[templistwater[i+1]] += [templistwater[i+2]]
+						dicw[templistwater[i+1]] += [templistwater[i+3]]
+			for key,value in sorted(dic1.items()):
+				tempkey = key + ":"
+				print(tempkey)
+				tempval = value
+				k = 1
+				for i in range(len(tempval)):
+					if i%2 == 0:
+						str100 = "-" + " " +  tempval[i] + ": " +  tempval[i+1]
+						print(str100)
+			# strwater = templistwater[0] + ":"
+			# strwdate = templistwater[1] + ":"
+			# print(strwater)
+			# strwatertimequant = "-" + " " + templistwater[2] + ":" + " " + templistwater[3]
 			# print(templist[1],":")
-			print(strwdate)
+			# print(strwdate)
 			# print("-",templistwater[2], ":", templistwater[3])
-			print(strwatertimequant)
-		# print(templistwater)
+			# print(strwatertimequant)
 		if temp[0] == "PhysicalActivity":
 			tempphysical = physical(temp)
 			# print(tempphysical)
